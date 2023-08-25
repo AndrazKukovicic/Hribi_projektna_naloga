@@ -1,4 +1,6 @@
 import re
+import requests
+import os
 
 #Iz shranjene spletne strani z vsemi hribi izlušči bloke z imeni hribov in jih shrani v seznam.
 def poisci_bloke():
@@ -27,3 +29,20 @@ def imena_hribov():
 
 hribčki = imena_hribov()
 print(hribčki)
+
+# Shrani spletne strani vseh hribov v mapo Strani_hribov.
+ImenaHribovURL = imena_hribov()
+ImenaHribovURL.remove('/gora/orleska_draga/26/3642')
+os.chdir("Strani_hribov")
+print(os.getcwd())
+for stran in ImenaHribovURL:
+    url = f"https://www.hribi.net{stran.strip()}"
+    odziv = requests.get(url)
+    
+    if odziv.status_code == 200:
+        print(url)
+        with open(f"{ImenaHribovURL.index(stran)}.html", "w") as s:
+            s.write(odziv.text)
+    else:
+        print("Prišlo je do napake")
+os.chdir("..")
