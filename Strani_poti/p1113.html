@@ -1,0 +1,1473 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Jablenca - Javoršček</title>
+        <meta name="description" content="Natančen opis izleta Jablenca - Javoršček. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/jablenca_javorscek/1/1536/2675" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/jablenca_javorscek/1/1536/2675"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=1536&potid=2675"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/javorscek/1/1536">Javoršček</a> / Jablenca - Javoršček
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(2675);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Jablenca - Javoršček</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=2675';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Jablenca (400 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;19,7880'N&nbsp;/&nbsp;13°&nbsp;34,8240'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;19'&nbsp;47,28''N&nbsp;/&nbsp;13°&nbsp;34'&nbsp;49,44''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3298°N&nbsp;/&nbsp;13,5804°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3298,&nbsp;13.5804";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3298°N&nbsp;13,5804°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(2675,46.3298,13.5804);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3298,13.5804"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/javorscek/1/1536">Javoršček (1557 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 3 h</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka neoznačena steza, lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1157 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1157 m</div>
+    <div class="g2"><b>Zemljevid:</b> Julijske Alpe - zahodni del 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 18.573</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;2&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">47</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">13</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Najprej se zapeljemo v Bovec, nato pa z vožnjo nadaljujemo proti Čezsoči. V Čezsoči, pri gostišču Vančar nadaljujemo levo v smeri Jablence in doline škratov ter ozki in asfaltirani cesti sledimo mimo bazena Slatenik do nekoliko večjega križišča, kjer nadaljujemo naravnost (desno cesta, ki vodi do skalnatega podora na Javorščku, ki se je zgodil leta 1950). Z vožnjo nadaljujemo po občasno vzpenjajoči cesti, kateri sledimo do Jablence. Parkiramo na primernem prostoru nekaj 100 m pred koncem ceste (na koncu ceste ni primernih parkirnih mest).</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Nadaljujemo po asfaltirani cesti do zadnjih hiš, kjer nas smerokazi usmerijo rahlo desno čez kratek mostiček in nato v gozd. V nadaljevanju hodimo po gozdni stezi in občasno se nam odpre pogled proti reki Soči. Na označenih razpotjih se držimo oznak za Golobar. Pot se nato prične nekoliko strmeje vzpenjati in se za krajši čas priključi kolovozu. Po krajšem vzponu kolovoz zapustimo in se usmerimo desno na peš pot, ki vodi ob kamniti ograji. Dobro označena pot se nato prične v ključih vzpenjati po precej strmem pobočju. Kasneje postane pobočje nekoliko manj strmo in pot skozi gozd nas pripelje do opuščene gozdarske koče.<br>
+Od koče se nato večinoma vzpenjamo skozi gozd po vojaški mulatjeri. Pot nas vodi tudi mimo nekaj jas kjer se nam odpre lep razgled na okoliške vrhove, malo s poti pa je tudi vojaško pokopališče. Pot skozi gozd nas nato vodi mimo planine Golobar in pripelje do sedla Čez Utro. Tu se nam odprejo lepi razgledi na okoliške vrhove, na sedlu pa je tudi spomenik padlim partizanom.<br>
+S sedla nadaljujemo naravnost in po nekaj deset metrih nas pot pripelje do razpotja. Nadaljujemo po stezi desno navzgor, levo pa vodi pot proti Čezsoči in Drežnici.<br>
+Od razpotja naprej pot ni več označena, vendar je dovolj dobro uhojena, da ji lahko brez težav sledimo. V nadaljevanju pot poteka večinoma po severni strani gore in nekajkrat preči razmeroma strma pobočja. V zadnjem delu nas pot pripelje iz gozda in sledi le še kratek vzpon do razglednega vrha.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/javorscek/1536"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Javoršček"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Planina Golobar (1257m), Čez Utro (1305m)</div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/jablenca/46.3298/13.5804">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/jablenca_javorscek/2675">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=1536">panorama</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112604" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112604');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3425613152.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112605" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112605');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3385613153.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112606" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112606');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3375613153.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112607" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112607');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3365613153.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112608" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112608');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3335613153.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112609" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112609');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3315613153.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112610" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112610');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3305613153.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112611" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112611');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3265613153.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112612" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112612');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3255613153.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112613" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112613');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3235613153.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112614" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112614');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3205613153.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112615" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112615');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3145613153.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112616" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112616');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3135613153.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112617" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112617');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3125613153.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112618" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112618');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3085613153.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112619" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112619');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3075613153.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112620" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112620');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3065613153.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112621" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112621');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 3035613153.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112622" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112622');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2995613154.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112623" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112623');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2955613154.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112624" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112624');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2945613154.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112625" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112625');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2925613154.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112626" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112626');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 1725612973.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112627" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112627');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 1775612973.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112628" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112628');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 1795612973.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112629" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112629');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 1805612973.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112630" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112630');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 1835612973.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112631" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112631');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 1895612973.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112632" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112632');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 1915612973.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112633" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112633');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 1945612974.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112634" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112634');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 1955612974.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112635" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112635');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2005612974.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112636" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112636');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2045612974.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112637" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112637');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2055612974.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112638" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112638');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2085612974.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112639" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112639');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2125612974.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112640" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112640');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2135612974.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112641" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112641');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2175612974.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112642" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112642');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2185612974.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112643" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112643');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2215612974.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112644" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112644');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2255612974.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112645" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112645');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2355612974.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112646" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112646');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2395612974.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112647" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112647');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2885612974.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112648" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112648');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2415612975.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112649" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112649');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2425612975.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/jablenca_javorscek/112650" onclick="event.preventDefault(); window.open('/slika_pot/jablenca_javorscek/112650');"><img class="slikagm" alt="Jablenca - Javoršček" src="//www.hribi.net/slike1/bovec2010 2445612975.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Jablenca - Javoršček</b></div>
+
+
+
+<div id="kom13828" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/grega_p/5755">grega_p</a><span class="komDatum">28. 05. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot se v zgornjem delu (malo pod vrhom) izgublja in je zaraš&#269;ena, tako da boste mogo&#269;e stopili že prej na greben ali pa prišli povsem na zahodno to&#269;ko - ki ni najvišja, ponuja pa lep pogled na bovško kotlino.<br> &#268;e sestopate &#269;ez Slatenik, boste trenutno pre&#269;kali nekaj plazov, &#269;ez katere gre ozka stezica, ki ni najbolj varna (še posebej ob deževju). &#268;e imate vozilo pri Po&#269;ivalniku (razcep cest), priporo&#269;am sestop &#269;ez Brda (odcep na višini cca 860m - po desni mimo Hum&#269;i&#269;a). <br> <br> Videl sem kar nekaj ka&#269; (slepce), tako da pazite nanje, &#269;e ne bodo one na vas<img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13832" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/ales50/9759">ales50</a><span class="komDatum">28. 05. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>grega slepci niso ka&#269;e,so kuš&#269;arji,<img alt=nasmeh src=/slike/smile.gif>,me pa zanima ,&#269;e je tudi fosilnih okamnin  kej v teh skalah ,zna  bit zanimivo</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25051" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/alplaninko/19940">alplaninko</a><span class="komDatum">21. 08. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Priporo&#269;am vra&#269;anje v dolino po isti poti, ker na drugi strani so bili pred kratkim podori, in ne priporo&#269;am da greste naprej, zaradi zaraš&#269;enosti terena se slabo vidijo markacije. <br> <br> Mi smo sicer šli, ni&#269; hudega, malo hoje &#269;ez koprive, previdno &#269;ez podor, pa strma pobo&#269;ja. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27736" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/janiel74/9426">Janiel74</a><span class="komDatum">1. 04. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A je morda kdo kaj hodil tukaj v zadnjih dneh? Je pot morda shojena?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29411" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">19. 03. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sem ga gledala s Krasjega vrha, a  gor še nisem bila. Morda letos ?Samo vprašanje koliko je še sledljiva pot, sploh &#269;e greš prvi&#269;, ko ti je vse neznano.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29412" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">19. 03. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sem že hodil po tej poti na Javorš&#269;ek, pot je sledljiva. Vra&#269;al se po isti saj je bla takrat pot &#269;ez Slatenik zaprta. Poznam tudi Lipnik in Hudi vrh nad Golobarjem (nad velikim betonskim križem se za&#269;ne mulatjera), pozabil pa ne bom nikoli, ko se hotel na vrhu po naporni hoji usedit me je pretrašl sksksk, gad namre&#269;.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29413" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/julika/13573">julika</a><span class="komDatum">19. 03. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za izhodiš&#269;e si lahko izbereš še kak kilometer naprej od Kala-Koritnice.Pri mostu je dovolj prostora za parkiranje.( V Jablenici niti ni prostora za parkiranje, razen pri bazenu). &#268;ez most greš na desno, in po 10 min hoje po kolovozni cesti, te smerokaz usmeri na levo v breg.Steza je   markirana do Golobarja. Na karti  "hribi .net" je tudi ozna&#269;ena, to&#269;no od opisanega izhodš&#269;a</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29414" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">19. 03. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala obema za koristne informacije. <img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29418" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/keti1/11803">keti1</a><span class="komDatum">20. 03. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lahko pa za&#269;neš prav v Kal Koritnici (veliko parkiriš&#269;e ob glavni cesti) in se spustiš dol do So&#269;e, jo pre&#269;iš, greš ob njej v levo in kmalu naletiš na markacije proti Golobarju. Zelo lepa in prijetna pot. Sem bila nazadnje lani julija. Na vrhu je bilo polno gozdnih jagod. Sestop priporo&#269;am po isti poti. &#268;ez Slatenik je podor lahko zelo problemati&#269;en. Sre&#269;no! </div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29424" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/b2/8819">B2</a><span class="komDatum">21. 03. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Darinka!<br> Najbolje je, da avto pustiš ob spomeniku v Kal - Koritnici (nasproti gostilne), tam bo varen pred (pogostimi) vlomi. Tudi pot, ki je ozna&#269;ena je najbolje za&#269;eti tukaj. Pot v celoti je lahko sledljiva, do reke So&#269;e in &#269;ez vise&#269;o brv, ter dalje vseskozi po mulateri. Skoraj v celoti do planine Golobar hodimo po gozdu. Tudi na planini Golobar orientacija ni problemati&#269;na, steza nas vodi mimo porušenih zgradb in spomenika NOB, desno na preval in tu še enkrat desno proti grebenu. Vrnitev (krožna varianta) preko Slatenika ni možna zaradi podora (manjka cca  50 metrov poti in obhod zaradi strmine ni mogo&#269;, zaradi tega je omenjena pot zaprta že ve&#269; let. Vrniti se moramo po isti trasi v Kal - Koritnico ali pa (&#269;e imamo prevoz)nadaljevati na planino Predolino in dalje v Drežnico... Priporo&#269;am uporabo planinske karte Bovec 1:25000.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33230" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/winni/24101">winni</a><span class="komDatum">30. 05. 2021 14:43:28</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot med planino Predolina (Zaprikraj) in planino Golobar je neprehodna zaradi 15m odnešene poti, varen obhod ni mogoč.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35280" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">13. 09. 2022 09:00:53</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot med planino Predolina (Zaprikraj) in planino Golobar je trenutno prehodna saj po njej poteka pot miru (rdeče črne markacije) in so podore za silo sanirali, tako da z malo previdnosti ne bo težav še posebej v mokrem. Res pa da se z vsakim deževjem to lahko spremeni v neprehodno. Čez Slatenik pa peljeta dve poti. Zgornja markirana že takoj od vikenda preči prvi podor nad njim in ni težav, precej nižje dol na nekje 800 m pa pripelje do velikega podora, ki pa je neprehoden tako da se tu ustavi. Nekaj nižje od prvega podora pri istem vikendu, pa se levo odcepi lovska pot (težko viden odcep levo) ki pripelje strmo dol do struge potoka Slatenik in ob njem proti dolini, pri velikem podoru pa je zasilno narejena ozka in dokaj nevarna potka še posebej v mokrem in se da prečiti podor, vendar močno odsvetujem, saj je potka neoznačena in prečenje podora zgolj zasilno in se z vsakim deževjem spreminja in lahko postane neprehodno kar pomeni vrnitev na planino Golobar. Tako da vsekakor svetujem povratek preko Golobarja.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35317" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">26. 09. 2022 19:39:36</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>10.09.2022 brezpotja Javorščka<br> Tokrat sva si za predzadnji dan dopusta na Bovškem omislila nekoliko poseben vrh imenovan Javoršček, ki v višino ne meri več kot 1.557 m in pravzaprav ni videti nič posebnega v senci svojega znamenitega brata Bovškega Matterhorna - Svinjaka ali pravilno staro Slovensko Svitnjak. Pot do področja Javorščka ne bom opisoval, saj leži v Bovški kotlini na levi strani reke Soče v višini vasice Kal - Koritnica, nad sotočjem Soče in Koritnice, točneje nad vasico Jablenca in Čezsoča. Ker ob strugi Golobarskega potoka poteka označena planinska pot po mulatjeri , ki je speljana pod nekdanjo traso Golobarske žičnice, katere spodnja postaja je vidna na glavni cesti iz Trente na desnem ovinku tik pred Kal - Koritnico. Skratka raziskovalna žilica ne da miru in oborožena z nekaj "domačimi" informacijami in papirnato karto, ter navigacijo, se odpraviva od Počivalnika na tretjini višine slabih 600 m, do kjer prideva po cesti na razgledišče Javoršček pri velikem skalnem podoru, ki ga uporabljajo alpinisti za svojo aktivnost. Od tu po cesti nadaljujeva mimo podora in se na desnem ovinku, kjer se cesta tudi konča (nekoč je šla precej višje, pred podorom), skreneva v gozd. Pot se prične strmo vzpenjati in je v celoti neoznačena, ter težko sledljiva, zato je potrebno paziti in imeti oči na pecljih, saj le na enem in edinem delu preči skalne pečine in kaj kmalu se lahko zgodi da zaideš na neprehoden predel kje nadaljevanje ni možno. S težavo slediva zelo malo obiskani lovski potki do prehoda preko pečin, kjer naju pričaka "krhko" zavarovana pot preko previsnih pečin z žico ki jo običajno uporabljajo električarji, a bolj to kot nič. Vsekakor pa močno odsvetujem to pot v mokrem in spolzkem vremenu, znane so že nesreče na tej poti, tudi tiste najhujše. Tako počasi kot po "jajcih" prideva še do zadnjega previsnega odseka, kjer pa so nameščene kovinske stopnice, bolj majavega slovesa, ampak če nimaš boljšega, uporabi kar ti je na razpolago in že sva čez. Nadaljevanje je nekoliko milo rečeno prijetnejše ob že prej omenjeni žici, dokler se ne povzpneva na vršnji del grebena, kjer ni več nevarnosti zdrsa in padca. Če sem prej omenil da je pot težko sledljiva, jo je tukaj prava umetnost najti, kljub vsake toliko postavljenemu kakemu kamnu na mestu kjer ne bi smel biti in iz česar je razvidno da je "pot". Tako se počasi nekaj nižje od zapuščene gozdarske koče priključiva na označeno planinsko pot, kjer ji brez posebnosti slediva preko Golobarske planine do sedla Utre, kjer pot zavije desno na greben, ter po njem na sam vrh Javorščka. Zanimivost Javorščka je tudi da je prevrtan po dolgem in po čez, kot mnogo vrhov v okolici Soče, kjer so potekale ofenzive. Prav čez njega pa je potekala meja med Avstroogrsko in Italijo med 12 ofenzivo, tako da je bila tu prva frontna linija. Ker so se pričeli nabirati oblaki jo na hitro popihava proti dolini (čeprav potem ni bilo nič iz njih in so se razkadili). Na Utrah oborožena z informacijami domačinov in karto, skreneva desno mimo table da je pot zaradi podora zaprta in se kaj kmalu znajdeva pri lovski koči, od koder nadaljujeva do potoka Slatenik na pobočju Slatnika. Na križišču se usmeriva na Planino Slatenik, kjer naletiva na prvi podor, ki se ga da varno prečiti nad njim. Nadaljujeva po nekoč označeni a sedaj ne vzdrževani planinski poti čez Slatnik po pobočjih doline potoka Slatenika do Laških peči, kjer pa naletiva na ogromen skalni podor, katerega pa ni mogoče varno prečiti, pravzaprav se ga sploh ne da. Ker sva med potjo do tu v gozdu videla ogromno lesenih objektov, nekateri nekoliko bolj ohranjeni in nekoliko že podirajoči, ter na karti videla da poteka nekoliko nižje lovska pot ki (po besedah domačinov, omogoča prečenje podora, sva se dvakrat spustila proti potoku, vendar je nisva našla. Doma sem na računalniku potem šele videl kako blizu sva bila predno sva obrnila. Skratka, vrneva se nazaj na križišče in skreneva levo proti grebenu polovnika pod Vršici in Lipnikom, ki je tudi označena z rdečo-črno oznako in naznanja da sva na poti miru, ki vodi na Planino Predolino. Tudi ta pot je mestoma ozka, spolzka in močno načeta od podorov, vendar še varno speljana in vidno obnavljana. Po prihodu na Planino Predolina pod Polovnikom se usmeriva desno na gozdno vlako, ki se spušča proti dolini in (po karti) tudi preči planinsko pot. Spuščanje po tej poti je bilo kar dolgo, dokler preprosto te poti zmanjka. Nadaljujeva po ne preveč strmem brezpotju kjer naletiva na ogromno ostankov bojev in fronte (čelade, ostanki orožja, ostanki objektov, strelski jarki, bodeča žica....). Brezpotje se prične čedalje strmeje spuščati do previsnih sten velikega grabna ki je neprehoden, poti ki pa je označena na karti pa od nikoder in tudi našla je nisva. Zato se usmeriva stran od grabna v strmino Mrzlega dola in se počasi spuščava po njej. Med tem naju ujame tema in za pomoč poprosiva najine naglavne lučke, ki so fantastično opravile svojo nalogo. Zaradi strmine in spolzkega terena kar precej časa porabiva da sestopiva do potoka Slatenik, katerega prečkava in kaj kmalu tudi naletiva na iskano lovsko pot in mulatjero. Kmalu prideva tudi pod že prej omenjeni velik podor, ki pa se ga tu da "dokaj varno" prečiti z pomočjo že najine omiljene električarske žice. Po prehodu podora pa se pot spremeni v mulatjero (po spustu čez Mzlo dol je bila za naju to avtocesta) in naju mimo Škratove doline, Zahonca in Osojnice pripelje do Konca doline potoka Slatenik in na glavno cestno povezavo med Čezsočo in Jablencem. Ker sva imela Pločevinkota precej višje, mi ni preostalo drugega, kot da se po 14 urah kolovratenja po brezpotju odpravim še po njega, kar pa se je izkazalo kot "mala malica". Tako sva kmalu pristala v najini nastanitvi v dolini, kjer sva zadovoljna in z novimi izkušnjami odšla na počitek.<br> Kot OPOZORILO naj omenim da je označena pot preko Slatenika zaradi velikega podora zaprta, pod njem poteka sicer neoznačena, dokaj zaradi podora tudi zelo nevarna lovska pot, ki pa je, čeprav je na karti, izjemno težko sledljiva in v kolikor jo zgrešiš, pristaneš na neprehodnem predelu. Žal pa poti ki pa je tudi označena na karti tako z Debeljaka na Polovniku, kot z Planine Predolina nisem našel, ker je zelo verjetno zaradi zelo malo obiskanosti zaraščena in ne sledljiva. Morda bi jo ob dnevni svetlobi uspel najti, .........morda drugič.<br> Skratka označene poti na Planino Predolina in Polovnik, ter Javoršček po dolini potoka Slatenik NI. Obstajajo sicer lovske in neoznačene slabo vidne stezice, ki pa jih ne priporočam vsem ki nimajo smisla za orientacijo in sledenjem le teh.<br> foto: Matjaž in Romana (do teme oz. Planine Predolina in Mrzlega Dola)<br> <br> <a target=# class=moder href=https://photos.google.com/u/1/share/AF1QipMJ-7qBiVivWW08CE5OJsRdNso5cE3NQxyWUJJk9Xm1Eb5pbWguZbbcBnUWS-7sWQ/photo/AF1QipNiuWBm7A217Nkh0UeiCKflr1MkezAu1FEusBcp?key=S3cwQURjV0NwRkJCM21ZeFJXRk1LUVQ3UV9QRk1B>https://photos.google.com/u/1/share/AF1QipMJ-7qBiVivWW08CE5OJsRdNso5cE3NQxyWUJJk9Xm1Eb5pbWguZbbcBnUWS-7sWQ/photo/AF1QipNiuWBm7A217Nkh0UeiCKflr1MkezAu1FEusBcp?key=S3cwQURjV0NwRkJCM21ZeFJXRk1LUVQ3UV9QRk1B</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(13);
+    });
+    abc(13);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

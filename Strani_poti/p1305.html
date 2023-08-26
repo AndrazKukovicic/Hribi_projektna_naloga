@@ -1,0 +1,1345 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Pod Zjabci - Lanževica (čez Lepo Komno)</title>
+        <meta name="description" content="Natančen opis izleta Pod Zjabci - Lanževica (čez Lepo Komno). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/pod_zjabci_lanzevica_cez_lepo_komno/1/325/3536" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/pod_zjabci_lanzevica_via_lepa_komna/1/325/3536"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=325&potid=3536"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/lanzevica/1/325">Lanževica</a> / Pod Zjabci - Lanževica (čez Lepo Komno)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(3536);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Pod Zjabci - Lanževica (čez Lepo Komno)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=3536';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Pod Zjabci (745 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;19,5660'N&nbsp;/&nbsp;13°&nbsp;41,8920'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;19'&nbsp;33,96''N&nbsp;/&nbsp;13°&nbsp;41'&nbsp;53,52''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3261°N&nbsp;/&nbsp;13,6982°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3261,&nbsp;13.6982";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3261°N&nbsp;13,6982°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(3536,46.3261,13.6982);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3261,13.6982"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/lanzevica/1/325">Lanževica (2003 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez Lepo Komno</div>
+    <div class="g2"><b>Čas hoje:</b> 5 h</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1258 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1450 m</div>
+    <div class="g2"><b>Zemljevid:</b> Julijske Alpe - zahodni del 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 6.311</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">85</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">4</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) Najprej se zapeljemo v Kranjsko Goro, nato pa z vožnjo nadaljujemo preko prelaza Vršič proti Bovcu. Kmalu za galerijo Berebica, bomo prišli v vas Soča, kjer zavijemo levo preko mostu čez reko Sočo (smer turistična kmetija Jelinčič in kamp Korita). Za mostom, ne zavijemo levo proti kampu, ampak z vožnjo nadaljujemo naravnost po vzpenjajoči asfaltni cesti. Naprej se vzpenjamo čez prostrane travnike, sredi katerih stoji nekaj posameznih koč, nato pa cesta preide v gozd. Višje cesta zavije precej v levo ter nas pripelje do Pod Zjabcev, kjer opazimo planinske smerne table za planino Za skalo, Dom na Komni in Triglavska jezera. Parkiramo na primernem mestu ob cesti.<br>b) S primorske strani, pa se najprej zapeljemo v Bovec, nato pa z vožnjo nadaljujemo proti Trenti. Proti koncu vasi Soča, pa zavijemo desno v smeri turistične kmetije Jelinčič in kampa Korita. Za mostom, ne zavijemo levo proti kampu, ampak z vožnjo nadaljujemo naravnost po vzpenjajoči asfaltni cesti. Naprej se vzpenjamo čez prostrane travnike, sredi katerih stoji nekaj posameznih koč, nato pa cesta preide v gozd. Višje cesta zavije precej v levo ter nas pripelje do Pod Zjabcev, kjer opazimo planinske smerne table za planino Za skalo, Dom na Komni in Triglavska jezera. Parkiramo na primernem mestu ob cesti.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Od Pod Zjabcev se usmerimo na markirano pot, ki po desni strani obide bližnji koči. Za kočama gre pot v gozd ter nas hitro pripelje na manjše razpotje, kjer nadaljujemo desno preko potoka. Na drugi strani potoka pot zavije levo in se prične zmerno vzpenjati skozi strnjen gozd. Vzpon nadaljujemo po stari mulatjeri, ki je na več mestih že pošteno načeta, le ta pa nas višje pripelje do kratkega strmega skalnatega dela. Preko omenjenega dela nas vodi lepo vzdrževana in široka mulatjera, nas pa pot, nad omenjenim delom pripelje do razgledne točke, s katere se nam odpre lep razgled na Bavški Grintavec. <br>Od razgledne točke, se pot vrne v gozd in se hitro vzpne do starega korita z vodo (tu je ob poti manjši studenček, ki pa v sušnih obdobjih presahne). Nad koritom pot zavije nekoliko levo, nato pa se v številnih okljukih vzpenja skozi gozd. Višje se steza nekoliko položi in nas pripelje na manj opazno razpotje, kjer se v levo odcepi opuščena pot proti planini Za skalo.<br>Od tu še naprej nadaljujemo naravnost, nas pa spet nekoliko bolj strma pot, po 10 minutah nadaljnje hoje, pripelje do naslednjega, tokrat povsem neoznačenega razpotja. Tu se v desno odcepi neoznačena stezica, ki vodi k bližnji lovski koči in naprej proti planini za Črnim vrhom, v levo se odcepi lovska pot proti planini Za skalo, mi pa nadaljujemo naravnost do bližnjega naslednjega razpotja, ki pa je nekoliko bolje označeno.<br>Tu nadaljujemo naravnost oz. rahlo desno, po markirani poti v smeri Triglavskih jezer in Komne. Pot nadaljujemo po zložni poti, ki nas skozi iglasti gozd, pripelje do razcepa poti. <br>Z razcepa nadaljujemo po desni poti v smeri Komne (levo Triglavska jezera), le ta pa po desni strani obide Dol za Bajarjem. Na drugi strani doline, se pot prične, najprej zložno, nato pa strmeje vzpenjati. Strmina hitro popusti, nas pa vse bolj razgledna pot, pripelje v niz manjših dolinic, po katerih se zložno vzpnemo do Oslove škrbine.<br>Z Oslove škrbine se markirana pot prične spuščati proti planoti Lepa Komna. Med spustom se v desno odcepi nekaj neoznačenih stezic (stare vojaške mulatjere, ki nam, če smo namenjeni na Lanževico skrajšajo pot za dobrih 20 minut), mi pa sledimo markirani poti, ki nas nižje pripelje na označeno razpotje.<br>Tu se v smeri naravnost nadaljuje pot proti planini na Kraju in naprej proti Domu na Komni, mi pa nadaljujemo ostro desno v smeri Lanževice. Pot naprej se vzpne skozi pas ruševja, nato pa nas pripelje v manjšo dolino, kjer se nam z desne priključi že prej omenjena nemarkirana bližnjica. Nadaljujemo po markirani poti, ki se obrne v levo, nato pa nas pripelje v naslednjo dolinico, po in ob kateri nato kar nekaj časa nadaljujemo vzpon. Višje steza zavije nekoliko v desno in nas pripelje na greben, ki loči Primorsko od Gorenjske. <br>Ko stopimo na omenjeni greben nadaljujemo desno (levo Bogatinsko sedlo) ter vzpon nadaljujemo po vse bolj razgledni neizraziti grebenski poti. Višje se steza nekajkrat strmeje vzpne, nato pa nas ob pogledu na Krn, greben Špičja, Triglav in ostale okoliške vrhove, pripelje na prostran vrh Lanževice.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/lanzevica/325"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Lanževica"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Oslova škrbina (1824m)</div><div style="padding-top:10px;"><b>Izlet lahko podaljšamo do naslednjih ciljev:</b> <a class="moder" href="/gora/velika_baba/1/675">Velika Baba</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/pod_zjabci/46.3261/13.6982">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/pod_zjabci_lanzevica_cez_lepo_komno/3536">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=325">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=325">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172512" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172512');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 41768970.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172513" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172513');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 41868970.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172514" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172514');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//slike.hribi.net/sliketemp/Lanzevica%204136271749.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172515" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172515');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 409183920.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172516" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172516');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 408183920.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172517" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172517');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 399183920.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172518" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172518');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 395183920.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172519" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172519');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 394183920.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172520" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172520');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 388183920.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172521" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172521');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 384183920.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172522" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172522');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 382183920.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172523" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172523');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 380183920.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172524" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172524');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 378183920.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172525" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172525');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 375183920.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172526" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172526');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 373321860.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172527" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172527');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 371321860.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172528" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172528');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 366321860.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172529" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172529');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 364321860.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172530" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172530');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 356321860.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172531" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172531');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 354321860.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172532" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172532');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 353321860.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172533" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172533');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 344321860.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172534" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172534');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 343321860.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172535" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172535');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 340321860.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172536" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172536');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 256436810.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172537" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172537');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 01329260.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172538" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172538');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 01629260.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172539" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172539');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 01729260.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172540" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172540');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 01929260.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172541" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172541');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 02129260.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172542" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172542');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 02429260.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172543" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172543');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 02729260.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172544" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172544');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 03129260.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172545" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172545');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 03629260.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172546" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172546');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 03729260.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172547" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172547');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//slike.hribi.net/sliketemp/Lanzevica%200396271732.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172548" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172548');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 041234080.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172549" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172549');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 045234080.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172550" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172550');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 049234080.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172551" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172551');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 050234080.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172552" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172552');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 052234080.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172553" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172553');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 054234080.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172554" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172554');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//slike.hribi.net/sliketemp/Lanzevica%200576271734.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172555" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172555');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 058614460.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172556" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172556');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 060643720.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172557" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172557');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 061643720.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172558" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172558');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 063643720.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172559" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172559');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 064643720.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172560" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172560');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//slike.hribi.net/sliketemp/Lanzevica%200656271735.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172561" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172561');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 069790020.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172562" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172562');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 071790020.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172563" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172563');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 073790020.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172591" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172591');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 216770000.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172592" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172592');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 211836000.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172593" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172593');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 209836000.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172594" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172594');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 208836000.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172595" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172595');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 200836000.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172596" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172596');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 198836000.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172597" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172597');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 196836000.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172598" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172598');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 195836000.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172599" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172599');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 192836000.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172600" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172600');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//slike.hribi.net/sliketemp/Lanzevica%201906271742.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172601" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172601');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1881188000.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172602" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172602');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1851188000.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172603" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172603');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1841188000.th.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172604" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172604');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1821188000.th.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172605" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172605');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1781188000.th.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172606" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172606');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1731188000.th.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172607" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172607');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1721188000.th.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172608" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172608');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1691188000.th.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172609" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172609');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1671188000.th.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172610" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172610');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 1651188000.th.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172611" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172611');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 164266200.th.jpg" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172612" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172612');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 162266200.th.jpg" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172613" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172613');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 157266200.th.jpg" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172614" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172614');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 156266200.th.jpg" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172615" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172615');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 155266200.th.jpg" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172616" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172616');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 154266200.th.jpg" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172617" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172617');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 152266200.th.jpg" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172618" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172618');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 151266200.th.jpg" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172619" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172619');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 150266200.th.jpg" /></a><span class="s2"><span class="s1">81</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172620" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172620');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 149266200.th.jpg" /></a><span class="s2"><span class="s1">82</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172621" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172621');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica 147266200.th.jpg" /></a><span class="s2"><span class="s1">83</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172622" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172622');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//slike.hribi.net/sliketemp/Lanzevica%201426271742.th.jpg" /></a><span class="s2"><span class="s1">84</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172623" onclick="event.preventDefault(); window.open('/slika_pot/pod_zjabci_lanzevica_cez_lepo_komno/172623');"><img class="slikagm" alt="Pod Zjabci - Lanževica" src="//www.hribi.net/slike1/Lanzevica%201441287440.th.jpg" /></a><span class="s2"><span class="s1">85</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Pod Zjabci - Lanževica (čez Lepo Komno)</b></div>
+
+
+
+<div id="kom26178" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/zgembo/16153">Zgembo</a><span class="komDatum">30. 04. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A mogo&#269;e kdo ve kje se da dobiti žig?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26187" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/zvoncek/7782">Zvonček</a><span class="komDatum">1. 05. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Žig naj bi bil na vrhu. &#268;e ga ve&#269; ni, vedo v Domu na Komni.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26201" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/zgembo/16153">Zgembo</a><span class="komDatum">3. 05. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na vrhu ga ni, v domu na Komni tudi ne. Razen &#269;e ni v ko&#269;i pod Bogatinom, vendar se ta še ni odprla.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32452" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">30. 09. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes po tej poti . Nameravala sva po Rapalski meji a zaradi obilice snega va se odlo&#269;ila za to pot. Kar dolga je od table   Vas na Skali. Sestop po isti poti. Vreme je bilo prav lepo. Na vrhu hladno. Zimske opreme razen gamaš nisva potrebovala. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(4);
+    });
+    abc(4);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1068801/zapisizgora_160_600', [160, 600], 'div-gpt-ad-1684384003587-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /1068801/zapisizgora_160_600 -->
+<div id='div-gpt-ad-1684384003587-0' style='min-width: 160px; min-height: 600px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684384003587-0'); });
+  </script>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

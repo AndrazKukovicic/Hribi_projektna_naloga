@@ -1,0 +1,1230 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Trnovska vas - Grad Vurberk</title>
+        <meta name="description" content="Natančen opis izleta Trnovska vas - Grad Vurberk. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/trnovska_vas_grad_vurberk/162/3538/8568" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/trnovska_vas_vurberk_castle/162/3538/8568"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=162&id=3538&potid=8568"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/strojna_kosenjak_kozjak_in_slovenske_gorice/162">Strojna, Košenjak, Kozjak in Slovenske gorice</a> / <a class="moder" href="/gora/grad_vurberk/162/3538">Grad Vurberk</a> / Trnovska vas - Grad Vurberk
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(8568);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Trnovska vas - Grad Vurberk</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=8568';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Trnovska vas (247 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;31,2090'N&nbsp;/&nbsp;15°&nbsp;53,1330'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;31'&nbsp;12,54''N&nbsp;/&nbsp;15°&nbsp;53'&nbsp;7,98''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,52015°N&nbsp;/&nbsp;15,88555°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.52015,&nbsp;15.88555";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,52015°N&nbsp;15,88555°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(8568,46.52015,15.88555);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.52015,15.88555"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/grad_vurberk/162/3538">Grad Vurberk (427 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 3 h 5 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 180 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 475 m</div>
+    <div class="g2"><b>Zemljevid:</b> </div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 156</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">80</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">0</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) Pomursko avtocesto zapustimo na izvozu Sveta Trojica, nato pa sledimo oznakam za Ptuj. Ko prispemo v naselje Trnovska vas zavijemo desno proti pokopališču, mi pa že kmalu za križiščem parkiramo na označene parkirišču.<br> b) Zapeljemo se na Ptuj, nato pa sledimo oznakam za Gornjo Radgono in Sveto Trojico. V naselju Trnovska vas ob krožišču opazimo rdeče planinske smerne table, mi pa iz krožišča nadaljujemo "naravnost", nato pa gremo levo v smeri pokopališča, mi pa že kmalu za križiščem parkiramo na označene parkirišču..</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča se vrnemo do glavne ceste, nato pa nadaljujemo desno do bližnjega krožišča, kjer opazimo prve markacije in tudi prve planinske smerne table. Nadaljujemo desno v smeri proti Vurberku (levo Vitomarci), kjer gremo sprva še mimo nekaj hiš, nato pa se Trnovska vas konča. Pot naprej nas vodi po pločniku in kolesarski stezi, z omenjene poti pa gremo za spominskim obeležjem desno v gozd, kamor nas usmerjajo markacije. Nekaj minut hodimo skozi gozd, nato pa se vrnemo na kolesarsko pot, po kateri se vzpnemo do naselja Bišečki Vrh ter tudi do naselja Trnovski Vrh. Nadaljujemo mimo nekaj hiš, ko kolesarska steza zavije desno, pa gremo levo na stransko cesto, ob kateri se nadaljujejo markacije. Sledi nekaj križišč, kjer sledimo markacijam, ko cesta naredi levi ovinek pa gremo desno na stransko makadamsko cesto. Sledi nekaj spusta skozi gozd, ko gozd zapustimo pa ob travniku prispemo do križišča, kjer gremo levo (desno Črmlja). Sledi lahkoten vzpon, pri lovski opazovalnici pa gremo desno na kolovoz, ki se prične vzpenjati skozi gozd, ob njem pa so markacije bolj redke. Višje se pot položi in zavije rahlo v desno, kjer kratek čas prečimo pobočja proti desni, nato pa gremo s kolovoza levo in se vzpnemo do asfaltne ceste, kateri sledimo levo navzgor, le ta pa nas hitro pripelje do križišča, kjer gremo desno.<br> Desno gremo tudi na naslednjem križišču, nato pa se vzpnemo še do bližnjega oddajnika, ki se nahaja na 386 m visokem vrhu.<br> Od tu sledi spust po asfaltni cesti, spustimo pa se za več kot 100 višinskih metrov. Ko v dolini dosežemo nekoliko širšo cesto gremo desno, za avtobusno postajo pa gremo levo na stransko cesto v smeri Gomile in Vurberka.<br> Nekaj minut nadaljujemo skozi gozd, ko gozd zapustimo pa prispemo v naselja Gomila, od koder se nam odpirajo lepi pogledi na okolico. Višje se asfaltna cesta položi, mi pa jo na manjšem križišču zapustimo in nadaljujemo naravnost na slabšo makadamsko cesto, po kateri se najprej vzpnemo, nato pa ob nekaj hišah v rahlem vzponu prečimo pobočja proti desni. Ko se hiše končajo gremo desno in s potjo nadaljujemo po makadamski cesti, ki nas hitro pripelje do asfaltne ceste, kjer gremo naravnost. Takoj za križiščem prispemo v naselje Krčevina pri Vurberku, pri avtobusni postaji pa gremo naravnost. Za naseljem se asfalt konča, mi pa pot nadaljujemo po makadamski cesti, ki se sprva nekoliko spusti, nato pa vzpne do označenega razpotja na Črni tabli.<br> Nadaljujemo levo proti Grmadi in Vurberku ter s potjo nadaljujemo po asfaltni cesti, katero hitro zapustimo saj nadaljujemo levo na makadamsko cesto, s katere pa gremo kmalu desno na pešpot. Pot se sprva zložno vzpne, nato pa dosežemo greben, kjer pot postane strma. Pod vrhom se pot položi in prispemo do vpisne skrinjice, ki se nahaja le nekaj korakov pod stolpom na Grmadi.<br> S severozahodnega vrha Grmade se spustimo po markirani poti proti Vurberku, ko dosežemo sedlo med obema Grmadama pa markirana pot zavije rahlo desno in se še naprej spušča (naravnost jugovzhodni vrh Grmade). Pot naprej preide na bolj strma pobočja, preko katerih se prečno spustimo do kolovoza, kateremu sledimo v levo, z njega pa gremo malo naprej desno navzdol. Sledi še krajši spust in ob kapelici dosežemo glavno cesto, katero previdno prečimo.<br> Nadaljujemo ob parkirišču Kulturnega doma Vurberk ter se rahlo vzpnemo do bližnjega križišča, kjer cesta proti gradu zavije levo, mi pa nadaljujemo naravnost po markirani poti, ki se višje vzpne po stopnicah. Nad stopnicami se vrnemo na cesto, nato pa mimo župnijske cerkve sv. Marije Vnebovzete hitro prispemo do gradu Vurberk.<br> Trnovska vas - severozahodni vrh Grmade 2:45, severozahodni vrh Grmade - Grad Vurberk 0:20.<br> Opis in slike se nanašajo na stanje marca 2022.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/grad_vurberk/3538"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Grad Vurberk"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Bišečki Vrh (321m), Jiršovci (386m), Gomila (371m), Črna tabla (400m), <a class="moder" href="/gora/grmada_pri_vurberku_-_severozahodni_vrh/162/3536">Grmada (pri Vurberku) - severozahodni vrh (460m)</a>, Župnijska cerkev sv. Marije Vnebovzete (402m)</div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/trnovska_vas/46.52015/15.88555">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/trnovska_vas_grad_vurberk/8568">podobni izleti</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523062" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523062');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0915706621730_0dscn6751.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523063" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523063');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1117706621731_1dscn6753.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523064" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523064');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0612705656644_0dscn6757.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523065" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523065');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_098706621984_0dscn6760.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523066" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523066');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1996706621985_1dscn6762.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523067" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523067');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_2122706621985_2dscn6764.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523068" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523068');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_3160706621986_3dscn6766.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523069" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523069');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0817706622254_0dscn6769.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523070" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523070');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1301706622254_1dscn6772.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523071" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523071');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_2343706622255_2dscn6775.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523072" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523072');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_3827706622256_3dscn6778.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523073" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523073');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_4290706622257_4dscn6779.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523074" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523074');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_5774706622257_5dscn6780.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523075" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523075');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_6314706622258_6dscn6781.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523076" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523076');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_7993706622259_7dscn6782.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523077" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523077');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_836706622260_8dscn6784.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523078" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523078');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_9714706622260_9dscn6787.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523079" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523079');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_10450706622261_10dscn6788.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523080" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523080');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_11738706622261_11dscn6790.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523081" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523081');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1490705656645_1dscn6791.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523082" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523082');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0218706623341_0dscn6793.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523083" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523083');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1539706623341_1dscn6796.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523084" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523084');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_2559706623342_2dscn6797.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523085" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523085');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_3187706623343_3dscn6801.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523086" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523086');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_4475706623344_4dscn6802.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523087" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523087');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_5851706623345_5dscn6804.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523088" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523088');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_6249706623345_6dscn6807.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523089" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523089');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_7123706623346_7dscn6809.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523090" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523090');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0386705656782_1dscn6811.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523091" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523091');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0209706623827_9dscn6813.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523092" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523092');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_152706623827_10dscn6816.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523093" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523093');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_2320706623828_0dscn6817.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523094" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523094');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_3163706623829_1dscn6820.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523095" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523095');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_4202706623829_2dscn6822.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523096" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523096');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_576706623830_3dscn6826.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523097" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523097');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_6149706623831_4dscn6827.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523098" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523098');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_7351706623831_5dscn6828.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523099" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523099');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_8977706623832_6dscn6830.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523100" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523100');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_9211706623832_7dscn6831.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523101" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523101');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_10751706623833_8dscn6833.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523102" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523102');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_11430706623834_11dscn6834.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523103" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523103');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_12663706623834_12dscn6835.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523104" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523104');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_13789706623835_14dscn6836.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523105" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523105');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1478706623836_13dscn6841.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523106" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523106');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_15475706623836_15dscn6843.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523107" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523107');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_16242706623837_16dscn6844.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523108" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523108');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_17262706623838_17dscn6845.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523109" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523109');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_18607706623839_18dscn6847.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523110" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523110');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_5865706624236_5dscn6957.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523111" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523111');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_4179706624234_4dscn6955.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523112" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523112');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_3141706624234_3dscn6954.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523113" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523113');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_2820706624233_2dscn6953.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523114" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523114');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1141706624233_0dscn6951.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523115" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523115');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0657706624232_1dscn6949.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523116" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523116');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0210705656942_0dscn6941.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523117" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523117');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0228706624436_0dscn6943.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523118" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523118');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_2465706628636_2dscn6939.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523119" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523119');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1427706628635_1dscn6935.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523120" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523120');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0138706628635_0dscn6924.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523127" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523127');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_6924706630619_6dscn6920.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523126" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523126');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_5743706630618_5dscn6916.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523125" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523125');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_4705706630618_4dscn6914.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523124" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523124');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_3273706630617_3dscn6912.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523123" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523123');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_240706630616_2dscn6910.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523122" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523122');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1859706630615_1dscn6905.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523121" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523121');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0180706630615_0dscn6904.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523138" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523138');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_10473706631934_10dscn6902.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523128" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523128');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_0310706631927_0dscn6861.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523129" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523129');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1631706631928_1dscn6862.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523130" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523130');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_2811706631928_2dscn6863.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523131" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523131');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_3460706631929_3dscn6865.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523132" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523132');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_487706631930_4dscn6867.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523133" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523133');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_5407706631930_5dscn6869.jpg" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523134" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523134');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_6306706631931_7dscn6870.jpg" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523135" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523135');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_7626706631932_6dscn6871.jpg" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523139" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523139');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_2677705656849_1dscn6899.jpg" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523136" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523136');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_8166706631932_8dscn6877.jpg" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523137" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523137');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_997706631933_9dscn6879.jpg" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523140" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523140');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_012705656848_2dscn6894.jpg" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovska_vas_grad_vurberk/523141" onclick="event.preventDefault(); window.open('/slika_pot/trnovska_vas_grad_vurberk/523141');"><img class="slikagm" alt="Trnovska vas - Grad Vurberk" src="//slike2.hribi.net/slike14/2_1388705656849_0dscn6897.jpg" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Trnovska vas - Grad Vurberk</b></div>
+
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

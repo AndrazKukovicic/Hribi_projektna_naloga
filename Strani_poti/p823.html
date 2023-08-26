@@ -1,0 +1,2059 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Koča pri Peričniku - Aljažev dom v Vratih (Pot Triglavske Bistrice)</title>
+        <meta name="description" content="Natančen opis izleta Koča pri Peričniku - Aljažev dom v Vratih (Pot Triglavske Bistrice). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/1/242/350" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/1/242/350"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=242&potid=350"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/aljazev_dom_v_vratih/1/242">Aljažev dom v Vratih</a> / Koča pri Peričniku - Aljažev dom v Vratih (Pot Triglavske Bistrice)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(350);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Koča pri Peričniku - Aljažev dom v Vratih (Pot Triglavske Bistrice)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=350';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Koča pri Peričniku (750 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;26,2920'N&nbsp;/&nbsp;13°&nbsp;53,7540'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;26'&nbsp;17,52''N&nbsp;/&nbsp;13°&nbsp;53'&nbsp;45,24''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,4382°N&nbsp;/&nbsp;13,8959°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.4382,&nbsp;13.8959";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,4382°N&nbsp;13,8959°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(350,46.4382,13.8959);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.4382,13.8959"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/aljazev_dom_v_vratih/1/242">Aljažev dom v Vratih (1015 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> Pot Triglavske Bistrice</div>
+    <div class="g2"><b>Čas hoje:</b> 2 h</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 265 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 300 m</div>
+    <div class="g2"><b>Zemljevid:</b> Triglav 1:25.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> </div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 81.764</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;6&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">54</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">38</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Gorenjsko avtocesto zapustimo na izvozu Jesenice - zahod, nato pa z vožnjo nadaljujemo v smeri Kranjske Gore. Le malo pred vasjo Dovje, pa se v levo odcepi cesta, ki pelje proti Mojstrani ter dolinam Krma, Kot in Vrata. Omenjeni cesti v križiščih sledimo v smeri doline Vrata, mi pa se po njej peljemo do bivše planinske koče pri Peričniku, ob kateri parkiramo na velikem makadamskem parkirišču (izhodišče se nahaja pri oznaki ceste 6 km).</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča nadaljujemo po cesti v smeri zatrepa doline Vrata. Cesta nas najprej vodi čez most, s katerega se nam odpre lep pogled na slap Peričnik (do spodnjega slapu je 10, do zgornjega pa 15 minut hoje). Nadaljujemo po cesti, s katere pa se že kmalu v levo odcepi Pot Triglavske Bistrice (cesto zapustimo še pred začetkom 25% klanca). Pot nas po krajšem spustu pripelje do reke, ob kateri se nato vzpenjamo po lepo urejeni stezici. Steza ob kateri opazimo številne informativne table, pa se počasi prične oddaljevati od Triglavske Bistrice ter nas višje pripelje do gozdne ceste kateri sledimo v levo. Cesta se kmalu spremeni v kolovoz, le ta pa nas v prečnem vzponu hitro pripelje do Galerij (obsežni previsi). Sledi nekajminutna hoja po Galerijah, preko katerih pa pogosto kaplja ali celo curlja voda. Višje pot preide v strnjen gozd ter se le nekoliko naprej priključi cesti, ki vodi v dolino Vrata. Cesti sledimo v levo, ta pa nas po krajšem spustu ponovno pripelje do reke Triglavske Bistrice. <br>Ravno na mestu, kjer se cesta povsem približa reki to prečimo, nato pa pot nadaljujemo po levi strani reke (desnem bregu). Nekaj minut nadaljujemo po levi strani reke, nato pa preko mostička ponovno stopimo na desno stran. Nadaljujemo po stezi, po kateri po močnejšem deževju teče voda. Pot naprej se nekaj časa nadaljuje skozi gozd, nato pa nas pripelje do grbinastega travnika. Omenjeni travnik, s katerega se nam odpre lep razgled na okoliške vrhove prečimo, nato pa za kočo, nadaljujemo v smeri "Pot Triglavske Bistrice". Omenjena pot kmalu obide še eno kočo, nato pa nas pripelje do makadamske ceste, kateri sledimo levo navzdol v smeri P (parkirišče). S parkirišča nadaljujemo desno v gozd, nato pa poti, ki postopoma preide na obsežna prodišča, sledimo vse do Aljaževega doma v Vratih.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/aljazev_dom_v_vratih/242"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Aljažev dom v Vratih"></a></div>
+
+
+<div style="padding-top:10px;"><b>Izlet lahko podaljšamo do naslednjih ciljev:</b> <a class="moder" href="/gora/triglav/1/1">Triglav</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/koca_pri_pericniku/46.4382/13.8959">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/350">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=242">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=242">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80058" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80058');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 4210.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80059" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80059');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 4180.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80060" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80060');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 4160.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80061" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80061');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 00751000.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80062" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80062');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 00151000.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80063" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80063');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 01251000.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80064" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80064');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 01851000.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80065" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80065');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 01951000.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80066" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80066');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 02151000.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80067" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80067');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 02351000.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80068" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80068');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 02551000.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80069" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80069');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 02851000.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80070" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80070');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 02963750.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80071" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80071');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 03763750.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80072" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80072');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 03963750.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80073" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80073');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 04463750.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80074" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80074');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 04563750.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80075" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80075');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 053178500.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80076" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80076');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 054178500.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80077" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80077');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 057191250.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80078" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80078');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 058204000.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80079" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80079');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 060216750.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80080" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80080');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 065216750.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80081" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80081');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 072216750.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80082" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80082');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 074216750.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80083" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80083');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 079255000.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80084" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80084');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 086255000.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80085" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80085');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 089255000.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80086" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80086');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 096255000.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80087" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80087');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 102255000.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80088" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80088');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 104255000.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80089" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80089');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 108255000.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80090" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80090');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 117267750.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80091" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80091');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 120318750.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80092" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80092');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 123318750.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80093" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80093');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 129331500.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80094" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80094');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 135331500.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80095" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80095');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 138331500.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80096" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80096');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 145331500.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80097" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80097');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 147331500.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80098" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80098');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 159331500.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80099" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80099');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 168331500.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80100" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80100');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 177331500.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80101" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80101');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 186420750.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80102" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80102');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 190420750.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80103" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80103');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 192420750.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80104" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80104');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 198420750.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80105" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80105');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 202420750.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80106" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80106');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 206420750.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80107" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80107');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 208420750.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80108" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80108');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 218420750.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80109" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80109');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 219420750.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80110" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80110');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 220420750.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80111" onclick="event.preventDefault(); window.open('/slika_pot/koca_pri_pericniku_aljazev_dom_v_vratih_pot_triglavske_bistrice/80111');"><img class="slikagm" alt="Koča pri Peričniku - Aljažev dom v Vratih" src="//www.hribi.net/slike1/Vrata 221420750.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Koča pri Peričniku - Aljažev dom v Vratih (Pot Triglavske Bistrice)</b></div>
+
+
+
+<div id="kom14" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">29. 05. 2006</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V nedeljo,28.maja smo hodili po poti Triglavske Bistrice do Aljaževega doma.Pot je &#269;udovita ,vseskozi vredna ob&#269;udovanja.Planinci ne veste kaj zamujate,ko se do Aljževega doma pripeljete z avtomobili!!!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom776" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/matjazg/1406">matjažg</a><span class="komDatum">21. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Res sem enakih misli, kakor Gost. Poleti je prav ta ko&#269;a najve&#269;je veselje za vsakega pohodnika, ki gre peš iz Mojstrane proti Aljaževemu domu. Vsaj meni je bila, ko sem šel peš. To je med temi 12 km edini napajalnik, &#269;e se izrazim v tažejnem žargonu.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom781" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">22. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za tažejne je tudi voda iz potoka dobra.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom783" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">22. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ja,bo kar res.V&#269;asih ko so že par ur suha usta je poto&#269;ek zlata vreden.<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2774" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">3. 02. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A kdo ve? Je cesta od Mojstrane do Aljaževega doma izpostavljena snežnim plazovom. S kolegi imamo namen jutri zve&#269;er ob baklah do doma pa nas zanima, &#269;e je sedaj po novozapadlem snegu kakšna nevarnost plazov. Hvala<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4948" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/mojcej72/5287">mojcej'72</a><span class="komDatum">2. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>28.7. odšla s h&#269;erko peš od parkiriš&#269;a pri Slapu Peri&#269;nik do Aljaževega doma, potrebovali sva kar 2 dobri uri hoje. V ko&#269;i so bili zelo prijazni in hrana je kar padla v trebuš&#269;ek, 20 min še do karabina - spomenika padlim gornikom v 2.sv.vojni in izlet je bil lepo zaklju&#269;en. Seveda je bilo potrebno priti še nazaj. Lep po&#269;itniški izlet.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5309" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/felix/4524">felix</a><span class="komDatum">26. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kaj je s ko&#269;o pri Peri&#269;niku? Na praznik 15.8. se je ljudi tam kar trlo, ko&#269;a pa zaprta. Ali se gremo tako turizem pri nas?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5311" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/kriska/834">Kriška</a><span class="komDatum">26. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A je sicer kdaj odprta? V zadnjih nekaj letih sem parkrat šla mimo (tudi ob vikendih) pa nikoli ni bila odprta.<img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5996" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/katu/6173">Katu</a><span class="komDatum">19. 11. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V soboto sem se prvi&#269; odpravila do Aljaževega doma. Kljub dežju im vetru je bila hoja ob reki fenomenalna. Ob lepšem vremenu se bo izlet zagotovo podaljšal do kakšne druge destinacije. <img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12603" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/stumby/9694">Stumby</a><span class="komDatum">26. 12. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ima mogo&#269;e kdo aktualne podatke, &#269;e je cesta prevozna do doma, oz. do kot se da zapeljat?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12609" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/viper/9013">Viper</a><span class="komDatum">26. 12. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Da se pridet, tudi do Aljaževega doma.  Na najbolj strmem delu je cesta tudi kar poledenela, takoj od Ko&#269;e pri Peri&#269;niku. Najbolj sigurno se pride z avtom 4x4 pogonom.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12611" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/stumby/9694">Stumby</a><span class="komDatum">26. 12. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ok, najlepša hvala!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15930" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/navdih/9819">NAVDIH</a><span class="komDatum">12. 12. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zanima me,&#269;e je cesta od Mojstrane do Vrat prevozna? Za odgovor se vam zahvaljujem</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15931" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/dolenjkaprimorc/10808">dolenjka&primorc</a><span class="komDatum">12. 12. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><a target=# class=moder href="http://www.hribi.net/trenutnerazmere.asp?slo=1&gorovjeid=1&id=4983">http://www.hribi.net/trenutnerazmere.asp?slo=1&gorovjeid=1&id=4983</a> <img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16132" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/pohodnica56/8538">Pohodnica56</a><span class="komDatum">18. 01. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je kdo zadnje dneve hodil po tej poti? Bi jutri eno zimsko bolj na izi ubrali, pogledali zamrznjen Peri&#269;nik.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19491" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/jerebica86/16243">Jerebica86</a><span class="komDatum">19. 04. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes sva imela kljub slabemu vremenu pre&#269;udovit izlet. Pot je v spodnjem delu spremenjena, ve&#269;ji del jo je odesel sneg/voda, tako da je potrebno spodnji del malce "preplezat". Zgornji del poti, tik pred Aljaževim domom pa je ponekod še pokrit s snegom.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22329" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/gorskazvezda/13147">gorska.zvezda</a><span class="komDatum">13. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>gorska.zvezda<br> 13.6.2015<br> Po navodilih smo želele takoj za mostom pri Peri&#269;niku zaviti levo na Pot Triglavske Bistrice, vendar te poti ni ve&#269;, ker jo je že pred 2 letoma poškodovala voda. Zato je treba po cesti po klancu 25% navzgor in še naprej, cca 1,5km od Peri&#269;nika in šele potem zaviti levo po poti, ki se spuš&#269;a proti strugi Triglavske Bistrice. Na tabli piše, da je hoja na lastno odgovornost, najbrž velja za zimske razmere. Pot je &#269;udovita.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25666" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/claire/16697">claire</a><span class="komDatum">15. 11. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ko&#269;a žal zaprta, žiga SPP zunaj nisem našla <img alt=mrk&nbsp;pogled src=/slike/mrk.gif> Sicer pa lepa pot! </div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25667" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/natalia23/18685">natalia23</a><span class="komDatum">17. 11. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Žig za spp,za Aljažev dom v vratih dobite v planinskem muzeju v Mojstrani.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26264" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/suzys/16511">suzys</a><span class="komDatum">17. 05. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Rada bi vedela ali je pot sanirana na za&#269;etku in se lahko pride do Peri&#269;nika in potem po opisu naprej?<br> Hvala in Lp<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26909" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/enka/4681">Enka</a><span class="komDatum">11. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kaj res nih&#269;e ne ve tega, kar sprašuje suzys?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26914" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/mlgt1950/14533">mlgt1950</a><span class="komDatum">11. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot ni sanirana. Od Pericnika je potrebno iti naprej po cesti, po klancu 25 % vse do kilometerske oznake 7,5 km, kjer je odcep v levo navzdol na potko. Lahko pa se malo naprej po cesti in zavijes na potko na levo pri oznaki za Galerije.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26915" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/enka/4681">Enka</a><span class="komDatum">11. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>O, najlepša hvala za informacije. Ne poznam teh koncev, pa jih imam namen spoznati <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27013" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_23" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_23" class="komL"><a class="ime" href="/gornik/majdagosenca/21280">majda.gosenca</a><span class="komDatum">23. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;udovita pot in narava. Mi bo vseeno v lepem spominu,&#269;eprav sem tu izgubila son&#269;na o&#269;ala z dioptrijo.Žal "poštenega" najditelja v ko&#269;o pri Peri&#269;niku ni bilo.O&#269;ala pa so ostala blizu ko&#269;e 21.avg. 2017.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_23" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_23" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27823" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_24" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_24" class="komL"><a class="ime" href="/gornik/kravica/17715">kravica</a><span class="komDatum">28. 04. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes je nekdo na parkiriš&#269;u pri Aljaževem domu pozabil pohodne palice Black Diamond &#269;rno-rde&#269;e. &#268;e jih kdo pogreša, naj mi javi <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_24" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_24" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28512" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_25" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_25" class="komL"><a class="ime" href="/gornik/domek/22311">domek</a><span class="komDatum">7. 08. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je pot na za&#269;etku že sanirana?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_25" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_25" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28521" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_26" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_26" class="komL"><a class="ime" href="/gornik/enka/4681">Enka</a><span class="komDatum">8. 08. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ne. Do km oznake 7,5 je treba po cesti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_26" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_26" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28527" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_27" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_27" class="komL"><a class="ime" href="/gornik/domek/22311">domek</a><span class="komDatum">8. 08. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Najlepša hvala, Enka!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_27" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_27" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29515" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_28" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_28" class="komL"><a class="ime" href="/gornik/ana_fila/22979">Ana Fila</a><span class="komDatum">20. 04. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ko&#269;a je bila to soboto odprta. <br> Zgoraj opisano pot bi pa lahko spremenili, glede na to, da kar nekaj izto&#269;nih to&#269;k v opisu ne velja ve&#269;. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_28" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_28" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30937" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_29" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_29" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">29. 12. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je bila danes prav prijetna za pohod do razglediš&#269;a pod Triglavom,sicer pomrznjena,ampak brez problemov. V Galerijah polno ledenih sve&#269;,Peri&#269;nik pa tudi dela zimsko podobo<img alt=nasmeh src=/slike/smile.gif> vredno obiska</div>
+       
+       </div>
+    </td>
+    <td id="komD0_29" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_29" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31184" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_30" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_30" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">29. 02. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je ve&#269;inoma rahlo,višje pa malo bolj zasnežena,sicer pa na poti ni težav.. malo sem raziskoval danes,sem šel nazaj proti Peri&#269;niku po stari poti ki jo je malo pred Peri&#269;nikom odnesla voda,pot je sledljiva &#269;isto do struge Triglavske bistrice,do tam kjer jo je odneslo..malo pred tem pa se odcepi še ena stezica proti cesti,proti tistemu najbolj strmemu klancu..</div>
+       
+       </div>
+    </td>
+    <td id="komD0_30" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_30" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31529" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_31" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_31" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">30. 05. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Po dolgem &#269;asu spet po tej poti,za&#269;el sem v Mojstrani,po poti Triglavske Bistrice mimo Aljaževega doma pa še naprej pod Triglav<img alt=nasmeh src=/slike/smile.gif> za&#269;uda glede na to da je sobota zelo malo ljudi v Vratih.. celotna pot vredu,brez posebnosti. Za osvežitev pa veliko snežiš&#269;e pod Triglavom,sneg kar vztraja tam ne glede na nizko nadmorsko višino<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_31" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_31" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32036" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_32" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_32" class="komL"><a class="ime" href="/gornik/saqo/24656">saqo</a><span class="komDatum">4. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni,<br> <br> a je pot zdaj urejena in ozna&#269;ena? In ali je 12 km v eno smer ali obe skupaj? Šli bi z otrokom. hvala</div>
+       
+       </div>
+    </td>
+    <td id="komD0_32" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_32" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32037" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_33" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_33" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">4. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ja pot je res dolga,okoli 9 ali 10km je od konca Mojstrane do Aljaževega doma. Pot je ozna&#269;ena,zoprno pa je zdaj sploh ob vikendih ko je naval turistov ker vsi hitro vozijo po makadamu,tako da se zelo praši,del poti Triglavske Bistrice gre po cesti. Sem bil v soboto gor in je bilo ta del poti po cesti nevzdržno,gor in dol je vozilo po 5,6 avtov naenkrat,prahu v zraku toliko da me je praskalo po grlu<img alt=mrk&nbsp;pogled src=/slike/mrk.gif><img alt=jezen src=/slike/jezen.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_33" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_33" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32373" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_34" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_34" class="komL"><a class="ime" href="/gornik/jp/21409">J.P.</a><span class="komDatum">17. 09. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je lepo urejena, krasni naravni detajli ob poti. Parkiriš&#269;e v Mojstrani pri muzeju je v zgodnjih urah prazno, prav tako sedaj ni ve&#269; gužbe na/ob poti. Odcep v levo je ozna&#269;en/viden po klancu 25%, prej ga nisem opazila (tudi za nazaj ga nisem našla?!). Pot je dolga vse skupaj cca 20 - 22 km , &#269;e se otrokom ne lubi, se pa komot skrajša npr. do Peri&#269;nika ali galerij (štart v Mojstrani seveda). Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_34" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_34" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33191" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_35" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_35" class="komL"><a class="ime" href="/gornik/locanka/4176">ločanka</a><span class="komDatum">13. 05. 2021 07:11:26</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Res je kar nekaj sprememb na poti od takrat, ko je bil delan ta opis. Tudi me smo iskale opisan začetek poti, ki ga enostavno ni več. Prvi odcep je na vrhu 25% klanca, a ni označen. Označen odcep v levo je pri 7,5 km. Torej poti od slike 7 do 18 ni več, prav tako ni tudi mostička na sliki 41. Ta leži ujet v vejevju ob robu struge. Mogoče je to od letos, tega ne vem. Tako da ne poznam drugega prehoda čez kot skakanje po kamnih, kar pa je lahko malo riskantno. Vsaj trenutno je tako. Me zaradi namočenega terena nismo uspele pridit do teh omenjenih grbinastih travnikov. Trenutno je tako, da je najbolje odcep v levo pri sliki 38 izpustiti in nadaljevati kar po cesti. lahko pa da se v bodoče kaj spremeni<img alt=nasmeh src=/slike/smile.gif>.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_35" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_35" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34736" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_36" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_36" class="komL"><a class="ime" href="/gornik/orchigu/25919">orchigu</a><span class="komDatum">29. 06. 2022 23:18:16</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kako pa je kaj letos s to potjo, je bil kdo? Se kaj ureja?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_36" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_36" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36097" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_37" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_37" class="komL"><a class="ime" href="/gornik/majapohaja/27711">MajaPohaja</a><span class="komDatum">4. 06. 2023 16:56:15</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni!<br> Je morda kdo pred kratkim prehodil omenjeno pot? Kako je urejena / označena? Hvala za odgovor in lp.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_37" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_37" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(38);
+    });
+    abc(38);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

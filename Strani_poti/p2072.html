@@ -1,0 +1,3805 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>D Postaja - Visoki Kanin</title>
+        <meta name="description" content="Natančen opis izleta D Postaja - Visoki Kanin. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/d_postaja_visoki_kanin/1/12/182" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/d_station_visoki_kanin/1/12/182"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=12&potid=182"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/visoki_kanin/1/12">Visoki Kanin</a> / D Postaja - Visoki Kanin
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(182);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>D Postaja - Visoki Kanin</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=182';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> D Postaja (2202 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;19,9560'N&nbsp;/&nbsp;13°&nbsp;32,3040'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;19'&nbsp;57,36''N&nbsp;/&nbsp;13°&nbsp;32'&nbsp;18,24''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3326°N&nbsp;/&nbsp;13,5384°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3326,&nbsp;13.5384";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3326°N&nbsp;13,5384°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(182,46.3326,13.5384);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3326,13.5384"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/visoki_kanin/1/12">Visoki Kanin (2587 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 2 h 30 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> zelo zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 385 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 750 m</div>
+    <div class="g2"><b>Zemljevid:</b> Julijske Alpe - zahodni del 1 : 50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 94.364</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;4&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">24</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">116</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) Iz Kranjske Gore se prek prelaza Vršič ali Predel zapeljemo v Bovec, kjer parkiramo pri spodnji postaji krožno kabinske žičnice na Kanin (žičnica se nahaja v bližini bencinskega servisa). Nato kupimo karto in se z žičnico odpeljemo do D postaje.<br>b) S Primorske strani pa se najprej zapeljemo v dolino reke Soče in se nato skozi Tolmin in Kobarid pripeljemo v Bovec, kjer parkiramo pri spodnji postaji krožno kabinske žičnice na Kanin (žičnica se nahaja v bližini bencinskega servisa). Nato kupimo karto in se z žičnico odpeljemo do D postaje.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Od D postaje se odpravimo levo v smeri proti Visokemu Kaninu, domu Petra Skalarja in oknu v Prestreljeniku (desno Prestreljenik in Rombon). Že po nekaj minutah hoje pa se od nas v levo odcepi pot proti domu Petra Skalarja na Kaninu. Nadaljujemo naravnost po poti, ki nas po krajšem vzponu pripelje na naslednjega razpotje. Nadaljujemo v smeri Visokega Kanina (desno Prestreljeniško okno). Pot se tu nekoliko strmeje vzpne in v pomoč nam je tudi nekaj jeklenic. Pot nas nato pripelje do neizrazitega sedla pod Hudim Vršičem (2474m), kjer je tudi razpotje poti. Nadaljujemo desno, levo pa pelje pot proti domu Petra Skalarja. Pot nato nekaj časa preči pobočja po južni strani mejnega grebena. Sledi nekoliko strmejši vzpon po skalnatem terenu proti grebenu na katerem se nam odpre lep pogled proti Montažu in Višu. Pot po rahlo izpostavljenem grebenu nato poteka proti zahodu in v pomoč nam je tudi nekaj varoval. Sledi kratek spust s pomočjo varoval proti Kaninski škrbini in nato ponovno vzpon proti grebenu. Malo pod vrhom se nam z desne strani priključi še nekoliko zahtevnejša pot z italijanske strani. Do vrha nato sledi samo še krajši vzpon po razglednem grebenu.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/visoki_kanin/12"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Visoki Kanin"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Kaninska škrbina (2490m)</div><div style="padding-top:10px;"><b>Izlet lahko podaljšamo do naslednjih ciljev:</b> <a class="moder" href="/gora/mali_kanin/1/13">Mali Kanin ( 15 min)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/d_postaja/46.3326/13.5384">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/d_postaja_visoki_kanin/182">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=12">panorama</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30865" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30865');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403604558525.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30866" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30866');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403564558525.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30867" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30867');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403544558525.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30868" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30868');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403364558526.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30869" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30869');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403344558526.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30870" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30870');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403314558526.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30871" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30871');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403294558526.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30872" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30872');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403254558526.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30873" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30873');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403214558526.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30874" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30874');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403184558526.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30875" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30875');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403114558526.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30876" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30876');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403094558527.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30877" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30877');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403074558527.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30878" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30878');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72403054558527.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30879" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30879');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402994558527.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30880" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30880');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402984558527.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30881" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30881');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402954558527.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30882" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30882');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402904558527.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30883" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30883');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402894558528.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30884" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30884');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402834558528.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30885" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30885');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402784558528.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30886" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30886');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402704558528.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30887" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30887');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402684558528.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_visoki_kanin/30888" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_visoki_kanin/30888');"><img class="slikagm" alt="D Postaja - Visoki Kanin" src="//www.hribi.net/slike1/P72402654558528.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu D Postaja - Visoki Kanin</b></div>
+
+
+    <script>
+    function prikaziStaraSporocila()
+    {
+        document.getElementById('gumbstarasporocila').style.display='none';
+        document.getElementById('komX').style.display='block';
+    }    
+    </script>
+    <div id="gumbstarasporocila" style="margin:7px 0px 0px 0px;" class="gumbsiv2" onclick="prikaziStaraSporocila();">Prikaži starejša sporočila</div>
+    <div id="komX" style="display:none;">
+    
+
+<div id="kom1411" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">4. 07. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>dobra tura</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1835" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">22. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tura je zelo lepa, vendar pa je zadnji del, ko hodimo po grebenu, tudi precej zahteven. Pot je sicer zelo dobro markirana, vendar pa bi lahko bil grebenski del na nekaterih mestih bolje varovan. Treba je biti zelo previden. Jaz bi zgornji del ozna&#269;ila kot zelo zahtevna pot!<br> Pogled na obširne kaninske pode je ves &#269;as veli&#269;asten!!! Vsekakor priporo&#269;am, vendar po zmožnostih in po pameti. <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2308" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/nacek/2100">Nacek</a><span class="komDatum">26. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Škoda, da ni nobene slike...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2309" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">27. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Morda kdo ve, &#269;e imajo na postaji D tudi preno&#269;iš&#269;a?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2317" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">30. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Dne 24.8.sva bila z možem na Visokem Kaninu.To je res lepa tura, pogledi fantasti&#269;ni,pot je zahtevna.Ob poti sva obiskala še Prestreljenikovo okno, nazaj grede pa sva se oglasila še v domu P.Skalarja.Komaj sva ujela gondolo za nazaj ob 17.uri.Tu je še nekaj fotk, lp Tadeja</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2318" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">30. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kako pa se jih priloži?<img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2320" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/rok/1">Rok</a><span class="komDatum">30. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zaenkrat lahko slike objavljate samo v rubriki trenutne razmere (forum).<br> Ko odprete novo temo lahko po objavi sporo&#269;ila dodate slike.<br> Registrirani uporabniki pa lahko objavijo slike po vsakem objavljenem sporo&#269;ilu (velja samo za rubriko trenutne razmere).<br> <a target=# class=moder href="http://www.hribi.net/trenutnerazmere.asp?novatema=1">http://www.hribi.net/trenutnerazmere.asp?novatema=1</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3348" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/soniq/3418">soniq</a><span class="komDatum">27. 07. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se strinjam z spodnjimi komentarji! Turca zelo lepa vendar bi morala biti (zaradi lahke dostopnosti) vsekakor bolje varovana.....</div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3349" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/triglavski/895">triglavski</a><span class="komDatum">27. 07. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Varovala so bila nameš&#269;ena v skladu s standardi, ki veljajo za zelo zahtevne planinske poti, kam pa bi prišli, &#269;e bi ves greben odeli v železje, kot je recimo na Triglavu. &#268;e se pripelješ z ži&#269;nico gor, še ne pomeni, da ne potrebuješ gorniških izkušenj, ustrezne opreme in kondicije. Skoraj nih&#269;e ne pomisli, da se lahko ži&#269;nica tudi pokvari in bi bilo treba v takem primeru peš v dolino. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3532" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/mojcag/3629">mojcag</a><span class="komDatum">17. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se strinjam da je pot dovolj varovana. Sre&#269;aš pa tudi planince, ki dajejo ob&#269;utek da so prvi&#269; v hribih. Mi smo sre&#269;ali eno gospodi&#269;no, ki jo je bilo tako strah da je vsa "zelena" obstala v skalah. Po drugi strani je pa moj sedem letni sin zmogel turo kot za šalo. Res pa je da sva ga z možem še dodatno varovala. Vsekakor izkušnje, oprema in kondicija!<img alt=cool src=/slike/cool.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3533" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/davorin/3416">davorin</a><span class="komDatum">17. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Krasna tura in povsem dovolj varovana pot.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4586" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/nenad_kastelic/4661">nenad kastelic</a><span class="komDatum">9. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kdaj skopni sneg na Kaninu, tako da se da obhodit Kaninsko pogorje, Rombon ......</div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4699" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/mad_matheuss/3419">mad matheuss</a><span class="komDatum">30. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kaki je s to potjo? Je zimska oprema še nujno potrebna? Ali se da snežiš&#269;em izogniti?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4700" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/klin/3220">Klin</a><span class="komDatum">30. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na Kaninu je še veliko snega.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7673" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/mrkac/3344">MRKAČ</a><span class="komDatum">14. 08. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni,<br> na&#269;rtujem par dni preživeti na Kaninu. Zanima me kakšna je pot od Visokega Kanina proti Laški Planji. Opisa nisem zasledila. Ali je pot kaj izpostavljena oziroma kakšna je težavnost poti. Mogo&#269;e kdo ve koliko &#269;asa potrebuješ od postaje D preko Visokega Kanina do Laške Planje in do Doma Petra Skalarja? <br> <br> Hvala vsem!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7676" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/igorzlodej/6423">IgorZlodej</a><span class="komDatum">15. 08. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Gre za del Visoke Rosojanske poti, ve&#269;inoma izpostavljeno grebensko plezanje I. stopnje, potrebne izkušnje, varoval ni. Sicer pa je celoten krog možno opraviti v manj kot 4 urah.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10179" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/mpolo/4386">mpolo</a><span class="komDatum">30. 06. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Predvsem bi rad vprašal Igorja Z. ki imaš menda Kaninske konce v malem prstu...S kolegi na&#269;rtujemo turo iz B postaje gondole na Kanin na vrh Laške Planje,po grebenu do Visokega Kanina naprej do doma Petra Skalarja in nazaj do B postaje....<br> Zanima me koliko je to &#269;asovno..smo dobro fizi&#269;no pripravljeni ter navajeni hoje v visokogorju...A so razmere od Vrha L.planje do Visokega Kanina še vedno take kot si opisal v zgornjem lanskoletnem opisu..kako je s snegom???<img alt=zadrega src=/slike/redface.gif><br> <br> Hvala za odgovor in lep pozdrav <img alt=nasmeh src=/slike/smile.gif>....M. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10235" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/mojcej72/5287">mojcej'72</a><span class="komDatum">4. 07. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Dne 3.7. opravili turo Postaja D - pod Prestreljeniškim oknom - &#269;ez Dolge pode -proti Visokemu Kaninu. Na poti je še nekaj snežiš&#269;, prva dva, trije v pobo&#269;ju so še nevarni za zdrs, zato pazljivo (z dobrimi gojzerji gre). Ostala so manjša, par metrov ali manj. Pot je na zahtevnejših delih dobro varovana, potrebno pa je tudi nekaj plezanja in oprijemanja skal brez klinov in zajle, tako, da tistim, ki imajo probleme z višino ture osebno ne priporo&#269;am(otroci sploh ne!). Na zadnjih delih poti proti Visokemu kaninu se prav tako ponekod izpostavi nekaj hoje po grebenu, ki lahko prav tako povzro&#269;i preglavice tistim, ki niso sigurni, zato naj raje ne tvegajo.<br> S partnerjem sva prišla sicer do cilja  brez težav, osebno pa sem bila razo&#269;arana nad tem, da ni bilo žiga. O&#269;itno ga je nekdo odbil (razlog za tako po&#269;etje verjetno vsem nam ostaja nepojmljiv), ampak se dogaja. Sre&#269;ali smo tudi skupino &#268;ehov (ti so bili po ve&#269;ini dobro opremljeni in v kondiciji, tako, da tokrat "kapo dol"). Dan je bil son&#269;en, razgledi &#269;udoviti, skratka super!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10778" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/franc_gnezda/8198">FRANC GNEZDA</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>12.08.2011,sem bil na Visokim Kaninu.Pot ni   tako hudo izpostavljena,je pa potrebna   previdnost.Razgled je bil lep.     Ljudi pa ogromno.Pot toplo priporo&#269;am vsem,ki so vajeni takih poti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14469" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/pasja_taca/11707">pasja_taca</a><span class="komDatum">25. 07. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni, odpravljam se na Visoki Kanin in me zanima, &#269;e je pot kopna in kako je z žigom. Hvala za odgovor, pozdrav&#269;ek vsem.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14470" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/neph/6832">neph</a><span class="komDatum">25. 07. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je kopna, žig dobiš na domu Petra Skalarja.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14471" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/vik/7870">vik</a><span class="komDatum">25. 07. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je s Prestreljenika prehod proti Vis. Kaninu, ali je treba nazaj proti postaji D in potem proti Vis. Kaninu?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14472" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/miri/6426">miri</a><span class="komDatum">25. 07. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ko prideš z vrha do sedežnice je ozna&#269;eno-desno</div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14631" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_23" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_23" class="komL"><a class="ime" href="/gornik/naan/12580">NaaN</a><span class="komDatum">3. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kako zahtevna in &#269;asovno dolga (našel sem samo podatek, da naj bi trajala 3h, kar se mi zdi nerealno) je pot s postaje D do Prestreljeniškega okna? S koliko starimi otroci ste hodili po tej poti?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_23" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_23" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14633" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_24" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_24" class="komL"><a class="ime" href="/gornik/miri/6426">miri</a><span class="komDatum">3. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pol ure.Šestletnik je lani šel z mano.Seveda,varovan.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_24" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_24" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14634" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_25" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_25" class="komL"><a class="ime" href="/gornik/miri/6426">miri</a><span class="komDatum">3. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Odgovor se nanaša na D postaja-Okno.Oprostite.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_25" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_25" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15343" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_26" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_26" class="komL"><a class="ime" href="/gornik/mayda/8529">mayda</a><span class="komDatum">10. 09. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj (nedelja) smo bili na Visokem Kaninu. Že v bifeju na D postaji so nam povedali, da žiga na vrhu ni in da je v ko&#269;i Petra Skalarja. Žal ga tudi tam nismo mogli dobiti, ker je bila ko&#269;a ob 15. uri že zaprta!  Prav bi bilo, da bi bil žig na vrhu in se mi kar &#269;udno zdi, da je tako že od lani. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_26" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_26" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15346" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_27" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_27" class="komL"><a class="ime" href="/gornik/ales50/9759">ales50</a><span class="komDatum">10. 09. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ja teh ni na ve&#269;ih vrhovih,sej konc koncev,&#269;e si prijavljena v društvu,pol ne rabiš skrbet,žig al je ,al ,&#269;e ga pa ni,važn je razgled in narava,<img alt=nasmeh src=/slike/smile.gif><br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_27" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_27" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom17309" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_28" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_28" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">14. 07. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;e koga zanimajo slike z današnjega dne: <a target=# class=moder href="https://picasaweb.google.com/114400986607884783562/VisokiKanin">https://picasaweb.google.com/114400986607884783562/VisokiKanin</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_28" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_28" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom18220" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_29" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_29" class="komL"><a class="ime" href="/gornik/vavtora/9457">vavtora</a><span class="komDatum">29. 08. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ali gdo ve od do katere ure obratuje gondola?hvala za odgovor!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_29" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_29" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom18222" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_30" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_30" class="komL"><a class="ime" href="/gornik/irska/5424">irska</a><span class="komDatum">30. 08. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>gondola (od januarja) ne deluje ve&#269;</div>
+       
+       </div>
+    </td>
+    <td id="komD0_30" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_30" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom18234" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_31" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_31" class="komL"><a class="ime" href="/gornik/vavtora/9457">vavtora</a><span class="komDatum">30. 08. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>najlepsa hvala za odgovor!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_31" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_31" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24791" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_32" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_32" class="komL"><a class="ime" href="/gornik/marinka67/8194">marinka67</a><span class="komDatum">25. 07. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div> Gondola bi naj avgusta za&#269;ela spet delovati,pravijo danes SLo Novice.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_32" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_32" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25232" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_33" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_33" class="komL"><a class="ime" href="/gornik/pablo2/14187">pablo2</a><span class="komDatum">9. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kon&#269;no ni ve&#269; "naj bi". Od danes gondola spet vozi! </div>
+       
+       </div>
+    </td>
+    <td id="komD0_33" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_33" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25233" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_34" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_34" class="komL"><a class="ime" href="/gornik/seflja/17326">seflja</a><span class="komDatum">9. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Poslušam reklamo na radiu, danes brezpla&#269;na vožnja z gondolo</div>
+       
+       </div>
+    </td>
+    <td id="komD0_34" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_34" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25261" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_35" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_35" class="komL"><a class="ime" href="/gornik/adry/17471">adry</a><span class="komDatum">12. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj sprobale po dolgem &#269;asu na novo usposobljeno gondolo na D postajo. Deluje tako kot prej. Lepo! Urejajo še ostale ži&#269;nice. Planincev in turistov kar veliko za ta &#269;as. Le smerne table pogrešajo, ne vedo v kateri smeri je Kanin. Pa ve&#269;ja urejenost bi bila tudi dobrodošla glede odpadnega materiala ob ži&#269;nicah in izstopni postaji. Vreme je bilo bolj obla&#269;no a vidljivost kar dobra, tako da se je lepo videlo ko&#269;o Petra Skalarja in nov bivak. Ži&#269;nica bo obratovala le ob vikendih od 8-16h.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_35" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_35" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25263" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_36" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_36" class="komL"><a class="ime" href="/gornik/kemc/6654">Kemc</a><span class="komDatum">12. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Gondola spet deluje. Lepo. Brezpla&#269;na vožnja in lepo vreme je pa&#269; pritegnilo nekaj obiskovalcev. Vendar meni ni vseeno jasno, zakaj to ne bi bil zgolj stran vržen velik denar.<br> <br> Prej ko je gondola delala do nesre&#269;e, je ve&#269; let prinašala samo izgubo. Kaj je bilo sploh storjenega za ponudbo, da bi ljudje za&#269;eli ponovno hodit tja? Med tem je propadel še hotel v Bovcu. &#268;e ni tam ni&#269; novega kar bo privabilo turiste, bodo cel kompleks &#269;ez par let ponovno prodajali za drobiž na dražbi.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_36" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_36" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25429" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_37" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_37" class="komL"><a class="ime" href="/gornik/joze62/10914">joze62</a><span class="komDatum">28. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je sedaj na visokem kaninu žig?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_37" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_37" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25430" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_38" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_38" class="komL"><a class="ime" href="/gornik/matej2000/11827">matej2000</a><span class="komDatum">28. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ni ga, le vpisna knjiga brez delujo&#269;ega pisala.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_38" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_38" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25437" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_39" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_39" class="komL"><a class="ime" href="/gornik/joze62/10914">joze62</a><span class="komDatum">29. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala za odgovor.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_39" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_39" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25442" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_40" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_40" class="komL"><a class="ime" href="/gornik/marinka67/8194">marinka67</a><span class="komDatum">29. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kaj menite, je ta pot zahtevnejša od Raduhe? (seveda govorim o zahtevni z Grohota) <img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif>  Tisto smo namre&#269; zmogli brez ve&#269;jih težav, vendar smo se vra&#269;ali po lažji. Ravno pot navzdol me malce skrbi. Hvala.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_40" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_40" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25443" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_41" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_41" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">29. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ta pot si zasluži bolj oceno zahtevna ozna&#269;ena pot, so nekatere poti pod zelo zahtevne bistveno daljše in zahtevnejše.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_41" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_41" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25449" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_42" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_42" class="komL"><a class="ime" href="/gornik/marinka67/8194">marinka67</a><span class="komDatum">30. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala, ljubitelj, torej se nam ni bati poti navzdol? Smo taka hecna skupina, zelo mladi in nezizkušeni ter stari in že nerodni.<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_42" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_42" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25452" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_43" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_43" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">30. 09. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot ni lahka, je zahtevna, &#269;e niste vajeni tovrstnih poti, potem po&#269;akajte. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_43" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_43" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26322" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_44" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_44" class="komL"><a class="ime" href="/gornik/navdusena/10441">navdušena</a><span class="komDatum">2. 06. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je bil letos že kdo tam gori? Je pot še pod snegom?<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_44" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_44" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26323" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_45" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_45" class="komL"><a class="ime" href="/gornik/mangrt/7266">MANGRT</a><span class="komDatum">2. 06. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Prejšnjo nedeljo sem bil iz italianske pa pogled na slovensko stran ni bil videti kopen.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_45" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_45" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26642" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_46" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_46" class="komL"><a class="ime" href="/gornik/joze62/10914">joze62</a><span class="komDatum">14. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je sedaj na Visokem kaninu žig ?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_46" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_46" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26643" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_47" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_47" class="komL"><a class="ime" href="/gornik/miri/6426">miri</a><span class="komDatum">14. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj ga je ena planinka zaman iskala.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_47" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_47" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26650" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_48" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_48" class="komL"><a class="ime" href="/gornik/bos/2435">bos</a><span class="komDatum">14. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Rezervni žig bi naj bil v domu, ki pa je zaprt. Imajo pa v TIC-u Bovec žig Prestreljenika in še nekaj žigov od okoliških vrhov.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_48" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_48" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26805" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_49" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_49" class="komL"><a class="ime" href="/gornik/primozg/19472">primozg</a><span class="komDatum">31. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sobotni pohod na Prestreljenik in Visoki Kanin. Slike in opis na <a target=# class=moder href="https://gorskimoz.wordpress.com/2017/07/31/prestreljenik-in-visoki-kanin/">https://gorskimoz.wordpress.com/2017/07/31/prestreljenik-in-visoki-kanin/</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_49" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_49" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26899" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_50" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_50" class="komL"><a class="ime" href="/gornik/joze62/10914">joze62</a><span class="komDatum">10. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Žig je možno dobiti v restavraciji Prestreljenik na D postaji.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_50" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_50" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26901" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_51" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_51" class="komL"><a class="ime" href="/gornik/franc_gnezda@com/21205">franc gnezda@.com</a><span class="komDatum">10. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tudi jaz sem bil danes na Visokem Kaninu.Kljub temu da ni bilo najlepše vreme,je bilo veliko ljudi.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_51" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_51" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26902" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_52" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_52" class="komL"><a class="ime" href="/gornik/franc_gnezda@com/21205">franc gnezda@.com</a><span class="komDatum">10. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Fotografij pa ne znam naložiti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_52" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_52" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26904" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_53" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_53" class="komL"><a class="ime" href="/gornik/turbo/1959">turbo</a><span class="komDatum">10. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ture se tukajle komentira, zato se fotografij ne da naložiti. Svojo turo moraš objaviti v Forum -Razmere, kjer lahko naložiš tudi fotografije.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_53" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_53" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26907" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_54" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_54" class="komL"><a class="ime" href="/gornik/franc_gnezda@com/21205">franc gnezda@.com</a><span class="komDatum">10. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala za informacijo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_54" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_54" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27087" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_55" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_55" class="komL"><a class="ime" href="/gornik/orchidlily/19910">orchidlily</a><span class="komDatum">2. 09. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vožnja ži&#269;arom lijep je doživljaj sam za sebe, a staza do vrha je taman da se &#269;ovjek ne umori, barem ne previše - ovisno o kondicijskoj spremi <img alt=nasmeh src=/slike/smile.gif>. Pogled na Montaž je &#269;aroban!<br> <a target=# class=moder href="https://www.youtube.com/watch?v=DyU4Fl6YfPY">https://www.youtube.com/watch?v=DyU4Fl6YfPY</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_55" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_55" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28165" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_56" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_56" class="komL"><a class="ime" href="/gornik/mornar/18730">mornar</a><span class="komDatum">2. 07. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Znima me kako je kaj z razmerami na poti na Kanin ter ali je žig na vrhu L. P.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_56" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_56" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28166" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_57" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_57" class="komL"><a class="ime" href="/gornik/mornar/18730">mornar</a><span class="komDatum">2. 07. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Znima me kako je kaj z razmerami na poti na Kanin ter ali je žig na vrhu L. P.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_57" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_57" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28340" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_58" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_58" class="komL"><a class="ime" href="/gornik/plarinka/18428">PlaRinka</a><span class="komDatum">21. 07. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se pridružujem mornarjevemu vprašanju in bi bila zelo vesela odgovora. <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_58" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_58" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28427" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_59" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_59" class="komL"><a class="ime" href="/gornik/jakacius/22279">Jakacius</a><span class="komDatum">1. 08. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj, 31.7., sem bil gor. Razmere so poletne.<br> Žiga na vrhu še vedno ni, se ga pa dobi v restavraciji na D postaji, kot je že joze62 napisal.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_59" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_59" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28478" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_60" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_60" class="komL"><a class="ime" href="/gornik/matjaz_65/5668">Matjaz_65</a><span class="komDatum">5. 08. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>še nekaj mojih <a target=# class=moder href=https://foto.mg-65.com/index.php?/category/426>fotk</a> ... sicer še z nadaljevanjem po ta visoki rosojanski poti do škrbine malo naprej od pod kaninom <img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_60" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_60" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28618" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_61" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_61" class="komL"><a class="ime" href="/gornik/stella/12640">stella</a><span class="komDatum">18. 08. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zanima me, &#269;e je pot iz Visokega Kanina sestop v Zadnji dol in naprej na Veliki dol, ter vzpon nazaj do doma Petra Skalarja markirana. Za&#269;etek in konec ture na postaji D. Mogo&#269;e še okvirno &#269;asovnico. Hvala.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_61" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_61" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28620" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_62" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_62" class="komL"><a class="ime" href="/gornik/sh/5509">sh</a><span class="komDatum">19. 08. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Po tej poti smo hodili pred dvema letoma in je bila od Malega dola do doma Petra Skalarja sveže markirana. Markacije od Malega dola do vrha Kanina so bile že sicer zelo stare, vendar sledljive. Sicer smo mi šli v obratni smeri, kot sprašujete.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_62" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_62" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28622" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_63" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_63" class="komL"><a class="ime" href="/gornik/stella/12640">stella</a><span class="komDatum">19. 08. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_63" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_63" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30308" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_64" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_64" class="komL"><a class="ime" href="/gornik/tenorist/23460">tenorist</a><span class="komDatum">19. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni, <br> tudi jaz se odpravljam na Visoki Kanin, pa mi prosim povejte kje se nahaja žig? <br> Hvala za vašo pomo&#269; <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_64" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_64" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30310" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_65" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_65" class="komL"><a class="ime" href="/gornik/sh/5509">sh</a><span class="komDatum">19. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lani je bil v restavraciji Prestreljenik. Mogo&#269;e je sedaj tudi na vrhu.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_65" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_65" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+</div>
+
+
+<div id="kom30311" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_66" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_66" class="komL"><a class="ime" href="/gornik/garmont/7188">garmont</a><span class="komDatum">19. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Še vedno je v restavraciji (na šanku) D postaje. <img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_66" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_66" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30312" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_67" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_67" class="komL"><a class="ime" href="/gornik/tenorist/23460">tenorist</a><span class="komDatum">19. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pa je tisti žig pravi za razširjeno slovensko planinsko pot?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_67" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_67" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30313" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_68" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_68" class="komL"><a class="ime" href="/gornik/garmont/7188">garmont</a><span class="komDatum">19. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je.<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_68" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_68" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30363" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_69" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_69" class="komL"><a class="ime" href="/gornik/afrofeet/20693">Afrofeet</a><span class="komDatum">26. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Da li netko zna jel ova satnica realna? D-postaja visoki kanin 2,5 sata? Planiram u 9.mj pa me zanima kolko je potrebno vremenski za turu.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_69" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_69" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30364" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_70" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_70" class="komL"><a class="ime" href="/gornik/bos/2435">bos</a><span class="komDatum">26. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je, normalne hoje.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_70" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_70" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30366" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_71" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_71" class="komL"><a class="ime" href="/gornik/sh/5509">sh</a><span class="komDatum">26. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ži&#269;nica na Kanin naj bi obratovala samo do 15.9.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_71" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_71" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30369" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_72" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_72" class="komL"><a class="ime" href="/gornik/afrofeet/20693">Afrofeet</a><span class="komDatum">27. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Do 15.9? zašto? Jel nema skijaške sezone? U kakvom je stanju ži&#269;ara?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_72" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_72" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30371" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_73" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_73" class="komL"><a class="ime" href="/gornik/mirank/7032">mirank</a><span class="komDatum">27. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ponovno odpirajo za smu&#269;arsko sezono-ko zapade dovolj snega</div>
+       
+       </div>
+    </td>
+    <td id="komD0_73" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_73" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30455" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_74" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_74" class="komL"><a class="ime" href="/gornik/afrofeet/20693">Afrofeet</a><span class="komDatum">12. 09. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Jel radi ži&#269;ara u nedjelju 15.9?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_74" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_74" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30456" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_75" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_75" class="komL"><a class="ime" href="/gornik/janez_seliskar/565">Janez Seliškar</a><span class="komDatum">12. 09. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tukaj vse piše:<br> <a target=# class=moder href="http://www.kanin.si/sl/">http://www.kanin.si/sl/</a><br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_75" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_75" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30458" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_76" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_76" class="komL"><a class="ime" href="/gornik/mirank/7032">mirank</a><span class="komDatum">12. 09. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Piše da obratuje do 15.9.; sledi remont do zimske smu&#269;arske sezone.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_76" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_76" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30463" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_77" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_77" class="komL"><a class="ime" href="/gornik/afrofeet/20693">Afrofeet</a><span class="komDatum">13. 09. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tu stranicu sam otvarao jedno 100 puta, i vidim samo dnevno radno vrijeme, nigdje nisam pronašao podatak da radi do 15.9.<br> Ok hvala na informacijama.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_77" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_77" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30467" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_78" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_78" class="komL"><a class="ime" href="/gornik/sh/5509">sh</a><span class="komDatum">13. 09. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sedaj imaš navedeno objavljeno na njihovi spletni strani. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_78" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_78" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31157" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_79" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_79" class="komL"><a class="ime" href="/gornik/mastercomputer/24022">MasterComputer</a><span class="komDatum">22. 02. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Žiga ni ve&#269; na šanku, oz.ne vejo kje je... <img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_79" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_79" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31162" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_80" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_80" class="komL"><a class="ime" href="/gornik/gregorc/5757">GregorC</a><span class="komDatum">22. 02. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;ez poletje je bil na šanku Ski bum bara.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_80" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_80" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31168" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_81" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_81" class="komL"><a class="ime" href="/gornik/b2/8819">B2</a><span class="komDatum">23. 02. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za žig in vpisno knjigo vrha Kanina skrbi PD Bovec in ne gostilne v obmo&#269;ju smu&#269;iš&#269;a. Vprašaj predsednika PD Bovec (na spletni strani po objavi PZS) telefon (041) 722 601.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_81" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_81" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31815" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_82" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_82" class="komL"><a class="ime" href="/gornik/barbara24/24534">barbara24</a><span class="komDatum">11. 07. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na prej navedeni številki se nih&#269;e ne oglasi<img alt=zmeden src=/slike/zmeden.gif> (klicala ve&#269;krat). Nih&#269;e ne ve povedati kje je žig za V. Kanin, to, da ga ni ker ga ukradejo, malce dvomim (mnenje na info to&#269;ki v Bovcu). Osebno menim, da glede na to, da je V. Kanin  v transferzali (V. Kanin ali Rombon), bi za žig pa res lahko že poskrbeli ker kot berem ga ni že lep &#269;as.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_82" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_82" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31816" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_83" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_83" class="komL"><a class="ime" href="/gornik/padez/8912">padez</a><span class="komDatum">12. 07. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Poskusite na kontaktni stevilki predsednika PD Bovec (Robert Rot)     <br>    (031) 460 474. Ta podatek je objavljen na spletni strani PZS. Lahko bi vam to informacijo povedali tudi na TIC Bovec...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_83" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_83" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31817" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_84" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_84" class="komL"><a class="ime" href="/gornik/jozee/13833">jozee</a><span class="komDatum">12. 07. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mislim, da ima Pzs in njej podrejena planinska društva zelo malomaren odnos do žigov na njihovi slovenski planinski poti. Problem je tudi v &#269;asu, ko so ko&#269;e zaprte, informacije, kje je žig pa ne moreš dobiti, (ne veš kje iskati). Ali ne zna narediti reda ? </div>
+       
+       </div>
+    </td>
+    <td id="komD0_84" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_84" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31897" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_85" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_85" class="komL"><a class="ime" href="/gornik/mundek/24579">Mundek</a><span class="komDatum">20. 07. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni.<br> Danes sem obiskal Prestreljenik, kjer ni bilo žiga. V Ski Bum baru na Kanino sem povprašal po žigu. Tam imajo žig tako Prestreljnika kot Visokega Kanina. Informacija od danes. Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_85" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_85" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31908" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_86" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_86" class="komL"><a class="ime" href="/gornik/ojgn1/24585">Ojgn1</a><span class="komDatum">22. 07. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lp<br> V prvem tednu avgusta se odpravljam s sinovoma 13 in 17 let)na Visoki Kanin.Ker v opisu piše da so jeklenice bi vprašal ali je obvezna oprema plezalni,varovalni pas?Hvala in lep pozdrav</div>
+       
+       </div>
+    </td>
+    <td id="komD0_86" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_86" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31909" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_87" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_87" class="komL"><a class="ime" href="/gornik/jordan/7441">JORDAN</a><span class="komDatum">23. 07. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Samovarovalni komplet ni obvezen pa tudi priporo&#269;en ni,saj je malo mest koder bi se lahko varoval.Varovala so nam samo v pomo&#269;.Samo po&#269;asi in previdno.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_87" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_87" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31911" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_88" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_88" class="komL"><a class="ime" href="/gornik/garmont/7188">garmont</a><span class="komDatum">23. 07. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;elade pa le imejte...<img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_88" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_88" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31912" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_89" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_89" class="komL"><a class="ime" href="/gornik/ojgn1/24585">Ojgn1</a><span class="komDatum">23. 07. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;elade imamo,hvala za odgovor.lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_89" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_89" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32072" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_90" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_90" class="komL"><a class="ime" href="/gornik/emilija_merlak/24675">Emilija Merlak</a><span class="komDatum">8. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je še kaj snega? Je pot kopna?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_90" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_90" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32073" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_91" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_91" class="komL"><a class="ime" href="/gornik/lascan/9053">Laščan</a><span class="komDatum">8. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kolikor ga vidiš na sliki št.5 (cca 5m) ga je bilo še prejšnji torek. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_91" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_91" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32074" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_92" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_92" class="komL"><a class="ime" href="/gornik/rokeg/14743">rokeg</a><span class="komDatum">8. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes ni bilo nobenega snega na poti.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_92" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_92" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33576" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_93" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_93" class="komL"><a class="ime" href="/gornik/matekdd/25839">Matekdd</a><span class="komDatum">25. 07. 2021 21:40:07</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes bil na Kaninu, snega na poti skorajda ni več razen na nekaj nenevarnih delih. Žičnico pa se da plačati tudi že s tanovimi boni.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_93" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_93" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33705" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_94" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_94" class="komL"><a class="ime" href="/gornik/gams1975/23547">gams1975</a><span class="komDatum">14. 08. 2021 15:01:09</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Včeraj bil na V.Kaninu in M.Kaninu ter do koče Petra Skalarja! Žiga na vrhu NI, koča in bivak sta zaprta! Prav takov brunarici nad D postajo KŽ in v D postaji KŽ žiga NI! Brunarica odprta, lahko se odžejate in dobite še kaj za pod zob <img alt=nasmeh src=/slike/smile.gif> <br> Glede žiga sem preveril tudi v TIC Bovec, žal žiga nimajo! Imajo pa tri žige od Juliana Trail.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_94" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_94" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33889" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_95" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_95" class="komL"><a class="ime" href="/gornik/jp/21409">J.P.</a><span class="komDatum">12. 09. 2021 19:52:23</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Koča P.Skalarja razpada. Bivak je zakljenjen, nisem uspela oceniti ali bi bil s ključem sploh uporaben<img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_95" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_95" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33892" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_96" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_96" class="komL"><a class="ime" href="/gornik/dragon/8066">dragon</a><span class="komDatum">12. 09. 2021 20:17:59</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kako koča razpada, če so jo ravnokar obnovili?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_96" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_96" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33902" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_97" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_97" class="komL"><a class="ime" href="/gornik/jp/21409">J.P.</a><span class="komDatum">13. 09. 2021 17:38:39</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zgleda kot, da se je vse ustavilo in propada...kdaj pa je nazadnje bila odprta?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_97" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_97" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33903" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_98" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_98" class="komL"><a class="ime" href="/gornik/mirank/7032">mirank</a><span class="komDatum">13. 09. 2021 19:55:58</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bovčani imajo že izkušnje s tem<img alt=zavijanje&nbsp;z&nbsp;očmi src=/slike/rolleyes.gif>; podobno je bilo pred leti z Mangrtsko kočo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_98" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_98" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33904" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_99" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_99" class="komL"><a class="ime" href="/gornik/bongo/6681">bongo</a><span class="komDatum">13. 09. 2021 20:02:56</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Koča je zaprta od 2013, lastnica je bovška občina, ki jo je skupaj s PD Bovec in Sončnim Kaninom dala v najem jamarjem. Ti se zdaj trudijo z obnovo po svojih močeh, sredstvih (najbrž ni bogatija) in razpoložljivem času, ki pa ga ob tisoč jamah tam okrog ostane veš koliko <img alt=mežikanje src=/slike/wink.gif> So pa začeli praktično z nule, še motor za žičnico lani ni delal. Glede na to, koliko časa potrebuje PD Bovec za dobavit en navaden žig na Visoki Kanin pa bo gotovo odprta prej, kot pa bi bila sicer pod starim okriljem <img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_99" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_99" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33906" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_100" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_100" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">14. 09. 2021 15:47:49</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>.....ravno tako žig na vrhu Prestreljenika</div>
+       
+       </div>
+    </td>
+    <td id="komD0_100" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_100" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34964" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_101" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_101" class="komL"><a class="ime" href="/gornik/ozep/16652">ožep</a><span class="komDatum">26. 07. 2022 17:35:26</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V soboto 24.07. 2022 sem bila na Velikem Kaninu. Šla sem mimo doma Perta Skalarja, ki ga pridno obnavljajo. Prijazen delavec mi je na vprašanje koliko časa je že dom zaprt, dejal, da od leta 2015 in da so zadevo sedaj v svoje roke vzeli jamari. Nisem pa vprašala kdaj bo odprt.<br> Na vrhu Kanina, pa žal še zmeraj ni žiga, pa tudi križ bi lahko obnovili, saj so po raznih vrhovih zelo lični križi ali plošče, ne pa da tam stoji lesen kol in na njem neke zastave, da ne rečem cunje.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_101" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_101" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35165" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_102" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_102" class="komL"><a class="ime" href="/gornik/felix/4524">felix</a><span class="komDatum">23. 08. 2022 13:42:57</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V grebenu je nekaj vrhov z imenom Vršič. Ali gre ta pot čez kateri vrh, ali pa gre pod njimi?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_102" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_102" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35168" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_103" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_103" class="komL"><a class="ime" href="/gornik/mirank/7032">mirank</a><span class="komDatum">23. 08. 2022 14:35:01</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot gre pod njimi...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_103" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_103" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35171" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_104" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_104" class="komL"><a class="ime" href="/gornik/julya/14461">julya</a><span class="komDatum">23. 08. 2022 17:32:27</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mislim, da gre pot edino čez Kaninski vršič.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_104" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_104" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35173" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_105" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_105" class="komL"><a class="ime" href="/gornik/bt88/5334">BT88</a><span class="komDatum">23. 08. 2022 21:00:30</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ožep ne blati molilnih zastavic na Kaninu. Cunje kakšen folk.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_105" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_105" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35177" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_106" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_106" class="komL"><a class="ime" href="/gornik/janez_seliskar/565">Janez Seliškar</a><span class="komDatum">24. 08. 2022 08:05:37</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>"ožep", pobral bi tisto navlako na vrhu in jo doma vrgel v kanto za smeti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_106" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_106" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35178" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_107" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_107" class="komL"><a class="ime" href="/gornik/djimuzl/18603">djimuzl</a><span class="komDatum">24. 08. 2022 11:47:43</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali pa jo naj "vrže" v nepalski Katmandu, eno redkih mest na svetu, kjer ne preganjajo tibetanske "navlake" oziroma kulture.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_107" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_107" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35183" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_108" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_108" class="komL"><a class="ime" href="/gornik/miri/6426">miri</a><span class="komDatum">25. 08. 2022 17:33:27</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A ni to,djimuzl,malo nekulturno?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_108" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_108" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35184" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_109" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_109" class="komL"><a class="ime" href="/gornik/janez_seliskar/565">Janez Seliškar</a><span class="komDatum">25. 08. 2022 18:12:42</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>"miri", a obešanje takšnih in drugačnih kosov tekstila po vrhovih je pa kulturno!<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_109" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_109" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35185" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_110" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_110" class="komL"><a class="ime" href="/gornik/mirank/7032">mirank</a><span class="komDatum">25. 08. 2022 19:46:05</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Najraje vidim, da jih ni kam obesiti<img alt=zavijanje&nbsp;z&nbsp;očmi src=/slike/rolleyes.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_110" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_110" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35186" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_111" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_111" class="komL"><a class="ime" href="/gornik/miri/6426">miri</a><span class="komDatum">25. 08. 2022 20:01:35</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_111" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_111" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35187" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_112" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_112" class="komL"><a class="ime" href="/gornik/dprapr/9869">dprapr</a><span class="komDatum">25. 08. 2022 20:45:32</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Potem bi bilo najboljše, da tudi zajl ne bi bilo, da se ne bi “obešali” nanje. <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_112" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_112" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35189" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_113" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_113" class="komL"><a class="ime" href="/gornik/turbo/1959">turbo</a><span class="komDatum">25. 08. 2022 21:07:11</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>"Tibetanske molitvene zastavice se uporabljajo za blagoslov okolice, spodbujanje miru, modrosti, sočutja. Pet barv, ki so v zastavicah, simbolizira pet elementov. Na vsaki je narisan simbol in napisane mantre, molitve in blagoslov za tistega, ki obesi zastavo. Veter, ki piha po zastavah, iz njih širi harmonijo, blagoslove, mir in vse, kar je napisano in narisano na njih, bo koristilo vsem bitjem v okolici. Ko barva na tkanini sčasoma zbledi, je zastave treba sežgati in jih nadomestiti z novimi. Po tradiciji je najboljši čas za obešanje zjutraj v sončnem vetrovnem vremenu."</div>
+       
+       </div>
+    </td>
+    <td id="komD0_113" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_113" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35272" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_114" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_114" class="komL"><a class="ime" href="/gornik/felix/4524">felix</a><span class="komDatum">12. 09. 2022 10:00:26</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali kdo ve, kako dolgo vozi žičnica v septembru? Na njihovi spletni strani je samo čas obratovanja, ne pa kdaj bo prenehala voziti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_114" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_114" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35273" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_115" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_115" class="komL"><a class="ime" href="/gornik/mirank/7032">mirank</a><span class="komDatum">12. 09. 2022 12:32:45</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Običajno je vozila do 15.9.; pokliči in vprašaj.<br> Drugače imaš žičnico tudi na it strani zaveč kot pol manj denarja te pripelje do koče Gilberti-preveri če še vozi! ker tudi tam ne delajo ves čas</div>
+       
+       </div>
+    </td>
+    <td id="komD0_115" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_115" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(116);
+    });
+    abc(116);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

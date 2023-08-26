@@ -1,0 +1,2674 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Pred Belo - Konj</title>
+        <meta name="description" content="Natančen opis izleta Pred Belo - Konj. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/pred_belo_konj/3/289/1262" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/pred_belo_konj/3/289/1262"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=3&id=289&potid=1262"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/kamnisko_savinjske_alpe/3">Kamniško Savinjske Alpe</a> / <a class="moder" href="/gora/konj/3/289">Konj</a> / Pred Belo - Konj
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(1262);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Pred Belo - Konj</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=1262';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Pred Belo (571 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;19,1280'N&nbsp;/&nbsp;14°&nbsp;36,0300'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;19'&nbsp;7,68''N&nbsp;/&nbsp;14°&nbsp;36'&nbsp;1,80''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3188°N&nbsp;/&nbsp;14,6005°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3188,&nbsp;14.6005";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3188°N&nbsp;14,6005°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(1262,46.3188,14.6005);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3188,14.6005"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/konj/3/289">Konj (1803 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 3 h 45 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1232 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1232 m</div>
+    <div class="g2"><b>Zemljevid:</b> Kamniške in Savinjske Alpe 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada, komplet za samovarovanje</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, komplet za samovarovanje, cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 49.204</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;3&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">45</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">65</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Zapeljemo se v Kamnik in cesti naprej sledimo proti dolini Kamniške Bistrice. Približno 2km za spodnjo postajo nihalke na Veliko planino pa bomo na desni strani ceste opazili parkirišče in planinske smerokaze za Presedljaj, Konja in Korošico (parkirišče se nahaja za mostom).</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča se usmerimo na pot v smeri Presedljaja, Korošice, Konja in Ojstrice. Že po nekaj metrih pot zavije v desno, kjer se sprva komaj znatno vzpenja, nato pa se prične spuščati in se po nekaj minutah priključi širokemu kolovozu. Vzpon nadaljujemo po zložnem kolovozu, ki že kmalu preči hudournik, nato pa se zložno do zmerno vzpenja proti zatrepu doline Kamniške Bele. <br> Po dobrih 30 minutah hoje od izhodišča pridemo na označeno razpotje, kjer nadaljujemo desno po markirani poti (levo slap Orglice in Korošica preko Šraj peska). Kolovoz se že kmalu za razpotjem spremeni v vse bolj strmo stezico, le ta pa nas naprej vodi skozi strnjen gozd. Višje pot zavije rahlo v levo ter preči hudourniško grapo. Nekoliko naprej se v levo skoraj neopazno odcepi pot čez Najnar štant (zahtevna in izpostavljena pot, ki vodi na Korošico, višje se priključi pot čez Šraj pesek), mi pa nadaljujemo naravnost po markirani poti, ki se prične vzpenjati v številnih okljukih. Pot se višje za kratek čas še strmeje vzpne in nas pripelje do lepega razgledišča z mizo in klopjo. <br> Pot naprej se rahlo spusti, preči strmo pobočje in nas pripelje do hudourniške grape. Tu pot zavije na levo stran pobočja, se sprva vzpne ob pomoči nekaj klinov in višje jeklenice, nato pa se vrne v gozd, kjer se še nekaj časa strmo vzpenja. Višje se pot prehodno položi, nato pa se ponovno strmo vzpne in nas v nekaj minutah nadaljnje hoje pripelje na sedlo Presedljaj, kjer je označeno razpotje.<br> Na Presedljaju je razpotje, kjer se usmerimo desno za oznakami Konj. Pot nato poteka rahlo v desno preko nekoliko strmejšega pobočja posutega z gruščem in nato zavije v levo. Tu se za kratek čas pot nekoliko strmeje vzpne in v pomoč nam je tudi nekaj klinov. Pot nadaljujemo preko pobočja poraščenega z ruševjem, ki nas pripelje do grebena. Pot nato poteka po desni strani grebena in postane nekoliko zahtevnejša ter nekoliko bolj izpostavljena. Sledi verjetno najtežji del poti, kjer se precej strmo vzpnemo ob klinih in jeklenicah nazaj proti grebenu. Ko pridemo ponovno na greben imamo le še nekaj metrov do predvrha na katerem je postavljena vpisna skrinjica. Od tu imamo nato še kratek vzpon ob jeklenici do vrha Konja. <br> Pred Belo - Presedljaj 3:00, Presedljaj - Konj 45 minut.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/konj/289"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Konj"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Presedljaj (1613m)</div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/pred_belo/46.3188/14.6005">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/pred_belo_konj/1262">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=289">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=289">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120424" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120424');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603471205280.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120425" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120425');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603491205280.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120426" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120426');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603431205280.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120427" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120427');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603421205280.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120428" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120428');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603411205280.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120429" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120429');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603371205280.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120430" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120430');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603351205280.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120431" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120431');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603341205280.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120432" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120432');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603321205280.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120433" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120433');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603301205280.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120434" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120434');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603281438560.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120435" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120435');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603261438560.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120436" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120436');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603241438560.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120437" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120437');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603191438560.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120438" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120438');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603161438560.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120439" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120439');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603131438560.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120440" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120440');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603111438560.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120441" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120441');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603091438560.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120442" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120442');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603061438560.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120443" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120443');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82603011438560.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120444" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120444');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602991438560.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120445" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120445');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602961671840.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120446" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120446');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602921632960.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120447" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120447');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602901632960.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120448" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120448');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602881632960.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120449" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120449');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602861632960.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120450" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120450');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602851632960.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120451" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120451');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602821632960.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120452" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120452');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602811632960.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120453" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120453');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P82602791632960.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120454" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120454');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P6210100452760.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120455" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120455');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400021285956.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120456" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120456');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400031285956.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120457" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120457');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400061285956.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120458" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120458');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400071285956.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120459" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120459');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400141285956.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120460" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120460');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400191285956.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120461" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120461');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400211285956.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120462" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120462');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400221285956.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120463" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120463');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400261285956.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120464" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120464');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400271285956.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120465" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120465');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400281285956.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120466" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120466');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400311285956.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120467" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120467');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400321285956.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/pred_belo_konj/120468" onclick="event.preventDefault(); window.open('/slika_pot/pred_belo_konj/120468');"><img class="slikagm" alt="Pred Belo - Konj" src="//www.hribi.net/slike1/P92400361285956.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Pred Belo - Konj</b></div>
+
+
+    <script>
+    function prikaziStaraSporocila()
+    {
+        document.getElementById('gumbstarasporocila').style.display='none';
+        document.getElementById('komX').style.display='block';
+    }    
+    </script>
+    <div id="gumbstarasporocila" style="margin:7px 0px 0px 0px;" class="gumbsiv2" onclick="prikaziStaraSporocila();">Prikaži starejša sporočila</div>
+    <div id="komX" style="display:none;">
+    
+
+<div id="kom5871" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/klavdipo/3408">klavdipo</a><span class="komDatum">29. 10. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je pot na Konja kaj zasnežena?<img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5884" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/aonuk1/1367">aonuk1</a><span class="komDatum">30. 10. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bil na Konju v sredo 28.10.09 ob 11 uri zelo lepo son&#269;no vreme , brez vetra.<br> Pod presedlaju zjutraj slana,o snegu ni sledu še precej višje malo belkasto.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6679" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/petrusa/5616">petruša</a><span class="komDatum">3. 05. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Še je v tem &#269;asu na Konj kaj snega, ker bi šli z otroki, ali bi še raje po&#269;akali. &#268;e je kdo bil pred kratkim mi naj prosim pove.lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6681" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/ben/2802">ben</a><span class="komDatum">3. 05. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mogo&#269;e kaj pomaga:<br> <br> <a target=# class=moder href="http://www.hribi.net/trenutnerazmere.asp?slo=1&gorovjeid=3&id=721">http://www.hribi.net/trenutnerazmere.asp?slo=1&gorovjeid=3&id=721</a><br> <br> LP B</div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6690" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/saten/4596">Saten</a><span class="komDatum">5. 05. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na Konja sem šel preko Presedljaja prejšnji &#269;etrtek. Že pred Presedljajem so snežiš&#269;a, pa tudi od Presedljaja naprej je kar nekaj snežiš&#269;, ki so zelo strma (vsaj nekatera), tako da znajo predstavljati nevarnost, zlasti pa za otroke. Sam sicer nisem potreboval derez, ker je bil sneg dovolj odjužen, potrebna pa je bila velika previdnost. Zaenkrat bi to pot odsvetoval. Nobene težave pa ne predstavlja pot iz Kamniške Bistrice preko planine Dol in planine Rzenik. Tam pa kljub snegu na nekaterih mestih lahko pridejo tudi otroci.<br> Pa varen korak.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7403" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/rakec/5853">rakec</a><span class="komDatum">25. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bil na konju 24.7.2010 preko Presedljaja. Pot do Presedljaja je malo zahtevna, skozi se vzpenja in ti ne da po&#269;itka. Moraš met malo kondicije. Iz Presedljaja do Konja gre pot &#269;ez greben, na in iz grebena je veliko jeklenic in klinov. Pot otrokom definitivno odsvetujem, je dosti lažja iz planine Dol. Ena jeklenica je tudi poškodovana, klin je izdrt.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7407" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/petrusa/5616">petruša</a><span class="komDatum">25. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Smo opravili to pot na Konja konca meseca maja. Ker smo bili dve družini so z nami bili otroci . Najmlajši je bil star 7 let najstarejša pa je imela 11 let. Pot nam ni bila težka ne preve&#269; zahtevna, tudi otrokom ne. So pa imeli otroci samovarovanje. Se mi ne vidi ta pot preve&#269; težka, ker so nekaterepoti težje in bolj zahtevne in piše da so lahke. Res pa je &#269;e nimaš kondicije in &#269;e te je strah višine, takrat pa res odsvetujem. lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13293" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/petra/403">petra</a><span class="komDatum">28. 03. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>hej, ali je že kdo sedaj v marcu bil na Konju??? Zanima me, ali je še kaj snega gor??</div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13294" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/redbull/11582">redbull</a><span class="komDatum">28. 03. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>js sem bil februarja,pa že tedi ni bilo skoraj ve&#269; snega, bilo je samo ne veliko, brez derez,sedaj ti pa zagotovo povem da je kopno!!!!,tu pa tam pomoj je še kaka flika,ne slu&#269;ajn kakšnih gamaš gor dajat</div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13561" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/hmatjaz/7376">HMatjaž</a><span class="komDatum">2. 05. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bil na Konju 30.04 preko Presedljaja. Pot je na novo urejena. Vpisna skrinjica je tudi nova in prestavljena na sam vrh.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16683" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/nincokl/7700">nincokl</a><span class="komDatum">7. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zanima me ,&#269;e bi se povzpel na konja od (pred belo)na vrh,ali se lahko potem vrnem &#269;ez rzenik in planine dol,do izhodiš&#269;a in koliko bi potreboval &#269;asa zmerne hoje za to turo??<br> &#268;e kdo ve,bi bil hvaležen za odgovor,pa tudi kakšna informacija o višini snega.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16684" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/nincokl/7700">nincokl</a><span class="komDatum">7. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se oproš&#269;am,mislil sem,da se spustim na kraljev hrib in ne na planino dol!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16686" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/ejti/11717">ejti</a><span class="komDatum">7. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;e se vra&#269;aš &#269;ez Rzenik, se v vsakem primeru spustiš na planino Dol, potem pa skozi dolski graben na Kraljev hrib ali pa kar direkt na Kopiš&#269;a (imaš maj&#269;keno manj asfalta nazaj do avta). Zmerne hoje za kakih 6-7 ur, bi rekla, z daljšimi postanki pa še kaj ve&#269;.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16687" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/rokovnjacica/14337">Rokovnjacica</a><span class="komDatum">9. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>lahko se s planine Dol spustiš na Kopiš&#269;a tudi prek Martin stene<img alt=mežikanje src=/slike/wink.gif> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16691" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/keti1/11803">keti1</a><span class="komDatum">10. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A kdo ve, &#269;e je na Martinj stezi še kaj snega?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+</div>
+
+
+<div id="kom16904" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/janiel74/9426">Janiel74</a><span class="komDatum">7. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je izhodiš&#269;e lahko najti? Hvala</div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16905" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/jax/10621">jax</a><span class="komDatum">7. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;e niso vmes kaj obnavljali, potem je res na odcepu le ena slabo opazna tabla, tako da izhodiš&#269;e kaj lahko zgrešiš. Ampak - konec koncev se parkiriš&#269;e nahaja ob glavni cesti, tako da prav zelo ne moreš zalutat.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16906" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">7. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je, saj je pri glavni cesti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16908" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/rasto_r/5052">rasto_r</a><span class="komDatum">8. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ob Beli preko Presedljaja na vrh ra&#269;unaj 3,5 do 4 ure, &#269;ez planino Rzenik, Dol in do ceste ter nazaj do avta pa cca. slabe 3 ure. Na tej poti ni snega. Izhodiš&#269;e za turo je kakšnih 100 m po  mostu &#269;ez Belo (to je kakšen km ali dva pred Domom v Kamniški Bistrici). Gre bolj za odcepek v gozd, kjer se da parkirati. Tam ni markacij, temve&#269; kakšnih 50m  naprej v gozdu po stezi.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16914" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/janiel74/9426">Janiel74</a><span class="komDatum">9. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala. Sem šel , a malo ve&#269; kot do Presedljaja ne, ker je za&#269;elo deževat in bilo temno...prenevarno po jeklenicah ... Prve table , ki je v opisu, pa nisem nikjer zasledil...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20613" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/ostrorogi/16365">ostrorogi</a><span class="komDatum">10. 08. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes na Konju. Celo pot gor nisem sre&#269;al žive duše. &#268;e ne marate gužve vam priporo&#269;am!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21169" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/vidicm/17173">VidicM</a><span class="komDatum">10. 10. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>je pot prestrma da bi seboj vzel psa?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21170" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/martinkarpan/15305">martinkarpan</a><span class="komDatum">10. 10. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>kolikor vem je zadnji del precej izpostavljen in dvomim, da je primeren za psa</div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21171" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_23" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_23" class="komL"><a class="ime" href="/gornik/macesna/8455">Macesna</a><span class="komDatum">10. 10. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se strinjam z martinomkrpanom. Šlo pa bi s psom, &#269;e bi šel na Konja z Velike planine oz. &#269;ez pl. Dol in mimo Rzenika. Pri tej varianti ni jeklenic.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_23" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_23" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21172" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_24" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_24" class="komL"><a class="ime" href="/gornik/vidicm/17173">VidicM</a><span class="komDatum">10. 10. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>hvala za info</div>
+       
+       </div>
+    </td>
+    <td id="komD0_24" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_24" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21314" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_25" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_25" class="komL"><a class="ime" href="/gornik/squash123/15204">squash123</a><span class="komDatum">28. 10. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes sva se z ženo povzpela na Konja. Na poti na Konja in nato proti planini Rzenik in planini Dol nisva sre&#269;ala niti enega planinca. O&#269;itno velja Konj za dokaj nepriljubljeno goro, kljub temu da ponuja zelo lepe razglede na vse strani.<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_25" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_25" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21670" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_26" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_26" class="komL"><a class="ime" href="/gornik/janez_zorman/17649">janez zorman</a><span class="komDatum">6. 02. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Konj je zelo obiskan v vseh letnih &#269;asih. Rzenik, ki je 30m višji in bolj zanimiv, pa je resni&#269;no zapostavljen. In to predvsem zaradi tega, ker je slabo ozna&#269;ena pot. Lansko jesen je vse od Planine Rzenik (travnik), do vrha, pot &#269;ez ruševje urejena - porezane borove veje - hodiš kot po tunelu. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_26" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_26" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21671" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_27" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_27" class="komL"><a class="ime" href="/gornik/locanka/4176">ločanka</a><span class="komDatum">7. 02. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala Janez, da si nas opozoril! Bilo je res vse zaraš&#269;eno, enostavno preve&#269;, da bi se odlo&#269;il za dostop do vrha.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_27" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_27" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21819" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_28" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_28" class="komL"><a class="ime" href="/gornik/barentoter/17234">Barentoter</a><span class="komDatum">12. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V soboto grem krožno pot &#269;ez Presedljaj na Konja in &#269;ez dolino Dol nazaj do spodnje postaje nihalke. Morda kdo ve kake so razmere te dni? Bolj me skrbi greben, &#269;e je napihan sneg. &#268;ez tiste borovce na Rzeniku se bomo pa že prebili.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_28" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_28" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21820" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_29" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_29" class="komL"><a class="ime" href="/gornik/_sandra_/10337">_sandra_</a><span class="komDatum">13. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V torek je bilo od spodnje nihalke do planine Dol po gozdu nekoliko ledeno, na planini Dol sneg pridno pobira, višje proti Konju ga je tudi do kolen, vendar je gaz..kako je po grebenu in po poti &#269;ez Presedljaj ne vem..</div>
+       
+       </div>
+    </td>
+    <td id="komD0_29" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_29" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21830" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_30" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_30" class="komL"><a class="ime" href="/gornik/barentoter/17234">Barentoter</a><span class="komDatum">16. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V soboto sva se odpravila &#269;ez Presedljaj na Konja. &#268;ez gozd je pot dokaj lepa, nekaj podrtih dreves je še na poti, sicer pa je potrebno kar paziti, da ne zgrešite poti, ker so markacije precej slabo vidne. Na grebenu (od razpotja s Korošico) je bilo veliko napihanega snega. Prva zajla je strgana in par klinov je pod snegom. Ker sva imala z ženo samo "tamale" dereze sva se sredi grebena odlo&#269;ila za sestop nazaj v dolino. Manj izkušenim planincem trenutno priporo&#269;am pristop s planine Dol.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_30" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_30" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21831" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_31" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_31" class="komL"><a class="ime" href="/gornik/_sandra_/10337">_sandra_</a><span class="komDatum">16. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#269;e bi bila vidva vsaj približno izkušena, bi s seboj imela vso zimsko opremo, tako da glede na komentar spodaj, da priporo&#269;ate za manj izkušene planince pristop s planine Dol, ni na mestu..jaz sem šla tudi iz tam s popolno zimsko opremo, saj nikoli ne veš kaj te &#269;aka na poti..pa se ne štejem med bolj ali manj izkušene, zima v hribih je za vse enaka, kam kdo gre je pa že druga debata..</div>
+       
+       </div>
+    </td>
+    <td id="komD0_31" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_31" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21833" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_32" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_32" class="komL"><a class="ime" href="/gornik/redbull/11582">redbull</a><span class="komDatum">16. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>sandra odlicen komentar. Male dereze pomenijo skoraj tko kot da nimaas nic</div>
+       
+       </div>
+    </td>
+    <td id="komD0_32" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_32" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21836" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_33" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_33" class="komL"><a class="ime" href="/gornik/barentoter/17234">Barentoter</a><span class="komDatum">16. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se absolutno strinjam glede opreme. Želel sem le opisati pot &#269;ez Presedljaj v trenutnih razmerah. In še vedno trdno stojim za tem, da zimski vzpon ni za vsakogar, ki gre v nedeljo na Šmarno.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_33" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_33" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21838" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_34" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_34" class="komL"><a class="ime" href="/gornik/_sandra_/10337">_sandra_</a><span class="komDatum">16. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Morda ni fer, da se žali ljudi, ki hodijo v nedeljo na Šmarno, meni se zdi nekorektno da nekdo, ki hodi v hribe z nepopolno zimsko opremo potem ocenjuje, kdo naj s kje hodi..ko bosta naslednji&#269; prišla do vrha s pravimi derezami se pa tudi jaz vzdržim nadaljnjih komentarjev..do tedaj pa sre&#269;no kjerkoli že, pa &#269;etudi "samo" na Šmarni..</div>
+       
+       </div>
+    </td>
+    <td id="komD0_34" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_34" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21839" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_35" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_35" class="komL"><a class="ime" href="/gornik/andrej78/5674">andrej78</a><span class="komDatum">16. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sandra ne vžiguj se brez veze...lp<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_35" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_35" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21843" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_36" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_36" class="komL"><a class="ime" href="/gornik/redbull/11582">redbull</a><span class="komDatum">17. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>da malo presekam. Ali si videl Barentoter, ce je bilo kaj shojeno oz. stopinj proti korosici iz presedljaja?<br> hvala<br> lp<br> Dejan</div>
+       
+       </div>
+    </td>
+    <td id="komD0_36" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_36" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21844" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_37" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_37" class="komL"><a class="ime" href="/gornik/barentoter/17234">Barentoter</a><span class="komDatum">17. 03. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Proti Korošici je vodilo par sledi. Videl ali sre&#269;al pa nisem nikogar. Pa tudi sledi so bile že malce stopljene po robovih in so bile morda stare kak dan.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_37" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_37" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22367" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_38" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_38" class="komL"><a class="ime" href="/gornik/veja5/10247">veja5</a><span class="komDatum">20. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zdravo,<br> jutri bi šli na Konja po tej poti. V kakšnem stanju je pot?<br> Hvala za informacije in lep pozdrav vsem-</div>
+       
+       </div>
+    </td>
+    <td id="komD0_38" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_38" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22369" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_39" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_39" class="komL"><a class="ime" href="/gornik/ejti/11717">ejti</a><span class="komDatum">20. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je bp.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_39" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_39" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22376" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_40" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_40" class="komL"><a class="ime" href="/gornik/lanzevica/10839">lanževica</a><span class="komDatum">20. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>pot tudi slucajno ni bp, saj je grapa s slike 19 takoj od klopce, v dolzini kake tri metre, precej podrta. Poti sploh ni in nimas se cesa oprijeti. <br> <br> Varovana pot na Konja je v dobrem stanju, precej  je naloženega sodra po skalah. Tako je bilo stanje na tej poti prejsnjo nedeljo. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_40" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_40" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22378" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_41" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_41" class="komL"><a class="ime" href="/gornik/dprapr/9869">dprapr</a><span class="komDatum">21. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sem podobno razmišljal ob tistem bp, ampak se obi&#269;ajno ne vtikam v stanje markiranih poti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_41" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_41" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22379" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_42" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_42" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">21. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>tudi jaz poredko, vendar menim po tem kar sem prejšnjo nedeljo videl ko sem se spuš&#269;al s konja, da kogar moti odsek na sliki 19, bo le z težka prehodil odsek s presedljaja na konja, torej menim da komur je odsek 19 nevaren, naj bi na presedljaju obrnil ali šel v drugo smer (pot proti korošici pa ne poznam). To ni bilo mišljeno kot graja ali pametovanje, temve&#269; kot dejstvo da je to manj nevaren odsek kot tisti višje gor.....<img alt=zavijanje&nbsp;z&nbsp;o&#269;mi src=/slike/rolleyes.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_42" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_42" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22380" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_43" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_43" class="komL"><a class="ime" href="/gornik/dprapr/9869">dprapr</a><span class="komDatum">21. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vprašanje je bilo, v kakšnem stanju je pot, ne težavnost poti!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_43" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_43" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22381" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_44" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_44" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">21. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>to imaš pa prav...<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_44" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_44" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22384" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_45" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_45" class="komL"><a class="ime" href="/gornik/veja5/10247">veja5</a><span class="komDatum">21. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zaradi slabše napovedi vremena nismo šli na to pot. Hvala za posredovane informacije. &#268;e/ko bomo prehodili pot, javim stanje glede možnosti pre&#269;enja grape.<br> Lep pozdrav vsem.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_45" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_45" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22385" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_46" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_46" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">21. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>veja5 le korajžno ni&#269; se bat ni tako hudo kot se prepiramo tukaj gori, sicer pa &#269;e nas redno spremljaš ugotavljaš da se ves &#269;as nekdo prepira, pardon dva, ker &#269;e se en sam je že mal &#269;udno....<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_46" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_46" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22561" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_47" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_47" class="komL"><a class="ime" href="/gornik/veja5/10247">veja5</a><span class="komDatum">11. 07. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj sva z ženo prehodila to pot. V tistem delu, kjer manjka nekaj metrov poti, so že narejene stope. Tako ne povzro&#269;a ve&#269;jih težav pri pre&#269;enju. Zaklju&#269;ni,grebenski del poti, pa je razgleden in vreden vsake kaplje znoja. Lepi prehodi med varovanimi in nezavarovanimi deli. Zanimiv konj.<br> Lep pozdrav vsem.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_47" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_47" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23673" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_48" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_48" class="komL"><a class="ime" href="/gornik/stane7/5925">Stane7</a><span class="komDatum">2. 12. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je kdo hodil po tej poti zadnje &#269;ase ? Koliko je kaj snega na grebenu ?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_48" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_48" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27222" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_49" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_49" class="komL"><a class="ime" href="/gornik/pelca/19967">Pelca</a><span class="komDatum">9. 10. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Diber dan, ali je od vrha Konja težko oziroma zelo nevarno priti do mesta, kjer je žig?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_49" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_49" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27223" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_50" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_50" class="komL"><a class="ime" href="/gornik/enka/4681">Enka</a><span class="komDatum">9. 10. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Žig je zdaj na vrhu <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_50" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_50" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27224" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_51" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_51" class="komL"><a class="ime" href="/gornik/garmont/7188">garmont</a><span class="komDatum">9. 10. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;e greste s planine Rzenik na vrh Konja je žig dostopen brez težav.<br> &#268;e pa greste s Presedljaja, tam pa je povsem druga pesem. <img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_51" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_51" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27229" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_52" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_52" class="komL"><a class="ime" href="/gornik/pelca/19967">Pelca</a><span class="komDatum">10. 10. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Grem z Rzenika, zato sem vprašala, ker piše, da je treba za žig potem malo poplezati v smeri Presedljaja; o&#269;itno so ga zdaj že prestavili. Hvala vsem za info!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_52" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_52" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27230" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_53" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_53" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">10. 10. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pelca &#269;ez planino Rzenik do Konja je povsem pohodna pot brez posebnosti, zatorej le korajžno, žig je na vrhu Konja, &#269;e pa se vam da "malo gužvati" po borovju pa se spla&#269;a obiskati tudi vrh Rzenika katerega je odcep lepo ozna&#269;en kakih 10 min pred vrhom Konja v levo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_53" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_53" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27231" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_54" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_54" class="komL"><a class="ime" href="/gornik/pelca/19967">Pelca</a><span class="komDatum">11. 10. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>smatjaz najlepša hvala! Sem že ugotavljala, kako bi se dalo obenem še na Rzenik, hvala!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_54" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_54" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31625" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_55" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_55" class="komL"><a class="ime" href="/gornik/pohodnik38/9447">pohodnik38</a><span class="komDatum">16. 06. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V soboto 13 .6 na Konja iz doline Kamniške Bele po plezalni poti potem pa še na Rzenik ki je &#269;isto blizu in po Martinj stezi v dolino na izhodiš&#269;e.Iz zgornje smeri je Martinj stezo težje najti saj je kar velik del gozda bil posekan.Priporo&#269;ljivo je imet kakšno GPS sled da te privede na za&#269;etek Martinj steze.<br> <br> <a target=# class=moder href=https://youtu.be/ycOl0C94VnY>VIDEO film o opravljeni poti</a><br> <br> Lp1 Tone<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_55" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_55" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34025" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_56" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_56" class="komL"><a class="ime" href="/gornik/green/13927">green</a><span class="komDatum">15. 10. 2021 11:25:57</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je ta pot čez Presedljaj še vedno zaprta? Kakšne pa so trenutne razmere na Konju?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_56" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_56" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34026" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_57" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_57" class="komL"><a class="ime" href="/gornik/grega_z_brega/17904">grega_z_brega</a><span class="komDatum">15. 10. 2021 12:35:43</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je na novo in zanimivo urejena.<br> Za razmere na Konju pa ne vem, verjetno je pa nekaj snega.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_57" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_57" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34027" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_58" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_58" class="komL"><a class="ime" href="/gornik/5xum/5171">5Xum</a><span class="komDatum">15. 10. 2021 15:51:56</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><a target=# class=moder href=https://www.pzs.si/stanje_poti.php?pid=14831>https://www.pzs.si/stanje_poti.php?pid=14831</a><br> <br> izgleda kot da so še isti dan, kot je bila pot zaprta, tudi naredili obvoz tako da je pot uradno odprta že pol leta.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_58" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_58" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34030" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_59" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_59" class="komL"><a class="ime" href="/gornik/grega_z_brega/17904">grega_z_brega</a><span class="komDatum">15. 10. 2021 20:27:44</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><a target=# class=moder href=https://www.pdd.si/2021/09/13/pot-po-dolini-kamniske-bele-do-presedljaja-je-odprta/>https://www.pdd.si/2021/09/13/pot-po-dolini-kamniske-bele-do-presedljaja-je-odprta/</a><br> <br> en mesec pa res, tisto zgoraj je verjetno popravljena novica iz februarja.<img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_59" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_59" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34035" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_60" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_60" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">16. 10. 2021 11:44:28</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ja res je, tista prva novička ni čisto točna, dalo se je obiti podor in neuradno nadaljevati po zdajšnji trasi, vendar je pot čisto uradno odprta od septembra, tako da je zdaj varno speljana mimo podora. Se je pa potrebno zavedati da Rzenik še ni rekel zadnje besede in da bo v prihodnosti še kaj priletelo z njega, verjetno ne več v takem obsegu, zato se je dobro izogibati plazišča. Druga nevarnost pa je da je plazišče še vedno popolnoma nestabilno in se ne premika navzdol , temveč se seseda samo v sebe, ker so spodaj pod ogromno količino kamenja naložena stebla dreves kot mikado in se od časa do časa področja pogreznejo in udirajo. Zato hojo po plazovini odsvetujejo. Če se vam udre na plazovini vas verjetno naslednjih nekaj 1000 let nihče ne najde.........<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_60" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_60" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34085" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_61" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_61" class="komL"><a class="ime" href="/gornik/hribovc91/24459">Hribovc91</a><span class="komDatum">1. 11. 2021 17:42:53</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Del nove poti je res lepo speljan. Na enem mestu je rahlo neprijetno, saj gre pot pod plazovino. Opomnil bi še na to, da gre za zelo zahtevno označeno pot.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_61" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_61" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34488" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_62" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_62" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">24. 04. 2022 22:44:03</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Prehojeno 24.4.2022, zimske oprema ni več potrebna, varovala so vidt vredu. Sestopil po Martinj stezi in po cesti nazaj do Bele</div>
+       
+       </div>
+    </td>
+    <td id="komD0_62" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_62" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35356" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_63" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_63" class="komL"><a class="ime" href="/gornik/seinfeld/5623">seinfeld</a><span class="komDatum">9. 10. 2022 12:36:17</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Markacije na Konja od Presedljaja so obledele, na začetku hitro zgrešiš smer. Če sta na Peco in Raduho zelo zahtevni poti, bi tudi ta lahko bila enako kategorizirana. Res kratka, a zahtevnejša in zelo izpostavljena.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_63" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_63" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36303" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_64" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_64" class="komL"><a class="ime" href="/gornik/bo_zl/2333">bo_zl</a><span class="komDatum">2. 07. 2023 15:35:46</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je do Presedlaja odlično markirana, skoraj sveže markacije, no naprej so pa res zelo slabo vidne. Varovala na poti pa vse bp.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_64" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_64" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(65);
+    });
+    abc(65);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

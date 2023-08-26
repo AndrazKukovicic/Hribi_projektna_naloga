@@ -1,0 +1,2221 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Gozd Martuljek - Zgornji Martuljkov slap (ob reki in mimo koče)</title>
+        <meta name="description" content="Natančen opis izleta Gozd Martuljek - Zgornji Martuljkov slap (ob reki in mimo koče). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/1/220/322" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/gozd_martuljek_the_upper_martuljek_waterfall_along_the_river_and_via_hut/1/220/322"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=220&potid=322"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/zgornji_martuljkov_slap/1/220">Zgornji Martuljkov slap</a> / Gozd Martuljek - Zgornji Martuljkov slap (ob reki in mimo koče)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(322);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Gozd Martuljek - Zgornji Martuljkov slap (ob reki in mimo koče)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=322';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Gozd Martuljek (750 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;28,9260'N&nbsp;/&nbsp;13°&nbsp;50,2680'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;28'&nbsp;55,56''N&nbsp;/&nbsp;13°&nbsp;50'&nbsp;16,08''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,4821°N&nbsp;/&nbsp;13,8378°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.4821,&nbsp;13.8378";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,4821°N&nbsp;13,8378°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(322,46.4821,13.8378);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.4821,13.8378"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/zgornji_martuljkov_slap/1/220">Zgornji Martuljkov slap (1150 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> ob reki in mimo koče</div>
+    <div class="g2"><b>Čas hoje:</b> 1 h 45 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 400 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 500 m</div>
+    <div class="g2"><b>Zemljevid:</b> Kranjska Gora 1:30.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 165.634</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;7&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">31</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">47</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Iz Mojstrane se peljemo proti Kranjski Gori ali obratno, a le do vasi Gozd-Martuljek, kjer parkiramo na parkirišču v bližini mostu čez reko Savo Dolinko (parkirišče se nahaja za mostom, oziroma pred, če prihajamo iz Kranjske Gore).</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča nadaljujemo ob glavni cesti proti Kranjski Gori, a le do mesta, kjer se v levo odcepi kolesarska cesta (ob začetku kolesarske poti so tudi planinske oznake, ki nas prav tako usmerijo na omenjeno cesto). Kolesarski cesti sledimo do prvega križišča, kjer nadaljujemo naravnost na makadamsko cesto (kolesarska cesta zavije desno), ki pa nas hitro pripelje na naslednje križišče. <br> Nadaljujemo desno in za promet zaprti cesti sledimo do table TNP. Naprej se pot razcepi na dva dela. Usmerimo se na levo pot, ki nas pripelje do mostička, ki preči reko. Takoj za mostičkom zavijemo desno v sotesko Martuljških slapov. Pot naprej je izpostavljena padajočemu kamenju zato si je najbolje nadeti čelade. Pot naprej se sprva zložno vzpenja ob reki navzgor, nato pa se s pomočjo stopnic začne strmeje vzpenjati. Pot nato preči večji most čez reko in se na drugi strani vzpne po stopnicah pod steno. Le nekaj korakov naprej nas pot pripelje do še enega mostu, s katerega je lep razgled na Spodnji Martuljkov slap. Za mostom pot zavije levo in se vzpne pod strma pobočja v bližini slapu. Naprej nadaljujemo desno po vlažnih tleh skoraj vodoravno. Pot naprej pa se strmeje vzpne in nas po krajšem vzponu pripelje na kolovoz, kjer nadaljujemo levo. Že po nekaj korakih pa nas pot pripelje na razpotje, kjer se desno odcepi pot k bivaku pod Špikom. <br>Nadaljujemo po levi spodnji poti, ki nas čez nekaj minut pripelje na naslednje razpotje. Usmerimo se levo čez most (naravnost Zgornji Martuljkov slap) in v nekaj minutah pridemo do Ingotove koče na planini Jesenje. <br> Pri koči se usmerimo desno po slabše vidni stezici, ki se zložno vzpenja po planini. Po petih minutah hoje od koče pridemo do večje kapele, ki se nahaja na robu gozda. Pri kapeli se usmerimo desno do reke, kjer s pomočjo manjšega mostička prečimo reko. Na drugi strani poiščemo stezico, ki nas v nekaj korakih pripelje na pot, ki pelje k Zgornjem Martuljkovem slapu. Usmerimo se levo in sledimo poti, ki postaja vse bolj strma. Pot nato preči studenček in se na drugi strani strmo vzpne. Strmina začne popuščati pot pa nas pripelje na razpotje, kjer nadaljujemo levo (naravnost bivak Za Akom). Naprej v zložnem vzponu prečimo strma pobočja, ki so v mokrem rahlo nevarna za zdrs. Prečenje nas kmalu pripelje do soteske, kjer je slap. Pot se sprva s pomočjo varoval spusti do vode, katero z nekaj manjšimi težavami prestopimo. Pot naprej se v nekaj korakih vzpne do točke od katere je viden slap. Vzpon tu zaključimo ali pa se povzpnemo po zavarovani a precej vlažni poti pod slap. Vzpon do slapu je težaven in izpostavljen padajočemu kamenju.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/zgornji_martuljkov_slap/220"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Zgornji Martuljkov slap"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> <a class="moder" href="/gora/spodnji_martuljkov_slap/1/218">Spodnji Martuljkov slap (850m)</a>, <a class="moder" href="/gora/ingotova_koca_na_planini_jesenje/1/219">Ingotova koča na planini Jesenje (930m)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/gozd_martuljek/46.4821/13.8378">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/322">podobni izleti</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13509" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13509');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P9090283229680.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13510" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13510');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P9090286237600.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13511" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13511');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P9090277229680.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13512" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13512');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060010281960.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13513" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13513');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060011281960.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13514" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13514');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060016276640.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13515" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13515');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060017308560.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13516" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13516');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060022308560.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13517" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13517');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060027313880.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13518" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13518');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060029313880.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13519" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13519');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060030313880.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13520" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13520');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060040308560.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13521" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13521');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P506004833600.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13522" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13522');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P506005233600.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13523" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13523');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P506005433600.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13524" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13524');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P506005633600.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13525" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13525');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P506005933600.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13526" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13526');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P506006033600.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13527" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13527');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P50600613922291.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13528" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13528');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P506007133600.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13529" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13529');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060089201600.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13530" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13530');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060094201600.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13531" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13531');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060106201600.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13532" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13532');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060108201600.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13533" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13533');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060110201600.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13534" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13534');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060114224000.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13535" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13535');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060124224000.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13536" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13536');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060125224000.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13537" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/13537');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P50601503922293.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/90438" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/90438');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060139224000.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/90439" onclick="event.preventDefault(); window.open('/slika_pot/gozd_martuljek_zgornji_martuljkov_slap_ob_reki_in_mimo_koce/90439');"><img class="slikagm" alt="Gozd Martuljek - Zgornji Martuljkov slap" src="//www.hribi.net/slike1/P5060144224000.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Gozd Martuljek - Zgornji Martuljkov slap (ob reki in mimo koče)</b></div>
+
+
+
+<div id="kom19" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">5. 06. 2006</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Super izlet, &#269;e nimate preveliko &#269;asa, pa bi vseeno radi ob&#269;udovali lepote TNP. Seveda, &#269;e že greste na na spodnji Martuljkov Slap, greste tudi do zgornjega, ki je za mene osebno še lepši ko spodnji. Pri zgornjem ne rinite vse do slapa, &#269;e niste prepri&#269;ani v "skalo".  </div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">5. 06. 2006</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Priporo&#269;am obisk v poznih pomladanskih ali zgodnje poletnih dneh, ko se tali sneg in je slap najbolj vodnat. Tudi jeseni, ko rumenijo macesni je na planini nad spodnjim slapom zelo lepo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom225" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">31. 08. 2006</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Moram pohvalit Ingotovo brunarico ob tej poti-sanjska lokacija, prijazna postrežba in dobra hrana! (psst: samo žganci so malo presuhi) </div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1095" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">9. 05. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zelo lep izlet, ni &#269;udno, da predel, kjer stoji Ingotova brunarica imenujejo tudi "rajske livade". Poleti je tudi v Finžgarjevi kapelici menda vsak dan maša za tiste, ki želijo uživati pri tem obredu v &#269;udoviti naravi. Dostop &#269;isto do zgornjega slapu pa je bil zame pretežak - pa ne zato, ker si ne bi upala ob žici in po klinih v skale (bila sem že marsikje), ampak preprosto zato, ker sem ženska manjše rasti, sicer prizadevni &#269;lani PD, ki so opremili to pot s klini, pa na nas niso mislili <img alt=mrk&nbsp;pogled src=/slike/mrk.gif> in "stopinje" so nameš&#269;ene tako dale&#269; narazen, da so zame nedosegljive.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1132" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">15. 05. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je Ingotova brunarica že odprta tudi med tednom?Koliko vode imajo slapovi?Hvala za info.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1133" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/tadej/11">Tadej</a><span class="komDatum">15. 05. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Brunarica je odprta trenutno le med vikendi (obvestilo na papirju pri parkiriš&#269;u), slapovi pa imajo veliko vode. Podatki so stari 10 dni.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1134" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">15. 05. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V nedeljo je bila brunarica odprta. Pri zgornjem slapu pa sta speljani dve jeklenici in dila, preko katere prideš na drugo stran vode. Voda je v tem &#269;asu zelo visoka. Na vrhno poli&#269;ko se nisem odpravil. V poletnem &#269;asu vodo samo presko&#269;iš.
+Potrebna je previdnost.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1236" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">5. 06. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lep poldneven izlet na katerem se naužiješ lepot narave. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5265" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/petrusa/5616">petruša</a><span class="komDatum">23. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>lep izlet in lep slap, mi smo ga obiskali z otroki 9 in 10 let starima, povzpeli smo se do slapa, malo previdnosti pa gre. Zelo je lepo pri slapu, priporo&#269;am, &#269;e se ne bojite višine in imate izkušnje z plezanjem</div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5475" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">8. 09. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V kolikor so bili otroci nepripeti (kljub kratkemu odseku) smatram tako ravnanje za neodgovorno.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5476" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/andrejjerina/4501">andrejjerina</a><span class="komDatum">8. 09. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Marsikateri otrok(ponavadi ve&#269;ina) je bolj stabilen kot pa odrasel &#269;lovek, tako da je to zelo subjektivna ocena. "Petruša", tudi jaz sem že slišal oz. prebral podobne odgovore, pa vseeno, gorniki in alpinisti, ki me poznajo vedo, da izbiramo poti primerne našim otrokom. Le pogumno, sama presodi, kaj je primerno in kaj ne za tvojega otroka! Važno je samo to,da pot prilagodiš otrokovim zmožnostim oz. da otrok tako kot ti goro "za&#269;uti". Glede varovanja pa ne sme biti dilem. Življenje je samo eno! Tudi jaz sem opravil omenjeno pot z mlajšimi otroki to poletje, pa ni bilo nobenih težav. LP Andrej</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5479" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">9. 09. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ni kaj, se strinjam.. Poudarjam zgolj stavek: "Glede varovanja pa ne sme biti dilem".<br> Sicer pa sem letos videl zelo majhne otroke celo na Triglavu -z varovanjem jasno.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5484" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/petrusa/5616">petruša</a><span class="komDatum">9. 09. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Moram priznati, da tukaj otroci niso bili pripeti in mislim, da ni šlo za neodgovornost. Tako jaz in mož in tudi otroci smo pa&#269; smatrali, da ni potrebe.Bili pa smo tudi dva dni prej na Triglavu, kjer pa sma imela otroke privezane. Mi, kot družina smo letos opravili kar precej vzponov in kjer smo za&#269;utili, da je potrebna za otroke priveza smo to naredili. Lp. Petra</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5487" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">9. 09. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Jasno je, da nih&#269;e razen vas ne more nositi odgovornosti glede vaših otrok.<br> Vsak se odlo&#269;a po svoje in seveda v skladu s tem sprejema take ali druga&#269;ne posledice.<br> Ko pa bo za&#269;el veljati zakon (kar bo zagotovo dobro in prav), pa&#269; ne bo ve&#269; zadostovalo "za&#269;utiti", da nekje varovanje naših otrok ni potrebno.<br> Smatram, da je v življenju absolutno najhuje, &#269;e nam lastni otroci (bognedaj) postanejo žrtve naših napa&#269;nih in prehitrih odlo&#269;itev..<br> Zaenkrat je tako: vaši otroci, vaše odlo&#269;itve, vaše posledice, &#269;eprav nismo lastniki temve&#269; zgolj in po dolžnosti varuhi življenj naših otrok.<br> Lp Heinz !</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9589" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/vansims/5756">VanSims</a><span class="komDatum">17. 04. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot sama bi lahko morda bila le delno-zahtevna. Sam zadnji odsek &#269;isto do slapa pa je seveda zahteven, &#269;eprav nekomu, ki ima izkušnje z zajlami ne bi smel delati veliko problemov.<br> <br> Tudi sam se strinjam, da je za otroke zelo priporo&#269;ljivo varovanje &#269;e se ho&#269;emo z njimi povspeti prav do slapa.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10061" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/klinchy/9331">klinchy</a><span class="komDatum">19. 06. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vzpodbno, da so vzdrževalci poti popravili dele poti do Martuljških slapov!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10117" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/klinchy/9331">klinchy</a><span class="komDatum">26. 06. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Dodane so bile tudi nove jeklenice za dostop do zgornjega slapa.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11040" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/uzbic/10419">uzbic</a><span class="komDatum">26. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mater, Heinz, si zategnjen.&#268;e je otrok, pri 9 letih preplezal Kopiš&#269;arjevo(seveda privezan),ga menda ja ne boš privezal za na sprehod po Tivoliju.Razen, &#269;e si to zares želi.&#268;e ima otrok problem host okrog hiše, ga pa tudi na zgornji martuljkov slap nikar ne pelji.Ne privezanega, še manj pa neprivezanega.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11613" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/enka/4681">Enka</a><span class="komDatum">26. 09. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je pot skozi sotesko trenutno OK, je kdo hodil tod okoli pred kratkim?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11626" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/drago11/9840">drago11</a><span class="komDatum">26. 09. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Enka,sem hodil po tej poti 02.09.2011,pot skozi sotesko je bila uradno zaprta, vendar se je dalo priti. Dvakrat je treba pre&#269;kati reko zaradi tega ker je voda odnesla nadelano pot. Tam je bila pot improvizirana z deskami.Ni&#269; nevarnega in &#269;evlji bodo ostali tudi suhi. Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11636" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/enka/4681">Enka</a><span class="komDatum">26. 09. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Drago, najlepša hvala za informacijo. Torej je pot uradno zaprta<img alt=mrk&nbsp;pogled src=/slike/mrk.gif>.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15522" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/trdi/9861">trdi</a><span class="komDatum">1. 10. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je letos pot odprta?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15524" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/enka/4681">Enka</a><span class="komDatum">1. 10. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Konec avgusta je bila na za&#269;etku poti še vedno tabla, da je pot zaprta. No, na tej uradno sicer zaprti poti so bile potem po poti oznake za preusmeritev poti, ker so pridno postavljali mreže, ki naj bi varovale pred padajo&#269;im kamenjem. Ali so že kon&#269;ali z delom in ali so/bodo lahko pot zdaj odprli, pa bo povedal kdo drug.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15525" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_23" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_23" class="komL"><a class="ime" href="/gornik/trdi/9861">trdi</a><span class="komDatum">1. 10. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Aha, no se bo potrebno torej prepri&#269;ati kar na lastne o&#269;i...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_23" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_23" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15527" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_24" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_24" class="komL"><a class="ime" href="/gornik/enka/4681">Enka</a><span class="komDatum">1. 10. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vsekakor javi, kaj boš ugotovil<img alt=nasmeh src=/slike/smile.gif>.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_24" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_24" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15529" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_25" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_25" class="komL"><a class="ime" href="/gornik/bojan_a/3580">Bojan_A</a><span class="komDatum">1. 10. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Jaz sem bil nazadnje ene dobre 14 dni nazaj. Pot je še vedno zaprta. Je bilo pa takrat zelo malo vode in se je dalo &#269;ez. &#268;ez potok so položeni plohi. Sedaj pa mora biti tam precej ve&#269; vode.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_25" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_25" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15575" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_26" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_26" class="komL"><a class="ime" href="/gornik/trdi/9861">trdi</a><span class="komDatum">7. 10. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>NO, v&#269;eraj sem bil tu, vendar žal do prvega slapu nisem šel po soteski, pa&#269; pa po kolovozu, tako da ne vem kakšna je pot do slapu &#269;ez sotesko. Sem pa potem šel mimo ko&#269;e in mimo kapelice do drugega slapu in pri pre&#269;akanju reke ni bilo brvi oz. deske in je bilo potrebno malo akrobatskih sposobnosti za pre&#269;kanje. Druga&#269;e je pa pot lepo urejena in tudi &#269;isto do drugega slapu se lepo pride.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_26" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_26" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15694" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_27" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_27" class="komL"><a class="ime" href="/gornik/jaka-eva/12255">Jaka-Eva</a><span class="komDatum">22. 10. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V soboto sva poskusila priti do slapov po soteski, vendar  nekje (prav kmalu na za&#269;etku soteske) ni bilo mogo&#269;e pre&#269;kati vode saj je odneslo hlod, desko. Preširoko in pregloboko pa je bilo za pre&#269;kati (presko&#269;iti). Vrnila sva se na pot po kolovozu. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_27" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_27" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15853" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_28" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_28" class="komL"><a class="ime" href="/gornik/enka/4681">Enka</a><span class="komDatum">16. 11. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><a target=# class=moder href="http://www.pzs.si/novice.php?pid=7553">http://www.pzs.si/novice.php?pid=7553</a> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_28" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_28" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19499" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_29" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_29" class="komL"><a class="ime" href="/gornik/laik/13795">laik</a><span class="komDatum">21. 04. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>a je ta pot že uradno odprta? hvala za odgovor in lep pozdrav</div>
+       
+       </div>
+    </td>
+    <td id="komD0_29" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_29" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19500" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_30" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_30" class="komL"><a class="ime" href="/gornik/pok_luka/3637">pok luka</a><span class="komDatum">21. 04. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>tabla da je pot zaprta tam stoji že dooolgo ,&#269;asa vendar se ponavadi da po njej priti brez problemov-seveda na lastno odgovornost--Sam sem bil tu pred kakšnimi 14 dnevi šel sem do slapu in to iz zgornje poti pa je bilo nekaj podrtih dreves tako da brez telovadbe ni šlo.kako pa je sedaj in spodaj v soteski pa ne vem  LP</div>
+       
+       </div>
+    </td>
+    <td id="komD0_30" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_30" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19506" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_31" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_31" class="komL"><a class="ime" href="/gornik/bird_of_prey/11655">Bird of prey</a><span class="komDatum">22. 04. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot skozi sotesko je uradno še vedno zaprta. Razlog je nevarnost padajo&#269;ega kamenja, sploh v delu, kjer je soteska najožja. Hoja tam skozi zna biti nevarna, sploh ob daljšem deževju, ko so bregovi prepredeni z manjšimi poto&#269;ki, ki povzro&#269;ajo dodatno erozijo na bregovih.<br> Obisk spodnjega slapu svetujem z zgornje poti.<br> <br> Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_31" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_31" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19507" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_32" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_32" class="komL"><a class="ime" href="/gornik/laik/13795">laik</a><span class="komDatum">22. 04. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>najlepša hvala...upoštevano<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_32" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_32" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22600" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_33" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_33" class="komL"><a class="ime" href="/gornik/fpetel1/72">fpetel1</a><span class="komDatum">15. 07. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lepa pot. O padajo&#269;em kamenju prejšnji teden ni bilo sledi. Pot do zgornjega slapa je v zadnjem delu izpostavljena, vendar zelo dobro zavarovana. V suhem, odraslim ljudem vajenih zavarovanih poti nebi smela predstavljati preglavic. Otroci s krajšimi nogami pa rabijo pomo&#269; staršev.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_33" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_33" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22601" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_34" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_34" class="komL"><a class="ime" href="/gornik/fpetel1/72">fpetel1</a><span class="komDatum">15. 07. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Aja. Prehod &#269;ez vodo ve&#269; ne predstavlja težav, saj je postavljen novi kovinski most.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_34" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_34" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24268" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_35" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_35" class="komL"><a class="ime" href="/gornik/natasag/19271">natašag</a><span class="komDatum">20. 05. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>v kakšnem stanju je ta pot? se je kdo potikal tam okoli zadnje &#269;ase? <img alt=nasmeh src=/slike/smile.gif><br> <br> lpN</div>
+       
+       </div>
+    </td>
+    <td id="komD0_35" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_35" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24513" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_36" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_36" class="komL"><a class="ime" href="/gornik/peterskala/19615">PeterSkala</a><span class="komDatum">29. 06. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes sva sla s punco mimo slapu do Ingotove brunarice. Pot je super urejena. Padajo&#269;ega kamenja ni bilo ni&#269;. Kar brez skrbi. <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_36" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_36" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29397" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_37" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_37" class="komL"><a class="ime" href="/gornik/jp/21409">J.P.</a><span class="komDatum">16. 03. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je zaprta. Lahko se pa usmerimo na pot za Ak(ali za Brunarico pri Ingotu - slika 6) in sledimo oznakam za slap 2. Po tej poti se lepo pride do samega slapa 2.Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_37" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_37" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29423" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_38" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_38" class="komL"><a class="ime" href="/gornik/mountaineerx/20495">MountaineerX</a><span class="komDatum">21. 03. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes na en krajsi sprehod do Slapu. Cez spodni slap je prepovedan prehod... Do Ingota NP naprej sva pa s kolegom naredila nov gaz. Pred vrhom sneg napihan nestabilen okoli 20cm, moznost zdrsa zato pazljivo... Kline sva malo o&#269;istila prav tako mosti&#269;ek... Dan odlicen, piha samo pri slapu. LP Pa sre&#269;no<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_38" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_38" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29477" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_39" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_39" class="komL"><a class="ime" href="/gornik/mornar/18730">mornar</a><span class="komDatum">3. 04. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je kdo v kratkem hodil do slapov,prosil bi &#269;e lahko da inormacijo glede poti.Namen imamo iti tudi naprej do bivaka pod Špikom,kakoje naprej ali je še kaj snega.Hvala za odgovor.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_39" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_39" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29478" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_40" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_40" class="komL"><a class="ime" href="/gornik/karibu/19573">karibu</a><span class="komDatum">3. 04. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kot je že predhodnik zapisal. Pot mimo spodnjega slapu je uradno zaprta, hoja na lastno odgovornost. Zgornja pot do Ingota je brez posebnosti in je normalno prehodna. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_40" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_40" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30037" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_41" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_41" class="komL"><a class="ime" href="/gornik/dlteam/14704">DLteam</a><span class="komDatum">21. 07. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot mimo spodnjega slapu je normalno prehodna. Priporo&#269;am. Res lep izlet, &#269;e ni &#269;asa za kaj daljšega. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_41" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_41" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31591" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_42" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_42" class="komL"><a class="ime" href="/gornik/jernejl/24395">Jernej.L</a><span class="komDatum">12. 06. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot za spust do zgornjega slapa je v slabsem stanju - slabo pripeta jeklenica. Tudi pri prvem spustu do zgornjega slapa manjka 1 jeklenica, ampak tam je teren sam dosti boljsi in to ni tak problem. Ostal del poti je krasen, na poti ne pozabite po&#269;ohati kosmatinca amona pri ko&#269;i pri ingotu.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_42" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_42" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31621" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_43" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_43" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">15. 06. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj popoldne po tej poti,ker je še nekaj ur nazaj deževalo je bila cela pot kar blatna in polna luž,poto&#269;ki in izviri vsepovsod po gozdu.. sicer pa je ta predel prava divjina,povsod strmine,skale,mir.. balzam za dušo<img alt=nasmeh src=/slike/smile.gif> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_43" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_43" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32307" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_44" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_44" class="komL"><a class="ime" href="/gornik/nommi/19506">nommi</a><span class="komDatum">8. 09. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Po zadnjem deževju je pot do slapov bila menda poškodovana.<br> Mogo&#269;e kdo ve, &#269;e je pot že sanirana do te mere, da je uporabna za pohodnike?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_44" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_44" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33282" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_45" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_45" class="komL"><a class="ime" href="/gornik/hrabri-drejc/25788">Hrabri-Drejc</a><span class="komDatum">14. 06. 2021 20:44:42</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ravno danes bil na 2.slapu. Na tabli spodaj je pisalo, da je pot zaprta do drugega slapu. Razlog je, da je železni most pod 2.slapom poškodovan od zime.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_45" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_45" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33305" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_46" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_46" class="komL"><a class="ime" href="/gornik/saleska/21215">sAleska</a><span class="komDatum">16. 06. 2021 15:57:16</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Do Za Akom se da torej normalno priti?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_46" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_46" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(47);
+    });
+    abc(47);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

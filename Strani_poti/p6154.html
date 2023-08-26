@@ -1,0 +1,1200 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Preval Vrh Ravni - Dom na Poreznu (čez vrh Porezna)</title>
+        <meta name="description" content="Natančen opis izleta Preval Vrh Ravni - Dom na Poreznu (čez vrh Porezna). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/21/217/5785" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/preval_vrh_ravni_dom_na_poreznu_via_top_of_porezen/21/217/5785"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=21&id=217&potid=5785"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/skofjelosko_cerkljansko_hribovje_in_jelovica/21">Škofjeloško, Cerkljansko hribovje in Jelovica</a> / <a class="moder" href="/gora/dom_na_poreznu/21/217">Dom na Poreznu</a> / Preval Vrh Ravni - Dom na Poreznu (čez vrh Porezna)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(5785);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Preval Vrh Ravni - Dom na Poreznu (čez vrh Porezna)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=5785';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Preval Vrh Ravni (826 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;9,3720'N&nbsp;/&nbsp;13°&nbsp;56,6940'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;9'&nbsp;22,32''N&nbsp;/&nbsp;13°&nbsp;56'&nbsp;41,64''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,1562°N&nbsp;/&nbsp;13,9449°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.1562,&nbsp;13.9449";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,1562°N&nbsp;13,9449°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(5785,46.1562,13.9449);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.1562,13.9449"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/dom_na_poreznu/21/217">Dom na Poreznu (1590 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez vrh Porezna</div>
+    <div class="g2"><b>Čas hoje:</b> 2 h 35 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 764 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 830 m</div>
+    <div class="g2"><b>Zemljevid:</b> Škofjeloško in Cerkljansko hribovje 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> dereze, cepin</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 479</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">65</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">0</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) Najprej se zapeljemo v center Cerknega (do sem s ceste Idrija - Most na Soči, ali iz Gorenje vasi in Žirov preko prelaza Kladje, ali pa iz Zalega Loga preko Davče...), nato pa z vožnjo nadaljujemo v smeri Zakojce. Le nekaj metrov za tem, ko smo se usmerili v smeri Zakojce, pa se v levo odcepi cesta proti vasi Zakriž, skozi katero vodi strma bližnjica, mi pa nadaljujemo po cesti, ki se nadaljuje ob potoku Zapoška. Višje nas cesta vodi skozi vasi Trebenče, Gorje, nato pa po prečenju pobočij, po zgornji strani obidemo vas Zakriž, kjer se nam priključi prej omenjena bližnjica. Nekoliko naprej cesta zavije še bolj v desno, nato pa še po nekaj kilometrih prečenja prispemo do začetka vasi Jesenica, kjer opazimo prve oznake za preval Vrh Ravni, Kojco in Porezen, ki nas usmerijo desno. Po približno 100 m cesta zavije ostro desno, še približno 200 m naprej pa zavijemo levo v smeri Porezna, prevala Vrh Ravni, Zakojce... Ko prispemo na preval Vrh Ravni parkiramo na primernem mestu ob križišču številnih poti.<br>b) Iz Mosta na Soči oz. Bače pri Modreju se peljemo proti Idriji, nato pa za krajem Reka, tik preden prečimo potok Jesenica nadaljujemo ostro levo, v naslednjem križišču pa ostro desno v smeri Orehovške grape. Po nekaj kilometrih razmeroma strme ceste prispemo do vasice Orehek, malo nad vasjo pa se priključimo prečni cesti pod Kojco, kateri sledimo v desno. Na koncu vasi Jesenica zavijemo ostro levo v smeri preval Vrh Ravni, Kojce in Porezna. Po približno 100 m cesta zavije ostro desno, še približno 200 m naprej pa zavijemo levo v smeri Porezna, prevala Vrh Ravni, Zakojce... Ko prispemo na preval Vrh Ravni parkiramo na primernem mestu ob križišču številnih poti.<br>c) Iz Bače pri Modreju se peljemo proti Podbrdu, nato pa v kraju Grahovo ob Bači zavijemo v smeri Zakojce in Bukovega. V nadaljevanju se kar nekaj časa peljemo po ovinkasti ter vzpenjajoči se cesti, nato pa na označenem križišču nadaljujemo levo v smeri Zakojce (desno Cerkno, Bukovo, Jesenica...). Iz Zakojce sledimo oznakam za preval Vrh Ravni, kjer nato na primernem mestu tudi parkiramo.<br>d) Najprej se zapeljemo v Podbrdo, nato pa z vožnjo nadaljujemo proti Tolminu. V naselju Hudajužna zapustimo glavno cesto, nato pa z vožnjo nadaljujemo po strmi cesti proti Zakojci. Ko višje dosežemo glavno cesto ji sledimo v levo (desno Bukovo), po njej pa hitro prispemo do vasi Zakojca. Iz Zakojce sledimo oznakam za preval Vrh Ravni, kjer nato na primernem mestu tudi parkiramo.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S prevala Vrh Ravni nadaljujemo v smeri Porezna in planine Otavnik ter pot nadaljujemo po vzpenjajoči se makadamski cesti, ki nas v nadaljevanju vodi po pobočjih vrha Na krogu (1050 m). Višje cesta preide na severna pobočja Ritovščice (1156 m), kjer se pri manjšem kamnolomu spremeni v širok kolovoz. Sledi prečni vzpon skozi gozd, ki nas vodi nad strugo Otavnika, nato pa stopimo iz gozda, kjer pred seboj zagledamo lovsko kočo, do katere se vzpnemo v dveh serpentinah.<br>Od lovske koče nadaljujemo po kolovozu, ki se vzpne na južni greben Otavnika. Omenjeni, deloma z gozdom poraščen greben kmalu zapustimo, saj pot zavije rahlo v levo, kjer se nato prečno vzpenja preko vse bolj razglednega pašnika. Po nekaj minutah prečnega vzpona prispemo na zgornji del planine Otavnik, kjer na levi opazimo lovsko opazovalnico, naravnost na drugo stran grebena pa pastirsko kočo.<br>S planine nadaljujemo v smeri Porezna, tako da bližnjo pastirsko kočo obidemo po zgornji desni strani. Za pastirsko kočo pot preide v pas gozda ter se v rahlem spustu nadaljuje po severozahodnih pobočjih Otavnika. Ko se spust konča prispemo na sedlo med Poreznom in Otavnikom, pot pa malo višje zavije levo ter se prične prečno vzpenjati po bolj strmem pobočju Porezna. Široka pot, ki v kopnem ne predstavlja večje nevarnosti, nas ob lepih pogled na Zakojško grapo in okoliške gore, v nekaj minutah pripelje do razpotja na zahodnem grebenu Porezna.<br>Z razpotja nadaljujemo desno (levo Hudajužna in Podbrdo, rahlo desno Dom na Poreznu) ter pot nadaljujemo ob grebenu. Nekaj časa se zmerno vzpenjamo, nato pa nas pot pripelje nazaj na greben, kjer se najprej položi, nato pa se prične strmo vzpenjati. Sledi nekaj minut precej strmega vzpona, kjer je predvsem v mokrem in snegu potrebno nekaj več pazljivosti. Malo pod vrhom se pot položi, mi pa ob lepih razgledih, ki sežejo vse do Triglava hitro prispemo na vrh Porezna.<br>Z vrha nadaljujemo rahlo levo, po poti, ki z grebena po nekaj korakih preide na levo stran. Tu se pot prične zmerno spuščati in nas v nekaj minutah pripelje do planinskega doma.<br>Opis in slike se nanašajo na stanje leta 2015 (maj in december).</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/dom_na_poreznu/217"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Dom na Poreznu"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> <a class="moder" href="/gora/lovska_koca_ld_otavnik/21/2599">Lovska koča LD Otavnik (1090m)</a>, <a class="moder" href="/gora/planina_otavnik/21/2600">Planina Otavnik (1268m)</a>, <a class="moder" href="/gora/porezen/21/209">Porezen (1630m)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/preval_vrh_ravni/46.1562/13.9449">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/5785">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=217">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=217">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333992" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333992');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN07764609080.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333993" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333993');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_0891509110747_DSCN0780.JPG" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333994" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333994');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN078227840.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333995" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333995');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN078427840.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333996" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333996');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN078527840.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333997" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333997');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN078627840.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333998" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333998');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN078727840.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333999" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/333999');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN078927840.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334000" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334000');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_1230509110752_DSCN0793.JPG" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334001" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334001');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN07915632.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334002" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334002');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN07955632.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334003" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334003');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN07975632.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334004" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334004');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN07985632.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334005" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334005');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN07995632.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334006" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334006');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN08017168.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334007" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334007');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN08027168.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334008" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334008');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN08037168.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334009" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334009');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN08067168.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334010" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334010');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN08097168.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334011" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334011');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN08137168.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334012" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334012');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN08147168.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334013" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334013');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN08157168.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334014" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334014');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN081823680.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334015" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334015');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN082223680.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334016" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334016');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN082423680.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334017" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334017');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN082533920.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334018" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334018');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN082833920.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334019" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334019');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN082933920.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334020" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334020');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_0927509110824_DSCN0833.JPG" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334021" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334021');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN08353520.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334022" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334022');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_162509110826_DSCN0837.JPG" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334023" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334023');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_0538509110910_DSCN0853.JPG" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334024" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334024');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_1704509110912_DSCN0854.JPG" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334025" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334025');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_1539509110868_DSCN0851.JPG" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334026" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334026');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_0195509110979_DSCN0911.JPG" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334027" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334027');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_1981509111012_DSCN0915.JPG" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334028" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334028');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN083843776.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334029" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334029');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN096820608.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334030" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334030');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN096920608.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334031" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334031');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN097220608.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334032" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334032');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN097520608.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334033" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334033');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN097620608.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334034" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334034');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN097820608.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334035" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334035');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN098120608.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334036" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334036');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN098420608.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334037" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334037');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_0476509111072_DSCN0987.JPG" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334038" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334038');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN099027776.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334039" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334039');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN099127776.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334040" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334040');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_0698509111127_DSCN0994.JPG" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334041" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334041');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN099529568.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334042" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334042');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_14509111129_DSCN0999.JPG" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334043" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334043');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN100031360.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334044" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334044');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN100331360.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334045" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334045');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN100631360.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334046" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334046');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN100831360.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334047" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334047');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN101231360.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334048" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334048');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_0268509111172_DSCN1016.JPG" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334049" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334049');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//slike.hribi.net/slike4/2_1486509111174_DSCN1017.JPG" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334050" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334050');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN5752369600.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334051" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334051');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN5745369600.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334052" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334052');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN5744369600.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334053" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334053');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN5742369600.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334054" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334054');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN5741759000.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334055" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334055');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN5739759000.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334056" onclick="event.preventDefault(); window.open('/slika_pot/preval_vrh_ravni_dom_na_poreznu_cez_vrh_porezna/334056');"><img class="slikagm" alt="Preval Vrh Ravni - Dom na Poreznu" src="//www.hribi.net/slike1/DSCN5728485100.th.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Preval Vrh Ravni - Dom na Poreznu (čez vrh Porezna)</b></div>
+
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

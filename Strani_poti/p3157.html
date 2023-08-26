@@ -1,0 +1,2367 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Laško - Storžič (čez Kališče)</title>
+        <meta name="description" content="Natančen opis izleta Laško - Storžič (čez Kališče). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/lasko_storzic_cez_kalisce/3/85/993" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/lasko_storzic_via_kalisce/3/85/993"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=3&id=85&potid=993"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/kamnisko_savinjske_alpe/3">Kamniško Savinjske Alpe</a> / <a class="moder" href="/gora/storzic/3/85">Storžič</a> / Laško - Storžič (čez Kališče)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(993);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Laško - Storžič (čez Kališče)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=993';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Laško (815 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;19,7880'N&nbsp;/&nbsp;14°&nbsp;23,9280'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;19'&nbsp;47,28''N&nbsp;/&nbsp;14°&nbsp;23'&nbsp;55,68''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3298°N&nbsp;/&nbsp;14,3988°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3298,&nbsp;14.3988";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3298°N&nbsp;14,3988°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(993,46.3298,14.3988);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3298,14.3988"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/storzic/3/85">Storžič (2132 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez Kališče</div>
+    <div class="g2"><b>Čas hoje:</b> 3 h 30 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1317 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1317 m</div>
+    <div class="g2"><b>Zemljevid:</b> Karavanke - osrednji del 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 106.635</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;4&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">41</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">52</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) Z avtoceste Ljubljana - Jesenice se usmerimo na izvoz Kranj - vzhod, nato pa z vožnjo nadaljujemo v smeri Jezerskega. Ko prispemo v Preddvor zapustimo glavno cesto in z vožnjo nadaljujemo levo proti središču omenjenega kraja, od tam pa sledimo oznakam za naselje Bašelj. Ko prispemo v Bašelj se najprej na začetku levega ovinka v smeri naravnost nadaljuje ožja cesta, ki vodi do parkirišča pri brunarici TD Bašelj (v opisih izhodišče Bašelj), mi pa od omenjenega križišča po glavni cesti nadaljujemo še dobrih 100 m do naslednjega križišča, kjer nadaljujemo desno po cesti proti Gamsovemu raju in zaselku Laško. Le kakih 50 m naprej nadaljujemo po levi cesti, katera se postopoma prične zmerno vzpenjati. Pri zaselku Laško ponovno nadaljujemo levo, nato pa se asfalt konča in z vožnjo nadaljujemo po strmi makadamski cesti, katera nas vodi mimo odcepa poti (kolovoza) k cerkvi sv. Lovrenca in Doma na Lovrencu. Od omenjenega odcepa se peljemo še nekoliko naprej, do konca ceste oz. manjšega parkirišča nekaj 10 metrov prej.<br>b) Z avtoceste Jesenice - Ljubljana se usmerimo na izvoz Kranj - zahod ter v prvem križišču nadaljujemo levo. V nadaljevanju se peljemo skozi podvoz pod avtocesto, nato pa prispemo do krožišča, od koder z vožnjo nadaljujemo v smeri Golnika. Pot naprej nas vodi skozi naselje Mlaka pri Kranju, mi pa na koncu naselja nadaljujemo desno v smeri naselja Srakovlje. Sledi vožnja skozi Srakovlje, Spodnjo Belo, Srednjo Belo, Zgornjo Belo (v Zgornji Beli se priključimo cesti iz Preddvora) do Bašlja, kjer glavna cesta naredi dolg levi ovinek, kjer se v smeri naravnost nadaljuje ožja cesta, ki vodi do parkirišča pri brunarici TD Bašelj (v opisih izhodišče Bašelj), mi pa od omenjenega križišča po glavni cesti nadaljujemo še dobrih 100 m do naslednjega križišča, kjer nadaljujemo desno po cesti proti Gamsovemu raju in zaselku Laško. Le kakih 50 m naprej nadaljujemo po levi cesti, katera se postopoma prične zmerno vzpenjati. Pri zaselku Laško ponovno nadaljujemo levo, nato pa se asfalt konča in z vožnjo nadaljujemo po strmi makadamski cesti, katera nas vodi mimo odcepa poti (kolovoza) k cerkvi sv. Lovrenca in Doma na Lovrencu. Od omenjenega odcepa se peljemo še nekoliko naprej, do konca ceste oz. manjšega parkirišča nekaj 10 metrov prej.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Na koncu ceste se usmerimo na levi kolovoz v smeri Kališča in Storžiča. Kolovoz se zmerno vzpenja in nas po desetih minutah hoje pripelje na razpotje. Nadaljujemo po levem kolovozu, ki ga po nekaj metrih zmanjka. Pot tu zapusti manjšo dolinico ob kateri se je vzpenjala in se strmo vzpne v levo smer. Po tem krajšem strmem vzponu strmina popusti in pot nas pripelje do partizanske bolnice Košuta. Za bolnico pot preči dva zaporedna hudournika in se nato spet strmeje vzpne. Pot, ki ves čas poteka po gozdu nas pripelje na stranski greben Kališča, kjer se nam priključi neoznačena pot iz Bašlja. Gozd nato postane bolj redek in občasno se nam odpre kak lep razgled proti Storžiču. Pot nato zavije nekoliko desno ponovno v gozd. Kar naenkrat pa pred seboj zagledamo hiško, ki se nahaja na planini pod Kališčem. Le nekaj metrov naprej pa se nam priključi pot iz vasi Mače. Naprej se pot vzpenja še približno 15 minut skozi gozd. Pot nato naredi oster levi ovinek in pred seboj zagledamo dom na Kališču do katerega imamo le še nekaj korakov. <br> Od doma nadaljujemo po široki grebenski poti proti Storžiču. Že po nekaj minutah se desno odcepi pot na Bašeljski vrh, mi pa nadaljujemo naravnost. Široka pot nas nato ob lepih razgledih hitro pripelje na Bašeljsko sedlo, kjer se nam priključi pot z Jezerskega. Na sedlu nas smerokaz za Storžič usmeri na pot, ki gre proti zahodu (naravnost). Pot, ki se začne strmo vzpenjati skozi rušje nas po 30 minutah vzpona pripelje na greben Storžiča. Pot se grebenu kmalu umakne na strma južna pobočja Storžiča. Ta del poti je nevaren za zdrs, v mokrem je potrebna velika pazljivost. Strmina nato nekoliko popusti, pot pa se nadaljuje po grebenu ali malo pod njim. Nekaj metrov pod vrhom se priključimo poti, ki pride iz Žrela (tudi s planine Javornik in s Psice). Nadaljujemo desno in v nekaj korakih dosežemo vrh na katerem stoji križ. <br> Laško - Kališče 2:00, Kališče - Storžič 1:30.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/storzic/85"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Storžič"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Bolnica Košuta (900m), <a class="moder" href="/gora/planina_kalisce/3/467">Planina Kališče (1450m)</a>, <a class="moder" href="/gora/dom_na_kaliscu/3/134">Dom na Kališču (1534m)</a>, Bašeljski preval (1630m)</div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/lasko/46.3298/14.3988">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/lasko_storzic_cez_kalisce/993">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=85">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=85">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96832" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96832');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100115355.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96833" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96833');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100125355.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96834" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96834');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100145355.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96835" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96835');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P501001617850.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96836" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96836');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100175355.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96837" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96837');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100235355.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96838" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96838');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100255355.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96839" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96839');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100275355.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96840" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96840');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100285355.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96841" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96841');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100375355.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96842" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96842');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100395355.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96843" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96843');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100415355.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96844" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96844');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160022510720.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96845" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96845');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160023510720.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96846" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96846');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160025510720.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96847" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96847');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160026510720.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96848" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96848');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160027510720.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96849" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96849');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160028510720.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96850" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96850');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160030510720.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96851" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96851');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160031510720.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96852" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96852');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160052782040.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96853" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96853');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160053782040.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96854" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96854');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160054782040.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96855" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96855');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160056782040.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96856" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96856');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/PA160059782040.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96857" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96857');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100740.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96858" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96858');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100820.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96859" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96859');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100880.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96860" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96860');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100910.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96861" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96861');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100960.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96862" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96862');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50100980.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96863" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96863');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50101000.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96864" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96864');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50101020.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96865" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96865');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50101050.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96866" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96866');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50101080.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96867" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96867');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50101090.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96868" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96868');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50101100.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96869" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96869');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50101111540.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96870" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96870');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/P50101150.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96871" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96871');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/Slike nikon 218113400.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lasko_storzic_cez_kalisce/96872" onclick="event.preventDefault(); window.open('/slika_pot/lasko_storzic_cez_kalisce/96872');"><img class="slikagm" alt="Laško - Storžič" src="//www.hribi.net/slike1/Slike nikon 227113400.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Laško - Storžič (čez Kališče)</b></div>
+
+
+    <script>
+    function prikaziStaraSporocila()
+    {
+        document.getElementById('gumbstarasporocila').style.display='none';
+        document.getElementById('komX').style.display='block';
+    }    
+    </script>
+    <div id="gumbstarasporocila" style="margin:7px 0px 0px 0px;" class="gumbsiv2" onclick="prikaziStaraSporocila();">Prikaži starejša sporočila</div>
+    <div id="komX" style="display:none;">
+    
+
+<div id="kom1344" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">21. 06. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zelo lep izlet, ampak grozno veliko muh (nikoli jih nisem videla toliko). Bi pa samo opozorila na to, da pot ni tako enostavna za neizkušene, saj so skale kar precej strme. To pa omenjam zato, ker smo na poti sre&#269;ali kar veliko neopremljenih pohodnikov (slaba obutev, brez dodatnih obla&#269;il ipd.), ob zelo poznih urah (ko je že za&#269;elo grmeti). Zato opozarjam tiste, ki niste vajeni hoditi po gorah - Storži&#269; je vseeno visokogorje in pripravljenost ni odve&#269;. junij2007</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2510" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">7. 11. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kakšne so kaj razmere na Storži&#269;u?<br> <br> LP</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+</div>
+
+
+<div id="kom5947" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/karletto/6113">Karletto</a><span class="komDatum">7. 11. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>jaz sem prišel gor z zadnjimi atomi mo&#269;i <img alt=zadrega src=/slike/redface.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5949" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/pantani/5979">pantani</a><span class="komDatum">7. 11. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Karletto, o&#269;itno si šel za mano, kajti sem sem moral na 1860 m obrniti, preprosto v tem južnem snegu in ob&#269;asnih zametih ni šlo ve&#269; naprej.<br> <br> Malo sem uhodil pot, kajti šel sem danes prvi in je resni&#269;no težek sneg.<br> Pa drugi&#269;.<br> <br> LP</div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6133" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/mabone/6416">mabone</a><span class="komDatum">30. 12. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj sem bil gor. Lepo vreme, zgornji del pomrznjen. Brez derez ne vem, kako bi šlo, </div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6797" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/bacek_jon/5021">BACEK JON</a><span class="komDatum">23. 05. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes dopoldne bil na Storži&#269;u(Laško-Kališ&#269;e-Storži&#269;),vreme prekrasno,ljudi kar nekaj,pot pa v celoti kopna,LP.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9247" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/apovalej/8609">apovalej</a><span class="komDatum">27. 02. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>danes na Storži&#269;u, zelo lepo vreme.<br>  Od doma na Kališ&#269;u, priporo&#269;live dereze na nekaterih mestih pa &#269;isto brez snjega in postanejo dereze malo mote&#269;e<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9510" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/stezosledka/9205">stezosledka</a><span class="komDatum">1. 04. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>30.3. 2011 bili na Storži&#269;u iz Bašlja (sv.Lovrenc)po hudo strmi grebenski neozna&#269;eni poti. Je skoraj kopna (pazite le na spolzko travo!)Sanjsko vreme in razgled na vrhu! Ob sestopu na Kališ&#269;e pa je snega še precej, se zna udirati do pasu, zve&#269;er pa zmrzuje. Nujna zimska oprema! Matej, Juš in Borut, hvala za družbo in vodstvo!Še kdaj!    <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9511" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/kozorog/5149">Kozorog</a><span class="komDatum">2. 04. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>stezosledka (dober nickname) ampak drugi&#269;  si izberi turo s prijateljico, ki sta ji kos!!! ne pa da &#269;akata na vrhu rešitelja...problem je &#269;e ga ne bi bilo....</div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9517" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/jusavgustin/5298">JusAvgustin</a><span class="komDatum">3. 04. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>no, dons se pa s stezosledko nismo sre&#269;al...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9753" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/roml/9365">roml</a><span class="komDatum">9. 05. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A mi lahko kdo pove, &#269;e je še kaj snega na poti s Kališ&#269;a na Storži&#269;? Hvala in lep pozdrav!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9755" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/serajko/3221">serajko</a><span class="komDatum">9. 05. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pri obisku Bašeljskega vrha , v soboto, ni bilo videti snega na poti iz Kališ&#269;a na Storži&#269;<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9756" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/roml/9365">roml</a><span class="komDatum">9. 05. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>serajko: hvala, super, rad bi šel gor, pa se ne rad vdiram do pasu kot pred dnevi na poti na Lipanski vrh. A od Kališ&#269;a obstaja kakšna telefonska?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9757" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/jersy/2240">jersy</a><span class="komDatum">9. 05. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>pot je povsem kopna in normalno prehodna.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9759" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/roml/9365">roml</a><span class="komDatum">9. 05. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>hvala jersy!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9763" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/pelican/7802">pelican</a><span class="komDatum">10. 05. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>roml -<br> <br> <a target=# class=moder href="http://www.pzs.si/index.php?stran=Seznam%20ko%E8&koca_id=80">http://www.pzs.si/index.php?stran=Seznam%20ko%E8&koca_id=80</a><br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9764" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/roml/9365">roml</a><span class="komDatum">10. 05. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>pelican: ojoj, sem štorast, samo poiskat je bilo treba znati.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10799" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/dolenjc/9968">dolenjc</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes obiskal vrh Storži&#269;a po tej poti. Iz vasi Bašelj (vodovodni rezervoarji) do ko&#269;e na Kališ&#269;u je pravljica.<img alt=nasmeh src=/slike/smile.gif> No, nato proti vrhu pa se nasmeh na obrazu malo izgubi, namre&#269; pot je strma, pripeka je kar mo&#269;na, sploh za dol pa je nevarnost zdrsa velika. Sedaj se vidi da na parih mestih pripravljajo za jeklenico, kajti res bo prišla prav, sploh &#269;e je mokro.<br> Je pa zelo neodgovorno od posameznih lastnikov psov da jih vle&#269;ejo in morijo po temu za pse neprimernemu terenu. To je visokogorje....<img alt=jezen src=/slike/jezen.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13519" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/jurck/11974">jurck</a><span class="komDatum">28. 04. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A kdo ve kakšna je kaj preodnost v teh dneh? Je na tej poti še kaj snega?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13520" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/drejci/11139">Dr.ejči</a><span class="komDatum">28. 04. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj smo šli po grebenu nad bolnico Košuta.Sneg se za&#269;ne nekaj 100m nad Bašeljskim sedlom.Je &#269;ista &#269;ofta,tko da derez nismo potrebovali,cepin pa je priporo&#269;ljiv.Sama pot je en miks skal,trave, snega.Je hodljiva,ni pa ravno za vsakogar.Potrebna ja pazljivost.Sre&#269;no. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15357" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/soraya/12329">soraya</a><span class="komDatum">11. 09. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V nedeljo, 9.9. sva šla s hribovskim kolegom na Storži&#269;. Prav lepa turca za se malo razmigat, ravno prav strma da je treba mal pogledat pod noge, druga&#269;e pa super. Edino ljudi je bilo pri križu mal preve&#269;, meni je vše&#269; &#269;e ni nobenga nikjer.<img alt=zavijanje&nbsp;z&nbsp;o&#269;mi src=/slike/rolleyes.gif>.....jeklenic pa še danes ni....haha</div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom17036" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/dvince/12067">dvince</a><span class="komDatum">21. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zdravo,<br> je bil kdo te dni gor?<br> <br> Je še kaj snega po grebenu, je normalno prehodno?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom17037" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/cebelca/9107">cebelca</a><span class="komDatum">21. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bila gor v nedeljo, vse kopno, tako da kar pot pod noge. <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom17038" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_23" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_23" class="komL"><a class="ime" href="/gornik/gre_mo/14529">Gre_Mo</a><span class="komDatum">21. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bil gor v&#269;eraj. &#268;ez Kališ&#269;e gor, &#269;ez Javornik dol. Krasno je <img alt=cool src=/slike/cool.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_23" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_23" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23592" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_24" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_24" class="komL"><a class="ime" href="/gornik/julfi/18819">julfi</a><span class="komDatum">16. 11. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj smo šli po tej poti in glede na vremenske razmere v preteklih dneh je bilo pri&#269;akovano lepo vreme, sploh nad 1500, kjer smo stopili iz pasa megle. Pot je razgibana, na momente imaš ob&#269;utek kot da hodiš po lestvi, saj se precej hitro vzpenja.<br> Priporo&#269;am, LP</div>
+       
+       </div>
+    </td>
+    <td id="komD0_24" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_24" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24127" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_25" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_25" class="komL"><a class="ime" href="/gornik/dejanch/12744">dejanch</a><span class="komDatum">16. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni. Vprašanje... Laško - Storži&#269;.. Stanje poti... snega koliko. Na spletni kameri se ne vidi najbolje.. <br> Hvala</div>
+       
+       </div>
+    </td>
+    <td id="komD0_25" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_25" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24156" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_26" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_26" class="komL"><a class="ime" href="/gornik/rades/17086">rades</a><span class="komDatum">23. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tudi mene bi zanimalo stanje poti (a je prevozna do izhodiš&#269;a) in snežne razmere. Hvala.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_26" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_26" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24163" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_27" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_27" class="komL"><a class="ime" href="/gornik/kranj/16299">Kranj</a><span class="komDatum">24. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot že dolgo &#269;asa kopna!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_27" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_27" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25034" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_28" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_28" class="komL"><a class="ime" href="/gornik/lala1234/19934">lala1234</a><span class="komDatum">19. 08. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Top turica: Bašelj- Kališ&#269;e-Storži&#269;-Dom pod Storži&#269;em. Pot je odli&#269;no markirana, strmo je glih prav da se fino premigaš z vsemi štirimi na parih predelih od Kališ&#269;a naprej <img alt=mežikanje src=/slike/wink.gif> <img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_28" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_28" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27248" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_29" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_29" class="komL"><a class="ime" href="/gornik/pinokio/5751">PINOKIO</a><span class="komDatum">13. 10. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni !<br> A je kdo bil v zadnjih dneh na Storži&#269;u po tej poti? Zanima me, kako je pot prehodna in ozna&#269;ena, imamo s prijatelji namre&#269; v za&#269;etku naslednjega tedna it gor. V naprej hvala za odgovore in varen korak vsem planincem in ljubiteljem planin. <br> Tone</div>
+       
+       </div>
+    </td>
+    <td id="komD0_29" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_29" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27254" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_30" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_30" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">14. 10. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je na vseh križiš&#269;ih dobro ozna&#269;ena,markacij je sicer malo,a je  pot do Kališ&#269;a dobro shojena. Od Kališ&#269;a naprej pa imate cilj pred sabo ,samo pot pod noge in varen korak vam želim.<br>  </div>
+       
+       </div>
+    </td>
+    <td id="komD0_30" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_30" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27849" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_31" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_31" class="komL"><a class="ime" href="/gornik/pekana/12296">Pekana</a><span class="komDatum">7. 05. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kvajdej! Ooomadona, sva z našo že ob osmh zutri na Kališ pasul jedla. Mejduš je biu dobr, naja j kr katapultiru na Storž&#269;. Je djala naša navrh, ti dejno se sle&#269; da te slikam. Sm nah okol križa skaku k košutka, una sej pa smejala pa slikala stismo mobitelam...Po pa pejmo kr naenkat kuj dol, joj pa srt naviu. Lušn je bo k stomatr, pot pa za tiste k vs tud to zanima, mejhn snežena prke navrh, ostalo fajn. Dereze in cepin uzmite ma nkar pjan gor ne hodite, je djau Boudi!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_31" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_31" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27851" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_32" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_32" class="komL"><a class="ime" href="/gornik/ub77/16335">UB77</a><span class="komDatum">7. 05. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bohpomagej, kva vse to po našh hribh laz...<img alt=zavijanje&nbsp;z&nbsp;o&#269;mi src=/slike/rolleyes.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_32" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_32" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27854" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_33" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_33" class="komL"><a class="ime" href="/gornik/redbull/11582">redbull</a><span class="komDatum">7. 05. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Haha UB77 se podpišem</div>
+       
+       </div>
+    </td>
+    <td id="komD0_33" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_33" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28753" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_34" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_34" class="komL"><a class="ime" href="/gornik/sandi9/22416">Sandi9</a><span class="komDatum">7. 09. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot cez Kališ&#269;e je res zelo lepo ozna&#269;ena in markirana. Izredno lepi razgledi na sedlu in prav tako strmina proti vrhu je bila kar fajn. Z lahkoto osvojeno vse skupaj tudi s psom. Tako kot sam Storži&#269; izgleda iz doline, je bilo prekrasno hoditi po njemu in ga tudi osvojiti. <br> Me je pa presenetil sam vrh, ki je bil dobesedno zasut z iztrebki od ovac. Ni varjante, da naredis korak pri vpisni knjigi in križu, kaj šele, da se usedes na cisto, ni. Prisežem, da ne pretiravam. Apeliram na pašno skupnost, da vrh enostavno zascitijo pred ovcam z pašno ograjo. To bo osre&#269;ilo marsikaterega pohodnika. Sam Storži&#269; bi si to tudi ZASLUŽIL!!! Ker takega vrha si tako lepa gora ne zasluži.<br> Bacek jon z ekipo jo je dobro zagodel... škoda. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_34" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_34" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28755" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_35" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_35" class="komL"><a class="ime" href="/gornik/michael66/1901">michael66</a><span class="komDatum">7. 09. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kar se vrha ti&#269;e je Sandi povedal vse in ni pretiraval.Vrh je tak zadnjih nekaj let,prej pa je bil pravi užitek posedet na vrhu urco ali dve.<img alt=eek src=/slike/eek.gif>Kar se pa ozna&#269;enosti ti&#269;e iz Laškega pa je na za&#269;etku prav kriza kar se ti&#269;e poti mimo bolnice Košuta.To pot sem prehodil že kr nekajkrat,letos pa sem kr vorng zalutal.Tam kmal na za&#269;etku,k se pot razcepi na kališ&#269;e in prti bolnici košuta,sem šel levo proti bolnici.Steza je na za&#269;etku lepo vidna,potem pa je nekaj podrtega drevja. Gozdarji delajo po gozdu nove poti in podirajo drevje z markacijami in ozna&#269;bami vred.Tam nekje se na teh novih poteh sem izgubil stezo in markacije,zato sem jo mahnil kar direktno &#269;ez gozd v upanju,da najdem stezo.Vendar pa sem šel preve&#269; desno tako da sem prišel na stezo šele na pl</div>
+       
+       </div>
+    </td>
+    <td id="komD0_35" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_35" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28756" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_36" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_36" class="komL"><a class="ime" href="/gornik/michael66/1901">michael66</a><span class="komDatum">7. 09. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Planini Kališ&#269;e...ta  k se pot iz laškega oz bašlja združi s potjo iz ma&#269;.Po gozdu je bilo kr strmo in naporno.<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_36" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_36" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28757" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_37" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_37" class="komL"><a class="ime" href="/gornik/michael66/1901">michael66</a><span class="komDatum">7. 09. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Šel sem preve&#269; levo (in ne desno kot piše zgoraj).....</div>
+       
+       </div>
+    </td>
+    <td id="komD0_37" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_37" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29685" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_38" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_38" class="komL"><a class="ime" href="/gornik/pekana/12296">Pekana</a><span class="komDatum">9. 06. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kvaj dej, evo dobr let je okol(sm pisou lih en let nazaj) in z našo sva bua spet kla gor. Pasula ni bo zajest, ampak je vsen našo spet srt naviu, glih k sva gor pršla. Zgodovina se ponaula sm s mislu in ji reku...kurc lej kašno je kla gor vse posran od ovc, cel vrh je u drekh. Sm djau, kla se user na vrh, sej ne bo nben porajtou. Je pa djala, sej koklkrat me zmerjaš z ovco ne bo razlike...<br> <br> Bom pa tuko reku, da vas ni sram, kurbe planšarske, da pstete da je vrh vs posran, pa tuko lepa, mugo&#269;na gora je to s takmo razgledam. Se &#269;vouk jebe par ur da gor pride, za nagrado pa dobiš dobesedn pusran vrh od sicr fletnh ovac...<br> ukrepejte kej svine<br> <br> aja drga&#269; pa za vse tiste k vs zanima pot, je fajn n&#269; snega, pa krasno za jest na ko&#269;i na kališ, zelo fajn &#269;vouk oskrbnik, prjazn. Model tprav</div>
+       
+       </div>
+    </td>
+    <td id="komD0_38" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_38" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30091" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_39" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_39" class="komL"><a class="ime" href="/gornik/iunknown/17921">iUnknown</a><span class="komDatum">26. 07. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Joj @michael66, jaz sem šel zdaj prvi&#269; sploh, pa nisem imel nobenih problemov z navigacijo. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_39" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_39" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30165" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_40" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_40" class="komL"><a class="ime" href="/gornik/saleska/21215">sAleska</a><span class="komDatum">2. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V sredo, 31.7. šla po tem lepem robu do Kališ&#269;a (še lepše je bilo pomladi, ko je bil rob &#269;isto rde&#269; od resja). Na Kališ&#269;u menjajo okna in vrata in tudi okrašeno je že za praznovanje 120 let PD. Oskrbnik Goran je napletel kite ruševja kot jih je videl na sliki odprtja ko&#269;e. <br> Storži&#269; je bil ob&#269;asno zavit v meglice, sonce ni žgalo in prav prijetno je bilo hodit. Ko stopim iz ruševja, preden gre pot &#269;ez rob, zagledam vse polno Cojzovih zvon&#269;nic. Kaj takega še nisem videla. Tudi naprej po greben&#269;ku jih je polno.<br> Vrh je res na debelo pognojen, povzro&#269;iteljice  pa so se stiskale med skalami na zahodnem grebenu. Se je pa še kar dalo dihat, ker je ob&#269;asno rahlo popihalo. Sonce je prav prijetno grelo in nikamor se mi ni mudilo. <br> Na Kališ&#269;u naro&#269;im odli&#269;ne sirove štruklje a jih nisem jedla. Za&#269;elo je namre&#269; grmeti in v 35 minutah sem bila pri avtu - suha. Štruklji pa so nam doma vsem teknili. <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_40" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_40" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30905" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_41" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_41" class="komL"><a class="ime" href="/gornik/vreset/4448">vreset</a><span class="komDatum">19. 12. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ali je šel kdo v zadnjem &#269;asu gor? zanimajo me razmere?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_41" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_41" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31275" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_42" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_42" class="komL"><a class="ime" href="/gornik/pekana/12296">Pekana</a><span class="komDatum">5. 04. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Heheheh, kvaj dej puš&#269;avski lisjaki?! Sva šua z našo na Storž&#269;, u ma&#269;ah parking pohn tuko, k dap ajmoht na Kališ zaston talal. Sn djau Majdi, &#269;ej tola kriza nej kr traja...Šuškovc, majca, maska, hobok, fertik! Tošl sm pa doma pozabu u puhodniškh hva&#269;ah u ruzaku..Je djala naša, "preklet kurc, zadn dan je predn bo krntena! Boš šu pa u gatah, js te ne mislm &#269;akat da bošu dam po hva&#269;e"..sn djau prou in sva šua!<br> <br> Majdi oble&#269;ena po zadni modi za gornike es pa u gatah pa u larfi pa hobok u rukah.velik nasmeh Sva letela gor, folk kmej u mask vidu so kr bežal pred nama, sn djau, tolaj zakon! Nism imu ruzaka sm pa iz auta kr en prazn hobok uzeu, daj mela naša stvari not...Je bo pa to u sboto, kje biu gun pu&#269;avsk pesk u luft, sam naja to ni kej preve&#269; motiu. Sn djau naš, dela ga udihuj puš&#269;ave še douh nouš vidla jezik. A veš kej zahodna sahara, sm uprašu...prav ke? Sn djau mau niži od Marokota.<br> <br> N&#269; poj pa prideva do kališa, o sva se ulekla, gor pa ldi pouno, pa &#269;eblal en &#269;ez druzga, boli ih kurec za virus. So se eni vudovodarji pugovarjal &#269;ist na bliz, prav en drugmo " aveš da sm par dni nazaj en tastar pe&#269; popravu pa vodo napelu na fuš". Je djau keš na roke je nejbol...pa so se za&#269;el smejat, ndva z Majdi pa tut. Sva se po&#269;la dol u en sklnak zravn ko&#269;e, sonce naja je greu u že tuko tople duše. Madona sm biu va&#269;n...vsak jedec te tika k te u usta utika, sem je luštou po kranski kubas!zavijanje z o&#269;mi Je djala Majdi, tuko k est puš&#269;ave nom vidla ti tud Storži&#269;a dons nouš, je kla preve&#269; fletno. Prov maš sn djau!<br> <br> Pot za use tiste k vs tud to zanima, je bua kopna, sneh je pa zadnh 100 višincou, kola pu pot lih tok daj dr&#269;no k svina, drga&#269; pa previdnost ni udve&#269;, govorim do Kališa, poj na storž&#269; pa nucate dereze ne ketnce...<br> <br> N&#269;, poj sva se pa son&#269;va ene 2 ure... dol grede &#269;eblava, pa prau naša kuko nkol nou pozabila kso en viknd ga biksal u Bohin, so pa neki pil, da se n&#269; ne spomne kukoj bo. Sn djau nkol nouš pozabila viknda ks use pozabila.velik nasmeh. Prav veš Petr, tis tak bk!<br> <br> Na velko plnino res douga je pot, &#269;es pasje pe&#269;ine jo maha en trot, na velki mam sina na mali pa h&#269;er, oba sm naredu u sboto zve&#269;er..sem je dol grede odvijou en komad u glau...<br> <br> Aja slike u mask sm pa tud objavu u sojmo profilh, poglejte!!<br> <br> <br> Mejte se</div>
+       
+       </div>
+    </td>
+    <td id="komD0_42" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_42" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33702" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_43" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_43" class="komL"><a class="ime" href="/gornik/robar/15296">Robar</a><span class="komDatum">13. 08. 2021 21:45:39</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Po dolgem času sem se zopet s prijatelji odpravil na Storžič. Parkirali smo v Gamsovem raju poleg vodnega zajetja, kjer sta možni 2 poti na Kališče.<br> Gor smo k sreči šli po desni, ki se začne s široko gozdno potjo in ni nikjer zelo strma. Druga pot,<br> ki se začne levo, je veliko bolj strma in jo ne priporočam.<br> Koča na Kališču, me je razočarala. Klopi okrog nje so v prav žalostnem stanju, nekaj je tudi strohnelih in napol podrtih. Videl sem oskrbnika, ki je metal odpadke po bregu zadaj za kočo.<br> Sam Storžič pa mogočen kot vedno. Malo je bilo vroče, a smo zmogli. Zelo pametna se mi zdi ograja na vrhu, da ga ne morejo zasesti ovce.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_43" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_43" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36172" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_44" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_44" class="komL"><a class="ime" href="/gornik/jp/21409">J.P.</a><span class="komDatum">16. 06. 2023 19:53:09</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Takoj pod vasjo je parking za obiskovalce hribov. Brezplačen. Pot se nam bistveno ne podaljša. Drugače, zelo lepa, razgibana pot, trenutno brez posebnosti. Nazaj smo se vranili po JZ grebenu, ki se združi s potjo na Lovrenca in na koncu pokombinirali z Gamsovo. Priporočam.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_44" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_44" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36409" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_45" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_45" class="komL"><a class="ime" href="/gornik/navdusena/10441">navdušena</a><span class="komDatum">16. 07. 2023 05:28:06</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za obiskovalce gora je v zaselku Laško pripravljeno krasno parkirišče. Uporabimo ga! Makadamska cesta je bila včeraj kar dobro razrita in vesela sem bila, da je avto na parkirišču, ki je tudi temu namenjeno. Pot je sicer brez posebnosti, popolnoma kopna.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_45" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_45" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36419" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_46" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_46" class="komL"><a class="ime" href="/gornik/kafetarca/22107">Kafetarca</a><span class="komDatum">17. 07. 2023 15:04:53</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kje pa je ta parking? Imaš mogoče koordinate za google maps?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_46" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_46" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36420" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_47" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_47" class="komL"><a class="ime" href="/gornik/sla/6341">sla</a><span class="komDatum">17. 07. 2023 15:21:08</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Parkirišča ne moreš falit, greš v smeri Gamsjega raja in je tik pod hišami, celo piše, da je za obiskovalce gora.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_47" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_47" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36430" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_48" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_48" class="komL"><a class="ime" href="/gornik/docepe2/17271">docepe2</a><span class="komDatum">18. 07. 2023 07:22:41</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Samo dodoma, da je na tem parkirišču tudi urejeno za en avtobus.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_48" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_48" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36432" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_49" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_49" class="komL"><a class="ime" href="/gornik/aurelianus/27841">Aurelianus</a><span class="komDatum">18. 07. 2023 15:05:46</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vrhunsko parkirišče pod Laškim. Danes zelo malo ljudi. Pot do vrha zelo lepa vendar ponekod do Kališča malo nevarna od včerajšnega dežja. Je pa dobro iti zgodaj ker se zna čez dan narediti kapa okoli vrha in je škoda, da bi se zamudil vrhunski razgled.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_49" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_49" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36434" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_50" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_50" class="komL"><a class="ime" href="/gornik/kafetarca/22107">Kafetarca</a><span class="komDatum">19. 07. 2023 08:10:24</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A je to ta parking? <a target=# class=moder href=https://goo.gl/maps/Y1QZEXWUcVFNYYAJA>https://goo.gl/maps/Y1QZEXWUcVFNYYAJA</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_50" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_50" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36435" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_51" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_51" class="komL"><a class="ime" href="/gornik/loni/10182">Loni</a><span class="komDatum">19. 07. 2023 09:34:48</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ja, in tabla z napisom je tako velika, da je res ne moreš zgrešiti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_51" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_51" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(52);
+    });
+    abc(52);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,3940 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Belca - Kepa</title>
+        <meta name="description" content="Natančen opis izleta Belca - Kepa. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/belca_kepa/11/97/164" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/belca_mittagskogel_kepa/11/97/164"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=11&id=97&potid=164"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/karavanke/11">Karavanke</a> / <a class="moder" href="/gora/kepa/11/97">Kepa</a> / Belca - Kepa
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(164);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Belca - Kepa</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=164';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Belca (692 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;28,5540'N&nbsp;/&nbsp;13°&nbsp;54,5892'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;28'&nbsp;33,24''N&nbsp;/&nbsp;13°&nbsp;54'&nbsp;35,35''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,4759°N&nbsp;/&nbsp;13,90982°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.4759,&nbsp;13.90982";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,4759°N&nbsp;13,90982°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(164,46.4759,13.90982);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.4759,13.90982"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/kepa/11/97">Kepa (2143 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 4 h 15 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1451 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1451 m</div>
+    <div class="g2"><b>Zemljevid:</b> Kranjska Gora 1:30.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 94.575</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;8&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">34</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">121</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Gorenjsko avtocesto zapustimo na izvozu Hrušica in cesti naprej sledimo v smeri Kranjske Gore. Ko prispemo v naselje Belca parkiramo na označenem novem parkirišču ob žagi.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Parkiramo na označenem parkirišču pri žagi. Se vrnemo nekaj metrov nazaj do začetka označene poti, ki ji sledimo mimo pregrade. Pot gre potem direktno v strugo (desno kolovoz k zapuščeni karavli). Sredi podrtije kamenja od podora, na večji skali zagledamo markacijo. Do sem in nato na drugo stran struge potoka si iščemo najboljše prehode. Ta del je kratek. Sledimo potki po pesku, ki je že kar vidno uhojena, v pomoč nam je tudi markacija na drevesu, tam kjer pot zavije v gozd. Pot se nato v gozdu strmo dviga in prispemo na cesto. Na levi je predor, če se sprehodimo skozenj lahko vidimo kako je podor odnesel cesto. Mi pa nadaljujemo po cesti v desno. Sledi dolga hoja po skoraj ves čas ravni cesti, ki je na več mestih tudi zasuta ali pa udrta, bližje zapornici že skoraj v celoti odnešena, vendar s prehodi ni težav. Po približno uri in 15 minut smo pri nekdanjem izhodišču pri zapornici. Sledimo oznaki za Kepo (slika 2), pot se spusti v strugo potoka, ga preči in zavije levo v breg, velika markacija in smerokaz. Pot se začne strmeje vzpenjati. Naprej se vzpenjamo skozi gozd, ki je občasno prekinjen s kakšno krajšo z grmičevjem poraslo jaso. Markirana planinska pot nato dvakrat preči gozdno cesto, ko na njo stopimo tretjič pa ji sledimo v desno do nekoliko večjega parkirišča ob mejnem grebenu.<br> S parkirišča se v nekaj korakih povzpnemo na mejni greben in poti naprej sledimo proti vzhodu. Razmeroma zložna pot, ki poteka po mejnem grebenu pa nas hitro pripelje do manjšega bivaka (2 ležišči), ki se nahaja na slovenski strani grebena.<br> Od bivaka še naprej nadaljujemo po markirani stezi kateri pa se kmalu priključi še pot iz Avstrije. Pot se nato nekoliko strmeje vzpne in nas naprej vodi po vedno ožjem grebenu. Vse bolj razgledna pot nato preči nekaj rahlo izpostavljenih grap in za tem zavije desno (povsem na slovensko stran). Pot naprej se prečno vzpne čez strmo in dobro zavarovano pobočje, ki je zelo izpostavljeno padajočemu kamenju. Višje pot zavije levo in se nato vzpenja po strmem vršnem pobočju Kepe. Strma in grušča polna pot pa nas višje ponovno pripelje na mejni greben, kjer je naslednje razpotje. Nadaljujemo levo (desno Dovje) po poti, ki nas po nekaj nadaljnjih korakih pripelje na vrh Kepe.<br> Belca - zapornica 1:15, zapornica - bivak 1:15, bivak - Kepa 1:45.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/kepa/97"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Kepa"></a></div>
+
+
+<div style="padding-top:10px;"><b>Izlet lahko podaljšamo do naslednjih ciljev:</b> <a class="moder" href="/gora/gubno/11/479">Gubno (1 h 15 min)</a>, <a class="moder" href="/gora/dovska_mala_kepa/11/478">Dovška Mala Kepa ( 45 min)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/belca/46.4759/13.90982">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/belca_kepa/164">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=97">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=97">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/529862" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/529862');"><img class="slikagm" alt="Belca - Kepa" src="//slike2.hribi.net/slike14/2_0135716200552_0parkirisce_belca.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224415" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224415');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010309mediumor8.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224416" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224416');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P1010312785400.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224417" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224417');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010308mediumpt3.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224418" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224418');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010305mediumhc5.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224419" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224419');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010303mediumjr2.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224420" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224420');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010301mediumwh0.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224421" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224421');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010300mediummz7.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224422" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224422');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010298mediumgb3.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224423" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224423');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P1010297942480.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224424" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224424');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010296mediumhp2.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224425" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224425');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010136mediumes2.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224426" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224426');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010137mediumdl6.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224427" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224427');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010139mediumhv1.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224428" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224428');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010141mediumqm4.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224429" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224429');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P10101431122000.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224430" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224430');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P1010144 (Medium)1122000.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224431" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224431');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P10101471122000.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224432" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224432');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P10101481122000.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224433" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224433');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P10101501122000.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224434" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224434');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P10101521122000.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224435" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224435');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010153mediumpm5.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224436" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224436');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010154mediumli8.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224437" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224437');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010290mediumta8.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224438" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224438');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P10101551256640.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224439" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224439');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P10101571256640.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224440" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224440');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010158mediumso4.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224441" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224441');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010160mediumbn3.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224442" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224442');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/slike1/P101016124480.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224443" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224443');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010162mediumcy0.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224444" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224444');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010170mediumxd7.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224445" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224445');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010172mediumur1.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224446" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224446');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010173mediumji0.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/belca_kepa/224447" onclick="event.preventDefault(); window.open('/slika_pot/belca_kepa/224447');"><img class="slikagm" alt="Belca - Kepa" src="//www.hribi.net/Pot/p1010174mediumuh6.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Belca - Kepa</b></div>
+
+
+    <script>
+    function prikaziStaraSporocila()
+    {
+        document.getElementById('gumbstarasporocila').style.display='none';
+        document.getElementById('komX').style.display='block';
+    }    
+    </script>
+    <div id="gumbstarasporocila" style="margin:7px 0px 0px 0px;" class="gumbsiv2" onclick="prikaziStaraSporocila();">Prikaži starejša sporočila</div>
+    <div id="komX" style="display:none;">
+    
+
+<div id="kom541" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">24. 12. 2006</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;erajšnji vzpon je bil v idealnih vremenskih razmerah enkraten. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2339" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">4. 10. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A je žig na vrhu? Lani je bila samo vpisna knjiga - naša in avstrijska, o žigu pa ne duha ne sluha.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2664" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">30. 12. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na vrhu je žig in vpisna knjiga, vendar ga ne iš&#269;i pri križu, vrh je cca 20m oddaljen od križa.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2815" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">11. 02. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kaj pa zimska tura na Kepo? Kolikšna je zahtevnost te poti, katero pot priporo&#269;ate in kakšne so kaj trenutne razmere? Hvala za odgovor.<br> lp. Franci</div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3646" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">31. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pred nekaj urami sva z ženo prišla s Kepe po omenjeni poti Belca- Rampa- Sedli&#269;- Kepa, (oz. nazaj).<br> Moram poudariti, da je bila kar zanimiva izkušnja, predvsem kar se ti&#269;e ne/varnosti in pa opisa možnih poti na Kepo,- tukaj na tem mestu. Ko sva prišla na vrh, sva najprej dojela, da ta pot sploh ni edina, ampak je dostop (manj nevaren) možen tudi z vzhodne- dovške strani. &#268;e bi ne imel parkiranega avta na Sedli&#269;u, bi se zagotovo vrnila po omenjeni vzhodni strani, saj tam ni prete&#269;e nevarnosti padajo&#269;ega kamenja, kot tu. Ko sva sestopala je po grapi (koder vodi pot) mimo naju letelo skalovje. Najbrž si niti v sanjah ne predstavljava kolikšno sre&#269;o sva imela, da naju ni zadelo.. <br> Tudi varovala na ispostavljenih mestih so potrebna remonta.<br> Vsekakor svetujeva, da se v primeru &#269;e je vaš cilj osvojiti vrh Kepe, pozanimate za izhodiš&#269;e z vzhodne- Dovške strani.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3647" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/tadej/11">Tadej</a><span class="komDatum">31. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot z Dovške strani na Kepo je veliko težja in bolj izpostavljena padajo&#269;emu kamenju kot pot po kateri sta se povzpela. Poglejta si nekaj slik s poti, ki jo omenjata.<br> <a target=# class=moder href="http://www.hribi.net/slika.asp?pot=9749">http://www.hribi.net/slika.asp?pot=9749</a><br> <a target=# class=moder href="http://www.hribi.net/slika.asp?pot=9750">http://www.hribi.net/slika.asp?pot=9750</a><br> <a target=# class=moder href="http://www.hribi.net/slika.asp?pot=9751">http://www.hribi.net/slika.asp?pot=9751</a><br> <a target=# class=moder href="http://www.hribi.net/slika.asp?pot=9756">http://www.hribi.net/slika.asp?pot=9756</a><br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3648" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/kriska/834">Kriška</a><span class="komDatum">31. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Popolnoma se strinjam s Tadejem. Pred par leti sem prehodila obe poti - ni primerjave, pot od Belce je bila zame v primerjavi s tisto z dovške strani pravi sprehod.<br> <br> Me pa zelo zanima, na podlagi &#269;esa sta sklepala, da je dostop z dovške strai lažji - manj nevaren???<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3657" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">2. 09. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ko sva prišla na vrh, me je ravno poklical prijatelj, ki je bil že ve&#269;krat tam. Ko sem mu govoril o padajo&#269;em kamenju, mi je svetoval, naj se vrneva po omenjeni (manj nevarni) poti.Tega nisva mogla storiti, zato pa sva skoraj prestregla padajo&#269;o skalo..<br> Seveda Tadej, po slikah sode&#269; sklepam, da je z druge strani kar zelo nevarno, zato me zanima, &#269;e obstoja še katera tretja pot ali kaj? Gre za edino varianto z Dovške strani?<br> Hvala za komentarje, vseeno pa bi še enkrat poudaril veliko nevarnost krušenja skalnih plasti.(Dvomim da bi v najinem primeru &#269;elada pomenila karkoli).</div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3658" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/tadej/11">Tadej</a><span class="komDatum">2. 09. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Z Dovjega je v spodnjem delu ve&#269; variant (&#269;ez Rožco, Brvoge ali Kurjeke slednja je nemarkirana), a se v zgornjem delu združijo tako, da se težjim mestom ne moreš umakniti.<br> Na vrh pa se, da priti tudi iz avstrijske strani in sicer mimo ko&#269;e "Mittagskogel Hütte".</div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3879" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/ziga_b/4091">ziga_b</a><span class="komDatum">9. 10. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Super vzpon&#269;ek, odli&#269;no vreme, fenomenalen razgled in &#269;ista samota...v glavnem prva liga <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3900" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/andrej_jerina/3240">andrej jerina</a><span class="komDatum">12. 10. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tudi sam sem danes opravil zgoraj opisani vzpon na Kepo. Vreme fantasti&#269;no, o razgledih ne bi govoril. Zanima me, &#269;e kdo pozna slovensko ime za vrh, kateri je od Kepe oddaljen cca 10 minut po grebenu v Avstrijo. Gor stoji lep križ.Na netu sicer najdem neke avstrijske zimske vzpone na "Ostgratkreuz", vendar žal ne razumem jezika. LP Andrej</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3933" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/fleksarca/3108">FLEKSARCA</a><span class="komDatum">19. 10. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bil danes gor,vreme špica,ljudi kar dosti,predvsem Avstrijcev na Mittagskogel(mimogrede,odpreš vpisno knjigo pri križu in bumf slikca od pokojnega deželnega glavarja,pa pustmo to).&#268;e smo pa že pri vpisnih knjigah na Kepi je polna in me zanima kdo ima te stvari na&#269;ez,ker je vseen koristna zadeva,&#269;e se bognedaj kaj zgodi.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3959" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/andrejg/3992">AndrejG</a><span class="komDatum">25. 10. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes sem bil na Kepi, zapornica je bila odprta, tako da sem od avtomobila prišel na vrh v uri in 35 min. Zelo lepa turam mestoma zelo odprta, sploh navzdol <img alt=nasmeh src=/slike/smile.gif><br> Ampak glede na to, da sem prejšno soboto prelezel Dolgi hrbet od Skute do Grintavca, se mi to ni zdelo posebej odprto <img alt=nasmeh src=/slike/smile.gif><br> To je bilo bolj za šalo, verjamem, da je bilo Heinza strah, tudi mene bi bilo, &#269;e bi bil to moj med prvimi "odprt" vzpon.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4289" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/fazo/3025">Fazo</a><span class="komDatum">12. 03. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A se kej ve, do kam je spluženo? Kakšna je nevarnost plazov? Druge informacije?<br> <br> Lp, matevž</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4296" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">15. 03. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kolikor sem pred kratkim cca 2 tedna nazaj opazil, ko sem peljal mimo, sploh ni spluženo. Torej peš od gl. ceste. Kar nekaj.. Si boš moral vzeti kar ves dan, pa še zelo zgodaj boš moral štartati.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4570" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/grahlck/4095">grahlck</a><span class="komDatum">6. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Koliko je snega na tej poti?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4574" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">7. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V rubriki "Zaprte in poškodovane poti" na levi strani, si lahko prebereš kako je s potjo Belca- Kepa.<br> Opozorilo zaenkrat še ni umaknjeno..<br> (&#269;e se boš tja vseeno podal/a, pa nam vsekakor napiši kaj o dejanskih razmerah, ki tam vladajo ta hip)<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4624" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/herbi/5032">herbi</a><span class="komDatum">14. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>danes sem bila na kepi iz dovške strani, vreme je bilo &#269;udovito, razgled lep. Snega ni ve&#269;. Pot je še kar v redu, potrebna je previdnost posebno malo pod vrhom.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4625" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/vesnica/3239">vesnica</a><span class="komDatum">15. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>kje je izhodiš&#269;e in kakšna je pot do tja?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4629" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/andrejjerina/4501">andrejjerina</a><span class="komDatum">15. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vesnica, na izhodiš&#269;e se pripelješ to&#269;no tako, kot je opisano zgoraj. &#268;e me spomin ne vara, je z glavne ceste prvi odcep desno v breg izza omenjene vasi. LP Andrej</div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4632" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">16. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Izhodiš&#269;e oz pot ki pelje iz dovške strani na Kepo je Brinje oz še malo naprej, kamor prideš skozi vas Dovje po gozdni cesti (leva=Kepa, desna=Dovška baba) proti severu. Ko prideš do razcepa Brinje pelješ naravnost oz desno (levo Vrse, Borovje, Planica) do konca ceste ob potoku. Pot vodi levo &#269;ez potok.<br> Torej ne Belca, ampak Dovje (Aljaž).</div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4638" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/vesnica/3239">vesnica</a><span class="komDatum">17. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#269;e prav zastopim sta dve poti na kepo iz belce kjer sem že bila pa sedaj pravijo da je cesta zaprta,in iz dovjega kjer pa še nisem šla,kot piše Aljaž je to druga pot.<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4639" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/matejn/5022">matejn</a><span class="komDatum">17. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lep pozdrav!<br> <br> Gozdna cesta ,ki pelje iz Belce proti Kepi, je že kar nekaj &#269;asa popravljena in zato prevozna brez problemov.Preverjeno!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4644" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_23" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_23" class="komL"><a class="ime" href="/gornik/vesnica/3239">vesnica</a><span class="komDatum">18. 06. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>hvala za informacijo v prihodnjih dneh se odpravljam gor.Vesna</div>
+       
+       </div>
+    </td>
+    <td id="komD0_23" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_23" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5095" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_24" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_24" class="komL"><a class="ime" href="/gornik/nata24/5402">nata24</a><span class="komDatum">11. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je ob cesti kaj napisano oz. ali je kak smerokaz, kje je treba zaviti na gozdno pot za Kepo in koliko približno se voziš po tej poti do zapornice. Vedno imam probleme z iskanjem izhodiš&#269;ne poti.Lp, Nataša </div>
+       
+       </div>
+    </td>
+    <td id="komD0_24" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_24" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5096" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_25" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_25" class="komL"><a class="ime" href="/gornik/felix/4524">felix</a><span class="komDatum">11. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za zapornico je treba še nekaj minut peš po cesti, potem pa je vidna oznaka za Kepo (druga fotka). lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_25" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_25" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5098" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_26" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_26" class="komL"><a class="ime" href="/gornik/nata24/5402">nata24</a><span class="komDatum">11. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mene zanima, kot sem napisala, &#269;e je kak smerokaz preden zaviješ takoj za Belco iz glavne ceste na gozdno in koliko &#269;asa potem voziš po tej gozdni poti do zapornice. Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_26" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_26" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5101" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_27" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_27" class="komL"><a class="ime" href="/gornik/ben/2802">ben</a><span class="komDatum">11. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>No, prav posebej odcep z glavne ceste ni ozna&#269;en. Je pa to prvi odcep iz Belce proto Kranjski gori v desno. Visoko na drevesu pa je nekdaj tudi pisalo Kepa ( ne vem &#269;e še? ) Je pa vožnje kakšnih 5 km, tako po ob&#269;utku, tam sem se vozil nazadnje kakšne 3 leta, pa me je spomin že malo zapustil. V glavnem, ne odvijaj desno takoj v Belci, ampak se pelji še kakšen kilometer naprej.<br> Pa sre&#269;no </div>
+       
+       </div>
+    </td>
+    <td id="komD0_27" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_27" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5102" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_28" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_28" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">11. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Iz glavne ceste ni nobenega smerokaza za Kepo, pa&#269; pa kmalu za mostom na Belci, kateremu po cca 200-300 m sledi zadnja hiša na desni (tu ni ve&#269; Belca) opaziš na  (seveda)desni gozdno cesto, na katero se usmeriš. Vsega skupaj bi se dalo re&#269;i kakih 800 m ven iz Belce. Nasproti omenjene gozdne ceste je zaselek Podkluže (mislim da nima table, ker nekako spada k Belci).<br> Po gozdni cesti voziš kar nekaj &#269;asa 10- 15 min, t.j. skozi slikovito sotesko, mimo slapov, skozi skalnat tunel, ipd.. &#268;ez toliko omenjenih minut pripelješ do mosti&#269;ka &#269;ez potok Belca (desno kolovoz nazaj v klanec, ter še en pritok drugega potoka). Torej, g.cesta tu zavije v levo &#269;ez most, takoj za njim stoji rampa (zapornica)-trenutno odprta, cesta pa od tu dalje zavije desno in kmalu spet levo v klanec.. Parkiraš pred omenjenim mosti&#269;kom desno ob cesti. Ko greš &#269;ez most, pre&#269;kaš še potok(a), oz kmalu na drugi strani mosti&#269;ka  na gozdnem (malo bolj strmem) klan&#269;ku opaziš leseno oznako Kepa. Tu je torej pot. V bližini parkiriš&#269;a in ne nekaj minut po cesti, kot je napisal felix.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_28" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_28" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5103" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_29" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_29" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">11. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Naj še malo popravim, da ne bo nesporazuma; smerokaza za Kepo ob glavni cesti ni.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_29" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_29" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5108" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_30" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_30" class="komL"><a class="ime" href="/gornik/nata24/5402">nata24</a><span class="komDatum">12. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Najlepša hvala za odgovore.Lp, Nataša</div>
+       
+       </div>
+    </td>
+    <td id="komD0_30" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_30" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5333" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_31" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_31" class="komL"><a class="ime" href="/gornik/mojca31/5663">mojca31</a><span class="komDatum">27. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Da li netko zna do kada se ove jeseni zatvara Bertahutte (pod Kepom)?<br> lp<br> Mojca</div>
+       
+       </div>
+    </td>
+    <td id="komD0_31" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_31" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6783" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_32" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_32" class="komL"><a class="ime" href="/gornik/mate07/4880">Mate07</a><span class="komDatum">22. 05. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V kratkem bom šel na Kepo pa me zanima, &#269;e je veliko treba plezat. Koliko klinov približno je? Je dobro zavarovana pot?<br> Ali je bolje it iz Zahodne smeri ali Vzhodne smeri gor.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_32" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_32" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6788" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_33" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_33" class="komL"><a class="ime" href="/gornik/ben/2802">ben</a><span class="komDatum">22. 05. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ta pot opisana zgoraj je ravno prava v kolikor ne želiš pretirano plezat. Nekaj klinov in zajl se najde na grebenu pod Kepo, ostalo pa je bolj hoja. V kolikor pa želiš z druge strani, pod Gubnim in Malo Dovško Kepo, je pa pot malo bolj izpostavljena (vmes je še ena škrbina-klini zajle po eni dol po drugi gor )druga&#269;e pa tudi ni&#269; posebnega. Ko pa boš hodil tam okrog pa bi te prosil,Mate07, da vržeš o&#269;i še malo na avstrijsko stran, kako je kaj s snegom na oni strani.<br> <br> LP B</div>
+       
+       </div>
+    </td>
+    <td id="komD0_33" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_33" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6790" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_34" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_34" class="komL"><a class="ime" href="/gornik/mate07/4880">Mate07</a><span class="komDatum">22. 05. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><a target=# class=moder href="http://www.hribi.net/spletna_kamera/kepa/219">http://www.hribi.net/spletna_kamera/kepa/219</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_34" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_34" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6798" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_35" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_35" class="komL"><a class="ime" href="/gornik/ben/2802">ben</a><span class="komDatum">23. 05. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvaka Mate za link,ampak me zanima stanje na licu mesta. S te slike pa&#269; ne morem videti kakšno je stanje na avstrijski strani, kjer poteka pot.<br> <br> LP B</div>
+       
+       </div>
+    </td>
+    <td id="komD0_35" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_35" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6799" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_36" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_36" class="komL"><a class="ime" href="/gornik/mate07/4880">Mate07</a><span class="komDatum">23. 05. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bil gor danes, pot iz naše smeri je kopna...za ve&#269; poglej moje slike v forumu</div>
+       
+       </div>
+    </td>
+    <td id="komD0_36" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_36" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6975" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_37" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_37" class="komL"><a class="ime" href="/gornik/nata24/5402">nata24</a><span class="komDatum">11. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je avto bolje pustiti pred zapornico ali je pot še o.k. naprej do omenjenega ve&#269;jega parkiriš&#269;a. Lp, Nataša</div>
+       
+       </div>
+    </td>
+    <td id="komD0_37" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_37" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6978" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_38" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_38" class="komL"><a class="ime" href="/gornik/mate07/4880">Mate07</a><span class="komDatum">11. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tista zapornica je odprta skoz, niti ni sledu, da se je zapirala pot, cesta naprej je bolj strma, višje ko greš slabša je, kamenje na cesti, veje, ...<br> Lahko se pripelješ, kar precej visoko in imaš samo še 1-1.5 ure do vrha Kepe, ampak nam vsem ni v interes, da bi se vozili tako visoko z avtom in niti ni pametno.<br> Še bolje pa je enostavno avto pustiti nedale&#269; stran od glavne ceste na kakšnem ovinku, zelo lepa slikovita pot,  ampak je ve&#269; hoje, cesta od glavne pa do zapornice je prevozna<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_38" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_38" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6979" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_39" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_39" class="komL"><a class="ime" href="/gornik/mate07/4880">Mate07</a><span class="komDatum">11. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>To je bilo dne 23.05.2010</div>
+       
+       </div>
+    </td>
+    <td id="komD0_39" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_39" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6982" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_40" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_40" class="komL"><a class="ime" href="/gornik/nata24/5402">nata24</a><span class="komDatum">11. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala za odgovor, bom šla res kar malo ve&#269; peš, ker rada hodim.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_40" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_40" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7072" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_41" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_41" class="komL"><a class="ime" href="/gornik/kris/6145">kris</a><span class="komDatum">24. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali je ta pot primerna za otroka? ali je kaj jeklenic?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_41" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_41" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7073" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_42" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_42" class="komL"><a class="ime" href="/gornik/kriska/834">Kriška</a><span class="komDatum">24. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kris, zakaj pa ne prebereš tegale opisa poti in ne pogledaš fotografij?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_42" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_42" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7110" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_43" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_43" class="komL"><a class="ime" href="/gornik/mate07/4880">Mate07</a><span class="komDatum">28. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Da se malo popravim, tale pot na Kepo je lahka, jaz sem jo o&#269;itno še v &#269;asu snega po grapah malo zgrešil in šel naravnost gor, v resnici pa se pre&#269;ka vzdolž Kepe in nato pešpot po desni strani.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_43" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_43" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12311" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_44" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_44" class="komL"><a class="ime" href="/gornik/_sandra_/10337">_sandra_</a><span class="komDatum">13. 11. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj smo se odpravili na Kepo, &#269;udoviti razgledi na vrhu, le malo vetrovno je bilo <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_44" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_44" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13157" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_45" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_45" class="komL"><a class="ime" href="/gornik/igor37/11254">igor37</a><span class="komDatum">11. 03. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kakšne so razmere na poti do Kepe<br> Hvala za odgovor<img alt=nasmeh src=/slike/smile.gif> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_45" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_45" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13158" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_46" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_46" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">11. 03. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>zimske</div>
+       
+       </div>
+    </td>
+    <td id="komD0_46" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_46" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13225" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_47" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_47" class="komL"><a class="ime" href="/gornik/mary/9511">mary</a><span class="komDatum">20. 03. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni! Je mogo&#269;e kdo hodil v zadnjih dneh po tej poti na Kepo? Kakšna je pot? Hvala za odgovor! Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_47" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_47" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16985" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_48" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_48" class="komL"><a class="ime" href="/gornik/lascan/9053">Laščan</a><span class="komDatum">16. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zanimajo me razmere po poti na Kepo, predvsem morebitni sneg, saj mi pot ni poznana ?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_48" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_48" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16986" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_49" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_49" class="komL"><a class="ime" href="/gornik/ajda/6582">ajda</a><span class="komDatum">16. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Laš&#269;an jaz sem bila na Kepi med tednom iz Erjav&#269;evega rovta snega na tej poti ni. Je pa bilo objavljeno obvestilo, da je cesta iz Belce poškodovana. Oglej si slike od strelca. &#268;e je to že sanirano je pa vprašanje. Še sam si poglej se boš lažje odlo&#269;il. Pa lep pozdrav <img alt=mežikanje src=/slike/wink.gif><br> <a target=# class=moder href=http://www.hribi.net/trenutnerazmere.asp?slo=1&gorovjeid=11&id=603>http://www.hribi.net/trenutnerazmere.asp?slo=1&gorovjeid=11&id=603</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_49" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_49" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16987" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_50" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_50" class="komL"><a class="ime" href="/gornik/lascan/9053">Laščan</a><span class="komDatum">16. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ajda, že ko sem zastavil vprašanje pod rubriko Komentirani izleti, sem našel tvojo objavo v rubriki Forum-Razmere. Objavljeno besedilo in slike strelca 1954 pa so starejšega datuma. Ali greš za izhodiš&#269;e "Erjav&#269;ev rovt" po tej cesti, ki naj nebi bila prevozna. Mislim, da je to izhodiš&#269;e nad vasjo Dovje, poškodovana cesta pa pelje iz vasi Belca. Ali se motim?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_50" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_50" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16988" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_51" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_51" class="komL"><a class="ime" href="/gornik/ajda/6582">ajda</a><span class="komDatum">16. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za Erjav&#269;ev rovt greš iz Dovja, cesta je &#269;isto OK. Tu gor na forumu sta oba opisa poti na Kepo tako da si lahko vse podrobno ogledaš. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_51" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_51" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16990" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_52" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_52" class="komL"><a class="ime" href="/gornik/lascan/9053">Laščan</a><span class="komDatum">16. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala @ajda! <br> Saj se mi je zdelo,da je tako in da greš do izhodiš&#269;a "Erjav&#269;ev rovt" nekaj &#269;asa po isti cesti, kot za izhodiš&#269;e za na Dovško babo</div>
+       
+       </div>
+    </td>
+    <td id="komD0_52" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_52" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19998" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_53" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_53" class="komL"><a class="ime" href="/gornik/edina/5789">Edina</a><span class="komDatum">23. 06. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Jaz sem se v&#269;eraj zapeljala nekoliko višje, do planine Belca. Cesta do tod je trenutno v redu. Po nemarkirani poti sem se nato &#269;ez sedli&#269; Jepca povzpela do sedla Jepca in nadaljevala po markirani poti na vrh. Nekaj utrinkov pa tukaj<br> <a target=# class=moder href="http://stezeinsledi.blogspot.com/2014/06/kepa-najvisja-gora-zahodnih-karavank.html">http://stezeinsledi.blogspot.com/2014/06/kepa-najvisja-gora-zahodnih-karavank.html</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_53" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_53" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20484" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_54" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_54" class="komL"><a class="ime" href="/gornik/ninda/11440">Ninđa</a><span class="komDatum">4. 08. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj bil na Kepi. Smer Belca (zapornica). Super pot! <br> <br> Imam par vprašanj. Na za&#269;etku poti (preden prvi&#269; pre&#269;iš gozdno cesto) je na poti žica. <br> <br> Zanima me ali je bila na tej poti v&#269;asih kakšna žicnica? <br> <br> Tudi sek dreves nakazuje na to. Zdaj pa naslednje vprašanje. Zakaj je bila tukaj žicnica? <img alt=nasmeh src=/slike/smile.gif><br> <br> Pa še nekaj. Od zapornice naprej naj bi bila pot prepovedana. Vseeno sem na zgornjem parkiriš&#269;u na poti navzdol videl par avtov. Druga slika v opisu pot ne drži. Rampa ob vaši vrnitvi ne bo zaprta <img alt=nasmeh src=/slike/smile.gif> <br> <br> Zakaj pa je nadaljna pot prepovedana?<br> <br> Hvala. <br> <br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_54" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_54" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20485" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_55" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_55" class="komL"><a class="ime" href="/gornik/francimedved/987">francimedved</a><span class="komDatum">4. 08. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Glede žice je bila najbrž res postavljena ži&#269;nica za spravilo lesa v dolino. Glede zapornice, &#269;e je odprta se res lahko zapelješ še par kilometrov navzgor do bivaka, ampak na lastno odgovornost, druga slika ti pripoveduje, da je rampa lahko(ni pa nujno), tudi zaprta. Rampa je pa tam postavljena zato,da je pri množici obiskov onemogo&#269;ena nadaljna vožnja saj bi pri tem povzro&#269;ili v obmo&#269;ju pašne skupnosti veliko gužvo, kar pa v osr&#269;ju Karavank tudi ni zaželjeno. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_55" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_55" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20715" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_56" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_56" class="komL"><a class="ime" href="/gornik/griff/16933">griff</a><span class="komDatum">19. 08. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni, zanima me, &#269;e je pot primerna tudi za psa. bila sem že dolgo nazaj na kepi in sem žal pozabila... za odgovore se že vnaprej zahvaljujem.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_56" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_56" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20717" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_57" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_57" class="komL"><a class="ime" href="/gornik/_sandra_/10337">_sandra_</a><span class="komDatum">19. 08. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>pot na Kepo je kar krušljiva, zato je mogo&#269;e zoprno, &#269;e bi pes pri povratku prožil kamenje..</div>
+       
+       </div>
+    </td>
+    <td id="komD0_57" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_57" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20719" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_58" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_58" class="komL"><a class="ime" href="/gornik/locanka/4176">ločanka</a><span class="komDatum">19. 08. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ko sem bila pred leti na tej poti, smo se sre&#269;ali s skupino, ki je imela s seboj psa, pa so imeli velike težave z njim, ker se je mo&#269;no bal.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_58" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_58" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20731" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_59" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_59" class="komL"><a class="ime" href="/gornik/vansims/5756">VanSims</a><span class="komDatum">20. 08. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Iz druge strani, iz Erjav&#269;evega rovta je morda primerna do Gubnega, tam pa bi moral nekdo po&#269;akati s psom. Od tam je do vrha še kako uro (zajle, izpostavljeno, krušljivo).</div>
+       
+       </div>
+    </td>
+    <td id="komD0_59" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_59" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20732" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_60" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_60" class="komL"><a class="ime" href="/gornik/tulipan/10702">tulipan</a><span class="komDatum">20. 08. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kakšne pasme pa je ta kuža?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_60" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_60" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22158" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_61" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_61" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">15. 05. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>...vrjetno je še podor in je treba iz vasi Belca štartat.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_61" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_61" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22159" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_62" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_62" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">15. 05. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>...vrjetno je še podor in je treba iz vasi Belca štartat.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_62" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_62" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22313" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_63" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_63" class="komL"><a class="ime" href="/gornik/marezt/9580">marezt</a><span class="komDatum">12. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V kakšnem stanju je cesta? Bi se dalo z enim navadnim avtom(kia ceed) pridet do zapornice?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_63" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_63" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22317" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_64" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_64" class="komL"><a class="ime" href="/gornik/lunatic/9224">Lunatic</a><span class="komDatum">12. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Še peš ne prideš &#269;ez, kaj šele z avtom <img alt=eek src=/slike/eek.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_64" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_64" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22322" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_65" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_65" class="komL"><a class="ime" href="/gornik/marezt/9580">marezt</a><span class="komDatum">12. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bilo je &#269;isto normalno vprašanje in sem pri&#269;akoval normalen odgovor.....hvala</div>
+       
+       </div>
+    </td>
+    <td id="komD0_65" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_65" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22325" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_66" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_66" class="komL"><a class="ime" href="/gornik/julika/13573">julika</a><span class="komDatum">12. 06. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Prejšnji mesec je bila še zapora, zdaj verjetno še ni sprememb<br> <br> <a target=# class=moder href="http://www.pzs.si/novice.php?pid=9582">http://www.pzs.si/novice.php?pid=9582</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_66" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_66" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22481" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_67" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_67" class="komL"><a class="ime" href="/gornik/iztokmaltar/2991">iztok.maltar</a><span class="komDatum">1. 07. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>21.6.2015 <br> <br> Na spustu v Belco je plaz odnesel lep kos ceste. Še do pred nekaj dnevi cesta ne samo da ni bila prevozna, bila je tudi neprehodna. A vendar so naši ljudje ta del pripravili, da je bil prevozen in to samo zaradi tekme. Zahvaljujem se v imenu sodelujo&#269;ih in globok poklon vsem, ki so to omogo&#269;ili.<br> <br> <a target=# class=moder href="http://www.mtb.si/novice/2686-alpe-adria-mtb-giro-2015.html">http://www.mtb.si/novice/2686-alpe-adria-mtb-giro-2015.html</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_67" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_67" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22883" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_68" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_68" class="komL"><a class="ime" href="/gornik/istrumel/8900">istrumel</a><span class="komDatum">15. 08. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>tudi mene zanima ali je sedaj možno priti do izhodiš&#269;a pri zapornici belca ?<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_68" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_68" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22889" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_69" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_69" class="komL"><a class="ime" href="/gornik/ninooos/9583">ninooos</a><span class="komDatum">16. 08. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ja, cesta je spet prevozna.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_69" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_69" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22893" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_70" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_70" class="komL"><a class="ime" href="/gornik/istrumel/8900">istrumel</a><span class="komDatum">16. 08. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>hvala,kon&#269;no bo padla kepa</div>
+       
+       </div>
+    </td>
+    <td id="komD0_70" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_70" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+</div>
+
+
+<div id="kom22894" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_71" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_71" class="komL"><a class="ime" href="/gornik/daaam/7435">Daaam</a><span class="komDatum">16. 08. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>kako padla? ..po bregu navzdol?<img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_71" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_71" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22895" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_72" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_72" class="komL"><a class="ime" href="/gornik/lipko/14466">lipko</a><span class="komDatum">16. 08. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Najbrž je s "padla" mišljeno v prenesenem pomenu besede in ne dobesedno.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_72" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_72" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22897" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_73" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_73" class="komL"><a class="ime" href="/gornik/istrumel/8900">istrumel</a><span class="komDatum">16. 08. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>seveda v prenesenem pomenu.( Padel bo še en štempelj dvotiso&#269;aka v mojo knjižico.)</div>
+       
+       </div>
+    </td>
+    <td id="komD0_73" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_73" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23198" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_74" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_74" class="komL"><a class="ime" href="/gornik/elicafaca/18602">Elicafaca</a><span class="komDatum">14. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif> Kepa je super gora !</div>
+       
+       </div>
+    </td>
+    <td id="komD0_74" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_74" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24255" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_75" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_75" class="komL"><a class="ime" href="/gornik/mukl/11625">mukl</a><span class="komDatum">19. 05. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo! Morda ve kolik oje še snega na poti?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_75" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_75" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24256" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_76" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_76" class="komL"><a class="ime" href="/gornik/miri/6426">miri</a><span class="komDatum">19. 05. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>@mukl,imaš odgovor na "razmere"</div>
+       
+       </div>
+    </td>
+    <td id="komD0_76" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_76" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24258" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_77" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_77" class="komL"><a class="ime" href="/gornik/ivoma/17135">ivoma</a><span class="komDatum">19. 05. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><br> Danes na Kepi<br> Samo en del je še malo zasnežen je treba malo pazit da ne pride do zdrsa druga&#269;e pa je suha pot</div>
+       
+       </div>
+    </td>
+    <td id="komD0_77" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_77" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24264" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_78" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_78" class="komL"><a class="ime" href="/gornik/mukl/11625">mukl</a><span class="komDatum">20. 05. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Obema hvala za odgovor in poro&#269;ilo s prve roke, to je edino zanesljivo in nanj veliko dam. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_78" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_78" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24266" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_79" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_79" class="komL"><a class="ime" href="/gornik/ninda/11440">Ninđa</a><span class="komDatum">20. 05. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zdravo.<br> <br> @ivona na katerem delu se nahaja ta del?<br> <br> Lp, Nino</div>
+       
+       </div>
+    </td>
+    <td id="komD0_79" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_79" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24334" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_80" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_80" class="komL"><a class="ime" href="/gornik/jama/19505">jama</a><span class="komDatum">28. 05. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ojla<br> Ali mogo&#269;e kdo ve v kakšnem stanju je cesta od Belce proti kepi.<br> <br> lp Marija</div>
+       
+       </div>
+    </td>
+    <td id="komD0_80" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_80" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24551" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_81" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_81" class="komL"><a class="ime" href="/gornik/marepn955/13518">marepn955</a><span class="komDatum">4. 07. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo,<br> <br> tudi mene zanima, v kakšnem stanju je cesta do rampe oziroma ali so kakšne posebnosti na poti do vrha ?<br> <br> Hvala za odgovor in lp,<br> marko</div>
+       
+       </div>
+    </td>
+    <td id="komD0_81" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_81" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24655" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_82" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_82" class="komL"><a class="ime" href="/gornik/jama/19505">jama</a><span class="komDatum">14. 07. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes na poti proti Kepi. Cesta je bila prevozna približno 4 km. Potem je cesto zaprl plaz kamenja in peska. Od plazu naprej je cesta zopet v redu. &#268;e bodo odstranili ta plaz, ni nobemega problema priti z avto do zapornice.<br> <br> Lp Marija</div>
+       
+       </div>
+    </td>
+    <td id="komD0_82" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_82" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24768" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_83" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_83" class="komL"><a class="ime" href="/gornik/sibamkotstrela/19761">šibamkotstrela</a><span class="komDatum">22. 07. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>imamo že kakšen update glede ceste? je že po&#269;iš&#269;ena?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_83" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_83" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24785" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_84" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_84" class="komL"><a class="ime" href="/gornik/sibamkotstrela/19761">šibamkotstrela</a><span class="komDatum">24. 07. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>plazovi so po&#269;iš&#269;eni, cesta je na prej izpostavljenih mestih zdaj utrjena <img alt=nasmeh src=/slike/smile.gif> tako da je Belca dostopna brez problema <img alt=mežikanje src=/slike/wink.gif> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_84" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_84" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24786" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_85" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_85" class="komL"><a class="ime" href="/gornik/zlatica/10666">zlatica</a><span class="komDatum">24. 07. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>A si šel kar sam pogledat? Hvala za info. Bo prav prišla. <img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_85" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_85" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24973" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_86" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_86" class="komL"><a class="ime" href="/gornik/marepn955/13518">marepn955</a><span class="komDatum">14. 08. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo,<br> <br> V&#269;eraj sva bila z Mojco na Kepi. &#268;udovito vreme, pravo razkošje razgledov, zadeva za ponoviti <img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif>.<br> <br> Cesta do rampe prevozna brez posebnosti.<br> <br> Lp Marko</div>
+       
+       </div>
+    </td>
+    <td id="komD0_86" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_86" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25496" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_87" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_87" class="komL"><a class="ime" href="/gornik/sasgittariusvz/19415">sasgittariusvz</a><span class="komDatum">5. 10. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Prvi put idem na Kepu i interesira me dostupnost autom. Da li je bolje iz Erjav&#269;evog Rovta ili Zapornice (Belce)? Koja je bolja cesta autom?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_87" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_87" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25497" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_88" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_88" class="komL"><a class="ime" href="/gornik/ivoma/17135">ivoma</a><span class="komDatum">5. 10. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>meni je bolja dostupnost iz Erjav&#269;evog Rovta </div>
+       
+       </div>
+    </td>
+    <td id="komD0_88" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_88" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom25892" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_89" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_89" class="komL"><a class="ime" href="/gornik/franjo66/9717">franjo66</a><span class="komDatum">3. 02. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zanimajo me razmere po poti na Kepo</div>
+       
+       </div>
+    </td>
+    <td id="komD0_89" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_89" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26097" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_90" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_90" class="komL"><a class="ime" href="/gornik/zgembo/16153">Zgembo</a><span class="komDatum">9. 04. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bil danes na tej turi, vreme super, snega je kar nekaj, priporo&#269;ljive dereze in cepin.<br> Evo nekaj fotk <img alt=nasmeh src=/slike/smile.gif><br> <a target=# class=moder href="https://www.youtube.com/watch?v=h6BdccS_UKk">https://www.youtube.com/watch?v=h6BdccS_UKk</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_90" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_90" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26786" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_91" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_91" class="komL"><a class="ime" href="/gornik/pohodnjak/21133">Pohodnjak</a><span class="komDatum">29. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bil danes na vrhu v megli in vetru <img alt=zavijanje&nbsp;z&nbsp;o&#269;mi src=/slike/rolleyes.gif> Pot je lepa, za razglede ne vem <img alt=nasmeh src=/slike/smile.gif>. Cesta do izhodiš&#269;a je bila danes OK in normalno prevozna. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_91" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_91" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27001" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_92" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_92" class="komL"><a class="ime" href="/gornik/brankotemlin/7494">branko.temlin</a><span class="komDatum">21. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V nedeljo 20.08.2017 smo za&#269;eli vzpon v Dovju, nato po kolesarski poti v Belco, v smeri kažipota Kepa mostu in poti ve&#269; ni, smo koristili malo brezpotje, nato po cesti, ki pelje do zapornice, naprej po markirani poti do vrha, spust pod Dovško malo Kepo, Gubnim in Visokim Kurjekom &#269;ez Mlinco, Erjav&#269;ev rovt v Dovje. Na vrhu obla&#269;ki megle druga&#269;e fantasti&#269;ni razgledi in primerna temperatura. Fotografije na <a target=# class=moder href="http://www.pdmaticams-drustvo.si/">http://www.pdmaticams-drustvo.si/</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_92" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_92" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27273" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_93" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_93" class="komL"><a class="ime" href="/gornik/rodica/14540">rodica</a><span class="komDatum">16. 10. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes bila na Kepi. Gozdna cesta iz Belce do zapornice normalno prevozna. Na "parkiriš&#269;u" pred zapornico veliko hlodov, tako da je tam prostora za 2 - 3 avtomobile, sicer se da parkirati tudi malo nižje.Pot do vrha OK.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_93" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_93" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27844" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_94" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_94" class="komL"><a class="ime" href="/gornik/majdag/7140">Majdag</a><span class="komDatum">5. 05. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><br> FB - Podor na cesti, kjer je že bila sanirana.<br> Avtor objave in fotografij je Zvone Mikli&#269;..<br> <br> Zvone Mikli&#269;<br> 29. april ob 12:33 · <br> Podor v Belci z druge strani - vso naloženo skalovje grozi, da se ponovno zruši v globino, zato ne tvegajte in ne hodite &#269;ez podor ( po sledeh bi rekel, da se eni igrajo s svojo usodo) <br> <br> Majda Gašperin - Je to tam, kjer so ga že enkrat sanirali? <br> <br> Zvone Mikli&#269; - Ja , nad žago v Belci oziroma malo pred predorom.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_94" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_94" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28189" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_95" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_95" class="komL"><a class="ime" href="/gornik/till/22151">Till</a><span class="komDatum">4. 07. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Dostop iz Srednjega vrha? So te steze še vidne? Prosim za mnenje.<br> <a target=# class=moder href=http://>Vnesite tukaj</a><br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_95" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_95" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28245" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_96" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_96" class="komL"><a class="ime" href="/gornik/mjk/8152">mjk</a><span class="komDatum">9. 07. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Cesta se kon&#269;a po cca 1km iz glavne ceste (pred tunelom) odnesel jo je zemeljski plaz!!... Ni prehodna! </div>
+       
+       </div>
+    </td>
+    <td id="komD0_96" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_96" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28246" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_97" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_97" class="komL"><a class="ime" href="/gornik/mjk/8152">mjk</a><span class="komDatum">9. 07. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><a target=# class=moder href=https://m.facebook.com/photo.php?fbid=10213961835172510&id=1008917839&set=a.1455707385204.2061711.1008917839&source=48&refid=17&__tn__=EH-R>slika podora </a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_97" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_97" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28247" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_98" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_98" class="komL"><a class="ime" href="/gornik/mjk/8152">mjk</a><span class="komDatum">9. 07. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ok .. mogo&#269;e ta slika ve&#269; ljudi doseže <img alt=nasmeh src=/slike/smile.gif><br> <a target=# class=moder href="https://www.dropbox.com/s/d872ose610lzqrn/kepa-belca.jpg?dl=0">https://www.dropbox.com/s/d872ose610lzqrn/kepa-belca.jpg?dl=0</a>  .. približno tam, ko so štenge se je podrlo ... sicer izgleda, da je par ljudi šlo &#269;ez, ampak ... priporo&#269;am iz dovške strani gor!!! je vseeno 70m plaza za prehodit</div>
+       
+       </div>
+    </td>
+    <td id="komD0_98" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_98" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom28894" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_99" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_99" class="komL"><a class="ime" href="/gornik/vansims/5756">VanSims</a><span class="komDatum">1. 10. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Aha, vidim da je problem sedaj iz Belce gor. Bi pa moje šlo kot je omenil @Till: Iz Srednjega vrha na Kresiš&#269;e, od tam do sedla Jepica kako urco in tam se priklju&#269;imo na to pot iz Belce. Od sedla je še kake dve uri in pol do vrha.<br> <br> Pa še malo kritike: V zgornjem delu je pot zelo slabo ozna&#269;ena in vzdrževana, treba je malo paziti, da se ne zaide. PD, ki pot vzdržuje nima dale&#269; zgleda kako se vzdržuje in markira pot: Z vrha naj samo nekdo sestopi na avstrijsko stran do Berta Hütte. Vzor dobro vzdrževane poti!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_99" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_99" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29804" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_100" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_100" class="komL"><a class="ime" href="/gornik/martin_knor/23207">Martin Knor</a><span class="komDatum">26. 06. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>I did a round tour to Keppa from Dovje. The footpath through Erjavcev Rovt is beautiful with plenty of water sources and at the end with some secured parts. But the descent to Belca was strange from the very beginning. First "melisca" at the upper part of Keppa, then plenty of fallen trees on the crest and finally, completely destroyed road. I did not find the direct footpath down from Jepca (fortunately), so I went on the "road". It is destroyed to such an extent that I do not think it will be reconstructed. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_100" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_100" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34317" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_101" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_101" class="komL"><a class="ime" href="/gornik/geovuky/19161">Geovuky</a><span class="komDatum">16. 02. 2022 15:55:59</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo, najprej se želim opravičiti za moj slabo slovenščino. Dolazim iz hrvaške ampak zeko volim te hribe oko Kepe, planina Belca, Mojstrovica...<br> Zanima me, ali veste kakšno novico o cesti ki se je zrušila v bližini predora? Že veliko let je već prošlo. Vidim da se je začela gradnja nove ceste ki vodi nad steno Štenga. Ali delaju novo cesto ali kaj drugega? Kakšno je vaše mnenje, ali bo mogoče še kaj do Kepe z avtom? <br> Ali je možno voditi mimo žage v Belci ob plazu naprej do ceste za predorom?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_101" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_101" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34318" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_102" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_102" class="komL"><a class="ime" href="/gornik/turbo/1959">turbo</a><span class="komDatum">16. 02. 2022 17:52:49</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo,<br> najboljše da pošlješ mail na GRS Mojstrana, oni so domačini in alpinisti in ziher poznajo poti v svojem kraju. Piši jim na naslov:<br> <br> Društvo GRS Mojstrana<br> Savska cesta 1<br> 4281 Mojstrana<br> Elektronski naslov: joza.martinjak@gmail.com</div>
+       
+       </div>
+    </td>
+    <td id="komD0_102" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_102" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34319" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_103" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_103" class="komL"><a class="ime" href="/gornik/matej712/17169">matej712</a><span class="komDatum">16. 02. 2022 18:57:16</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mislim, da je pot še vedno zaprta. <a target=# class=moder href=https://stanje-poti.pzs.si/>https://stanje-poti.pzs.si/</a><br> <br> Tudi na izhodišču so opozorilne table.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_103" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_103" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34320" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_104" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_104" class="komL"><a class="ime" href="/gornik/jbs/18675">jbs</a><span class="komDatum">16. 02. 2022 19:54:19</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>@geovuky... mimo žage gre pot preko struge in nato v gozd, kjer se vzpne in pride ven na cesto za predorom. Po cesti je nato možno iti peš, je pa zelo razsuta, ampak peš načeloma ni problema.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_104" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_104" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34321" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_105" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_105" class="komL"><a class="ime" href="/gornik/palcek_plezalcek/17163">palček plezalček</a><span class="komDatum">16. 02. 2022 22:13:46</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>jbs, morda veš, kje v Belci se sme parkirati?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_105" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_105" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34322" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_106" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_106" class="komL"><a class="ime" href="/gornik/jbs/18675">jbs</a><span class="komDatum">16. 02. 2022 23:56:12</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mislim, da nikjer oz. je vse privatno. Jaz delam običajno krožno na Kepo ali Visoki Kurji vrh. Če grem na Kepo, parkiram v Dovju pri Aljažu in grem potem, ko pridem s Kepe do Belce po kolesarski nazaj. Če pa grem na Visoki Kurji vrh in Mojstrovico, pa parkiram kilometer naprej, pri odcepu ceste na Kepo, pred rampo. Ko pridem ob vračanju v Belco, pa grem potem ob cesti do avta.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_106" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_106" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34324" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_107" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_107" class="komL"><a class="ime" href="/gornik/palcek_plezalcek/17163">palček plezalček</a><span class="komDatum">17. 02. 2022 12:08:51</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala. se mi je zdelo, da bo možno samo tako.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_107" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_107" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34931" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_108" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_108" class="komL"><a class="ime" href="/gornik/bo_zl/2333">bo_zl</a><span class="komDatum">22. 07. 2022 15:58:05</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Jutri grem na Kepo. Berem da je v Belci novo parkirišče. Kaj to zdaj pomeni, da je pot na Kepo iz Belce odprta in normalno prehodna? je kdo hodil po tej poti v zadnjem času, kako je s sledljivostjo tam kjer je bil podor oziroma plaz. Hvala za odgovor-e.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_108" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_108" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34936" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_109" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_109" class="komL"><a class="ime" href="/gornik/jbs/18675">jbs</a><span class="komDatum">22. 07. 2022 20:51:10</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Glede na informacije je novo parkirišče pri žagi. Pot gre potem od žage preko potoka in nato strmo v gozd. Nato pa se priključi na cesto za tunelom pred katerim je bil podor. Za peš je nato do Sedla normalno prehodno, od Sedla do vrha pa tudi.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_109" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_109" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34945" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_110" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_110" class="komL"><a class="ime" href="/gornik/bo_zl/2333">bo_zl</a><span class="komDatum">24. 07. 2022 09:27:34</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Jbs hvala za odgovor, bil včeraj, parkiral na novem parkirišču pri žagi in po poti kot si napisal.<br> Menim, da je pot na novo markirana in lepo označena.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_110" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_110" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34946" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_111" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_111" class="komL"><a class="ime" href="/gornik/bo_zl/2333">bo_zl</a><span class="komDatum">24. 07. 2022 09:48:14</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Administrator menim da bilo dobro popraviti opis, ker se bojim da se, glede na to da je podor pred predorom cesto v celoti odnesel, še dolgo ali pa kar nikoli več ne bo dalo priti z avtom do zapornice:<br> <br> <br> Parkiramo na označenem parkirišču pri žagi. Se vrnemo nekaj metrov nazaj do začetka označene poti, ki ji sledimo mimo pregrade. Pot gre potem direktno v strugo (desno kolovoz k zapuščeni karavli). Sredi podrtije kamenja od podora, na večji skali zagledamo markacijo. Do sem in nato na drugo stran struge potoka si iščemo najboljše prehode. Ta del je kratek. Sledimo potki po pesku, ki je že kar vidno uhojena, v pomoč nam je tudi markacija na drevesu, tam kjer pot zavije v gozd. Pot se nato v gozdu strmo dviga in prispemo na cesto. Na levi je predor, če se sprehodimo skozenj lahko vidimo kako je podor odnesel cesto. Mi pa nadaljujemo po cesti v desno. Sledi dolga hoja po skoraj ves čas ravni cesti, ki je na več mestih tudi zasuta ali pa udrta, bližje zapornici že skoraj v celoti odnešena, vendar s prehodi ni težav. Po približno uri in 15 minut smo pri nekdanjem izhodišču pri zapornici. Sledimo oznaki za Kepo (slika 1), pot se spusti v strugo potoka, ga preči in zavije levo v breg, velika markacija in smerokaz. Pot se začne strmeje vzpenjati. Naprej se vzpenjamo skozi gozd, ki je občasno prekinjen s kakšno krajšo z grmičevjem poraslo jaso. Markirana planinska pot nato dvakrat preči gozdno cesto, ko na njo stopimo tretjič pa ji sledimo v desno do nekoliko večjega parkirišča ob mejnem grebenu. <br> S parkirišča se v nekaj korakih povzpnemo na mejni greben in poti naprej sledimo proti vzhodu. Razmeroma zložna pot, ki poteka po mejnem grebenu pa nas hitro pripelje do manjšega bivaka (2 ležišči), ki se nahaja na slovenski strani grebena. <br> Od bivaka še naprej nadaljujemo po markirani stezi kateri pa se kmalu priključi še pot iz Avstrije. Pot se nato nekoliko strmeje vzpne in nas naprej vodi po vedno ožjem grebenu. Vse bolj razgledna pot nato preči nekaj rahlo izpostavljenih grap in za tem zavije desno (povsem na slovensko stran). Pot naprej se prečno vzpne čez strmo in dobro zavarovano pobočje, ki je zelo izpostavljeno padajočemu kamenju. Višje pot zavije levo in se nato vzpenja po strmem vršnem pobočju Kepe. Strma in grušča polna pot pa nas višje ponovno pripelje na mejni greben, kjer je naslednje razpotje. Nadaljujemo levo (desno Dovje) po poti, ki nas po nekaj nadaljnjih korakih pripelje na vrh Kepe. <br> Belca-Zapornica 1:15 Zapornica - bivak 1:15, bivak - Kepa 1:45.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_111" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_111" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34951" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_112" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_112" class="komL"><a class="ime" href="/gornik/tadej/11">Tadej</a><span class="komDatum">25. 07. 2022 08:08:59</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala za popravek opisa. Sem popravil, pri drugih opisih z istim izhodiščem pa bom spremenil v naslednjih dneh.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_112" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_112" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35913" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_113" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_113" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">11. 04. 2023 00:03:54</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tako zgleda izhodišče Belca, spodaj levo je na melišču pot, ko se pride v gozd ni več težav: <a target=# class=moder href=https://www.hribi.net/slika_razmerekomentar/kepa/668298>https://www.hribi.net/slika_razmerekomentar/kepa/668298</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_113" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_113" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36594" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_114" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_114" class="komL"><a class="ime" href="/gornik/bbugari1/21515">bbugari1</a><span class="komDatum">10. 08. 2023 13:29:32</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V torek sem se odločil, da grem na krožno turo na Kepo. S slovenske strani je vrh precej zanemarjen, morda zato, ker ni viden iz Doline, hkrati pa dominira nad Dravo in Koroško. Razen mene so bili vsi drugi na vrhu Avstrijci. Razmišljam, kako škoda, da se prejšnji načrti razširitve SPP čez Dovško Babo in Kepo na Belco in Mojstrano in s tem vključje skoraj celotnih Karavank niso uresničili. Dostop z Belce je kot je opisano. Zaradi velike količine vode sem težko prečkal potok pod plazom in kasneje pri nekdanji rampi. Voda teče povsod po poti. Do (lažne) Jepce vodi lepa in ne prestrma gozdna pot, ki jo le na enem mestu prekine vetrolom. Tam podrta drevesa obidemo z zgornje strani in tako poiščemo nadaljevanje poti. Ko drugič prečkamo cesto, previdno sledimo markacijam zaradi novih gozdnih poti. Slovenski bivak na Jepci ima dve postelji. Od Jepce naprej so me spremljale kolone Avstrijcev, bil sem edini Slovan. Zgoraj je občutek, kot da ne gre za slovenski vrh, edino sta slovenski žig in vpisna knjiga. Pogleda na slovensko stran zaradi megle skoraj ni bilo, se je pa lepo videlo na Koroško stran. Belca - Jepca 2,30 h, po pavzi pa: Jepca - Kepa 1,15 h. Z vrha sem se prek Mlince in Dovške Rožce spustil na Dovje.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_114" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_114" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36648" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_115" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_115" class="komL"><a class="ime" href="/gornik/ales75/22012">Aleš75</a><span class="komDatum">16. 08. 2023 13:46:05</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Po novem parkiranje tu ni več dovoljeno. Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_115" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_115" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36650" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_116" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_116" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">16. 08. 2023 15:59:22</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kje pa je po novem možno pustiti avto, ali morda kdo ve?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_116" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_116" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36651" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_117" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_117" class="komL"><a class="ime" href="/gornik/janez_seliskar/565">Janez Seliškar</a><span class="komDatum">16. 08. 2023 16:23:53</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na odcepu zaprte ceste v Belco je prostora za avto ali dva, a imaš kar precej hoje nazaj po cesti, do začetka planinske poti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_117" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_117" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36654" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_118" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_118" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">16. 08. 2023 21:44:35</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ob nedeljah se da tam parkirat saj ne vozjo ne materiala in najbrž tud na žagi ne delajo. Problem je ker morajo delavci medtednom pazit na drage avte da jih ne ruknejo.Sam ob nedeljah nimam nikjer nobenih težav.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_118" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_118" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36663" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_119" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_119" class="komL"><a class="ime" href="/gornik/bbugari1/21515">bbugari1</a><span class="komDatum">17. 08. 2023 09:53:07</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Aleš, pri žagi ni znaka prepovedi parkiranja, na drevesu je še vedno mali znak P...<br> Ja sem parkiral pri pokopališču na Dovjem in se z kolesom odpravil v Belco pri žagi.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_119" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_119" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36680" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_120" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_120" class="komL"><a class="ime" href="/gornik/ales75/22012">Aleš75</a><span class="komDatum">19. 08. 2023 09:34:22</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala obema za info.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_120" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_120" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(121);
+    });
+    abc(121);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

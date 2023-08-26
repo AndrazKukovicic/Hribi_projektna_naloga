@@ -1,0 +1,1248 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Podsabotin - Sabotin</title>
+        <meta name="description" content="Natančen opis izleta Podsabotin - Sabotin. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/podsabotin_sabotin/26/541/5299" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/podsabotin_sabotin/26/541/5299"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=26&id=541&potid=5299"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/gorisko_notranjsko_in_sneznisko_hribovje/26">Goriško, Notranjsko in Snežniško hribovje</a> / <a class="moder" href="/gora/sabotin/26/541">Sabotin</a> / Podsabotin - Sabotin
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(5299);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Podsabotin - Sabotin</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=5299';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Podsabotin (136 m)</div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/sabotin/26/541">Sabotin (609 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 2 h</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 473 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 473 m</div>
+    <div class="g2"><b>Zemljevid:</b> </div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> </div>
+
+
+</div>
+<div class="fl">
+    <div class="g2"><b>Avtor:</b> <a class="moder" href="/gornik/suzanam/13561">SuzanaM</a></div>
+    <div class="g2"><b>Ogledov:</b> 13.795</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;3&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">116</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">0</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Iz smeri Bovec-Tolmin se po Soški cesti peljemo proti Novi Gorici do semaforiziranega križišča nad pokopališčem v Solkanu. Tu zavijemo desno in se zapeljemo po mostu čez reko Sočo v Goriška Brda do Podsabotina (6 km iz Solkana).<br> <br> Iz ostalih smeri se peljemo do Nove Gorice in sledimo oznakam Bovec-Tolmin. Če nas pot vodi skozi Novo Gorico in Solkan, potem na koncu Solkana zapeljemo levo po mostu čez reko Sočo v Goriška Brda. Če se pripeljemo mimo Nove Gorice sledimo oznakam za Bovec-Tolmin in se po Solkanski obvoznici pripeljemo do semaforiziranega križišča nad pokopališčem v Solkanu. Tu zavijemo  levo in se nato takoj desno zapeljemo po mostu čez reko Sočo v Goriška Brda do Podsabotina (6 km iz Solkana).<br> <br> Cesta se prične takoj za mostom vzpenjati. Po dveh večjih ovinkih se peljemo mimo parkirišča na naši levi in 300 m više na naši desni opazimo stopnice,  ki vodijo na Sabotin po Južni poti. Kmalu za stopnicami prispemo v Italijo, kjer se cesta položi.  Po približno 1,6 km vožnje po « koridorju »  smo znova na slovenski strani. Na naši levi je manjše parkirišče, desno pa se na Sabotin po stopnicah vzpenja pot Za koridorjem. V nadaljevanju se cesta  v nekaj ovinkih spušča do Podsabotina, razpotegnjene vasi iz več zaselkov, ki so nekdaj spadali pod Šentmaver / San Mauro (I). Cesta se vije po dolini potoka Pevmica mimo pokopališča in doma upokojencev (oba na naši desni). Tik preden se začne cesta vzpenjati proti Humu, bomo na naši desni opazili avtobusno postajališče. Tu se odcepi ožja cesta za zaselek Podsenica (Podsabotin 11a - 21 ), v križišču pa bomo opazili tudi tablo, ki označuje kolesarsko in pohodno pot na Sabotin. Nasproti avtobusnega postajališča je ob cesti nekaj prostora za parkiranje. Ker tu v času šolskega pouka ustavlja avtobus, parkirajmo tako, da bo imel avtobus dovolj prostora za ustavljanje.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Pot iz Podsabotina je vsaj v prvem delu bolj kot za planince zanimiva za kolesarje. Pohodniki  se nanjo večinoma vključijo šele v križišču, kjer se pot iz Podsabotina priključi na cesto za Sabotin. Tu se planinska pot vzpne na greben in se nadaljuje po poti, ki pripelje od lovske koče oziroma s Korade.<br> <br> Pot iz Podsabotina je najbolj zanimiva, če se do izhodišča pripeljemo z avtobusom in nato prehodimo celoten Sabotinski greben do Solkana. Žal je dostop z avtobusom mogoč le v času šolskega pouka. Če se do izhodišča pripeljemo z avtom, se bomo morali vsaj delno vrniti po isti poti. <br> Tudi po tej poti bomo potrebovali dobro obutev in v toplejših dneh veliko tekočine, saj Sabotin ni usoden zaradi svoje višine, temveč vročine. Najprimernejši čas za obisk Sabotina je od septembra do maja. Pot je najlepša pomladi, ko cvetijo češnje in se na drevesih razpirajo brsti, ali jeseni, ko se greben obarva v žareče barve ruja. Pozimi bomo nagrajeni z najlepšimi razgledi in najbolj barvitimi sončnimi zahodi. Ko v zimskih dneh pihata močan severni veter ali burja pa se je poti čez greben bolje izogniti. <br> Poleti se je na Sabotin najbolje zapeljati z avtom.  Do planinske koče in okrepčevalnice, ki sta v prostorih nekdanje karavle tik pod vrhom Sabotina, pripelje asfaltirana cesta iz Goriških Brd. Cesta za Sabotin se odcepi z glavne ceste Dobrovo-Plave in sicer 1 km nad Gonjačami (iz smeri Nova Gorica ali Dobrovo) in 1 km pod Vrhovljami (smer Plave ali Korada).<br> V okrepčevalnici je mini muzej, mogoč pa je tudi voden ogled kavern, ki so razsvetljene in urejene. <br> <br> ***<br> <br> Od izhodišča pri avtobusnem postajališču v Podsabotinu se pot strmo vzpenja po asfaltirani cesti skozi zaselek Podsenica mimo manjše cerkve in spomenika padlim borcem v NOV in žrtvam fašizma iz Podsabotina . Nad zaselkom se cesta vzpenja mimo oljčnega nasada in vinograda. Nad oljčnikom lahko nadaljujemo po kolovozu, označenem s tablo Karnjuka (ena od poti po briških brajdah, ki jih označujejo stara imena češenj), ali nadaljujemo naprej po cesti, saj kolovoz le za malenkost skrajša vzpon in se priključi na cesto pri (pred) zadnji  hiši. S tega dela poti lahko ob ugodni vidljivosti že uživamo v razgledih na Novo Gorico in Gorico z Goriškim gradom in kostnico na Oslavju, na drugo stran pa se vidi do lovske koče.<br> <br> Nad hišo se asfalt po 1km konča in nadaljujemo po makadamski cesti. Na prvem razpotju zavijemo levo. Pot se vzpenja še kakšnih 300 m do naslednjega razpotja, kjer znova zavije levo. Do tu se lahko pripeljemo tudi z avtom, če nas ne moti strma in ozka cesta skozi vas ter slabši makadam v nadaljevanju. Parkirajmo tako, da na zapremo traktorjem dovozov na kolovoze. Do tu je iz Podsabotina približno 0,5 ure hoje.<br> <br> V nadaljevanju se cesta položi in nas v nekaj korakih pripelje do zadnje hiše ob večjem kalu na naši desni. Na levi se nam mimo češnjevih dreves odpre pogled na Brda z najbolj izstopajočo cerkvijo Sv.  Križa nad Kojskim in na stolp v Gonjačah. Pot se pričenja rahlo vzpenjati in nas pripelje do naslednjega razpotja. Nadaljujemo naravnost mimo lovske opazovalnice. Pot po kolovozu oziroma slabši makadamski cesti se zmerno vzpenja do križišča, kjer se priključi na asfaltirano cesto za Sabotin.  <br> Kolesarji nadaljujemo z vožnjo po cesti, pohodnike pa na drugi strani ceste usmeri proti grebenu planinska tabla. Sledi krajši in strmejši vzpon po stezi na greben, kjer se priključimo na pot od lovske koče oziroma s Korade. Do lovske koče je 20-30 min, do Korade pa približno 3 ure. Iz Podsabotina do grebena je približno 1 ura hoja, še 1 ura pa do vrha Sabotina.<br>  <br> Pred nami je najlepši del poti po razglednem severnem grebenu Sabotina. Ta del poti je med manj obleganimi in zato še najbolj prvobiten od vseh urejenih poti na Sabotin. Pot po kamnitem grebenu zahteva nekaj pozornosti, vmes pa lahko uživamo v širnih razgledih od morja in Dolomitov do Tolminskih in  Sp. Bohinjskih gora. Pot se večinoma rahlo do zmerno  vzpenja po severnem robu grebena in je zelo izpostavljena severnemu vetru in burji. Ob toplejših dneh se tu lahko čuti mrzel zrak, ki se dviga od spodaj vijugajoče se Soče. Na nasprotnem bregu Soče se dvigajo Vodice, na katerih je postavljen mavzolej generalu Mauriziu Ferrente Gonzaga. Za Vodicami se naš pogled ustavi na mogočnem Krnu. Pred nami je neskončni greben Sabotina, levo od njega pa se vse bolj bližamo Sv. Gori z baziliko, desno od nje pa se z vsakim korakom bolj  kaže tudi  Škabrijel. Po približno 45 min se pot povzpne mimo napol podrte piramide, ki je bila postavljena po 1. svet. vojni, ko je bil na Sabotinu urejen muzej na prostem.<br> Za piramido se pot počasi umakne z grebena in se skozi redek gozdiček usmeri proti nekdanji karavli – sedaj pl. koči in okrepčevalnici. Pot preči dva strelska jarka in nas v nekaj minutah pripelje do nekdanje karavle. Lahko pa se po drugem strelskem jarku povzpnemo do vrha grebena in nadaljujemo po neoznačeni stezici po grebenu ter si tako ogledamo še nekaj ostankov iz 1. svet. vojne.<br> <br> Od pl. koče/okrepčevalnice nas do vrha Sabotina loči še 10 - 15 minutni vzpon.<br> <br> ***<br> <br> Ob lepem vremenu je najbolje, da z vrha Sabotina nadaljujemo s hojo po grebenu vse do cerkvice Sv. Valentina (približno 20-25 min). V primeru, da piha močna burja, je pot tudi pod grebenom po italijanski strani. Če smo prišli do izhodišča z javnim prevozom, nadaljujemo s spustom do Solkana po Južni poti (30-40 min). Če imamo avto v Podsabotinu, pa od cerkvice nadaljujemo po kolovozu po italijanski strani. Kolovoz preči južna pobočja pod Sabotinom in nas v dobrih 10-ih minutah pripelje do asfaltirane ceste, ki vodi iz Šentmavra do italijanske karavle. Po cesti nadaljujemo z rahlim spustom v levo do naslednjega ovinka št. 5 (10 min), kjer se znova priključimo na slovensko stran. Nadaljujemo po kolovozu mimo klopce (tu sekamo pot Za koridorjem) in v nekaj korakih prispemo do ceste za Sabotin, kjer zavijemo levo v smeri Podsabotina.  Desno je še 800 m do koče/okrepčevalnice na Sabotinu.  <br> Do križišča za Podsabotin nas loči 30 min hoje po asfaltirani cesti (2,2 km). Pot nas vodi mimo dveh piramid. Pri prvi piramidi se lahko po lepo očiščenem strelskem jarku znova vzpnemo na greben in nadaljujemo s hojo v smeri prihoda.<br> <br> ***<br> <br> Če nam vreme ne bo naklonjeno ali nam zmanjka moči, se z vrha lahko spustimo tudi mimo italijanske karavle in se po stezici, ki v desno preči kraško gmajno, priključimo na pot Za koridorjem. Po poti se spustimo do prvega razpotja pri klopci, kjer se priključimo na cesto za Sabotin.<br> <br> ***<br> <br> Če se z vrha vrnemo do pl. koče/okrepčevalnice lahko do izhodišča namesto po asfaltirani cesti vsaj še del poti prehodimo po stezi, ki se začne po stopnicah pod planinsko kočo ali pri strelskem jarku pod okrepčevalnico, in nas pripelje do ovinka s kapelico v skalni steni. Od tu lahko nadaljujemo po stezi, ki se prične spuščati takoj pod ovinkom ali pa se po stezici, ki jo označuje količek, priključimo na strelskih jarek, po katerem se spustimo do ceste (lahko pa se tudi znova povzpnemo na greben). Obe poti nas pripeljeta do prve piramide, od kjer nadaljujemo še 1,8 km (20 min) po asfaltirani cesti do križišča za Podsabotin.<br> <br> Sabotin je zadnji alpski in prvi sredozemski hrib. Po njem se pretakajo odlične energije in počasi blažijo spomin na krvavo zgodovino. Po njem stopajmo spoštljivo in uživajmo v neizmernih lepotah ter naravoslovnih in kulturnozgodovinskih zanimivostih.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/sabotin/541"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Sabotin"></a></div>
+
+
+
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/podobni_izleti/podsabotin_sabotin/5299">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=541">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=541">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293513" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293513');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0226488142579_IMG_3468_1.JPG" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293516" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293516');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0115488143155_IMG_6417.JPG" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293518" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293518');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0977488143325_IMG_6422.JPG" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293520" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293520');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0369488144313_IMG_6424.JPG" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293521" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293521');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0508488144439_IMG_6454.JPG" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293522" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293522');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0947488144510_IMG_6464.JPG" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293523" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293523');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0516488144577_IMG_6471.JPG" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293524" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293524');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0847488144823_IMG_6477.JPG" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293525" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293525');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0543488144899_IMG_1646.JPG" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293526" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293526');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0820488145529_IMG_6496.JPG" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293527" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293527');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0769488145573_IMG_6497.JPG" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293528" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293528');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0371488146074_IMG_6501.JPG" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293529" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293529');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0934488146149_IMG_6634.JPG" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293531" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293531');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0158488146599_IMG_6631.JPG" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293545" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293545');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0475488148858_IMG_1619.JPG" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293548" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293548');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_022488149293_IMG_6574.JPG" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293549" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293549');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0930488149341_IMG_6578.JPG" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293550" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293550');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0702488149899_IMG_6518.JPG" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293551" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293551');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0404488150003_IMG_1594.JPG" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293552" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293552');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0247488150039_IMG_1591.JPG" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293557" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293557');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0256488150143_IMG_6652.JPG" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293568" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293568');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_020488150610_IMG_6660_1.JPG" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293570" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293570');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0243488150981_IMG_4157_1.JPG" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293572" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293572');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0387488151122_IMG_4160.JPG" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293573" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293573');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0596488151259_IMG_6685.JPG" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293575" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293575');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0809488151488_IMG_6722.JPG" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293576" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293576');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0904488151662_IMG_6731.JPG" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293577" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293577');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0571488151837_IMG_6747.JPG" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293578" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293578');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0279488151993_IMG_6751.JPG" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293579" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293579');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0602488152135_IMG_6787.JPG" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293581" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293581');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0437488152252_IMG_6793.JPG" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293582" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293582');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_094488152298_IMG_6801.JPG" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293595" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293595');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0910488152504_IMG_6815.JPG" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293596" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293596');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0417488152589_IMG_6818.JPG" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293597" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293597');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0578488152650_IMG_6823.JPG" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293598" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293598');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0703488152787_IMG_6843.JPG" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293599" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293599');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0406488153347_IMG_1812.JPG" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293600" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293600');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0899488153423_IMG_2648.JPG" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293601" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293601');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_058488155828_IMG_6307.JPG" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293612" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293612');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0118488157413_IMG_6856.JPG" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293613" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293613');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0157488157480_IMG_6865.JPG" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293614" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293614');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0607488157547_IMG_6868.JPG" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293615" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293615');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0877488157886_IMG_6881.JPG" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293616" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293616');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0866488158010_IMG_6913.JPG" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293618" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293618');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_045488158328_IMG_0031.JPG" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293619" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293619');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0184488158482_IMG_0036.JPG" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293620" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293620');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0130488158861_IMG_6876.JPG" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293623" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293623');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0730488159503_IMG_1902.JPG" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293624" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293624');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0853488159588_IMG_1907.JPG" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293625" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293625');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0229488159653_IMG_1345.JPG" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293653" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293653');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0666488159813_IMG_1920.JPG" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293654" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293654');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_040488159914_IMG_1929.JPG" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293663" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293663');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0115488160276_IMG_1970.JPG" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293676" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293676');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0503488160733_IMG_6223.JPG" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293677" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293677');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0546488160771_IMG_6221.JPG" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293678" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293678');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0381488160907_IMG_1980.JPG" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293679" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293679');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0878488160965_IMG_1990.JPG" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293685" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293685');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0759488161298_IMG_5546_1.JPG" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293686" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293686');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0662488161579_IMG_0028.JPG" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293687" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293687');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_04488161680_IMG_0024.JPG" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293703" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293703');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0838488162104_IMG_2003.JPG" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293715" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293715');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0623488162344_IMG_2007.JPG" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293724" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293724');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0908488162595_IMG_2015.JPG" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293725" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293725');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_04488162643_IMG_2018.JPG" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293726" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293726');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0765488162773_IMG_2027.JPG" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293728" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293728');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0928488163035_IMG_2045_1.JPG" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293729" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293729');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0260488163543_IMG_7040.JPG" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293730" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293730');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0907488163691_IMG_7043.JPG" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293731" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293731');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0596488163827_IMG_7064.JPG" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293733" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293733');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0950488163904_IMG_7069.JPG" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293734" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293734');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0597488164398_IMG_7078.JPG" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293740" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293740');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0632488165294_IMG_7087.JPG" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293742" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293742');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0105488165585_IMG_2077.JPG" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293743" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293743');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0197488165628_IMG_2080.JPG" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293744" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293744');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0382488165778_IMG_2085.JPG" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/293745" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/293745');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0625488165831_IMG_2090.JPG" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294001" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294001');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0827488312677_IMG_5593.JPG" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294002" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294002');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0485488312735_IMG_5630.JPG" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294008" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294008');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0600488317230_IMG_7104.JPG" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294011" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294011');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0813488317560_IMG_7130.JPG" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294014" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294014');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0898488317987_IMG_7131.JPG" /></a><span class="s2"><span class="s1">81</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294015" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294015');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0265488318054_IMG_7121.JPG" /></a><span class="s2"><span class="s1">82</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294030" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294030');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0797488323275_IMG_5690.JPG" /></a><span class="s2"><span class="s1">83</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294033" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294033');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_08488324491_IMG_2143.JPG" /></a><span class="s2"><span class="s1">84</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294034" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294034');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0761488324558_IMG_2146.JPG" /></a><span class="s2"><span class="s1">85</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294037" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294037');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0364488324941_IMG_0057.JPG" /></a><span class="s2"><span class="s1">86</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294038" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294038');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0491488325015_IMG_5767.JPG" /></a><span class="s2"><span class="s1">87</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294045" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294045');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0978488327405_IMG_2191.JPG" /></a><span class="s2"><span class="s1">88</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294047" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294047');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0616488327746_IMG_4097.JPG" /></a><span class="s2"><span class="s1">89</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294048" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294048');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0120488327881_IMG_6893.JPG" /></a><span class="s2"><span class="s1">90</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294049" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294049');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0106488328178_IMG_2199.JPG" /></a><span class="s2"><span class="s1">91</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294050" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294050');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0514488328289_IMG_2213.JPG" /></a><span class="s2"><span class="s1">92</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294052" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294052');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0980488328598_IMG_2227.JPG" /></a><span class="s2"><span class="s1">93</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294053" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294053');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0447488328926_IMG_2240.JPG" /></a><span class="s2"><span class="s1">94</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294054" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294054');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0790488329383_IMG_6043.JPG" /></a><span class="s2"><span class="s1">95</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294055" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294055');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0510488329621_IMG_1505.JPG" /></a><span class="s2"><span class="s1">96</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294056" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294056');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0397488329880_IMG_6062.JPG" /></a><span class="s2"><span class="s1">97</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294057" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294057');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0773488330250_IMG_6083.JPG" /></a><span class="s2"><span class="s1">98</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294058" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294058');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0975488330561_IMG_7238.JPG" /></a><span class="s2"><span class="s1">99</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294060" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294060');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0412488331077_IMG_6108.JPG" /></a><span class="s2"><span class="s1">100</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294061" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294061');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0241488331423_IMG_6109.JPG" /></a><span class="s2"><span class="s1">101</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294063" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294063');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0955488331656_IMG_2001.JPG" /></a><span class="s2"><span class="s1">102</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294068" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294068');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0735488332587_IMG_1513.JPG" /></a><span class="s2"><span class="s1">103</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294069" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294069');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0677488332632_IMG_1519_1.JPG" /></a><span class="s2"><span class="s1">104</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294070" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294070');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0111488332986_IMG_6078.JPG" /></a><span class="s2"><span class="s1">105</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294072" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294072');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0859488333112_IMG_1549.JPG" /></a><span class="s2"><span class="s1">106</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294073" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294073');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0433488333157_IMG_1551.JPG" /></a><span class="s2"><span class="s1">107</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294075" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294075');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0255488333784_IMG_6539_1.JPG" /></a><span class="s2"><span class="s1">108</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294076" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294076');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0903488333893_IMG_6537.JPG" /></a><span class="s2"><span class="s1">109</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294078" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294078');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0217488334083_IMG_1637_1.JPG" /></a><span class="s2"><span class="s1">110</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294079" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294079');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0922488334265_IMG_1716.JPG" /></a><span class="s2"><span class="s1">111</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294080" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294080');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0643488334498_IMG_7194.JPG" /></a><span class="s2"><span class="s1">112</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294081" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294081');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_031488334571_IMG_7188_1.JPG" /></a><span class="s2"><span class="s1">113</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294082" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294082');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0489488334651_IMG_7174.JPG" /></a><span class="s2"><span class="s1">114</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294083" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294083');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0861488334831_IMG_7172.JPG" /></a><span class="s2"><span class="s1">115</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podsabotin_sabotin/294084" onclick="event.preventDefault(); window.open('/slika_pot/podsabotin_sabotin/294084');"><img class="slikagm" alt="Podsabotin - Sabotin" src="//slike.hribi.net/slike4/2_0193488334933_IMG_1666_2.JPG" /></a><span class="s2"><span class="s1">116</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Podsabotin - Sabotin</b></div>
+
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

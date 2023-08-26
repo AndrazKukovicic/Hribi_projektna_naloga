@@ -1,0 +1,1376 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Planina Blato - Triglav (čez Grintovico, Planiko in Mali Triglav)</title>
+        <meta name="description" content="Natančen opis izleta Planina Blato - Triglav (čez Grintovico, Planiko in Mali Triglav). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/1/1/2869" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/planina_blato_triglav_via_grintovica_planika_and_mali_triglav/1/1/2869"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=1&potid=2869"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/triglav/1/1">Triglav</a> / Planina Blato - Triglav (čez Grintovico, Planiko in Mali Triglav)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(2869);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Planina Blato - Triglav (čez Grintovico, Planiko in Mali Triglav)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=2869';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Planina Blato (1147 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;18,6720'N&nbsp;/&nbsp;13°&nbsp;51,0060'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;18'&nbsp;40,32''N&nbsp;/&nbsp;13°&nbsp;51'&nbsp;0,36''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3112°N&nbsp;/&nbsp;13,8501°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3112,&nbsp;13.8501";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3112°N&nbsp;13,8501°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(2869,46.3112,13.8501);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3112,13.8501"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/triglav/1/1">Triglav (2864 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez Grintovico, Planiko in Mali Triglav</div>
+    <div class="g2"><b>Čas hoje:</b> 6 h 45 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka neoznačena steza, zelo zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1717 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1880 m</div>
+    <div class="g2"><b>Zemljevid:</b> Triglav 1:25.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada, komplet za samovarovanje</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, komplet za samovarovanje, cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 37.938</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">112</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">3</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Z avtoceste Ljubljana - Jesenice se usmerimo na izvoz Lesce in cesti sledimo proti Bledu in naprej proti Bohinjski Bistrici. Z vožnjo nadaljujemo proti Bohinjskemu jezeru (Ribčev laz), pri katerem pridemo na križišče, kjer nadaljujemo desno v smeri Stare Fužine. V Stari Fužini pa v križišču pri kapelici zavijemo ostro levo na vzpenjajočo cesto v smeri planine Blato, planine Vogar in doline Voje. Cesta nas naprej pripelje do mesta, kjer pobirajo cestnino in parkirnino, mi pa ji sledimo naprej do naslednjega križišča, kjer nadaljujemo levo (desno Voje). Cesti nato sledimo do naslednjega križišča (peljemo se kar nekaj časa), kjer zavijemo ostro desno v smeri planine Blato (naravnost planina Vogar). Tej cesti nato sledimo do parkirišča nad planino Blato.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča nadaljujemo po makadamski cesti, ki nas mimo rampe v nekaj korakih pripelje do desnega ovinka. Na desni strani omenjenega ovinka, bomo opazili začetek lovske poti, ki nas s pomočjo jeklenice vodi čez krajše zelo strmo pobočje. Pot kmalu preide v gozd in zavije rahlo proti desni, kjer stopimo na širok razrit kolovoz (do sem lahko tudi po cesti, oz. višje kolovozu). Kolovozu sledimo v desno (naravnost se nadaljuje lovska pot proti planini Krstenica), le ta pa se še nekaj časa strmo vzpenja. Kolovozu, s katerega se odcepi nekaj slepih krakov, sledimo do nekoliko večjega ter delno označenega razpotja, kjer na enem od dreves opazimo napis Grintovica. <br>Tu zapustimo širok kolovoz in pot nadaljujemo po desnem nekoliko ožjem, ki se še nekaj časa zložno vzpenja. Pot naprej se nekajkrat rahlo spusti, nato pa opazimo oznake za Grintovico, ki nas usmerijo desno v strnjen gozd (tu zapustimo vse slabši kolovoz). V gozdu se steza povsem izgubi, mi pa nadaljujemo v isti smeri, kjer pridemo do večjega števila podrtih dreves. Tu prečimo markirano pot, ki vodi iz doline Voje proti planini Krstenica (zaradi podrtega drevja je prečenje skoraj neopazno, moramo pa vseeno paziti, da ne nadaljujemo po markirani poti). Na drugi strani markirane poti prečimo manjšo jaso, pot pa se za njo vrne v gozd in se postopoma prične strmeje spuščati. Po kratkem strmem spustu se pot položi, le ta pa nas pripelje na strma pobočja, preko katerih se večinoma prečno spuščamo. Med prečenjem prehodimo nekaj krajših rahlo izpostavljenih pobočij, nato pa se pobočje položi, pot pa se nadaljuje z nekaj krajšimi vzponi in spusti. Nekoliko naprej stopimo iz gozda, kjer stopimo na južni del planine Zgornja Grintovica, kjer opazimo prve lesene koče. Pot naprej preči pas gozda in nas pripelje do korita z vodo, ob katerem stoji Kefova koča. Mi nadaljujemo še naprej, ponovno skozi pas gozda ter poti sledimo do zgornjega dela planine, kjer opazimo še nekaj starih pastirskih stanov.<br>Na zadnjem zgornjem delu planine, bomo na desni strani, v bližini propadajoče koče, opazili široko stezico, ki gre v gozd in se prične prečno spuščati proti planini Spodnja Grintovica. Po približno 10 minutah spusta, pridemo na omenjeno planino, kjer se tudi priključimo markirani poti iz doline Voje, kateri sledimo v levo.<br>Pot naprej se vrne v gozd, kjer se ponovno prične strmeje vzpenjati. Precej enolična pot nas nato pripelje v neizrazito dolinico (Jurjevčeva vrtača), kjer se postopoma položi. Naprej gozd postane malo redkejši pot pa zavije rahlo proti desni, kjer nato po nekaj minutah nadaljnje hoje prispemo na slabše označeno razpotje. Nadaljujemo po desni poti (levo planina pod Mišelj vrhom, Malo polje in Velo polje), ki se ponovno prične vidneje vzpenjati. Pot naprej se vzpenja ob neizrazitem grebenu manj znanega vrha Na Zagonu (1824 m), nato pa se položi in nas v nekaj korakih nadaljnje hoje pripelje do mesta, kjer se priključimo občutno bolj uhojeni poti s Pokljuke. <br>Nadaljujemo v smeri Vodnikovega doma ter vzpon nadaljujemo po zložni poti, ki preči pobočja Tosca. Pot naprej preči še nekaj manjših melišč (v zgodnjem poletju so tu še možna snežišča), nato pa nas hitro pripelje do Vodnikovega doma na Velem polju.<br>Od doma nadaljujemo naravnost v smeri Triglava (desno navzgor Bohinjska vratca). Pot naprej se zmerno vzpenja in preči pobočja pod Vernarjem. Že kmalu pa naletimo na prvo jeklenico, ki nam pomaga "premagati" kratko polico. Pot naprej se vzpenja po melišču in nas nato pripelje do strmega skalnega skoka. Dobro zavarovana pot nas po strmih stopnicah pripelje na vrh tega skoka. Sledi nekaj metrov prečenja po strmem pobočju, nato pa nas pot pripelje na prostrana območja v bližini Konjskega sedla, le tega pa dosežemo po krajšem spustu.<br>S sedla nadaljujemo levo v smeri Planike (naravnost Kredarica in Staničev dom, desno Krma) po razmeroma strmi poti, ki se prečno vzpenja proti zahodu. Višje nas vse bolj razgledna pot pripelje na neizrazit greben, kjer le ta zavije v desno in se prehodno nekoliko položi. Naprej markirana pot po desni strani obide večjo vrtačo, nato pa se začne obračati proti levi. Sledi še približno 10 minut vzpona in pot nas pripelje do doma Planika pod Triglavom.<br>Od Planike nadaljujemo po desni strani planinskega doma po markirani poti v smeri Triglava (levo Triglav čez Triglavsko škrbino, desno Kredarica). Pot naprej se najprej rahlo spusti, nato pa se postopoma začne vzpenjati. Po nekaj minutah lahkotne hoje, pridemo do kratkega skalnatega dela, kjer se prečno vzpnemo po rahlo izpostavljeni polici. Pot naprej zavije nekoliko v desno in s skalnih pečin preide v gruščnat svet, preko katerega se vzpnemo do vstopa v plezalni del. <br>Že od daleč vidna markacija nas usmeri v izrazito grapo, skozi katero se s pomočjo jeklenice povzpnemo na lepo razgledno točko. Pot naprej zavije levo, se najprej strmo vzpne, nato pa se nadaljuje po razčlenjenem skalovju. Občasno zelo strma in na vseh težjih mestih tudi dobro varovana pot, pa nas višje pripelje na greben Malega Triglava, kjer se nam z desne priključi nekoliko težavnejša pot s Kredarice.<br>Nadaljujemo naravnost po grebenski poti, le ta pa nas v nekaj 10 korakih nadaljnje hoje pripelje na vrh Malega Triglava. Z Malega Triglava, od koder se nam odpre lep pogled na vrh in večji del poti, ki je pred nami, se pot rahlo spusti, nato pa nas pripelje na neizrazito sedelce med obema vrhovoma. Pot naprej se ponovno prične vzpenjati, po dobro varovani grebenski poti. Tej zelo razgledni in na posameznih delih tudi zelo strmi poti, nato sledimo vse do vrha Triglava.<br>Blato - Spodnja Grintovica 1:45, Spodnja Grintovica - Vodnikov dom 2:00, Vodnikov dom - Planika 1:30, Planika - Triglav 1:30.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/triglav/1"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Triglav"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> <a class="moder" href="/gora/planina_zgornja_grintovica/1/247">Planina Zgornja Grintovica (1250m)</a>, <a class="moder" href="/gora/planina_spodnja_grintovica/1/246">Planina Spodnja Grintovica (1175m)</a>, <a class="moder" href="/gora/vodnikov_dom/1/139">Vodnikov dom (1817m)</a>, <a class="moder" href="/gora/dom_planika/1/94">Dom Planika (2401m)</a>, <a class="moder" href="/gora/mali_triglav/1/3">Mali Triglav (2725m)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/planina_blato/46.3112/13.8501">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/2869">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=1">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=1">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131577" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131577');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P801025160480.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131578" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131578');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P801025060480.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131579" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131579');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P801024660480.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131580" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131580');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P801024360480.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131581" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131581');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P801024260480.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131582" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131582');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P801023960480.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131583" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131583');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P801023860480.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131584" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131584');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P801023560480.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131585" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131585');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P801023060480.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131586" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131586');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P8010229292600.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131587" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131587');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P8010227292600.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131588" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131588');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 001338800.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131589" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131589');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 004338800.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131590" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131590');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 005338800.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131591" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131591');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 006338800.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131592" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131592');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 008338800.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131593" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131593');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 010338800.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131594" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131594');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 276400400.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131595" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131595');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 274400400.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131596" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131596');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 270400400.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131597" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131597');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 267400400.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131598" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131598');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 265400400.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131599" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131599');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 261400400.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131600" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131600');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 260400400.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131601" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131601');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 258400400.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131602" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131602');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 256400400.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131603" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131603');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 254400400.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131604" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131604');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 250462000.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131605" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131605');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 246462000.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131606" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131606');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/KrsteniskiStog 242462000.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131607" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131607');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/PrevalskiStog%20381622080.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131608" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131608');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/PrevalskiStog%20388622080.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131609" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131609');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/PrevalskiStog%20390622080.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131610" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131610');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/PrevalskiStog%20392622080.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131611" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131611');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/PrevalskiStog%20396660960.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131612" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131612');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/PrevalskiStog%20398660960.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131613" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131613');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar%20559165600.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131614" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131614');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 552165600.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131615" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131615');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 548165600.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131616" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131616');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 544165600.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131617" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131617');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 541165600.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131618" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131618');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 534165600.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131619" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131619');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 529165600.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131620" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131620');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 526165600.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131621" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131621');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 517165600.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131622" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131622');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 512165600.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131623" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131623');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 506165600.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131624" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131624');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 503165600.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131625" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131625');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 499165600.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131626" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131626');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 496165600.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131627" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131627');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 493158400.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131628" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131628');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar 489158400.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131629" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131629');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar%2023547250.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131630" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131630');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar%2023747250.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131631" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131631');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar%2023847250.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131632" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131632');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar%2023947250.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131633" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131633');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar%2024547250.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131634" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131634');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Vernar%2024945900.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131635" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131635');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/Pot/p9200062mediumjb3.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131636" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131636');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/Pot/p9200064mediumts6.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131637" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131637');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/Pot/p9200067mediumxr2.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131638" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131638');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/Pot/p9200072mediumzo3.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131639" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131639');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/Pot/p9200074mediumzb7.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131640" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131640');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0351204875.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131641" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131641');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0431514700.th.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131642" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131642');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0441514700.th.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131643" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131643');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0501514700.th.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131644" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131644');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0511514700.th.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131645" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131645');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0541514700.th.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131646" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131646');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0571514700.th.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131647" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131647');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0611514700.th.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131648" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131648');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0621514700.th.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131649" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131649');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0631549125.th.jpg" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131650" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131650');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0661549125.th.jpg" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131651" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131651');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0681549125.th.jpg" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131652" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131652');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0721514700.th.jpg" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131653" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131653');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/Triglav6 0701549125.th.jpg" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131703" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131703');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240001842400.th.jpg" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131704" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131704');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240004859248.th.jpg" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131705" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131705');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240007859248.th.jpg" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131706" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131706');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240010859248.th.jpg" /></a><span class="s2"><span class="s1">81</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131707" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131707');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240011859248.th.jpg" /></a><span class="s2"><span class="s1">82</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131708" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131708');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240012859248.th.jpg" /></a><span class="s2"><span class="s1">83</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131709" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131709');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240016859248.th.jpg" /></a><span class="s2"><span class="s1">84</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131710" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131710');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240020859248.th.jpg" /></a><span class="s2"><span class="s1">85</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131711" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131711');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240023859248.th.jpg" /></a><span class="s2"><span class="s1">86</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131712" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131712');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240024859248.th.jpg" /></a><span class="s2"><span class="s1">87</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131713" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131713');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240026859248.th.jpg" /></a><span class="s2"><span class="s1">88</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131714" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131714');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240028859248.th.jpg" /></a><span class="s2"><span class="s1">89</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131715" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131715');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240030859248.th.jpg" /></a><span class="s2"><span class="s1">90</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131716" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131716');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240034859248.th.jpg" /></a><span class="s2"><span class="s1">91</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131717" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131717');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240036859248.th.jpg" /></a><span class="s2"><span class="s1">92</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131718" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131718');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240037859248.th.jpg" /></a><span class="s2"><span class="s1">93</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131719" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131719');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240039859248.th.jpg" /></a><span class="s2"><span class="s1">94</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131720" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131720');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P9240045842400.th.jpg" /></a><span class="s2"><span class="s1">95</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131721" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131721');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924005064800.th.jpg" /></a><span class="s2"><span class="s1">96</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131722" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131722');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924005164800.th.jpg" /></a><span class="s2"><span class="s1">97</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131723" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131723');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924005664800.th.jpg" /></a><span class="s2"><span class="s1">98</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131724" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131724');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924006364800.th.jpg" /></a><span class="s2"><span class="s1">99</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131725" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131725');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924006464800.th.jpg" /></a><span class="s2"><span class="s1">100</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131726" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131726');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924006864800.th.jpg" /></a><span class="s2"><span class="s1">101</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131727" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131727');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924006964800.th.jpg" /></a><span class="s2"><span class="s1">102</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131728" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131728');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924007064800.th.jpg" /></a><span class="s2"><span class="s1">103</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131729" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131729');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924007664800.th.jpg" /></a><span class="s2"><span class="s1">104</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131730" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131730');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924008064800.th.jpg" /></a><span class="s2"><span class="s1">105</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131731" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131731');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924008364800.th.jpg" /></a><span class="s2"><span class="s1">106</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131732" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131732');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924008764800.th.jpg" /></a><span class="s2"><span class="s1">107</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131733" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131733');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924009297200.th.jpg" /></a><span class="s2"><span class="s1">108</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131734" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131734');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924009497200.th.jpg" /></a><span class="s2"><span class="s1">109</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131735" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131735');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924009697200.th.jpg" /></a><span class="s2"><span class="s1">110</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131736" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131736');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924010864800.th.jpg" /></a><span class="s2"><span class="s1">111</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131737" onclick="event.preventDefault(); window.open('/slika_pot/planina_blato_triglav_cez_grintovico_planiko_in_mali_triglav/131737');"><img class="slikagm" alt="Planina Blato - Triglav" src="//www.hribi.net/slike1/P924010797200.th.jpg" /></a><span class="s2"><span class="s1">112</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Planina Blato - Triglav (čez Grintovico, Planiko in Mali Triglav)</b></div>
+
+
+
+<div id="kom20094" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/tom3/16523">tom3</a><span class="komDatum">1. 07. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Je li tko u zadnje vrijeme išao ovim putem od Planine Blato do Grintovice? U kakvom je stanju?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29877" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/jozko_hlede/23157">jožko hlede</a><span class="komDatum">3. 07. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>odsvetujem pot &#269;ez Grintavico ker je konfiguracija zaradi vetroloma iz pred lanskega leta popolnoma spremenjena obstoje&#269;e slike ne pridejo ve&#269; v poštev je ve&#269; novih  razpotji ki so nastali zaradi spravila podrtega drevja na nekaj mestih pa je pot  še vedno neprehodna zaradi podrtega drevja. tako da z lahkoto zaideš iz prave poti mi smo bili primorani obrniti na palnino Krstenico ki je sicer tudi zelo slabo ozna&#269;ena. Tako da jo odsvetujem dokler se pot in pa ta sicer lep opis in slike ne popravi na dejansko stanje</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31430" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/a7a7a7a10/23933">a7a7a7a10</a><span class="komDatum">12. 05. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot ni ni&#269; manj zahtevna kot tista iz rudnega polja in planiko in mali Triglav.<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif><br> Orintacijsko je zahtevna, paziti moramo da najdemo jaso z tremi visokimi drevesi potem pa se pot spusti na Grintovico, in potem še na spodnjo grintovico ki je zapuš&#269;ena!<br> Lp a7a7a7a10(jst sm otrok:jezik<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(3);
+    });
+    abc(3);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1068801/zapisizgora_160_600', [160, 600], 'div-gpt-ad-1684384003587-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /1068801/zapisizgora_160_600 -->
+<div id='div-gpt-ad-1684384003587-0' style='min-width: 160px; min-height: 600px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684384003587-0'); });
+  </script>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

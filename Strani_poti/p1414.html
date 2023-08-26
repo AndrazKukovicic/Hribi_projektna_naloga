@@ -1,0 +1,1222 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Polje - Matajurski vrh</title>
+        <meta name="description" content="Natančen opis izleta Polje - Matajurski vrh. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/polje_matajurski_vrh/1/1105/5177" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/polje_matajurski_vrh/1/1105/5177"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=1105&potid=5177"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/matajurski_vrh/1/1105">Matajurski vrh</a> / Polje - Matajurski vrh
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(5177);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Polje - Matajurski vrh</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=5177';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Polje (523 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;16,1700'N&nbsp;/&nbsp;13°&nbsp;54,7680'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;16'&nbsp;10,20''N&nbsp;/&nbsp;13°&nbsp;54'&nbsp;46,08''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,2695°N&nbsp;/&nbsp;13,9128°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.2695,&nbsp;13.9128";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,2695°N&nbsp;13,9128°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(5177,46.2695,13.9128);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.2695,13.9128"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/matajurski_vrh/1/1105">Matajurski vrh (1936 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 5 h 5 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> delno zahtevna označena pot, lahko brezpotje</div>
+    <div class="g2"><b>Višinska razlika:</b> 1413 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1565 m</div>
+    <div class="g2"><b>Zemljevid:</b> Škofjeloško in Cerkljansko hribovje 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> dereze, cepin</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 1.813</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;2&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">61</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">1</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Z avtoceste Ljubljana - Jesenice se usmerimo na izvoz Lesce, nato pa z vožnjo nadaljujemo proti Bledu in Bohinjski Bistrici. Iz Bohinjske Bistrice nadaljujemo po glavni cesti proti Bohinjskemu jezeru, mi pa za vasjo Kamnje postanemo pozorni, saj bomo na desni strani, le nekaj metrov pred začetkom vasi Polje, parkirali na parkirišču ob reki Savi Bohinjki.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča najprej previdno prečimo cesto, nato pa kratek čas nadaljujemo ob glavni cesti proti Polju. Ko prispemo v Polje, nadaljujemo levo na lokalno cesto, po kateri se hitro sprehodimo do manjšega križišča, ob katerem opazimo prve planinske oznake za Orožnovo kočo, planino Osredki in Črno prst. Nadaljujemo v omenjeni smeri ter v nadaljevanju hodimo po ožji asfaltni cesti, ki nas v rahlem vzponu pripelje do naslednjega križišča, kjer nadaljujemo po spodnji desni cesti (levo Bohinjska Bistrica). Pot naprej nas pripelje do začetka vasi Žlan ter nekoliko naprej še do središča omenjene vasi. Nad vasjo se asfalt konča in makadamska cesta nas pripelje do nekakšnega obračališča in korita z vodo (do sem lahko pridemo tudi z avtom, to nam pot skrajša za približno 20 minut).<br>Od korita nadaljujemo levo, kjer najprej preko manjšega mostička prečimo bližnji potoček, nato pa se pričnemo zmerno vzpenjati ob robu prostranega pašnika. Malo višje prečimo pašno ograjo, tako da preidemo na notranjo stran pašnika. V nadaljevanju se vzpenjamo čez prostran pašnik, nas pa pot večinoma vodi skozi zelo redek gozd. Višje zapustimo pašnik, pot pa preide v strnjen gozd. V nadaljevanju prečimo erozijsko zelo načet kolovoz, nato pa se kratek čas vzpenjamo ob manjšem hudourniškem potoku. Pot naprej se vzpne do slabše gozdne ceste, po kateri nekaj časa nadaljujemo vzpon. Ko prispemo do križišča, kjer se priključimo širši makadamski cesti (cesta, ki vodi od Raven proti planini Storeča raven) ji sledimo v levo ter se po njej celo nekoliko spustimo (ko dosežemo cesto ne nadaljujemo naravnost na vzpenjajoč kolovoz, na katerega deloma zavajajoče kaže planinska smerna tabla). Po krajšem spustu, pa se v desno odcepi markiran kolovoz. <br>Pot nadaljujemo po rahlo zaraščenem kolovozu, ki nas po nekaj minutah nadaljnje hoje pripelje na označeno razpotje.<br>Nadaljujemo naravnost (levo Črna prst mimo Orožnove koče in planina za Liscem) po kolovozu, ki nas višje pripelje v manjšo dolinico po kateri se povzpnemo do naslednje gozdne ceste. Ko stopimo na cesto nadaljujemo nekaj korakov v levo, nato pa nas planinska tabla za Črno prst usmeri desno v gozd, kjer se začne strmo vzpenjati. Pot nekoliko višje preči zaraščeno jaso (praprot in malinovje) in se nato vrne v gozd, skozi katerega se nadaljuje vse do planine Osredki.<br>S planine na kateri se nahajata dve manjši leseni koči (ena je preurejena v bivak) nadaljujemo po levi strani napajalne mlake, po slabše vidni poti, ki se začne zmerno vzpenjati med grmičevjem in posameznimi drevesi. Še naprej slabo vidna pot, ki pa je dobro markirana nas višje pripelje na nekoliko večji travnik ob robu katerega opazimo naslednjo mlako. Pot se nato vse strmeje vzpenja in se počasi obrača proti levi. Na vrhu vzpona stopimo na manjši preval, za katerim pot zavije desno in se prečno vzpne. Sledi še nekaj minut vzpona po pobočju poraslim z rušjem in pot nas pripelje na glavni greben Spodnjih Bohinjskih gora. <br>Z grebena od koder se nam odpre lep razgled proti jugu, nadaljujemo desno v smeri proti Voglu (levo Črna prst 10 minut). Pot naprej postane zahtevnejša saj s pomočjo jeklenic, večinoma pa brez le teh preči zelo strma travnata pobočja, ki so nevarna za zdrs. Pot se nato nekoliko položi in nas pripelje na sedlo Vrata (1721m). Pot se nato grebenu ponovno umakne na levo in se za tem prečno vzpne čez naslednje strmo pobočje. Da pot ni povsem lahka nas opozori spominska plošča. Strmina pobočij nato postopoma popusti in pot se ponovno približa glavnemu grebenu (tu se lahko v 15 minutah povzpnemo na Četrt - lahko brezpotje). <br> Nadaljujemo po razglednem, večinoma s travo poraslem grebenu (proti zahodu), ki se zložno vzpenja proti Konjskemu vrhu, katerega pot obide po levi strani. Za tem se pot rahlo spusti in nas pripelje do neizrazitega sedelca med Konjskim in Poljanskim vrhom. Slednjega pot, ki se ponovno začne rahlo vzpenjati prav tako obide po levi strani in nas za tem pripelje ob vznožje Matajurskega vrha, ki ga bomo opazili na levi strani. Na mestu, kjer se pot približa Matajurskemu vrha bomo na levi strani opazili slabše uhojeno stezico, ki se sprva zložno vzpenja proti jugu. Pot, ki postaja vse slabša se obrne nekoliko v desno in nas po krajšem strmem vzponu pripelje na stranski greben. Ko stopimo na greben nadaljujemo rahlo levo po slabo vidni poti ob kateri opazimo nekaj starih obledelih markacij. Tej vse bolj razgledni "poti" nato sledimo do vrha, ki ga dosežemo po nekaj nadaljnjih 10 korakih. <br> Ker pot večji del poteka po grebenu se zaradi možnosti udara strel na pot podajmo le ob lepem vremenu. <br> Izhodišče - planina Osredki 2:30, planina Osredki - Matajurski vrh 2:35</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/matajurski_vrh/1105"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Matajurski vrh"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Žlan (600m), <a class="moder" href="/gora/planina_osredki/1/1101">Planina Osredki (1400m)</a>, Vrata (1721m)</div><div style="padding-top:10px;"><b>Izlet lahko podaljšamo do naslednjih ciljev:</b> <a class="moder" href="/gora/crna_prst/1/87">Črna prst</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/polje/46.2695/13.9128">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/polje_matajurski_vrh/5177">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=1105">panorama</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284041" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284041');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 336351000.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284042" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284042');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 334351000.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284043" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284043');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 332351000.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284044" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284044');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 329351000.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284045" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284045');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 327351000.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284046" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284046');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 325421200.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284047" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284047');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 320421200.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284048" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284048');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 313421200.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284049" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284049');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 310421200.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284050" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284050');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 308421200.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284051" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284051');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 305421200.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284052" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284052');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 304407160.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284053" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284053');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 303407160.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284054" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284054');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 302407160.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284055" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284055');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 300505440.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284056" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284056');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 296505440.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284057" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284057');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 293505440.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284058" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284058');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 292505440.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284059" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284059');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 288505440.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284060" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284060');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 284505440.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284061" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284061');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 283505440.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284062" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284062');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 278505440.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284063" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284063');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 277505440.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284064" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284064');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 273505440.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284065" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284065');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 267603720.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284066" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284066');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 265603720.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284067" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284067');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 264603720.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284068" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284068');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 261603720.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284069" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284069');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/CrnaPrst147 258603720.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284070" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284070');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170014699840.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284071" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284071');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170016699840.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284072" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284072');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170018699840.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284073" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284073');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170021816480.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284074" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284074');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170023816480.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284075" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284075');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170024816480.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284088" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284088');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/sliketemp/P91700294644493.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284089" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284089');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917006020736.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284090" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284090');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917006120736.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284091" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284091');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917006220736.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284092" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284092');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917006320736.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284093" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284093');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917006520736.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284094" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284094');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917006620736.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284095" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284095');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917006720736.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284096" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284096');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917007320736.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284097" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284097');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917007520736.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284098" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284098');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170078968544.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284099" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284099');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170119968544.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284100" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284100');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170121968544.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284101" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284101');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170122968544.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284102" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284102');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P91701240.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284103" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284103');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P91701270.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284104" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284104');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170130968544.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284105" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284105');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917017088920.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284106" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284106');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917017188920.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284107" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284107');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P917017288920.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284108" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284108');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170200213408.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284109" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284109');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170231213408.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284110" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284110');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170234552960.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284111" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284111');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170235552960.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284112" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284112');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170237552960.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/polje_matajurski_vrh/284113" onclick="event.preventDefault(); window.open('/slika_pot/polje_matajurski_vrh/284113');"><img class="slikagm" alt="Polje - Matajurski vrh" src="//www.hribi.net/slike1/P9170241552960.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Polje - Matajurski vrh</b></div>
+
+
+
+<div id="kom21624" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/linhart/17522">Linhart</a><span class="komDatum">9. 01. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Že videti je lepo. V realnosti pa je še lepše.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(1);
+    });
+    abc(1);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

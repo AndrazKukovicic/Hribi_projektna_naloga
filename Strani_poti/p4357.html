@@ -1,0 +1,1278 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Dolina - Veliko Kladivo</title>
+        <meta name="description" content="Natančen opis izleta Dolina - Veliko Kladivo. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/dolina_veliko_kladivo/11/344/5239" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/dolina_veliko_kladivo/11/344/5239"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=11&id=344&potid=5239"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/karavanke/11">Karavanke</a> / <a class="moder" href="/gora/veliko_kladivo/11/344">Veliko Kladivo</a> / Dolina - Veliko Kladivo
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(5239);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Dolina - Veliko Kladivo</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=5239';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Dolina (731 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;23,4720'N&nbsp;/&nbsp;14°&nbsp;19,8300'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;23'&nbsp;28,32''N&nbsp;/&nbsp;14°&nbsp;19'&nbsp;49,80''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3912°N&nbsp;/&nbsp;14,3305°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3912,&nbsp;14.3305";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3912°N&nbsp;14,3305°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(5239,46.3912,14.3305);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3912,14.3305"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/veliko_kladivo/11/344">Veliko Kladivo (2094 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 3 h 30 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> delno zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1363 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1363 m</div>
+    <div class="g2"><b>Zemljevid:</b> Karavanke - osrednji del - 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 4.125</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">104</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">0</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Z avtoceste Ljubljana - Jesenice se usmerimo na izvoz Podnart (Ljubelj), nato pa z vožnjo nadaljujemo po hitri cesti proti Ljubelju in Tržiču. Ko se hitra cesta konča, bomo na desni strani opazili črpalko, pred katero zavijemo desno navzdol proti Tržiču. Naprej se peljemo skozi Tržič, mi pa ožji cesti sledimo proti Dovžanovi soteski in še naprej do vasice Dolina, kjer na makadamskem parkirišču pred mostom preko reke Tržiške Bistrice tudi parkiramo.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča najprej prečimo most, nato pa se po glavni cesti sprehodimo do bližnje kapelice, kjer nadaljujemo levo ob vrtu in starejši stanovanjski hiši na gozdno cesto. Vzpon nadaljujemo po vedno ožji in slabši makadamski cesti, ki nas vodi ob potoku Kališnik zmerno navzgor. Cesta se kmalu spremeni v kolovoz, le ta pa se prične strmeje vzpenjati. Višje pridemo do vodnega zajetja, nad katerim vedno ožji kolovoz zavije levo ter se po nekaj metrih konča, mi pa nadaljujemo naravnost čez večjo travnato senožet, po kateri se vzpnemo do nekoliko večje smreke, kjer nas markacije usmerijo rahlo desno na strmejšo pešpot. Nadaljujemo po strmi poti, ki preči krajši pas gozda, nato pa nas pripelje na zmerno strma travnata pobočja, po katerih se ob lepih pogledih na Storžič in Stegovnik, vzpnemo do sedla Kal, kjer tudi stopimo na gozdno cesto. Od sedla, s katerega se nam odpre lep pogled na Begunjščico, nadaljujemo desno ter v nekaj korakih prispemo do Zavetišča na Kalu.<br>Od zavetišča nadaljujemo po makadamski cesti, kjer hitro prispemo na označeno razpotje. Od razpotja nadaljujemo levo navzgor na markirano pešpot (naravnost Dom na Kofcah mimo kapelice), ki se prične strmo vzpenjati. Po nekaj korakih se pot položi in nas pripelje v pas grmičevja, kjer prečimo razgledna pobočja proti desni. Na drugi strani se pot vrne v gozd ter se prične strmo vzpenjati ob robu skalnih pečin. Pot naprej nas vodi mimo nekaj manjših naravnih jam, nato pa se položi in nas pripelje v bolj planotast svet. Pot naprej ob pogledu na zahodni del Košute preči slabšo gozdno cesto, nato pa nas pripelje do parkirišča ob koncu gozdne ceste, ki vodi proti Kofcam.<br>S parkirišča nadaljujemo po širokem kolovozu, po katerem se v 15 minutah vzpnemo do planine Kofce. Od mesta, ko smo stopili na spodnji rob planine, nas do planinske koče loči le še 5 minut vse bolj razgledne hoje, ki poteka čez pašnike že omenjene planine.<br>Od planinskega doma nadaljujemo v smeri Velikega vrha in Kladiva po sprva nekoliko slabše vidni poti, ki se začne vzpenjati čez razgledni travnik. Po 15 minutah hoje od doma na Kofcah pridemo do lepega razgledišča pri križu. <br> Pot se nato rahlo spusti in nas v nekaj minutah pripelje do strmejši pobočij Košute. Pot se nato vzpne čez pas rušja, kjer nas pripelje na razpotje. Nadaljujemo desno (naravnost veliki vrh) po poti kateri se že po nekaj metrih priključi nemarkirana, a označena pot s planine Šija. Nadaljujemo levo navzgor po poti, ki se strmo vzpne in nas hitro pripelje do izpostavljenega prehoda. Brez varoval prečimo kratko, a krušljivo in rahlo izpostavljeno polico za katero stopimo v pas rušja. Pot naprej se vzpne čez kratek pas rušja, nato pa se nadaljuje po stranskem grebenu Košute. Vse bolj razgledna in precej strma pot pa se višje priključi grebenski poti.<br>Nadaljujemo desno v smeri Kladiva (levo Veliki vrh, naravnost navzgor Kofce gora 10 korakov) po poti, ki se začne rahlo spuščati ob robu grebena. Zelo razgledna grebenska pot, ki poteka po in ob glavnem grebenu pa je naprej na nekaj mestih rahlo izpostavljena, a v suhem prehodi ne povzročajo težav. <br> Nekoliko naprej se pot približa neizrazitemu vrhu (Malo Kladivo) do katerega nas pripelje kratek strm vzpon. <br> Z Malega Kladiva se pot začne spuščati in nas hitro pripelje na manjše sedelce med obema Kladivoma. Tu se nam z desne priključi lahka nemarkirana pot s planine Šija (možnost povratka), mi pa nadaljujemo naravnost po poti, ki se začne strmeje vzpenjati po vršnem pobočju Kladiva. Po 10 minutah strme in za zdrs nevarne hoje pa nas pot pripelje na razgleden vrh. <br>Izhodišče - Zavetišče na Kalu 1:00, Zavetišče na Kalu - Dom na Kofcah 45 minut, Dom na Kofcah - Kofce gora 1:00, Kofce gora - Veliko Kladivo 45 minut.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/veliko_kladivo/344"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Veliko Kladivo"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> <a class="moder" href="/gora/zavetisce_na_kalu/11/1810">Zavetišče na Kalu (1112m)</a>, <a class="moder" href="/gora/dom_na_kofcah/11/223">Dom na Kofcah (1488m)</a>, <a class="moder" href="/gora/kofce_gora/11/343">Kofce gora (1967m)</a>, <a class="moder" href="/gora/malo_kladivo/11/466">Malo Kladivo (2036m)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/dolina/46.3912/14.3305">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/dolina_veliko_kladivo/5239">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=344">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=344">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288230" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288230');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 004350658.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288231" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288231');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 005350658.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288232" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288232');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 006350658.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288233" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288233');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 008350658.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288234" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288234');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 009396396.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288235" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288235');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 010396396.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288236" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288236');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 012396396.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288237" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288237');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 014396396.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288238" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288238');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 017396396.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288239" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288239');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 018396396.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288240" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288240');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 020396396.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288241" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288241');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 021411642.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288242" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288242');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 023411642.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288243" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288243');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 024487872.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288244" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288244');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 026487872.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288245" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288245');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 027487872.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288246" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288246');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 030487872.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288247" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288247');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 035487872.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288248" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288248');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 036487872.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288249" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288249');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 039487872.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288250" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288250');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 042487872.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288251" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288251');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 049487872.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288252" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288252');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 052487872.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288253" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288253');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 054487872.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288254" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288254');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 088564102.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288255" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288255');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 098564102.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288256" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288256');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 091564102.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288257" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288257');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 103415800.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288258" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288258');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 104415800.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288259" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288259');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 109415800.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288260" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288260');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 110415800.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288261" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288261');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 112415800.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288262" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288262');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 209415800.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288263" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288263');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 116515592.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288264" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288264');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 117515592.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288265" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288265');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 120515592.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288266" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288266');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 123515592.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288267" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288267');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 128515592.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288268" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288268');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 130515592.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288269" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288269');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 132515592.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288270" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288270');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 133515592.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288271" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288271');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 134515592.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288272" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288272');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 135515592.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288273" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288273');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 137598752.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288274" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288274');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 139598752.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288275" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288275');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 142598752.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288276" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288276');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 143598752.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288277" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288277');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 144598752.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288278" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288278');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 145598752.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288279" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288279');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 148598752.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288280" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288280');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 151598752.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288281" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288281');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/Kofce 155598752.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288282" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288282');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160038325248.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288283" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288283');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160080325248.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288284" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288284');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160082325248.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288285" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288285');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160088325248.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288286" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288286');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160092325248.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288287" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288287');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160353325248.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288288" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288288');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160097447216.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288289" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288289');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160100447216.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288290" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288290');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160105447216.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288291" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288291');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160106447216.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288292" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288292');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160107447216.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288293" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288293');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160108447216.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288294" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288294');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160112447216.th.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288295" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288295');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160114447216.th.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288296" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288296');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160118447216.th.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288297" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288297');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PB160123447216.th.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288327" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288327');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/PA08007693600.th.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288328" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288328');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%200645724761.th.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288329" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288329');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%200675724762.th.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288330" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288330');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%200925724780.th.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288331" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288331');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%200945724764.th.jpg" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288332" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288332');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%200985724764.th.jpg" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288333" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288333');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%200995724765.th.jpg" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288334" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288334');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%201005724765.th.jpg" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288335" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288335');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%201035724766.th.jpg" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288336" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288336');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%201055724767.th.jpg" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288337" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288337');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%201065724767.th.jpg" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288338" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288338');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%201105724768.th.jpg" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288339" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288339');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%201135724769.th.jpg" /></a><span class="s2"><span class="s1">81</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288340" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288340');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%201145724769.th.jpg" /></a><span class="s2"><span class="s1">82</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288341" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288341');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%201175724770.th.jpg" /></a><span class="s2"><span class="s1">83</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288342" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288342');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//slike.hribi.net/sliketemp/VelikoKladivo%201185724771.th.jpg" /></a><span class="s2"><span class="s1">84</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288343" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288343');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 125100800.th.jpg" /></a><span class="s2"><span class="s1">85</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288344" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288344');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 128126000.th.jpg" /></a><span class="s2"><span class="s1">86</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288345" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288345');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 130126000.th.jpg" /></a><span class="s2"><span class="s1">87</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288346" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288346');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 132126000.th.jpg" /></a><span class="s2"><span class="s1">88</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288347" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288347');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 133126000.th.jpg" /></a><span class="s2"><span class="s1">89</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288348" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288348');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 136126000.th.jpg" /></a><span class="s2"><span class="s1">90</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288349" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288349');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 137126000.th.jpg" /></a><span class="s2"><span class="s1">91</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288350" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288350');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 138126000.th.jpg" /></a><span class="s2"><span class="s1">92</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288351" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288351');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 142171600.th.jpg" /></a><span class="s2"><span class="s1">93</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288352" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288352');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 140187200.th.jpg" /></a><span class="s2"><span class="s1">94</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288353" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288353');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 141192400.th.jpg" /></a><span class="s2"><span class="s1">95</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288354" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288354');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 144192400.th.jpg" /></a><span class="s2"><span class="s1">96</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288355" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288355');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 145192400.th.jpg" /></a><span class="s2"><span class="s1">97</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288356" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288356');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 146192400.th.jpg" /></a><span class="s2"><span class="s1">98</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288357" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288357');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 147192400.th.jpg" /></a><span class="s2"><span class="s1">99</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288358" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288358');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 149192400.th.jpg" /></a><span class="s2"><span class="s1">100</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288359" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288359');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 151192400.th.jpg" /></a><span class="s2"><span class="s1">101</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288360" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288360');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 152192400.th.jpg" /></a><span class="s2"><span class="s1">102</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288361" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288361');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 155192400.th.jpg" /></a><span class="s2"><span class="s1">103</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/dolina_veliko_kladivo/288362" onclick="event.preventDefault(); window.open('/slika_pot/dolina_veliko_kladivo/288362');"><img class="slikagm" alt="Dolina - Veliko Kladivo" src="//www.hribi.net/slike1/VelikoKladivo 191192400.th.jpg" /></a><span class="s2"><span class="s1">104</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Dolina - Veliko Kladivo</b></div>
+
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

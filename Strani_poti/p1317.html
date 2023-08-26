@@ -1,0 +1,1444 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Drežniške Ravne - Lopatnik</title>
+        <meta name="description" content="Natančen opis izleta Drežniške Ravne - Lopatnik. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/drezniske_ravne_lopatnik/1/2309/4757" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/drezniske_ravne_lopatnik/1/2309/4757"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=2309&potid=4757"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/lopatnik/1/2309">Lopatnik</a> / Drežniške Ravne - Lopatnik
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(4757);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Drežniške Ravne - Lopatnik</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=4757';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Drežniške Ravne (750 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;16,3740'N&nbsp;/&nbsp;13°&nbsp;36,8820'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;16'&nbsp;22,44''N&nbsp;/&nbsp;13°&nbsp;36'&nbsp;52,92''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,2729°N&nbsp;/&nbsp;13,6147°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.2729,&nbsp;13.6147";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,2729°N&nbsp;13,6147°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(4757,46.2729,13.6147);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.2729,13.6147"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/lopatnik/1/2309">Lopatnik (2012 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 3 h</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1262 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1262 m</div>
+    <div class="g2"><b>Zemljevid:</b> Julijske Alpe - zahodni del 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    <div class="g2"><b>Avtor:</b> <a class="moder" href="/gornik/suzanam/13561">SuzanaM</a></div>
+    <div class="g2"><b>Ogledov:</b> 19.321</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;5&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">80</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">9</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Iz smeri Tolmin ali Bovec se zapeljemo do Kobarida. S Kobariške obvoznice sledimo oznakam za Drežnico in Vrsno. Nadaljujemo preko znamenitega Napoleonovega mostu čez reko Sočo in takoj za mostom zavijemo levo v smeri Drežnice. Desno Vrsno in planina Kuhinja. Dvopasovna cesta se slabih 5 km v serpentinah vzpenja proti  Drežnici. Ko se cesta položi, se zapeljemo mimo spomenika padlim v NOB, ki je na naši levi. Pri spomeniku je postavljena panoramska tabla, kjer si lahko ogledamo naš cilj in sosednje vrhove vse od Krna do Krasjega vrha. Z vožnjo nadaljujemo do vasi Drežnica. Na začetku vasi zavijemo levo in po nekoliko ožji cesti nadaljujemo proti  Drežniškim Ravnam. Na križišču v Drežniških Ravnah nas pričaka velika informacijska tabla in oznake. Nadaljujemo desno navzgor v smeri planin Zapleč in Zaprikraj ter Krasjega Vrha. V naslednjem križišču ponovno zavijemo desno v smeri planin Zapleč in Zaprikraj. Cesta se še malo zoži in nas v nekaj strmih ovinkih pripelje do korita z vodo, kjer se asfalt konča. Tu parkiramo na manjšem parkirišču. Od Drežnice do Drežniških Raven sta približno 2 km, do parkirišča pri koritu  z vodo pa še približno 1,5 km.<br> <br> Od korita z vodo se lahko zapeljemo po makadamski cesti do planine Zapleč in tako skrajšamo vzpon za 1 uro. Vendar cesta ni vedno v najboljšem stanju, kar še posebej občutijo avtomobili z nižjim podvozjem.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Od parkirišča nad Drežniškimi Ravnami nadaljujemo nekaj metrov po makadamski cesti do smerokazov, kjer zavijemo desno v smeri planine Zapleč, Vrata in Krn. Naš cilj Lopatnik se na naši desni dviga nad sedlom Vrata, čez cesto na naši levi pa je Krasji vrh. Steza nas čez travnik vodi do gozda, kjer se razširi v ožji kolovoz, ki se zmerno do blago vzpenja skozi gozd. Pot više prečka slabšo makadamsko cesto, po kateri nadaljujemo nekaj korakov v desno, nato pa nas smerokaz za slap Curk in planine usmeri levo navzgor. Od tu se pot nekoliko bolj strmo vzpenja po zatravljenem kolovozu med leskami in drugim nižjim drevjem. Više se pot malo položi in nas skozi ogrado pripelje v manjši gozdiček, ki se hitro razredči. Nadaljujemo z blagim vzponom čez travnata pobočja, s katerih se nam na naši desni odpre lep razgled na Krnčico, Lopatnik in sedlo Vrata ter ostale vrhove nad planinama Zapleč in Zaprikraj. Na naši levi se dviga Krasji vrh, za nami pa Matajur. Pot preči slabšo cesto, ob kateri je tudi korito z vodo. Sledimo smerokazom za Vrata in Krn, ki nas usmerijo navzgor čez pašnike. Bolj ali manj vidna steza se vzpenja ob zaraščeni strugi hudournika. Sem pa tja bomo opazili kakšno staro markacijo, vendar z orientacijo ni težav. Po vzponu čez pašnik pridemo do naslednjega širšega kolovoza, ki se odcepi s ceste za planini Zapleč in Zaprikraj. Prečimo kolovoz in se vzpenjamo naprej čez pašnik do planine Zapleč. Če najdemo zbledele markacije, jim sledimo, sicer pa se vzpenjamo ob levem robu pašnika. Mestoma zaraščena markirana pot in kravje stezice nas pripeljejo pod rob ceste na planini Zapleč. Nad sabo na naši levi bomo videli vrata v ogradi, skozi katera stopimo na cesto. Pred nami je tabla TNP in nekaj prostora za parkiranje avtomobilov. Cesta se nadaljuje proti planini Zaprikraj. <br> <br> Stopimo skozi vrata ograde, ki zapirajo cesto pred planino Zapleč in nato takoj zavijemo desno. Na kamnu pred vrati ograde bomo opazili oznako za Vrata. Čaka nas približno 2 urni vzpon do cilja, ki je naravnost pred nami. <br> <br> Lepo markirana pot poteka po mulatjeri, ki se v nešteto okljukih večinoma zmerno vzpenja. Večji del poti je zatravljen. V spodnjem delu je sredi poletja trava zelo visoka in lahko povsem zakrije mulatjero. Vsa razpotja so dobro označena, vendar so v travi lahko oznake slabše vidne. V spodnjem delu poti nas lahko hitro zavede, da zavijemo prehitro ali pa nadaljujemo preveč v levo v smeri Vršiča, tako da je potrebno kar nekaj pozornosti.<br> <br> Z vsakim metrom vzpona se nam odpirajo vedno lepši razgledi na planini Zapleč in Zaprikraj ter Krasji vrh, ki se dviga nad njima. Pogled nam seže do Kaninskega pogorja, za nami pa na Stol in Matajur.<br> <br> Više postane pot vse bolj kamnita in nekoliko bolj strma. Zdi se, da se naš cilj z vsakim prehojenim metrom bolj oddaljuje, čeprav je ves čas pred nami. Približno 10 minut pod sedlom med Lopatnikom in Krnčico se markirana mulatjera prečno vzpne v desno proti Krnčici in Krnu. Malo naprej se v levo odcepi steza proti Vratom, ki ji sledimo nekaj korakov, nato pa se vzpnemo čez kamnito-travnato pobočje na sedlo med Krnčico in Lopatnikom, od tu pa v nekaj minutah dosežemo vrh Lopatnika.<br> <br> Naš pohod lahko podaljšamo po markirani poti do Krnčice ali Krna, ali po neoznačeni poti do Skutnika in naprej po brezpotju do Krnčice. <br> <br> Z Lopatnika se po brezpotju po grebenu spustimo na sedlo Vrata in od tu po mulatjeri v smeri prihoda na planino Zapleč, lahko pa nadaljujemo po neoznačeni poti po grebenu proti Vrhu Ruš in Vršiču, od kjer se po mulatjeri spustimo na planino Zaprikraj. Žal se greben rad že dopoldan zagrne v meglo in oblake, v slabi vidljivosti pa nadaljevanje poti po grebenu ni priporočljivo. <br> <br> S planine Zapleč se do izhodišča namesto čez pašnike lahko odpravimo tudi po cesti. Po približno 1 km pridemo do večjega ovinka, kjer nas oznaka za Pot miru usmeri v gozd. Tu se lahko priključimo na planinsko pot, ki vodi na Krasji vrh in se po njej spustimo do izhodišča nad Drežniškimi Ravnami.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/lopatnik/2309"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Lopatnik"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> <a class="moder" href="/gora/krncica/1/1625">Krnčica (2142m)</a>, Skutnik (2074m), Vrata (1920m), Oblo brdo (1957m), Vrh Ruš (1864m), Vršič (1897m), planina Zapleč (1201m), <a class="moder" href="/gora/planina_zaprikraj/1/683">planina Zaprikraj (1208m)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/drezniske_ravne/46.2729/13.6147">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/drezniske_ravne_lopatnik/4757">podobni izleti</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/257977" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/257977');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_033445174223_IMG_3762.JPG" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/257980" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/257980');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0616445176044_IMG_3181.JPG" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/257981" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/257981');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0826445176249_IMG_3174.JPG" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/257986" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/257986');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0285445176402_IMG_3154.JPG" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/257997" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/257997');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0130445176799_IMG_3155.JPG" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258012" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258012');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0215445177183_scan0001.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258013" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258013');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_098445177903_IMG_3631.JPG" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258014" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258014');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0883445178020_IMG_5448.JPG" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258015" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258015');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0994445178048_IMG_5452.JPG" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258017" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258017');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0799445178669_IMG_6895.JPG" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258018" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258018');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0465445178831_IMG_1150.JPG" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258019" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258019');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0620445179104_IMG_0461.JPG" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258020" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258020');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_026445179213_IMG_0463.JPG" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258021" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258021');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0966445179268_IMG_0465.JPG" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258022" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258022');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0537445179696_IMG_0468.JPG" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258025" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258025');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0845445179944_IMG_0475.JPG" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258026" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258026');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0367445179989_IMG_0478.JPG" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258027" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258027');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0445445180039_IMG_0485.JPG" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258028" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258028');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0528445180081_IMG_0487.JPG" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258029" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258029');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_06445180326_IMG_0492.JPG" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258030" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258030');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0697445180604_IMG_0498.JPG" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258031" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258031');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0809445180761_IMG_0497.JPG" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258032" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258032');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0941445180916_IMG_0505.JPG" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258034" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258034');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0540445181095_IMG_0508.JPG" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258035" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258035');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0297445181131_IMG_0507.JPG" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258036" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258036');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0555445181198_IMG_0513.JPG" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258038" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258038');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0883445181348_IMG_0526.JPG" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258039" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258039');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0549445181468_IMG_0527.JPG" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258040" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258040');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0617445181543_IMG_0529.JPG" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258041" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258041');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0916445181638_IMG_0530.JPG" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258042" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258042');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0336445181747_IMG_0538.JPG" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258043" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258043');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0615445181868_IMG_0541.JPG" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258044" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258044');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0698445182147_IMG_0540.JPG" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258045" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258045');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0776445182192_IMG_0546.JPG" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258046" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258046');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0668445182323_IMG_0548.JPG" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258047" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258047');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0646445182453_IMG_0549.JPG" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258048" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258048');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0691445182488_IMG_0556.JPG" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258050" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258050');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0403445183154_IMG_0596.JPG" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258051" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258051');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0401445183431_IMG_0606.JPG" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258052" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258052');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_084445183490_IMG_0617.JPG" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258053" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258053');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0245445184586_IMG_5311.JPG" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258054" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258054');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0762445184637_IMG_5301.JPG" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258055" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258055');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0367445184688_IMG_5288.JPG" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258057" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258057');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0858445185034_IMG_6593.JPG" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258058" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258058');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0178445185181_140920131024.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258059" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258059');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0586445185392_IMG_6690.JPG" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258061" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258061');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0777445185463_IMG_6605.JPG" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258066" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258066');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0829445185594_IMG_6694.JPG" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258069" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258069');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0637445185706_IMG_5172.JPG" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258073" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258073');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_087445185808_IMG_5195.JPG" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258076" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258076');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0787445185875_IMG_5180.JPG" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258084" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258084');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0895445186113_IMG_5187.JPG" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258088" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258088');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0115445186299_IMG_5208.JPG" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258094" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258094');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0157445186466_IMG_5210.JPG" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258099" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258099');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_01445186635_IMG_5214.JPG" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258105" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258105');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0711445186748_IMG_5226.JPG" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258107" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258107');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0666445186773_IMG_5229.JPG" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258111" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258111');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0592445186861_IMG_5240.JPG" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258113" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258113');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0753445186946_IMG_5247.JPG" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258114" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258114');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0621445186982_IMG_5249.JPG" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258115" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258115');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_06445187027_IMG_5256.JPG" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258116" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258116');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0723445187074_IMG_5259.JPG" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258117" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258117');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0152445187109_IMG_5263.JPG" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258118" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258118');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0343445187139_IMG_5260.JPG" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258119" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258119');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0649445187186_IMG_5266.JPG" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258121" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258121');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_040445187330_IMG_5275.JPG" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258122" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258122');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0523445187352_IMG_5276.JPG" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258123" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258123');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0962445187394_IMG_5278.JPG" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258124" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258124');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0406445187426_IMG_5277.JPG" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258125" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258125');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0657445187468_IMG_5281.JPG" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258126" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258126');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0666445187514_IMG_5289.JPG" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258131" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258131');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0642445200382_IMG_0736.JPG" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258132" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258132');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0958445200648_IMG_0766.JPG" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258133" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258133');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0738445200905_IMG_0768.JPG" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258134" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258134');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0332445200985_IMG_0787.JPG" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258135" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258135');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0414445201084_IMG_0797.JPG" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258136" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258136');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0487445201263_IMG_0802.JPG" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258137" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258137');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0162445201362_IMG_0816.JPG" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258138" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258138');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0167445201513_IMG_5379_1.JPG" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/drezniske_ravne_lopatnik/258139" onclick="event.preventDefault(); window.open('/slika_pot/drezniske_ravne_lopatnik/258139');"><img class="slikagm" alt="Drežniške Ravne - Lopatnik" src="//slike.hribi.net/slike4/2_0307445201827_pan_12.jpg" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Drežniške Ravne - Lopatnik</b></div>
+
+
+
+<div id="kom19059" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">30. 12. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Novi opis<img alt=nasmeh src=/slike/smile.gif> na Lopatnik sem se povzpel v novembru za&#269;el sem na izhodiš&#269;u Drežniške Ravne po cesti do parkirš&#269;e Zaple&#269; od tam pa v strmine po cik cak potki proti Lopatniku. K sre&#269;i ni bilo zelo vro&#269;e, niti mrzlo ravno prav, poleti pa mora bit kar hud napor v vro&#269;ini. Ko prispem na Lopatnik so se odprli krasni razgledi na Krn&#269;ico se nisem podal sem se pa odpravil po grebenu do Vrši&#269;a, slikovit greben, mulatjera, vojaški bunkarji, vseeno pa je greben v zimskih razmerah zelo naporn, z vrha Vrši&#269;a sem se vrnil na sedlo in sestopil ve&#269; slik: <a target=# class=moder href="https://plus.google.com/photos/114400986607884783562/albums/5947277119021183537?sort=1">https://plus.google.com/photos/114400986607884783562/albums/5947277119021183537?sort=1</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23959" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">2. 03. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ljubitelj gora , zanima me, Lopatnik, in kdaj , je primeren &#269;as, za vzpon.Ali je izhodiš&#269;e, enako, kot na Krn&#269;ico.?Se da iti  krožno, mislim, &#269;e je kakšna drga pot za sestop, vendar prideš, na izhodiš&#269;e.?<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23965" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/igorzlodej/6423">IgorZlodej</a><span class="komDatum">3. 03. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Imaš pod "trenutne razmere-forum", &#269;e pod "iskanje" vtipkaš Lopatnik kar tri odrte teme, možnosti pa tudi kar nekaj, tudi za krožno turo. Meni najbolj ugodno v jeseni, ko še ni snega, eno tako turo sem tudi opisal pred &#269;asom. Izhodiš&#269;e pa pri koritu nad Drežniškimi Ravnami ali Zaple&#269;, &#269;e se gor pripelješ.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23966" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">3. 03. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala Igor , bom pogledala.<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33169" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">7. 05. 2021 18:10:25</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kar sem slišala, se pot zarašča. Pa je škoda. Tudi cesta iz Drežniških Raven je precej luknjasta. Če je čas na razpolago je skoro bolje iti peš. Letos , ko bo sneg skopnel bo morda le kdo šel tja gor.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33170" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/mirank/7032">mirank</a><span class="komDatum">7. 05. 2021 19:34:28</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ravno nasprotno imam jaz informacijo izpred 14dni, da je cesta v popravilu. Malo slabši je le odsek v strmini takoj nad koritom, kar je bila vedno glavna težava, potem do Zapleča praktično ni nikoli bilo večjih težav.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33773" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">25. 08. 2021 21:16:51</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bili danes . Namen je bil prehoditi celoten greben od Lopatnika vse do Kala. In spustili smo se z zadnjega vrha Kal po jarkih smrti. Vsaj tako so jih poimenovali takrat v prvi svetovni vojni. Na tem vrhu so bili avstrijski in italianski vojaki blizu . Še danes je polno ostankov iz vojnih časov. Naleteli smo na neeksplodirano ročno bombo, ki je imela še vžigalno vrvico. Tam redkokdo zaide. Razgleden greben, čeprav je bilo na Lopatniku vetrovno in hladno. Kasneje po grebenu pa vse topleje.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33774" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">26. 08. 2021 00:05:03</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lani v jeseni: <br> <a target=# class=moder href=https://shrani.si/f/3N/vq/1Sp0Ghys/1/dsc01957.jpg>https://shrani.si/f/3N/vq/1Sp0Ghys/1/dsc01957.jpg</a><br> <a target=# class=moder href=https://shrani.si/f/1b/Mp/4vmRgkJ7/dsc01958.jpg>https://shrani.si/f/1b/Mp/4vmRgkJ7/dsc01958.jpg</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35196" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/mikkeni/9588">mikkeni</a><span class="komDatum">28. 08. 2022 08:24:01</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>včeraj na Lopatniku in ostalih vrhovih:<br> <a target=# class=moder href=http://ma-uc.blogspot.com/2022/08/lopatnik-krncica-in-srednji-vrh.html>http://ma-uc.blogspot.com/2022/08/lopatnik-krncica-in-srednji-vrh.html</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(9);
+    });
+    abc(9);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

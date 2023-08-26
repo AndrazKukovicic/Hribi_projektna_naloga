@@ -1,0 +1,1788 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Podmežakla (Jesenice) - Škrbina (Mežakla) (čez Zakop)</title>
+        <meta name="description" content="Natančen opis izleta Podmežakla (Jesenice) - Škrbina (Mežakla) (čez Zakop). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/podmezakla_jesenice_skrbina_mezakla_cez_zakop/1/1256/2109" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/podmezakla_jesenice_skrbina_mezakla_via_zakop/1/1256/2109"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=1256&potid=2109"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/skrbina_mezakla/1/1256">Škrbina (Mežakla)</a> / Podmežakla (Jesenice) - Škrbina (Mežakla) (čez Zakop)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(2109);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Podmežakla (Jesenice) - Škrbina (Mežakla) (čez Zakop)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=2109';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Podmežakla (Jesenice) (580 m)</div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/skrbina_mezakla/1/1256">Škrbina (Mežakla) (1210 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez Zakop</div>
+    <div class="g2"><b>Čas hoje:</b> 1 h 40 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 630 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 630 m</div>
+    <div class="g2"><b>Zemljevid:</b> TNP 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    <div class="g2"><b>Avtor:</b> <a class="moder" href="/gornik/heinz/3508">heinz</a></div>
+    <div class="g2"><b>Ogledov:</b> 22.824</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;4&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">23</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">31</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Z avtoceste Ljubljana - Jesenice, se usmerimo na izvoz Lipce in se zapeljemo desno na Jesenice (pri semaforju levo). Tu v centru mesta sledimo smerokazom za Podmežaklo. Ko pripeljemo skozi podvoz, zavijemo desno, v bližini pa lahko opazimo hokejsko halo. Peljemo še nadaljnjih 350 m, ko pred avtocestnim podvozom zagledamo parkirišče. Tu je naše izhodišče.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča se usmerimo v podvoz, na čigar desni strani najdemo prvo markacijo. Ko stopimo skozenj, opazimo na levi strani pot, ki pelje s ceste v klanec (markacija na asfaltu). Stopimo nanjo, se povzpnemo nekaj metrov in zavijemo desno (zahod) proti daljnovodu. Pot ki se sprva le zmerno vzpenja, kasneje pa vse bolj, nas čez nekaj časa pripelje do razpotja. Tu se usmerimo levo, še bolj strmo v klanec proti jugu. Kmalu dosežemo gozdno cesto, ki nas skozi desni in levi ovinek pripelje do odcepa kolovozne poti, ki se na desni strmo vzpenja v smer JV. Usmerimo se nanj in mu sledimo kar nekaj časa, medtem ko desne odcepe manjših bližnjic prezremo. <br>Vijugasta pot se občasno serpentinasto dviga nekoliko v smeri vzhod. Ko smo prešli večji desni ovinek, pa nas markacije usmerijo na ožjo pot na desni. Zdaj smo obrnjeni v smeri JZ. Od tu dalje se pot postopno v večjih ali manjših okljukih še bolj vzpenja proti vrhu na levi. Ko pridemo pod skalovje na levi, smo že blizu vrha planote, tu pa kmalu naletimo na razpotje markiranih stez, kar pomeni, da sta nam na voljo dve varianti.<br>Prva je naravnost (smer JZ); tod kmalu, ko strmina popusti pridemo na Zakop, kjer naletimo na gozdno cesto, zavijemo levo in opazimo še spomenik ter klopi (manjši prireditveni prostor). Druga možnost je levo (smer JV), strmo v klanec proti vrhu planote, kjer naletimo na isto cesto, ki nas v smeri levo pelje proti cilju. Kmalu se cesta zaključi, nadaljujemo pa po poti v isto smer, kjer prezremo leve odcepe kolovozov. Ko se naposled pot ponovno vzpenja, še drugič dosežemo gozdno cesto, katero prečkamo (tik pred Škrbino). Po nekaj metrih pridemo do roba planote, tu pa nas pot, ki zavije levo, v bližini prepadnega roba hitro pripelje do oddajnika, zraven katerega stoji rjava pločevinasta lopa.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/skrbina_mezakla/1256"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Škrbina (Mežakla)"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Zakop (1150m)</div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/podobni_izleti/podmezakla_jesenice_skrbina_mezakla_cez_zakop/2109">podobni izleti</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=1256">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44547" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44547');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/14993360.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44548" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44548');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/24993361.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44549" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44549');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/34993362.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44550" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44550');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/44993363.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44551" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44551');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/54993364.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44552" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44552');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/64993364.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44553" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44553');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/6-4993365.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44554" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44554');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/74993366.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44555" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44555');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/84993367.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44556" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44556');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/94993368.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44557" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44557');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/104993370.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44558" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44558');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/114993371.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44559" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44559');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/124993372.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44560" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44560');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/134993373.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44561" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44561');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/144993374.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44562" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44562');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/154993375.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44563" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44563');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/164993378.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44564" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44564');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/174993378.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44565" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44565');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/184993380.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44566" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44566');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/194993381.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44567" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44567');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/204993382.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44568" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44568');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/214993382.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44569" onclick="event.preventDefault(); window.open('/slika_pot/podmezakla_jesenice_skrbina_mezakla_cez_zakop/44569');"><img class="slikagm" alt="Podmežakla (Jesenice) - Škrbina (Mežakla)" src="//www.hribi.net/sliketemp/224993383.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Podmežakla (Jesenice) - Škrbina (Mežakla) (čez Zakop)</b></div>
+
+
+
+<div id="kom4499" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">18. 05. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vsem Jeseni&#269;anom in okolišanom! Kdor še nikoli ni bil pri oddajniku Mežakla na Škrbini, naj se tja &#269;imprej odpravi, da bi videl kaj lepega zamuja v svoji neposredni bližini! Obiska pa je vredna tudi partizanska bolnica, ki se nahaja nedale&#269; stran.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4500" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/jprim/3402">jprim</a><span class="komDatum">19. 05. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali pot ni markirana, da si jo tako dobro opremil še spuš&#269;icami.<br> LP!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4501" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/birch/4890">birch</a><span class="komDatum">19. 05. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vse sem si že ogledala,bolnico,naravni most in snežno jamo(pristop iz drugih strani.).Po zaslugi heinza pa sem brez težav našla slapove na Dobršniku.Hvala heinz in LP<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4507" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/fleksarca/3108">FLEKSARCA</a><span class="komDatum">21. 05. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;e si kdo ho&#269;e privoš&#269;iti lepo pohajkovanje po Mežakli, mu priporo&#269;am, da si v TIC-u Jesenice priskrbi zemljevid POTEP PO MEŽAKLI (mimogrede je zastonj). Pot je res krasno opisana in mislim da primerna tudi za družinski izlet, tudi &#269;e so otroci malo mlajši, seveda pa morajo biti vajeni hoje. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4508" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">22. 05. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;e imaš slu&#269;ajno v mislih t.i. "Pohodniške poti po ob&#269;ini Jesenice" od Ragor-ja, se ne bi ravno 100% strinjal glede "krasnih opisov", razen samega zemljevida seveda, katerega (identi&#269;nega) med drugim najdeš še prej na Geopedia.si, od koder je prekopiran. Druga&#269;e pa si lahko ogledamo spl. str. Tic Jesenice in se z lahkoto prepri&#269;amo o "bogastvu" najdenih opisov. No, &#269;e je kaj druga&#269;e, mi prosim sporo&#269;i kje naj si nabavim omenjene "krasne" opise poti.Hvala!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4513" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/fleksarca/3108">FLEKSARCA</a><span class="komDatum">22. 05. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ja res imam v mislih to zadevo in moram re&#269;i, da mi je pri samem potepu zemljevid in opis prišel prav. Seveda pa ne smeš pri&#269;akovati za NI&#268; evrov bog ve kaj.Mogo&#269;e bi pa ti moral naredit en tak zemljevid pa nam ga ponudit v tiskani obliki jaz bi ga takoj vzel,zastonj.Pa ne mi zdaj re&#269;i, naj si skopiram tvoje opise pa slikce.Ali pa pojdi na TIC in reci "vidte tko se to dela,ker tako to dela heinz."</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4514" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">22. 05. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala! Bom nabavil, oz -že imam. A vseeno se ne bi ravno pridružil taki reklami.<br> (Zase pa je ravnotako ne delam. Smo pa&#269; na portalu Hribi.net, kjer lahko kdorkoli objavi nek izlet, ki v tem trenutku tukaj še ni vpisan).<br> Samo še en primer-&#269;ek pa naj navedem:<br> Na tic-u omenjena ZNAMENITOST ob&#269;ine Jesenice- arheološko najd(b)iš&#269;e Jamnikov spodmol, ki je "najstarejši dokaz &#269;lovekove prisotnosti na našem obmo&#269;ju" se po navedenem opisu "nahaja na Ko&#269;ni".<br> Z natan&#269;nejšim opisom poti do tega znamenitega najdiš&#269;a me lahko prehitiš ti, ali tic (&#269;e že nista enoinisto (upam, da ti ne laskam)). Kakorkoli, vesel bom!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4518" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/fleksarca/3108">FLEKSARCA</a><span class="komDatum">22. 05. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ne nisem jaz TIC,naj pa na hitro kon&#269;am ta najin mali prepir&#269;ek. Glede na to, da omenjaš Jamnikov spodmol predvidevam, da si se že potrudil in nam pripravil podroben opis poti, ki se ga že veselim, ker veš kaj pravijo "le heinz ve kako to gre."Pa brez zamere LP.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4519" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">22. 05. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><br> Predvidevam, da si doma&#269;in-ka z jesenic, klju&#269;avni&#269;ar-ka iz železarne- fleksarica.<br> Se oproš&#269;am za zmoto glede relacije ti-tic. <img alt=zadrega src=/slike/redface.gif><br> <br> (matr je fajn tale internet; ful nam ni ve&#269; dolg&#269;as, kajne?)<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5548" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/parkeljc/5791">Parkeljc</a><span class="komDatum">16. 09. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes sva s kolegom osvojila vrh &#269;ez Zakop. Do vrha sva potrebovala eno uro. Heinz, glede na to, da si opisal drugo pot kot zelo zahtevno brezpotje, sva raje izbrala &#269;ez pot Zakop, &#269;eprav moram priznati, da ne vem kaj naj to pomeni, niti kje je. Do vrha sva trikrat(!!!!) pre&#269;kala dobro utrjeno gozdno cesto. Dve zagotovo nista bili isti. Za vse tiste, ki boste iskali bolnico, naj povem, da se le-ta nahaja levo od oddajnika, gledano proti Karavankam. Midva sva šla od oddajnika proti bolnici po grebenu, markacije so, a dokler ne prideš do lepo izdelane lesene ograde, ne veš kam pelje pot. Za vse Jeseni&#269;ane, ki še niste osvojili Škrbine, ne se bat, razgled je res fenomenalen. Tokrat nisem imel sre&#269;e videti okliških vrhov zaradi nizke obla&#269;nosti (nekaj deset metrov nad oddajnikom), a v lepem vremenu bom še poskušal.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5552" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">17. 09. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Naj te nekoliko popravim; druga pot ("ob daljnovodu")je ozna&#269;ena zgolj kot zahtevno in ne zelo zahtevno brezpotje.<br> Zakop (slika 17), se nahaja  v bližini razpotja markiranih stez, kjer greš naravnost oz desno, da prideš po 5 min do tja. Gre za manjši, gozdni prireditveni prostor s partizanskim spomenikom. Zraven je utrjena gozdna cesta, na katero se priklju&#269;iš tudi v primeru, ko na razpotju izbereš levo smer.<br> Pot ki vodi k partizanski bolnišnici je sicer opisana na tem portalu.<br> Markirana (mislim, da malo slabše) pot od oddajnika -po grebenu, oz severnem robu planote, katera ravnotako pripelje do p. bolnišnice, pa je t.i. pot po Mežakli, ki pride iz planine Obranica, prek Snežne jame, Planskega vrha in naravnega mostu do oddajnika in seveda naprej do omenjene bolnice.<br> Ja, gozdno cesto pre&#269;kaš 3x. Enkrat spodaj in dvakrat blizu cilja.<br> 1 uro= hitra hoja.<br> LP in sre&#269;no!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9306" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/parkeljc/5791">Parkeljc</a><span class="komDatum">3. 03. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes popoldan sem si privoš&#269;il tole turco in od AC do vrha potreboval uro in 4 min, nazaj pa natanko polovico ! Pot je bila nekoliko "potacana" in pomrznjena, zdaj pa je v glavnem padel frišn sneg in sledi nekoliko pokril. Nekoliko izrazitejša je le sled enega ali dveh oseb.. V spodnjem delu je hoja koliko toliko normalna, v strmini pa sledi vodijo po bližnjici in kar precej drsi. Je pa toliko lepše nazajgrede.<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9314" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/bojan_a/3580">Bojan_A</a><span class="komDatum">5. 03. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes sem jaz laufal po tej poti. Do vrha planote 34 min, potem pa sem zavil levo in še kakšnih 15 min tekel na vzhod, potem pa se je gaz sredi gozda kon&#269;ala. Tako da sploh ne vem kje sem bil.<br> <br> Ni&#269; zato, snežne razmere so bile za tek odli&#269;ne. Sploh za dol, ker se je dalo na polna laufat brez skrbi za zvin gležnja. <br> <br> Sicer pa (pre)kratka tura.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9315" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">5. 03. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za tek do oddajnika je najbrž res kar premalo, vendar pa je možnost te&#269;i ali prehoditi vse do Jerebikovca pri Mojstrani.. Vzameš zemljevid in poiš&#269;eš pot. Do tja je še kar nekaj višincev in tudi kilometrov. Sam sem šel do Kisovca in Petelina. Druga&#269;e pa imajo Mežaklo dokaj radi gorski kolesarji.<br> Lp! H</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9324" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/bojan_a/3580">Bojan_A</a><span class="komDatum">5. 03. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Saj glede na zemljevid in opis sem pomoje bil na Planskem vrhu. No, saj za kaj ve&#269; pa tudi ni bilo &#269;asa, ker sem bil vezan na prevoz.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom9871" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/ploha/4192">ploha</a><span class="komDatum">22. 05. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bila danes na vrhu,razgled na Jesenice in Karavanke fenomenalen,druga&#269;e pa krasna dopoldanska ali popoldanska turca za nabiranje kondicije,sploh &#269;e nimaš dale&#269; do izhodiš&#269;a<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14899" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/vpekla/12484">vpekla</a><span class="komDatum">17. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na za&#269;etku poti na Škrbino sem našla o&#269;ala z dioptrijo na vrvici. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom17283" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/darxta/11401">Darxta</a><span class="komDatum">13. 07. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Heinz, super opis! <img alt=nasmeh src=/slike/smile.gif><br> Danes sem šel gor, markacije so morda malce zbledele, a jih vseeno ni noben problem najti. Ponekod je pot malce poraš&#269;ena z nizkim rastjem, o&#269;itno ni tak naval po tej poti <img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif><br> Razgled pa <img alt=eek src=/slike/eek.gif> (v pozitivnem smislu)</div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27820" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">27. 04. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je v srednjem delu zaradi odvažanja lesa precej spremenjena in posledi&#269;no slabše ozna&#269;ena. Potrebna je pozornost pri številnih odcepih vlak. Na vrhu je stanje (zaenkrat) še po starem.<br> Lp! heinz</div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29008" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/marjanb/22545">marjanb</a><span class="komDatum">21. 10. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je zdaj vzorno ozna&#269;ena, predvsem do Zakopov, pa tudi naprej do Škrbine.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30710" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">21. 10. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes sem šel še po tej poti do oddajnika na Škrbini,pred 5 dnevi sem bil tu gor iz Spodnjih Gorij mimo Obrance. Na poti nisem sre&#269;al nikogar,tudi obiska je bilo o&#269;itno bolj malo,samo trije novi vpisi v knjigi v teh 5 dneh. Je pa potrebno malo previdnosti,zgornji del poti je bil vlažen in spolzek.. razgled na vrhu pa super<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30853" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">27. 11. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes je bila pot mokra in spolzka,vreme megleno,razgleda ni&#269;,samo megla v vse smeri.. ob poti tu in tam cveti nekaj telohov<img alt=nasmeh src=/slike/smile.gif> na vrhu v skrinjici ni vpisne knjige..</div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30943" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">31. 12. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za zadnji letošnji dan si izberem Mežaklo,pot brez posebnosti,na vrhu je v skrinjici nova vpisna knjiga,ob poti še vedno cvetijo telohi kot sem že pisal pred 1mesecem<img alt=nasmeh src=/slike/smile.gif> lep zadnji letošnji dan<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31197" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_23" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_23" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">7. 03. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na za&#269;etku je pot v redu, tu in tam kakšna flika snega,z višino pa ga je vedno ve&#269;,od Zakopa do oddajnika na Škrbini ga je okoli 25cm..pa bil je kar moker in težek sneg,fajn  za razmigat se<img alt=nasmeh src=/slike/smile.gif> naprej proti Planskem vrhu gaz še ni narejena. Pa vpisne knjige spet ni<img alt=mrk&nbsp;pogled src=/slike/mrk.gif> vseeno pa lepo na vrhu,kot vedno<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_23" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_23" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31272" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_24" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_24" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">31. 03. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes po tej poti.. v dolini je uboge 3cm snega skopnelo ze cez dan,popoldne se odpravim proti Škrbini.. pot v redu,v srednjem delu blatna,potem pa vedno ve&#269; snega. Od Zakopa do Škrbine 20-25cm snega,fajn za gazit<img alt=nasmeh src=/slike/smile.gif> druga&#269; pa zimska idila<img alt=nasmeh src=/slike/smile.gif>razgledi lepi,po Karavankah nonstop snežne plohe,ena je tudi mene ujela med potjo nazaj..sre&#269;al pa nisem nikogar med celo potjo<img alt=nasmeh src=/slike/smile.gif> Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_24" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_24" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31281" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_25" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_25" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">6. 04. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes &#269;isto druga&#269;na slika kot prejšnji torek,pot kopna,šele na Zakopu okoli 3-4cm snega..naprej po grebenu pa spet kopno vse do Škrbine. Naprej proti Planskemu vrhu pa je nekaj cm snega,pot shojena..šel sem do naravnega mostu in do odcepa poti proti Snežni jami in Obranci,potem nazaj dol.. naprej od tega odcepa je "no go" cona za nas Jeseni&#269;ane<img alt=nasmeh src=/slike/smile.gif> Lp in ostanite zdravi</div>
+       
+       </div>
+    </td>
+    <td id="komD0_25" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_25" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31293" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_26" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_26" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">11. 04. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ker zaenkrat še ne smemo ven iz ob&#269;in,sem danes spet šel na Mežaklo,snega skoraj ni ve&#269;,tu in tam kaka mala flikica snega na Planskem vrhu..pot ve&#269;inoma suha.. razlika ki se jo pa res opazi zadnje dni pa je da veliko ve&#269;  ljudi obiskuje sicer do sedaj bolj osamljeno Mežaklo<img alt=nasmeh src=/slike/smile.gif> vsi pa upoštavamo pravila sre&#269;anja in distanco<img alt=nasmeh src=/slike/smile.gif> lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_26" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_26" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31539" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_27" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_27" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">2. 06. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Po dolgem &#269;asu spet na Mežaklo,razgled kot vedno super<img alt=nasmeh src=/slike/smile.gif> se pa spet na veliko seka,vlako po kateri se vzpenjamo v srednjem delu poti so kar pošteno podaljšali,približno do to&#269;ke na sliki 15</div>
+       
+       </div>
+    </td>
+    <td id="komD0_27" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_27" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32041" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_28" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_28" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">5. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Spet je bila Mežakla na sporedu,vreme se je danes kon&#269;no izboljšalo<img alt=nasmeh src=/slike/smile.gif> ker je spodaj pot zelo zaraš&#269;ena grem po poti mimo deponije &#269;ez Malo Mežaklo in naprej gor po ozna&#269;eni,malo naprej pa po novi vlaki ki se izogne še enemu zaraš&#269;enemu delu poti..Mežakla je polna klopov,zato se je res pametno izogibat zaraš&#269;enim delom poti..na vrhu pa prihetno hladno,pihal je kar hladen veter,razgled pa kot vedno super<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_28" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_28" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32593" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_29" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_29" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">10. 11. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ker je bil danes tak meglen dan in se mi je zluštal mal sonca vidt sem se odpravil sem gor,no na Škrbini je bilo še megleno,sicer malo se je skozi meglo že son&#269;ek kazal,zato sem šel naprej na Planski vrh,tam pa nor razgled,modro nebo in morje megle spodaj<img alt=nasmeh src=/slike/smile.gif> skozi gozd pa zelo megleno,od male Mežakle skoraj do vrha vidljivost okoli 20metrov,megla kot v kaki grozljivki<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_29" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_29" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34789" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_30" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_30" class="komL"><a class="ime" href="/gornik/orchigu/25919">orchigu</a><span class="komDatum">5. 07. 2022 21:16:43</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lustna varianta z res dobrim pogledom, partizanska bolnica (do katere po tej poti nimas kaj falit, ker je posebej oznaceno), pa mimo spomenika, na vrhu lusten gozdicek... je pa kar veliko listja tudi v tem casu po tleh, tko da previdnost (in morda palice) vseeno niso odvec. Pa klope lah fajn naberes po poti, tko da se dol magar poglejte mal <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_30" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_30" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(31);
+    });
+    abc(31);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1068801/zapisizgora_160_600', [160, 600], 'div-gpt-ad-1684384003587-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /1068801/zapisizgora_160_600 -->
+<div id='div-gpt-ad-1684384003587-0' style='min-width: 160px; min-height: 600px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684384003587-0'); });
+  </script>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

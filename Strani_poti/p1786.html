@@ -1,0 +1,1672 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Zadnjica - Škrlatica</title>
+        <meta name="description" content="Natančen opis izleta Zadnjica - Škrlatica. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/zadnjica_skrlatica/1/2/2533" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/zadnjica_skrlatica/1/2/2533"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=2&potid=2533"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/skrlatica/1/2">Škrlatica</a> / Zadnjica - Škrlatica
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(2533);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Zadnjica - Škrlatica</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=2533';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Zadnjica (650 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;22,9440'N&nbsp;/&nbsp;13°&nbsp;45,6240'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;22'&nbsp;56,64''N&nbsp;/&nbsp;13°&nbsp;45'&nbsp;37,44''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3824°N&nbsp;/&nbsp;13,7604°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3824,&nbsp;13.7604";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3824°N&nbsp;13,7604°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(2533,46.3824,13.7604);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3824,13.7604"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/skrlatica/1/2">Škrlatica (2740 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 8 h 45 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> zelo zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 2090 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 2440 m</div>
+    <div class="g2"><b>Zemljevid:</b> Triglav 1:25.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada, komplet za samovarovanje, cepin, dereze</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, komplet za samovarovanje</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 33.692</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;2&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">102</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">17</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Iz Kranjske Gore se čez prelaz Vršič peljemo proti Bovcu ali obratno, a le do 50. serpentine vršiške oz. Ruske ceste (v bližini vasi Trenta). Tu zavijemo na stransko cesto, ob kateri nato pa nekaj 100 metrih parkiramo na parkirišču ob cesti.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča nadaljujemo po cesti, le ta pa nas mimo nekaj hiš (predvsem vikendi) v približno 15 minutah pripelje do mesta, kjer se cesta razcepi na dva dela (ob križišču je bilo nekoč parkirišče, danes pa je parkiranje prepovedano).<br>S starega parkirišča se usmerimo na levo cesto v smeri Pogačnikovega doma na Kriških podih (desna cesta vodi proti Prehodavcem in Doliču). Po 15 minutah nadaljnje hoje nas cesta pripelje do spodnje postaje tovorne žičnice, kjer se le ta konča.<br>Vzpon nadaljujemo po markirani peš poti (mulatjeri), ki se zmerno vzpenja skozi gozd. Pot, ki se vzpenja nad dolino Belega potoka, pa nas hitro pripelje na zelo strma pobočja (nevarnost padajočega kamenja), čez katera vodi zelo široka peš pot. Pot naprej preči grapo Veliki Presek, za katero pridemo na kratko izpostavljeno polico, preko katere pridemo s pomočjo jeklenice. Naprej se pot vrne v gozd, kjer se v številnih okljukih zmerno vzpenja. Nekoliko naprej nas pot pripelje pod manjši previs, kjer bomo lahko opazili številne paličice, ki jih pohodniki postavljajo, da se skala ne zvali v dolino (paličice so postavljene bolj za šalo, kot zares). Pot naprej preči nekaj manjših grap, nato pa nas mimo kapelice pripelje do večje grape. Z nekaj previdnosti (nezahtevno) prečimo omenjeno grapo za katero se v nekaj minutah nadaljnje hoje povzpnemo do prijetnega počivališča (dve klopi ob poti). Naprej prečimo še eno večjo grapo (v zgodnjem poletju možnost snežišča), nato pa se pot vrne v gozd. Višje gozd postaja vse redkejši, pot pa nekoliko bolj strma in vse bolj razgledna. <br>Pot, ki se še naprej vzpenja po stari mulatjeri, pa nas nato mimo še dveh klopi pripelje v pas rušja, za katerim preidemo v bolj kamnit svet. Naprej se vzpenjamo čez manjša melišča, po vse bolj razgledni poti, ki nas višje pripelje do prijetnega studenčka (izvira). <br>Le nekaj 10 korakov nad omenjenim izvirom, pa bomo prišli na neoznačeno razpotje, kjer se v desno odcepi neoznačena pot proti Spodnjemu Kriškemu jezeru (2 minuti), mi pa nadaljujemo rahlo levo po še naprej široki planinski poti. Pot naprej nas vodi mimo manjši ruševin, mi pa ji sledimo vse do označenega razpotja, kjer se nam z desne priključi pot iz doline Vrata. Nadaljujemo levo in po dveh minutah nadaljnje hoje prispemo do Pogačnikovega doma na Kriških podih. <br> Od Pogačnikovega doma nadaljujemo v smeri Razorja in Križa po poti, ki se rahlo spusti in nas v nekaj korakih pripelje do naslednjega razpotja, kjer gremo desno (levo Razor). Naprej se vzpenjamo po sprva zložni, nato pa po nekoliko bolj strmi poti, ki nas vodi čez kraški svet Kriških podov. Nekoliko višje se v desno (oz. naravnost) odcepi pot, ki vodi k Zgornjemu Kriškemu jezeru, mi pa nadaljujemo naravnost (oz. levo) po poti, ki višje preči strma pobočja Kriškega roba. Ko nas pot na koncu prečenja Kriškega roba pripelje na greben, nam pogled uide na 2382 m visoko Šplevto (gora v obliki Indijanca). Naprej se pot strmo vzpne po razčlenjenem skalovju (nevarnost zdrsa) in nas višje pripelje na Bovška vratica.<br>Tu nadaljujemo naravnost navzdol (desno Križ 10 minut) po dobro uhojeni poti, ki nas po krajšem spustu pripelje na Vrh Kriške stene (2289 m), od koder se nam z leve priključi plezalna pot iz doline Krnice. Nadaljujemo v smeri Škrlatice in doline Vrata po poti, ki nas naprej vodi po svetu podov. Razmeroma zložna pot se nato kmalu razcepi na dva dela, mi pa nadaljujemo po levi v smeri Škrlatice. Pot naprej preči pobočja Gubna (2403 m) ter kasneje še težko dostopnega Dovškega Gamsovca (2440 m). Po približno 30 minutah lahkotne hoje, pa se pot ponovno prične strmo vzpenjati. Tokrat je naš cilj približno 2500 m visoka Rdeča škrbina, ki jo že lepo vidimo pred seboj, do nje pa se povzpnemo po zmerno strmem melišču.<br>Na Rdeči škrbini, kjer je označeno razpotje nadaljujemo naravnost (desno Dolkova špica 15 minut) po poti, ki s pomočjo jeklenice obide skalno rebro, nato pa nas pripelje v strmo grapo na vzhodni strani prej omenjene škrbine. Pot naprej se prične strmo spuščati po slabše uhojeni stezici, ki je zaradi precejšnje strmine in drobirja na poti nevarna za zdrs. Po nekaj minutah strmega spusta pot preide na melišče, po katerem se nato v nekaj minutah spustimo v Zadnji Dolek, kjer se priključimo poti iz Vrat. <br>V Zadnjem Dolku nadaljujemo levo in vzpon nadaljujemo po strmem melišču, kateremu sledimo dobrih 20 minut, nato pa nas markacije usmerijo desno v zahodno oz. jugozahodno steno Škrlatice. Pot, ki naprej dobi značaj plezalne poti, pa nas ob pomoči varoval pripelje do verjetno najzahtevnejšega dela poti. Naprej s pomočjo številnih skob in jeklenice prečimo gladko ter prepadno trebušasto skalo, nato pa pot preide v razčlenjeno skalovje, kjer se nato zelo strmo vzpenja. Dobro varovana in ves čas za zdrs nevarna pot, nas nato mimo okna v Škrlatici pripelje na glavni greben, kjer se pot položi. Vzpon nadaljujemo po nekoliko manj strmi poti, ki nas naprej vodi po in ob zelo razglednem grebenu. Tej poti, s katere se nam odpirajo lepi razgledi na bližnje Rokave, nato sledimo vse do vrha 2740 m visoke Škrlatice, le tega pa dosežemo po nekaj minutah nadaljnje hoje.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/skrlatica/2"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Škrlatica"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> <a class="moder" href="/gora/spodnje_krisko_jezero/1/165">Spodnje Kriško jezero (1880m)</a>, <a class="moder" href="/gora/pogacnikov_dom_na_kriskih_podih/1/164">Pogačnikov dom na Kriških podih (2050m)</a>, Bovška vratica (2375m), Vrh Kriške stene (2289m), Rdeča škrbina (2500m)</div><div style="padding-top:10px;"><b>Izlet lahko podaljšamo do naslednjih ciljev:</b> <a class="moder" href="/gora/skrlatica/1/2">Škrlatica</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/zadnjica/46.3824/13.7604">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/zadnjica_skrlatica/2533">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=2">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=2">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213871" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213871');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/VodnikovVrsac 46055404.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213872" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213872');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/VodnikovVrsac 45955404.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213873" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213873');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/VodnikovVrsac 45855404.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213874" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213874');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/VodnikovVrsac 45755404.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213875" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213875');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/VodnikovVrsac 45355404.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213876" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213876');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/VodnikovVrsac 45055404.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213877" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213877');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/VodnikovVrsac 44755404.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213878" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213878');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190545636480.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213879" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213879');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190547636480.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213880" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213880');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190542636480.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213881" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213881');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190540711360.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213882" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213882');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190522711360.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213883" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213883');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190519711360.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213884" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213884');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190518711360.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213885" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213885');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190512711360.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213886" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213886');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190509711360.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213887" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213887');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190503711360.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213888" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213888');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190497711360.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213889" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213889');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190491711360.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213890" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213890');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190487842400.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213891" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213891');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190485842400.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213892" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213892');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190479842400.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213893" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213893');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190478842400.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213894" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213894');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190477842400.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213895" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213895');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190472842400.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213896" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213896');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190471842400.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213897" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213897');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190468842400.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213898" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213898');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190450842400.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213899" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213899');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190446842400.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213900" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213900');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190443842400.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213901" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213901');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190435992160.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213902" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213902');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190428992160.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213903" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213903');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190423992160.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213904" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213904');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190421992160.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213905" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213905');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190416992160.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213906" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213906');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190414992160.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213907" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213907');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81900101085760.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213908" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213908');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81900111085760.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213909" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213909');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81900131085760.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213910" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213910');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81900161085760.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213911" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213911');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81900181085760.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213912" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213912');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81900191085760.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213913" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213913');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819005460480.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213914" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213914');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/sliketemp/P81900615129882.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213915" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213915');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819006060480.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213916" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213916');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81903521399680.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213917" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213917');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81903511399680.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213918" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213918');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81903481399680.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213919" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213919');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81903461399680.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213920" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213920');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81903371373760.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213921" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213921');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81903351373760.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213922" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213922');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81903261373760.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213923" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213923');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81903151373760.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213924" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213924');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81902260.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213925" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213925');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81902270.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213926" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213926');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81902290.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213927" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213927');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P81902320.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213928" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213928');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819029047385.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213929" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213929');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819029347385.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213930" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213930');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819029447385.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213931" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213931');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819029647385.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213932" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213932');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819029947385.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213933" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213933');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819030247385.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213934" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213934');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819030547385.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213935" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213935');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P8190304164160.th.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213936" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213936');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P819030647385.th.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213937" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213937');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/PA260726480000.th.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213938" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213938');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/PA260724480000.th.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213939" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213939');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/PA260609322560.th.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213940" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213940');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/PA260607322560.th.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213941" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213941');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/sliketemp/Belka%2024702281.th.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213942" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213942');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/PA260589141120.th.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213943" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213943');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/Pot/p9220065mediumkc0.th.jpg" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213944" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213944');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/Pot/p9220066medium2ck8.th.jpg" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213945" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213945');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/Pot/p9220073mediumbj9.th.jpg" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213946" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213946');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/Pot/p9220080mediumfd5.th.jpg" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213947" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213947');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/Pot/p9220121mediumfk4.th.jpg" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213948" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213948');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/Pot/p7110013mediumnt8.th.jpg" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213949" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213949');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110010393600.th.jpg" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213950" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213950');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110017393600.th.jpg" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213951" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213951');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110019393600.th.jpg" /></a><span class="s2"><span class="s1">81</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213952" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213952');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110020393600.th.jpg" /></a><span class="s2"><span class="s1">82</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213953" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213953');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110023393600.th.jpg" /></a><span class="s2"><span class="s1">83</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213954" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213954');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110024393600.th.jpg" /></a><span class="s2"><span class="s1">84</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213955" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213955');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110025393600.th.jpg" /></a><span class="s2"><span class="s1">85</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213956" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213956');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110026393600.th.jpg" /></a><span class="s2"><span class="s1">86</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213957" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213957');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110027393600.th.jpg" /></a><span class="s2"><span class="s1">87</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213958" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213958');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7110029393600.th.jpg" /></a><span class="s2"><span class="s1">88</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213959" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213959');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120030393600.th.jpg" /></a><span class="s2"><span class="s1">89</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213960" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213960');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120031393600.th.jpg" /></a><span class="s2"><span class="s1">90</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213961" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213961');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120032393600.th.jpg" /></a><span class="s2"><span class="s1">91</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213962" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213962');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120033393600.th.jpg" /></a><span class="s2"><span class="s1">92</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213963" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213963');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120040393600.th.jpg" /></a><span class="s2"><span class="s1">93</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213964" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213964');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120121403200.th.jpg" /></a><span class="s2"><span class="s1">94</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213965" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213965');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120043393600.th.jpg" /></a><span class="s2"><span class="s1">95</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213966" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213966');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120045393600.th.jpg" /></a><span class="s2"><span class="s1">96</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213967" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213967');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120046393600.th.jpg" /></a><span class="s2"><span class="s1">97</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213968" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213968');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120047403200.th.jpg" /></a><span class="s2"><span class="s1">98</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213969" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213969');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120048403200.th.jpg" /></a><span class="s2"><span class="s1">99</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213970" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213970');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120049403200.th.jpg" /></a><span class="s2"><span class="s1">100</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213971" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213971');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120110403200.th.jpg" /></a><span class="s2"><span class="s1">101</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_skrlatica/213972" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_skrlatica/213972');"><img class="slikagm" alt="Zadnjica - Škrlatica" src="//www.hribi.net/slike1/P7120067403200.th.jpg" /></a><span class="s2"><span class="s1">102</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Zadnjica - Škrlatica</b></div>
+
+
+
+<div id="kom7629" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/anika/6456">anika</a><span class="komDatum">11. 08. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>super slike in opis.. moja naslednja tura (:</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom8043" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/stanko11/7576">stanko11</a><span class="komDatum">9. 09. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zanima me, &#269;e je kdo zadnje dni bil na Škrlatici in kakšne so razmere. Zanima me še katera pot je boljša iz smeri Kriških podov (leva ali mimo bivaka-desna).<br> <br> L.p.<br> <br> Bily<br>   </div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom8044" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/prepolc80/5108">prepolc80</a><span class="komDatum">9. 09. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Jaz bi ti predlagal zgornjo, ne izgubiš nobene višine, pa še Dovkovo špico lahko obiš&#269;eš(no &#269;e spadaš med bolj drzne, si lahko od blizu ogledaš še Rogljico). Kakih težav na poti pa ni, mogo&#269;e je malo zoprn edino spust iz Rde&#269;e škrbine. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom8049" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/jozo/2713">jozo</a><span class="komDatum">10. 09. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vsekakor zgornja trditev ne drži<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif>. Sam sem nedavno prehodil to pot. &#268;e greš od Poga&#269;nikovega doma se v vsakem primeru najprej povzpneš do razpotja na višino slabih 2400, nato sledi skoraj 170 m spusta do razpotja, kjer se pot levo odcepi proti Rde&#269;i škrbini, kjer se pot ponovno ža&#269;ne vzpenjati do višine 2500 m. Na vrhu pa ponovni spust na 2300 m in nato naprej proti Škrlatici. V megli bi ti to pot odsvetoval, saj je tudi markacij bore malo. Lp J <img alt=mežikanje src=/slike/wink.gif><br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom8050" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/prepolc80/5108">prepolc80</a><span class="komDatum">10. 09. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;e se pa spustiš do bivaka na rušju, prideš pa na višino 1980mnm. Markacij pa je res mogo&#269;e malo manj, je pa pot dokaj jasna in tudi možici te usmerjajo. <br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom8052" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/viharnik/3435">viharnik</a><span class="komDatum">10. 09. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Po novem je višna na bivaku IV Na Rušju zrasla na 1991m(PZS karta).</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11842" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/rmitja/528">rmitja</a><span class="komDatum">3. 10. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V primeru da koga zanima, kako višinsko zgleda pot iz Kriških podov preko Rde&#269;e škrbine na Škrlatico in potem spust v Vrata si lahko ogleda graf in slike na povezavi <a target=# class=moder href=https://picasaweb.google.com/114742384102491760866/Skrlatica#>Škrlatica</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11851" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/novinsekp/5627">novinsekp</a><span class="komDatum">4. 10. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>rmitja: Zelo lepo dokumentirano in &#269;udovite slike! In seveda &#269;estitke ob zaklju&#269;ku SPP. <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11855" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/dogna/5959">dogna</a><span class="komDatum">4. 10. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mitja, tako lepo dokumentirane poti še nisem videla. Tudi posnetki so enkratni, seveda, saj sta imela &#269;udovito vrme.&#268;udovito, &#269;udovito. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11866" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/mukica/2845">mukica</a><span class="komDatum">4. 10. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se pridružujem &#269;estitki ob zaklju&#269;ku SPP...lepe fotografije ob prehojeni poti <img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11875" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/urbancek/9735">urbancek</a><span class="komDatum">4. 10. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Teh Šplevt je v naših gorah kar veliko, a &#269;e je bila pri opisu mišljena Šplevta ob Pihavcu, tista pomoje ne preseže 2300m... &#268;e pa je bila mišljena kakšna druga pa se opravi&#269;ujem in bo verjetno držalo 2382, kot napisano...<img alt=jezik src=/slike/tongue.gif><br> <br> Sicer pa fajn...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12239" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/rmitja/528">rmitja</a><span class="komDatum">7. 11. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala (za pohvale in &#269;estitke). Na žalost sem opazil, da je povezava pri prejšnji objavi "umrla" zato je tukaj nova <a target=# class=moder href=https://picasaweb.google.com/114742384102491760866/SkrlaticaRazor#>Škrlatica</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26577" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/sasgittariusvz/19415">sasgittariusvz</a><span class="komDatum">5. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>U obratnom smjeru vjerujem da je bolje ako bi se išlo prvo na Škrlaticu a spavalo u Poga&#269;nikovom domu? Koliko cca treba od vrha Škrlatice do doma?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26578" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/sasgittariusvz/19415">sasgittariusvz</a><span class="komDatum">5. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na škrlaticu iz doline Vrata.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26582" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/boblak3/11578">Boblak3</a><span class="komDatum">5. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Z vrh Škrlatice do Poga&#269;nikovega doma je cca 4h</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26583" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">5. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lani sem naredila dvodnevno turo. Dolina Vrat- Sovatna, prespala na Križkih podih. Zjutraj na Škrlatico. Sestop v dolino Vrat.Lepa tura , sploh s Križkih podov na Škrlatico. Kondicijsko je treba biti dobro pripravljen.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27068" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/orchidlily/19910">orchidlily</a><span class="komDatum">31. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Prije tjedan dana napravila sam turu Zadnjica - Kriški podi - Škrlatica (prek Dolkove špice) - Bivak IV na Rušju - Kriški podi. Tura je jako lijepa, ali zahtijeva dobru kondicijsku spremu jer je visinska razlika u hodu cca. 2880m.  <br> <br> <a target=# class=moder href="https://www.youtube.com/watch?v=WO-0iUpSeSc">https://www.youtube.com/watch?v=WO-0iUpSeSc</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(17);
+    });
+    abc(17);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

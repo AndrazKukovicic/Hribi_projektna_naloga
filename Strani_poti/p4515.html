@@ -1,0 +1,1172 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Janževski Vrh (Uran) - Klančnik (Glančnik) (mimo Brabarja in Hudeja)</title>
+        <meta name="description" content="Natančen opis izleta Janževski Vrh (Uran) - Klančnik (Glančnik) (mimo Brabarja in Hudeja). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/4/3516/8516" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/janzevski_vrh_uran_klancnik_glancnik_via_brabar_and_hudej/4/3516/8516"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=4&id=3516&potid=8516"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/pohorje_dravinjske_gorice_in_haloze/4">Pohorje, Dravinjske gorice in Haloze</a> / <a class="moder" href="/gora/klancnik_glancnik/4/3516">Klančnik (Glančnik)</a> / Janževski Vrh (Uran) - Klančnik (Glančnik) (mimo Brabarja in Hudeja)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(8516);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Janževski Vrh (Uran) - Klančnik (Glančnik) (mimo Brabarja in Hudeja)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=8516';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Janževski Vrh (Uran) (435 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;33,3420'N&nbsp;/&nbsp;15°&nbsp;19,4040'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;33'&nbsp;20,52''N&nbsp;/&nbsp;15°&nbsp;19'&nbsp;24,24''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,5557°N&nbsp;/&nbsp;15,3234°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.5557,&nbsp;15.3234";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,5557°N&nbsp;15,3234°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(8516,46.5557,15.3234);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.5557,15.3234"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/klancnik_glancnik/4/3516">Klančnik (Glančnik) (877 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> mimo Brabarja in Hudeja</div>
+    <div class="g2"><b>Čas hoje:</b> 1 h 35 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 442 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 442 m</div>
+    <div class="g2"><b>Zemljevid:</b> Pohorje - izletniška karta 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 77</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">48</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">0</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />S ceste Maribor - Dravograd, pred naseljem Brezno zavijemo levo (iz smeri Dravograda desno) v smeri Podvelke, Ribnice na Pohorju in Ribniške koče. Za mostom preko reke Drave prispemo v Podvelko, mi pa cesti v nadaljevanju sledimo v smeri Ribnice na Pohorju. Pot naprej nas pripelje do naselja Janževski Vrh, mi pa se po dolini potoka Velka peljemo do križišča ob gostilni in trgovini Uran, kjer se v levo odcepi cesta proti Lovrencu in Lehnu na Pohorju. Parkiramo na manjšem urejenem parkirišču ob križišču.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Iz križišča se usmerimo na levo cesto, ob kateri so oznake za Lovrenc na Pohorju, Ruše in Rdeči Breg ter cestna tabla za Lehen na Pohorju (desno Janževski Vrh in Ribnica na Pohorju). Takoj za križiščem prečimo potok Velka in prispemo v naselje Lehen na Pohorju, kjer nadaljujemo ob potoku in mimo posameznih hiš. Ko se dolina nekoliko razširi prispemo na manjše križišča, iz katerega nadaljujemo levo v smeri Rdečega Brega, sv. Ignacija in lovske koče (naravnost vozna cesta do naselja Lovrenc na Pohorju). Le nekaj 10 korakov naprej se v levo odcepi običajna markirana pot do cerkve sv. Ignacija, mi pa nadaljujemo naravnost, po cesti, ob kateri v nadaljevanju opazimo nekaj lokalnih oznak (oznake vodijo do naselja Lovrenc na Pohorju). Pot naprej nas vodi skozi Brabarjev graben, kjer sprva še hodimo mimo hiš, višje pa cesta preide v gozd in se prične strmeje vzpenjati. Višje dosežemo manjše križišče, kjer nadaljujemo ostro levo (naravnost domačija Zgornji Povh) ter se prečno vzpnemo do manjšega prevala, kjer se združimo z markirano potjo iz Lovrenca na Pohorju.<br> S prevala, kjer se na desni nahaja znamenje, pa mi nadaljujemo rahlo desno od leve ceste, kjer pot nadaljujemo po kolovozu (usmerimo se na kolovoz, ki se nahaja na nasprotni strani križa).<br> Pot naprej nas vodi po kolovozu, ob katerem so markacije precej redke, malo naprej pa, ko dosežemo za spoznanje širši kolovoz nadaljujemo desno (če nadaljujemo levo se kolovoz hitro konča), sprva nekoliko navzdol, ko se približamo cesti, pa nadaljujemo naravnost ter še naprej nadaljujemo po kolovozu. Nekaj korakov hodimo po širšem kolovozu, nato pa gremo rahlo levo na strmejši kolovoz, ki nas kmalu pripelje iz gozda, kjer opazimo oznake za cerkev sv. Ignacija. Nadaljujemo še skozi pas gozda, nato pa prispemo do domačije Brabar, kjer se spet precej približamo makadamski cesti. Domačijo obidemo po levi strani, nato pa se usmerimo rahlo desno in se vzpnemo do roba gozda, kjer se pot razcepi.<br> Nadaljujemo po rahlo levem kolovozu, ob katerem so oznake za sv. Ignacija, v nadaljevanju pa sledi nekaj razpotij, kjer izberemo kolovoz, ki se vzpenja, na nekaj razpotjih pa lahko opazimo tudi oznake oz. obledele markacije. Višje pot postane vse bolj razgledna, pri znamenju pa dosežemo asfaltno cesto, kateri sledimo v desno (levo sv. Ignacij in Hlebov vrh).<br> Že po nekaj korakih prispemo do domačije Hudej, katero obidemo po levi strani ter s potjo nadaljujemo v smeri Lovske koče Klančnik (tudi Glančnik). Sledi nekaj minut rahlega do zmernega vzpona in cesta nas pripelje do parkirišča v bližini lovske koče. S parkirišča pa se v minuti nadaljnje hoje sprehodimo do Lovske koče Klančnik, od katere se nam odpre lep pogled proti osrednjemu delu Pohorja.<br> Od lovske koče se usmerimo na pot v smeri HE Ožbalt, tako da lovsko kočo obidemo po levi strani. Sledi nekaj minut razglednega vzpona po travnatem pobočju in dosežemo 877 m visok vrh.<br> Izhodišče - lovska koča 1:30, lovska koča - vrh 0:05.<br> Opis in slike se nanašajo na stanje decembra 2021 in februarja 2022.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/klancnik_glancnik/3516"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Klančnik (Glančnik)"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Lehen na Pohorju (487m), Brabar (654m), Hudej (844m), <a class="moder" href="/gora/lovska_koca_klancnik/4/3517">Lovska koča Klančnik (865m)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/janzevski_vrh_uran/46.5557/15.3234">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/8516">podobni izleti</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520746" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520746');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_26161699268594_26dscn2588.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520747" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520747');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_2535699268593_24dscn2586.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520748" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520748');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_24387699268592_25dscn2584.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520749" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520749');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_23760699268592_23dscn2583.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520750" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520750');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_22830699268591_22dscn2580.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520751" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520751');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_21454699268590_21dscn2576.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520752" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520752');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_20523699268590_20dscn2574.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520753" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520753');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0724699277639_0dscn2572.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520754" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520754');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0277699277720_0dscn2449.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520755" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520755');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_4881698854819_3dscn2448.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520756" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520756');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_5617698854820_4dscn2450.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520757" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520757');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0572698709646_0dscn2453.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520758" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520758');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0621698855046_0dscn2454.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520759" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520759');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_1464698855047_1dscn2455.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520760" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520760');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_2502698855048_2dscn2456.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520761" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520761');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_3182698855048_3dscn2461.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520762" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520762');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_4666698855049_4dscn2463.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520763" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520763');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_5509698855050_5dscn2468.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520764" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520764');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_6993698855050_6dscn2470.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520765" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520765');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_711698855051_7dscn2471.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520766" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520766');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_1753698709647_1dscn2478.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520767" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520767');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_8658698855052_8dscn2475.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520768" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520768');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0455698855242_0dscn2477.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520769" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520769');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_1939698855243_1dscn2480.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520770" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520770');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_2479698855244_2dscn2482.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520771" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520771');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_3604698855244_3dscn2485.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520772" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520772');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_457698855245_4dscn2486.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520773" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520773');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_5823698855246_5dscn2490.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520774" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520774');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_6701698855247_6dscn2491.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520775" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520775');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_7631698855247_7dscn2494.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520776" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520776');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_8206698855248_8dscn2495.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520777" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520777');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0815704546018_1dscn5132.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520778" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520778');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_1526704546019_0dscn5133.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520779" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520779');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0413704546103_0dscn5126.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520780" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520780');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_030703236537_2dscn5123.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520781" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520781');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0646704546146_0dscn5121.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520782" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520782');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_2631704125950_2dscn5120.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520783" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520783');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_1864704125949_1dscn5118.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520784" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520784');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_1460704546231_1dscn5117.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520785" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520785');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0139704546231_0dscn5115.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520786" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520786');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_2189703236483_1dscn5114.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520787" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520787');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_114704548550_1dscn5112.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520788" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520788');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0530704548550_0dscn5106.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520789" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520789');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_2729703236539_1dscn5143.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520790" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520790');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0583704120503_0dscn5094.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520791" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520791');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0631703236481_2dscn5104.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520792" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520792');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_0556704548679_0dscn5103.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520793" onclick="event.preventDefault(); window.open('/slika_pot/janzevski_vrh_uran_klancnik_glancnik_mimo_brabarja_in_hudeja/520793');"><img class="slikagm" alt="Janževski Vrh (Uran) - Klančnik (Glančnik)" src="//slike2.hribi.net/slike14/2_7584704038593_7dscn5093.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Janževski Vrh (Uran) - Klančnik (Glančnik) (mimo Brabarja in Hudeja)</b></div>
+
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1068801/zapisizgora_160_600', [160, 600], 'div-gpt-ad-1684384003587-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /1068801/zapisizgora_160_600 -->
+<div id='div-gpt-ad-1684384003587-0' style='min-width: 160px; min-height: 600px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684384003587-0'); });
+  </script>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

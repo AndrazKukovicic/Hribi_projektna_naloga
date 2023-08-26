@@ -1,0 +1,1289 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Koprivna (Šumel) - Govca (Olševa) (mimo domačije Janšek)</title>
+        <meta name="description" content="Natančen opis izleta Koprivna (Šumel) - Govca (Olševa) (mimo domačije Janšek). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/koprivna_sumel_govca_olseva_mimo_domacije_jansek/11/673/7442" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/koprivna_sumel_govca_olseva_via_homestead_jansek/11/673/7442"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=11&id=673&potid=7442"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/karavanke/11">Karavanke</a> / <a class="moder" href="/gora/govca_olseva/11/673">Govca (Olševa)</a> / Koprivna (Šumel) - Govca (Olševa) (mimo domačije Janšek)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(7442);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Koprivna (Šumel) - Govca (Olševa) (mimo domačije Janšek)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=7442';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Koprivna (Šumel) (786 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;27,3960'N&nbsp;/&nbsp;14°&nbsp;45,5640'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;27'&nbsp;23,76''N&nbsp;/&nbsp;14°&nbsp;45'&nbsp;33,84''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,4566°N&nbsp;/&nbsp;14,7594°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.4566,&nbsp;14.7594";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,4566°N&nbsp;14,7594°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(7442,46.4566,14.7594);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.4566,14.7594"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/govca_olseva/11/673">Govca (Olševa) (1929 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> mimo domačije Janšek</div>
+    <div class="g2"><b>Čas hoje:</b> 4 h 25 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka neoznačena steza, lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1143 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1215 m</div>
+    <div class="g2"><b>Zemljevid:</b> Koroška 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> dereze, cepin</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 603</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">71</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">3</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) Zapeljemo se v Črno na Koroškem, nato pa z vožnjo nadaljujemo v smeri Koprivne in Solčave. V nadaljevanju se peljemo po dolini ob reki Meži, ko pa prispemo do križišča, kjer se v levo odcepi cesta proti Solčavi, pa se prične opisana pot. Parkiramo nekje v bližini na primernem mestu ob cesti.
+<br>b) Zapeljemo se v Solčavo, nato pa sledimo oznakam za Črno na Koroškem. Sledi vzpon na prelaz Spodnje Sleme, z njega pa spust proti Črni na Koroškem in Koprivni. Ko prispemo v dolino, do križišča s cesto, ki vodi iz Koprivne proti Črni na Koroškem, smo na začetku opisane poti. Parkiramo nekje v bližini na primernem mestu ob cesti.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Z izhodišča se usmerimo na cesto v smeri Solčave, Podolševe in Logarske doline, planinska tabla, ki je bila včasih ob cestnih tablah, pa sedaj leži skrita v bližini. Pot nas sprva vodi še mimo nekaj hiš, med drugim mimo prenočišč in dnevnega bara pri Mojci, nato pa cesta preide v gozd in se vzpenja skozi Janšekov graben. Po krajšem vzponu prispemo na križišče, kjer se cesta razcepi, mi pa nadaljujemo desno v smeri pešpoti na Raduho.<br>V nadaljevanju hodimo po cesti, ki vodi proti domačiji Janšek, mi pa kmalu prispemo do mostu, kjer prečimo potok Janšekov graben. Pred mostom se v levo odcepi kolovoz, po katerem vodi pot mimo domačije Haderlap, mi pa nadaljujemo naravnost. Malo naprej stopimo iz gozda in za levo serpentino hitro prispemo do domačije Janšek, od koder se nam odpre lep pogled proti cerkvi sv. Jakoba in Peci.<br>Za domačijo nadaljujemo po zgornji cesti, z nje pa gremo takoj desno in se nato pričnemo vzpenjati ob robu senožeti. Na zgornjem robu senožeti stopimo na kolovoz, mi pa mu sledimo v desno. S slabšega kolovoza, ki se nadaljuje skozi gozd gremo kmalu levo, nato pa na razpotjih sledimo starejšim markacijam. Vzpon nadaljujemo skozi gozd, kjer sledimo komaj še vidnim stezam, višje pa se približamo makadamski cesti. Tu gremo naravnost, nato pa dosežemo večjo senožet pri nekdanji domačiji prodnik, kjer se steza povsem izgubi. Nadaljujemo do zgornjega roba senožeti, kjer se v gozdu ponovno pojavijo markacije, mi pa skozi gozd sledimo markacijam, steze pa v glavnem ni. Višje se pojavi stara stezica, ki se prečno vzpne do gozdne ceste, kjer dosežemo markirano pot s Spodnjega Slemena.<br>Cesti sledimo v desno (levo spodnje Sleme), po njej pa po levi strani obidemo Robnikov vrh (1392 m), nam pa se občasno odpre lep pogled proti Raduhi.<br>Na neizrazitem prevalu Zgornje Sleme se nam z desne priključi še pot, ki vodi mimo cerkve sv. Jakoba, mi pa sledimo oznakam za Olševo. Bližnji pašnik obidemo po levi strani, nad njim pa se prehodno vrnemo na kolovoz, s kolovoza pa gremo levo na markirano pot, ki se prične strmo vzpenjati skozi gozd. Sledi daljši precej strm vzpon, po poti, ki se vzpenja skozi gozd, vodi pa nas tudi mimo korita z vodo, ki v sušnih dneh presahne in mimo naravne votline. Pot se položi, ko dosežemo greben Lepega vrha, a se že po nekaj minutah ponovno prične strmeje vzpenjati, tokrat proti razglednemu Odeničnemu hriberju. Ko dosežemo omenjeni vrh, imamo pred seboj zložno pot, ki nas vodi po razglednem grebenu Olševe. Na Gladkem vrhu se nam z leve priključi še opuščena pot, ki se prične pri domačiji Zgornji Ošovnik v Podolševi, za Visoko pečjo pa sledi nekaj spusta do označenega razpotja, kjer se nam z desne priključi še markirana pot od Zadnjega travnika, oz. Planinskega doma na kmetiji Kumer.<br>Nadaljujemo v smeri Olševe, po poti, ki se ponovno prične vzpenjati, med vzponom pa preči nekaj kratkih, predvsem v mokrem za zdrs izpostavljenih pobočij. Višje se redek gozd konča in vse bolj razgledna pot nas v nekaj minutah nadaljnje hoje pripelje na najvišji vrh Olševe.<br>Izhodišče - Zgornje Sleme 1:50, Zgornje Sleme - Lepi vrh 1:00, Lepi vrh - Odenični hriber 0:40, Odenični hriber - razpotje Visoka peč 0:25, razpotje Visoka peč - Govca 0:30.<br>Opis in slike se nanašajo na stanje leta 2018 in 2019 (Julij).</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/govca_olseva/673"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Govca (Olševa)"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Janšek (935m), Prodnik (1125m), Zgornje Sleme (1310m), Lepi vrh (1619m), Odenični hriber (1863m), Gladki vrh (1850m), Visoka peč (1814m)</div><div style="padding-top:10px;"><b>Izlet lahko podaljšamo do naslednjih ciljev:</b> <a class="moder" href="/gora/obel_kamen_olseva/11/2979">Obel kamen (Olševa)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/koprivna_sumel/46.4566/14.7594">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/koprivna_sumel_govca_olseva_mimo_domacije_jansek/7442">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=673">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=673">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455976" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455976');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1656590771698_DSCN2640.JPG" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455977" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455977');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0944590771693_DSCN2639.JPG" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455978" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455978');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0225590771835_DSCN2642.JPG" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455979" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455979');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1379590771839_DSCN2644.JPG" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455980" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455980');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_2728590771843_DSCN2646.JPG" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455981" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455981');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0733590774248_DSCN2323.JPG" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455982" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455982');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0865590743394_DSCN2326.JPG" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455983" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455983');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0342590774418_DSCN2325.JPG" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455984" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/455984');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1994590774422_DSCN2327.JPG" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456034" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456034');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_5541621520421_DSCN2047.JPG" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456035" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456035');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_4824621520418_DSCN2046.JPG" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456036" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456036');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_3440621520415_DSCN2045.JPG" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456037" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456037');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_2132621520413_DSCN2042.JPG" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456038" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456038');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1642621520410_DSCN2038.JPG" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456039" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456039');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0226621520407_DSCN2035.JPG" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456040" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456040');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0482621520566_DSCN2036.JPG" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456041" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456041');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_6800621520813_DSCN2028.JPG" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456042" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456042');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_5861621520810_DSCN2025.JPG" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456043" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456043');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_4358621520807_DSCN2023.JPG" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456044" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456044');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_3388621520805_DSCN2021.JPG" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456045" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456045');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_2174621520801_DSCN2017.JPG" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456046" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456046');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1788621520799_DSCN2014.JPG" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456047" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456047');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0731621520796_DSCN2013.JPG" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456048" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456048');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_3586621521139_DSCN2006.JPG" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456049" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456049');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_2668621521137_DSCN2005.JPG" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456050" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456050');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1448621521134_DSCN2002.JPG" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456051" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456051');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0119621521131_DSCN1999.JPG" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456052" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456052');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1384621162113_DSCN1998.JPG" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456053" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456053');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_28621521330_DSCN1996.JPG" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456054" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456054');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1233621521327_DSCN1994.JPG" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456055" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456055');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_012621521324_DSCN1993.JPG" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456056" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456056');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0358621162110_DSCN1991.JPG" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456057" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456057');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1127621521533_DSCN1990.JPG" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456058" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456058');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0407621521530_DSCN1989.JPG" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456112" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456112');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_2368590775066_DSCN2374.JPG" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456113" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456113');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0350590743536_DSCN2375.JPG" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456114" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456114');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_028590775225_DSCN2377.JPG" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456115" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456115');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1464590775230_DSCN2378.JPG" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456116" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456116');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_2368590775234_DSCN2379.JPG" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456117" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456117');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_3749590775238_DSCN2382.JPG" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456118" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456118');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_4265590775243_DSCN2384.JPG" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456119" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456119');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_592590775247_DSCN2385.JPG" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456120" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456120');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_6637590775251_DSCN2386.JPG" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456121" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456121');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_7435590775256_DSCN2387.JPG" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456122" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456122');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0970590775521_DSCN2390.JPG" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456123" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456123');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1212590775525_DSCN2394.JPG" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456124" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456124');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0705590743578_DSCN2397.JPG" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456125" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456125');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0262590775684_DSCN2399.JPG" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456126" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456126');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_16590775689_DSCN2400.JPG" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456127" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456127');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_220590775693_DSCN2404.JPG" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456128" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456128');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_3209590775698_DSCN2406.JPG" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456129" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456129');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0116590743632_DSCN2407.JPG" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456130" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456130');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0652590775894_DSCN2411.JPG" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456131" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456131');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1107590743636_DSCN2416.JPG" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456132" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456132');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_2456590743641_DSCN2417.JPG" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456133" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456133');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0362590776105_DSCN2421.JPG" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456134" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456134');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1938590776109_DSCN2422.JPG" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456135" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456135');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0355590743707_DSCN2431.JPG" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456136" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456136');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0337590776332_DSCN2434.JPG" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456137" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456137');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1826590776336_DSCN2437.JPG" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456138" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456138');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_2176590776341_DSCN2452.JPG" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456139" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456139');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_3166590776345_DSCN2454.JPG" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456140" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456140');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_4105590776349_DSCN2455.JPG" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456141" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456141');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_5649590776354_DSCN2458.JPG" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456142" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456142');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_6305590776358_DSCN2459.JPG" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456143" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456143');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_7438590776363_DSCN2461.JPG" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456144" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456144');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1150590743711_DSCN2462.JPG" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456145" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456145');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0754590776722_DSCN2467.JPG" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456146" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456146');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_1908590776726_DSCN2468.JPG" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456147" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456147');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_2150590776731_DSCN2472.JPG" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456148" onclick="event.preventDefault(); window.open('/slika_pot/koprivna_sumel_govca_olseva_mimo_domacije_jansek/456148');"><img class="slikagm" alt="Koprivna (Šumel) - Govca (Olševa)" src="//slike.hribi.net/slike4/2_0540590743735_DSCN2477.JPG" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Koprivna (Šumel) - Govca (Olševa) (mimo domačije Janšek)</b></div>
+
+
+
+<div id="kom30150" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/tadej/11">Tadej</a><span class="komDatum">2. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Morda kdo ve kaj je to na sliki 28?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30153" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/lepenatka/4048">lepenatka</a><span class="komDatum">2. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mislim, da je "posladek" za divjad<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom30156" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/tadej/11">Tadej</a><span class="komDatum">2. 08. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala za odgovor.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(3);
+    });
+    abc(3);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

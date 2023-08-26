@@ -1,0 +1,1302 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Klemenčevo - Kamniški vrh (po jugozahodnem pobočju)</title>
+        <meta name="description" content="Natančen opis izleta Klemenčevo - Kamniški vrh (po jugozahodnem pobočju). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/3/351/2656" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/klemencevo_kamniski_vrh_on_southwest_slope/3/351/2656"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=3&id=351&potid=2656"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/kamnisko_savinjske_alpe/3">Kamniško Savinjske Alpe</a> / <a class="moder" href="/gora/kamniski_vrh/3/351">Kamniški vrh</a> / Klemenčevo - Kamniški vrh (po jugozahodnem pobočju)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(2656);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Klemenčevo - Kamniški vrh (po jugozahodnem pobočju)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=2656';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Klemenčevo (600 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;16,4340'N&nbsp;/&nbsp;14°&nbsp;33,9540'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;16'&nbsp;26,04''N&nbsp;/&nbsp;14°&nbsp;33'&nbsp;57,24''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,2739°N&nbsp;/&nbsp;14,5659°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.2739,&nbsp;14.5659";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,2739°N&nbsp;14,5659°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(2656,46.2739,14.5659);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.2739,14.5659"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/kamniski_vrh/3/351">Kamniški vrh (1259 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> po jugozahodnem pobočju</div>
+    <div class="g2"><b>Čas hoje:</b> 1 h 45 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka neoznačena steza</div>
+    <div class="g2"><b>Višinska razlika:</b> 659 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 659 m</div>
+    <div class="g2"><b>Zemljevid:</b> Kamniško - Savinjske Alpe, 1 : 50.000, PZS</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> dereze, cepin</div>
+
+
+</div>
+<div class="fl">
+    <div class="g2"><b>Avtor:</b> <a class="moder" href="/gornik/kriska/834">Kriška</a></div>
+    <div class="g2"><b>Ogledov:</b> 26.426</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;3&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">32</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">7</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Iz Kamnika se peljemo proti Stahovici. Takoj za vasjo Godič zavijemo levo na cesto v smeri Županjih njiv, v naslednjem križišču pa se usmerimo levo v smeri Bistričice. Cesti sledimo do vasi Klemenčevo, peljemo se mimo table, ki označuje začetek naselja do samega naselja, mimo obračališča za avtobus, ter nato parkiramo na manjšem parkirišču nekaj deset metrov naprej od obračališča, na desnem robu ceste, tik pred odcepom ožje poti (kolovoza), ki se nekoliko spusti proti strugi  Bistričice (možno je tudi parkiranje še nekaj 10 m naprej ob cesti, če nižje ni prostora). Pot proti strugi se odcepi v desno na mestu, kjer se cesta, po kateri smo se pripeljali, nekoliko bolj strmo vzpne in rahlo zavije v levo.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča se napotimo na ožjo pot, ki se odcepi v desno navzdol in nas hitro pripelje do plitve struge Bistričice, ki jo dvakrat prečkamo (po kamenju, mostička ni). Kolovoz se nato večinoma lahno, krajši čas pa tudi nekoliko bolj strmo vzpenja ob travniku in po redkem gozdu. Kmalu pridemo do razcepa poti, držimo se širšega kolovoza v desno. Še malo za tem pridemo do pašne ograje na kolovozu, za njo pa kolovozna pot, po kateri hodimo, zavije v desno. Na mestu, kjer kolovoz zavije v desno, se odcepi sicer še ena pot navzgor v levo, ki pa je slabša in se višje priključi poti, po kateri hodimo. Kmalu pridemo iz gozda in na svoji desni vidimo pašno ograjo, mi pa se vzpnemo po stezici, ki nas usmeri mimo nje navzgor. Steza nas pripelje na razgledno pobočje, na katerem naletimo na klopco, po krajšem vzponu od klopce naprej pa pridemo ponovno do pašne ograje, ki jo prečimo. Na tem mestu smo prispeli na križišče neoznačene steze po kateri hodimo, z označeno potjo, ki na naši desni pripelje iz zaselka Slevo. To označeno pot samo prečkamo in se vzpnemo naprej v naši dosedanji smeri (ne nadaljujemo rahlo levo po označeni poti), po dobro vidni poti (širok kolovoz), ki se nato ves čas vzpenja po desnem robu pašnika planine Ravne senožeti. Ko pridemo mimo razpadajoče lesene barake (na svoji levi), se pot bolj strmo vzpne in nas kmalu privede na razpotje. Levo navzgor vodi zahtevnejša, zelo strma pot, ki se vzpenja ob robu grape imenovane Slevška roža, mi pa nadaljujemo naravnost, po stezi, ki nas hitro pripelje do malce nerodnega prečkanja melišča, ki se spušča s te grape strmo navzdol. Ta predel je kratek, le kakšnih 30 m, je pa zaradi naklona melišča potreben previden korak zaradi nevarnosti zdrsa. Za tem pridemo na prostrano travnato jugozahodno pobočje Kamniškega vrha, ki ga po zelo ozki, vendar dobro uhojeni stezici prečkamo v zelo zmernem vzponu proti jugu. Stezica nas privede do razgledne točke s klopco, ki je desno od naše poti, pot pa na tem mestu zavije v levo in se nekoliko bolj strmo vzpne in nas kmalu privede do križišča s smernimi tablami. Z desne se tu priključi pot iz Stahovice in Županjih njiv, kažipot v levo pa usmerja v smer Kamniški vrh in planina Osredek. Naravnost navzgor se strmo vzpne direktna pot na Kamniški vrh, mi pa se usmerimo na levo stezo, ki se nato v razmeroma strmem vzponu vzpne do sedla, kjer se usmerimo desno, po široki strmi poti na Kamniški vrh, ki ga dosežemo v nadaljnjih 10 minutah hoje, ko prispemo do vpisne skrinjice in žiga. Nekaj minut po stezi naprej pa pridemo do razgledne točke z nekaj klopcami in bivakom.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/kamniski_vrh/351"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Kamniški vrh"></a></div>
+
+
+
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/klemencevo/46.2739/14.5659">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/2656">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=351">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=351">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109091" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109091');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0735607246.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109092" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109092');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0725607249.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109093" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109093');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0715607251.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109094" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109094');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0705607253.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109095" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109095');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0695607256.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109096" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109096');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0685607259.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109097" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109097');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0675607262.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109098" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109098');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0665607265.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109099" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109099');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0655607268.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109100" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109100');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0645607271.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109101" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109101');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0635607273.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109102" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109102');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0625607275.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109103" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109103');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//www.hribi.net/sliketemp/KV3_0605607278.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109105" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109105');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0595607306.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109106" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109106');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0585607308.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109107" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109107');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0555607310.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109108" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109108');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0475607312.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109109" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109109');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0115607314.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109110" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109110');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0125607316.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109111" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109111');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0135607318.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109112" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109112');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0465607320.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109113" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109113');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0185607324.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109114" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109114');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0445607326.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109115" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109115');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0195607328.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109116" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109116');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0215607329.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109117" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109117');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0225607331.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109118" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109118');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0235607332.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109119" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109119');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0245607333.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109120" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109120');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0265607336.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109121" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109121');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/KV3 0275607337.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109122" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109122');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/Kamniškivrh 0415607341.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109123" onclick="event.preventDefault(); window.open('/slika_pot/klemencevo_kamniski_vrh_po_jugozahodnem_pobocju/109123');"><img class="slikagm" alt="Klemenčevo - Kamniški vrh" src="//slike.hribi.net/sliketemp/Kamniškivrh 0335607342.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Klemenčevo - Kamniški vrh (po jugozahodnem pobočju)</b></div>
+
+
+
+<div id="kom16837" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/anzekozjek/13887">AnzeKozjek</a><span class="komDatum">28. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo!<br> <br> A mi kdo zna povedat, &#269;e se vidi iz grebena (Kamniški vrh, Kamniška Planjava in Planina osredek)lep razgled na Kamniške Alpa - dvatiso&#269;ake zadaj? Ker razgled je ve&#269;ali manj samo na južno stran, ker severna je bolj porasla z gozdovi... <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16838" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/rokovnjacica/14337">Rokovnjacica</a><span class="komDatum">28. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kot si že sam napisal:"razgled je ve&#269; ali manj samo na južno stran". Na dvatis<img alt=nasmeh src=/slike/smile.gif>&#269;ake v Kamniških alpah ga pa ni.<br> Priporo&#269;am ti, da se enkrat podaš na Kompotelo,tam boš imel dvatis<img alt=nasmeh src=/slike/smile.gif>&#269;ake kot na dlani...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16841" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/pikec1/3587">pikec1</a><span class="komDatum">28. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;e greš na K.Planjavo, na tistem mali ravninici, vidiš od Brane do Velke, ve&#269; pa ne <img alt=nasmeh src=/slike/smile.gif><br> Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16851" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/bostjanp/10373">bostjanp</a><span class="komDatum">30. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>@anze: lahko združiš sprehod iz Kleme&#269;evega preko Osredka do Kriške pl. pod Krvavcem, pl.Koren do Komptele ali pa vrha Korena in boš imel Kamniške na dlani.Nazaj pa do pl.Koren in po dolini Korošice do gondole.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16866" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/anzekozjek/13887">AnzeKozjek</a><span class="komDatum">1. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za Kompotelo vem, bil sem že tam na vrhu, ko sem bil še malih nog <img alt=nasmeh src=/slike/smile.gif> ampak se ne spomnim dosti od takrat... bi pa ponovil zdej v kratkem, samo da se malo sneg skopni... Bil sem že kar nekajkrat na Kamniškem vrhu, ampak nikol se pa nisem še povzpel naprej do Planjave na Kamniškem vrhu.. hvala za odgovore in nasvete! <img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24604" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/hribolazec81/16921">Hribolazec81</a><span class="komDatum">10. 07. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes opravil to pot je zelo zelo lepa, nazaj sem se vra&#269;al &#269;ez planino Osredek kjer je pihala rahlka sapica ravno prav za okrep&#269;ati in uživati v razgledu ted lepotah narave, pot v dolino pa lepa vendar pazljivost potrebna pri koraku &#269;ez peš&#269;ine.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33027" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/crnozanohtam/9962">črnozanohtam</a><span class="komDatum">27. 03. 2021</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>pozdravljeni. v&#269;eraj popoldne sem na kupu peska na zgornjem delu parkiriš&#269;a pozabila palice, black diamond, rumeno-zlate. ko sem zve&#269;er prišla domov, sem poklicala kmetijo tam blizu in prijazna gospa je šla pogledat, vendar palic ni bilo ve&#269; tam, je pa par, ki se je ravno vrnil s pohoda rekel, da sta jih še videla v pesku, ko sta štartala. &#269;e jih je slu&#269;ajno nekdo vzel domov, bi prosila, &#269;e mu niso življenjsko nujne, da me pokli&#269;e na 031 467 296. Hvala.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(7);
+    });
+    abc(7);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

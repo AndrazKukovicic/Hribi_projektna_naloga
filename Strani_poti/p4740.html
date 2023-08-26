@@ -1,0 +1,1214 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Puščava - Sveti Ignacij (Rdeči Breg)</title>
+        <meta name="description" content="Natančen opis izleta Puščava - Sveti Ignacij (Rdeči Breg). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/puscava_sveti_ignacij_rdeci_breg/4/3494/8507" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/puscava_sveti_ignacij_rdeci_breg/4/3494/8507"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=4&id=3494&potid=8507"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/pohorje_dravinjske_gorice_in_haloze/4">Pohorje, Dravinjske gorice in Haloze</a> / <a class="moder" href="/gora/sveti_ignacij_rdeci_breg/4/3494">Sveti Ignacij (Rdeči Breg)</a> / Puščava - Sveti Ignacij (Rdeči Breg)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(8507);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Puščava - Sveti Ignacij (Rdeči Breg)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=8507';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Puščava (354 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;33,0078'N&nbsp;/&nbsp;15°&nbsp;25,4160'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;33'&nbsp;0,47''N&nbsp;/&nbsp;15°&nbsp;25'&nbsp;24,96''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,55013°N&nbsp;/&nbsp;15,4236°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.55013,&nbsp;15.4236";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,55013°N&nbsp;15,4236°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(8507,46.55013,15.4236);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.55013,15.4236"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/sveti_ignacij_rdeci_breg/4/3494">Sveti Ignacij (Rdeči Breg) (885 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 2 h 50 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 531 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 620 m</div>
+    <div class="g2"><b>Zemljevid:</b> Pohorje 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 88</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">72</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">0</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) S ceste Maribor - Dravograd, med HE Fala in HE Ožbalt zavijemo levo proti Lovrencu na Pohorju (iz smeri Dravograda zavijemo desno). Na drugi strani Drave se pričnemo vzpenjati ob Radoljni, na označenem križišču pa gremo levo proti Rušam in Činžatu. V nadaljevanju gremo mimo avtobusne postaje Puščava, še malo naprej pa je na desni primeren prostor za parkiranje.<br> b) Zapeljemo se v Ruše, nato pa sledimo cesti proti Lovrencu na Pohorju. V naselju Činžat prispemo na preval, kjer se cesta prične spuščati, nižje pa se cesta nadaljuje ob Lamprehtovem potoku, kjer na levi opazimo prostor, kjer lahko parkiramo.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Z izhodišča nadaljujemo ob asfaltni cesti navzdol, ko prispemo do avtobusne postaje Puščava pa gremo levo na markirano pot, ki se nadaljuje po širšem kolovozu. Že kmalu prispemo na manjši preval, kjer na levi strani opazimo cerkev sv. Marije Pomočnice. Le malo naprej prispemo na manjše razpotje, kjer gremo levo čez most (desno kapela sv. Ane 3 minute), za mostom pa ob cerkvi dosežemo širšo asfaltno cesto, po kateri nekaj minut previdno nadaljujemo.<br> Cesto proti Lovrencu na Pohorju zapustimo na križišču, ob katerem se nahaja kapelica ter s potjo nadaljujemo desno v smeri Lehna, Kohovega in Podvelke. Pot naprej nas vodi po nekoliko ožji asfaltni cesti, ki se najprej rahlo spusti, nato pa se brez večjih sprememb višine nadaljuje še mimo nekaj hiš. Za prečenjem Slepnice gremo rahlo desno, na cesto v smeri lovske koče. V nadaljevanju se prečno vzpenjamo, na križiščih pa nadaljujemo naravnost oz. v smeri markacij in lovske koče. Višje, za prečenjem potoka cesta zavije ostro levo, še naprej pa se nadaljuje skozi gozd. Pred domačijo Permavsl za nekaj minut zapustimo gozd in odpre se nam lep pogled na Pohorje. Ko se vrnemo v gozd prispemo do še enega križišča, kjer se v desno odcepi cesta k še nekaj domačijam, mi pa nadaljujemo naravnost, kjer ponovno zapustimo gozd. Sledi nekaj minut razglednega prečenja, pri domačiji Kapus pa se nam z leve priključi še pot od Lovrenca na Pohorju.<br> Nadaljujemo med gospodarskim poslopjem in hišo, za kmetijo pa cesta preide v gozd, skozi katerega se nadaljuje vse do Cigelnice, kjer je označeno razpotje.<br> Nadaljujemo levo na pešpot v smeri Klančnika in sv. Ignacija (naravnost HE Ožbalt), kjer se vzpnemo po kolovozu. Višje prečimo slabšo makadamsko cesto, za njo pa se še nekaj časa vzpenjamo po kolovozu. Višje se kolovoz zoži, nas pa markacije usmerijo levo, kjer stopimo iz gozda, nato pa ob robu gozda v nekaj minutah dosežemo vrh Klančnik.<br> Z vrha nadaljujemo rahlo levo ter se po razglednem travnatem pobočju v nekaj minutah spustimo do bližnje Lovske koče Klančnik.<br> Od lovske koče nadaljujemo v smeri proti sv. Ignaciju (levo navzdol ena od poti proti Lovrencu na Pohorju) in po minuti nadaljnje hoje prispemo do ceste, po kateri nadaljujemo rahel do zmeren spust. Po približno 15 minutah spusta prispemo na manjši preval pri domačiji Hudej, kjer cesta postane asfaltna. Nadaljujemo naravnost in pri križu se nam z leve priključi še pot mimo domačije Brabar (izhodišče Lovrenc na Pohorju ali Janževski Vrh).<br> Pot naprej nas vodi še mimo domačije Žumar, za njo pa iz križišča nadaljujemo rahlo desno proti sv. Ignaciju. Nadaljujemo po makadamski cesti, ki preči pas gozda, nato pa ob lepih razgledih po desni strani obidemo še domačijo Hleb, za njo pa hitro prispemo do cerkve sv. Ignacija.<br> Izhodišče - Puščava 0:05, Puščava - Klančnik 2:10, Klančnik - Lovska koča Klančnik 0:05, Lovska koča Klančnik - sv. Ignacij 0:30.<br> Opis in slike se nanašajo na stanje decembra 2021 in februarja 2022.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/sveti_ignacij_rdeci_breg/3494"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Sveti Ignacij (Rdeči Breg)"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Puščava (330m), Cigelnica (628m), <a class="moder" href="/gora/klancnik_glancnik/4/3516">Klančnik (Glančnik) (877m)</a>, <a class="moder" href="/gora/lovska_koca_klancnik/4/3517">Lovska koča Klančnik (865m)</a>, Hudej (844m)</div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/puscava/46.55013/15.4236">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/puscava_sveti_ignacij_rdeci_breg/8507">podobni izleti</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520166" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520166');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0731704025906_5_454.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520167" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520167');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_152704025906_0dscn4972.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520168" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520168');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2654704025907_1dscn4974.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520169" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520169');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_3473704025908_2dscn4975.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520170" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520170');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_4794704025908_3dscn4977.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520171" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520171');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_5418704025909_4dscn4978.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520172" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520172');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_7504704026118_7dscn5240.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520173" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520173');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0969704030931_0dscn4980.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520174" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520174');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0262703236269_0dscn4982.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520175" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520175');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0475704031149_0dscn4984.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520176" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520176');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1131704031150_6dscn4986.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520177" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520177');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2897704031151_5dscn4988.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520178" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520178');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_3469704031151_7dscn4990.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520179" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520179');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_4236704031152_8dscn4993.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520180" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520180');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_5751704031152_1dscn4995.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520181" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520181');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_6354704031153_2dscn4996.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520182" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520182');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_7511704031153_3dscn4997.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520183" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520183');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_8494704031154_4dscn5000.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520184" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520184');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0703703236350_0dscn5046.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520185" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520185');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0723704031456_0dscn5051.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520186" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520186');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1444704031487_1dscn5050.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520187" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520187');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0876704031486_0dscn5049.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520188" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520188');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1894704031552_0dscn5045.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520189" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520189');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0932704031551_1dscn5043.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520190" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520190');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1991703236351_1dscn5054.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520191" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520191');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0920704037360_7dscn5056.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520192" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520192');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1795704037360_0dscn5057.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520193" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520193');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2670704037361_1dscn5059.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520194" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520194');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_3437704037362_2dscn5068.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520195" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520195');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_4399704037362_3dscn5069.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520196" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520196');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_5555704037363_5dscn5070.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520197" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520197');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_672704037363_4dscn5073.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520198" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520198');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_7141704037364_6dscn5074.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520199" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520199');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0894703236398_0dscn5075.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520200" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520200');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0920704038588_0dscn5076.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520201" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520201');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1242704038589_1dscn5078.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520202" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520202');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2204704038589_2dscn5080.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520203" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520203');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_3576704038590_3dscn5084.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520204" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520204');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_4897704038591_4dscn5087.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520205" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520205');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_5803704038591_5dscn5088.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520206" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520206');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_6928704038592_6dscn5091.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520207" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520207');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_7584704038593_7dscn5093.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520208" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520208');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0631703236481_2dscn5104.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520209" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520209');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0583704120503_0dscn5094.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520210" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520210');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2729703236539_1dscn5143.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520211" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520211');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0263704120597_0dscn5108.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520212" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520212');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1583704120597_1dscn5137.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520214" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520214');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2189703236483_1dscn5114.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520215" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520215');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0544704125949_0dscn5116.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520216" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520216');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1864704125949_1dscn5118.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520217" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520217');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2631704125950_2dscn5120.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520218" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520218');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_3788704125951_3dscn5122.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520219" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520219');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_030703236537_2dscn5123.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520220" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520220');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0712704126090_0dscn5125.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520221" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520221');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1510704126090_1dscn5127.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520222" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520222');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2743704126091_2dscn5131.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520254" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520254');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_9749698855249_9dscn2499.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520255" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520255');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_10679698855250_10dscn2501.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520256" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520256');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0850698709710_0dscn2502.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520257" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520257');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0822698855327_0dscn2503.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520258" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520258');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1808698855328_1dscn2505.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520259" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520259');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1477698709711_1dscn2507.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520260" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520260');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2766698709711_2dscn2509.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520261" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520261');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0448698855563_0dscn2512.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520262" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520262');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0301698709782_0dscn2518.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520263" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520263');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0341698855623_0dscn2519.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520264" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520264');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1967698855624_1dscn2520.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520265" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520265');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2897698855624_2dscn2521.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520266" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520266');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2694698709783_2dscn2532.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520267" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520267');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_0680698855678_0dscn2525.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520268" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520268');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_1773698855679_1dscn2527.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/puscava_sveti_ignacij_rdeci_breg/520269" onclick="event.preventDefault(); window.open('/slika_pot/puscava_sveti_ignacij_rdeci_breg/520269');"><img class="slikagm" alt="Puščava - Sveti Ignacij (Rdeči Breg)" src="//slike2.hribi.net/slike14/2_2704698855680_2dscn2529.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Puščava - Sveti Ignacij (Rdeči Breg)</b></div>
+
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

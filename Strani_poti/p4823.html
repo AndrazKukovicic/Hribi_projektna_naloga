@@ -1,0 +1,1903 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Trnovec - Dom na Govejku</title>
+        <meta name="description" content="Natančen opis izleta Trnovec - Dom na Govejku. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/trnovec_dom_na_govejku/5/118/2308" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/trnovec_dom_na_govejku/5/118/2308"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=5&id=118&potid=2308"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/polhograjsko_hribovje_in_ljubljana/5">Polhograjsko hribovje in Ljubljana</a> / <a class="moder" href="/gora/dom_na_govejku/5/118">Dom na Govejku</a> / Trnovec - Dom na Govejku
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(2308);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Trnovec - Dom na Govejku</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=2308';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Trnovec (390 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;7,4220'N&nbsp;/&nbsp;14°&nbsp;21,2160'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;7'&nbsp;25,32''N&nbsp;/&nbsp;14°&nbsp;21'&nbsp;12,96''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,1237°N&nbsp;/&nbsp;14,3536°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.1237,&nbsp;14.3536";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,1237°N&nbsp;14,3536°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(2308,46.1237,14.3536);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.1237,14.3536"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/dom_na_govejku/5/118">Dom na Govejku (734 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 1 h</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 344 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 344 m</div>
+    <div class="g2"><b>Zemljevid:</b> Ljubljana - okolica 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> </div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 30.846</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">22</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">34</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Iz Medvod se zapeljemo v vas Sora, od koder z vožnjo nadaljujemo v smeri vasi Topol (Katarina). Kmalu za vasjo Sora pridemo v vas Trnovec (redko naseljeno območje), kjer bomo ob cesti opazili planinske oznake za dom na Govejku, Osolnik in brunarico Osolnik (v neposredni bližini planinskih oznak je tudi manjše križišče). Parkiramo na parkirišču ob cesti.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča previdno prečimo cesto in se nato začnemo vzpenjati po makadamski cesti v smeri brunarice Osolnik. Po približno desetih minutah zmernega vzpona, bomo prišli do označenega razpotja, kjer zapustimo cesto. Planinske oznake za dom na Govejku, nas usmerijo levo na markirano peš pot, ki se naprej vzpenja ob potoku Govejski graben. Nekoliko naprej prečimo omenjeni potok, pot pa se vzpenja ob nekoliko manjšem, desnem pritoku omenjenega potoka. Še nekoliko naprej preko manjšega lesenega mostička prečimo drugi potok, nato pa se začnemo vzpenjati po zelo strmi stezici, ki nas višje pripelje na neoznačeno razpotje. <br>Nadaljujemo po desni manj izraziti poti (leva pot vodi preko dvorišča zasebne hiše in jo zato odsvetujem, tudi markacije so vodile tam, vendar so zabrisane), po kateri se v nekaj 10 korakih nadaljnje hoje povzpnemo do zložnega kolovoza, kateremu sledimo v levo. Le nekaj metrov naprej, se nam z leve priključi "pot", ki vodi mimo omenjene domačije, mi pa nadaljujemo po makadamski cesti v smeri doma na Govejku. Cesta se naprej začne zmerno vzpenjati, mi pa ji sledimo vse do planinskega doma na Govejku, le tega pa dosežemo po nekaj minutah nadaljnje hoje.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/dom_na_govejku/118"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Dom na Govejku"></a></div>
+
+
+
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/trnovec/46.1237/14.3536">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/trnovec_dom_na_govejku/2308">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=118">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=118">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57299" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57299');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 1991160406.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57300" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57300');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 0021160406.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57301" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57301');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 0061160406.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57302" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57302');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 0091160406.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57303" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57303');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 0121160406.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57304" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57304');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 01443092.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57305" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57305');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 01643092.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57306" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57306');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 01943092.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57307" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57307');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 02943092.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57308" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57308');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 03643092.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57309" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57309');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 04543092.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57310" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57310');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 04843092.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57311" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57311');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 05143092.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57312" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57312');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 05843092.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57313" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57313');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 065172368.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57314" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57314');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 095172368.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57315" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57315');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 096172368.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57316" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57316');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 101172368.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57317" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57317');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 102172368.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57318" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57318');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 104172368.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57319" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57319');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 107172368.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/trnovec_dom_na_govejku/57320" onclick="event.preventDefault(); window.open('/slika_pot/trnovec_dom_na_govejku/57320');"><img class="slikagm" alt="Trnovec - Dom na Govejku" src="//www.hribi.net/slike1/Govejek 114172368.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Trnovec - Dom na Govejku</b></div>
+
+
+
+<div id="kom5557" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/viharnik/3435">viharnik</a><span class="komDatum">19. 09. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hrib nad Domom Govejek se imenuje Gontarska planina 894m in ne Grantarska planina.naj moderator popravi!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12688" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/sunnyday/11338">SunnyDay</a><span class="komDatum">7. 01. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot iz Trnovca se da lepo zaokrožiti, sploh zdaj, ko je dom zaradi obnove zaprt. Mi smo nadaljevali &#269;ez Gontarsko planoto do Brunarice Osovnik, nato pa nazaj v dolino. Ker smo se (napa&#269;no) usmerili proti Sori, smo izlet še nena&#269;rtovano podaljšali s peša&#269;enjem po dolini do avta<img alt=zavijanje&nbsp;z&nbsp;o&#269;mi src=/slike/rolleyes.gif><img alt=mežikanje src=/slike/wink.gif>. Tale krožna turca je krasna in nudi veliko lepih razgledov v vse smeri!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16251" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/karamelica/13786">KARAMELICA</a><span class="komDatum">17. 02. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bili danes. Naredili smo krožno turo. Iz Trnovca na Govejk, potem pa naprej, desno od ko&#269;e, po spodnji shojeni potki na Osolnik in nazaj v Trnovec. Prekrasen dan<img alt=nasmeh src=/slike/smile.gif>, super zimska idila.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19063" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/pemi/13008">pemi</a><span class="komDatum">1. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>moram opozoriti da sem šla v ponedeljek po tej poti z svojo psi&#269;ko, sicer redno obiskujem okoliške hrib&#269;ke. Na poti-ob poti domuje ena gospa, ki ima odvezanega kuža-velikega &#269;rnega.. ki naju je napadel. Se še odlo&#269;am kaj bom naredila v tej smeri, ker je to le markirana pot , ki pa ni pregodna.<br> Sicer pa lušten izlet, ki ga lahko podaljšaš tudi do Osolnika.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19089" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/pemi/13008">pemi</a><span class="komDatum">11. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>od malega hodim po teh poteh , kar se dogaja zadnje &#269;ase je groza, &#269;e vzamem to gospo z odvezanim kužom stran <img alt=cool src=/slike/cool.gif>, mislim pa predvsem glede neprivezanih kužov.<br> Žal imam malo psi&#269;ko in tudi napadeni sva bili že <img alt=jezen src=/slike/jezen.gif><br> žalostna </div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19092" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/pemi/13008">pemi</a><span class="komDatum">12. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>pa ne samo hiša, problematika je vsesplošna, ker so vsi psi povprek odvezani, ni pa nobenega ki bi pisal kazni. Po zakonu je pes za bit na povodcu in pika brez pregovarjanj. <br> Zakaj imam svoje lahko vedno na povodcu, pa ne bi muhe fentale<img alt=jezen src=/slike/jezen.gif><img alt=jezen src=/slike/jezen.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19096" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/pvojko/15805">p.vojko</a><span class="komDatum">13. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Odgovor zaPemi:<br> <br> Verjetno ste šli po poti od gostilne Legastja proti domu na Govejku. Ta pot, ki je sicer ozna&#269;ena, kot pohodna pot - pre&#269;ka privatno zemljiš&#269;e pri hiši g. Micke, ki ima kot lastnica svojega zemljiš&#269;a vso pravico imeti psa privezanega ali pa ne. Torej vso odgovornost za kakršenkoli neljub dogodek nosite sami. Pot, ki je bila v&#269;asih smao ozka steza (kot bližnjica do glavne ceste, je razširil Mickin mož za lastno uporabo)in ni kategorizirana kot javna pot. &#268;e ho&#269;ete imeti mir pred psom imate možnost iti po javni cseti, ki pelje na Govejek.<br> Skratka razburjate se povsem neopravi&#269;eno.<br> <br> Vojko</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19098" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/pemi/13008">pemi</a><span class="komDatum">13. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>p.vojko - šla sem iz Trnovca proti domu na Govejku,  <br> Se ne razburjam, samo opozorilo za mimoido&#269;e, kot pa sem rekla splošna problematika odvezani psi.<br> Res je da imaš lahko sojega kuža odvezanega na svojem ozemlju, vendar mora biti le to zavarovano z ograjo.<br> Skrajno neprijetno je ko si napaden- ne privoš&#269;im <img alt=mrk&nbsp;pogled src=/slike/mrk.gif><br> <br> Okmodko- Strinjam, kot sem rekla, mojidve sta vedno priezani, na žalost jo preve&#269;krat pokasiramo zaradi nevzgojenih lastnikov :-(</div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19103" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/pvojko/15805">p.vojko</a><span class="komDatum">13. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Spoštovani!<br> Edina rešitev je, da je kuža vseskozi privezan. Mimogrede, tega psa so nevestni lastniki pustili pri njej. Druga rešitev pa je, da si ogradi svoje dvoriš&#269;e, potem pa bo pot zaprta, kar si pa vsi ki hodimo na Osolnik ali Govejek ne želimo. Po tej poti hodim tedensko in še nisem doživel, da bi ta špes koga ugriznil - ne &#269;loveka niti drugega psa.. Je pa res da vedno laja in se ga kdo ustraši, kar pes seveda dobro &#269;uti in je takrat še bolj pogumen. S tem ne zagovarjam Micko in njenega psa, vendar dejstvo je, da mi hodimo po njenem in ne ona po našem.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19105" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/pemi/13008">pemi</a><span class="komDatum">14. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Moj namen ni bil vla&#269;it tega kuža po zobeh, hotela sem samo opozorit pohodnike, ki hodijo tukaj mimo, da ne bodo presene&#269;eni tako kot jaz in imeli pokvarjenega izleta.<br> Mogo&#269;e pa kdo od "pravih" bere te vrstice in bo poskrbel tudi za to da kuža ne bo ve&#269; odvezan . <br> Ni važno, grize ne grize- midve sva se ga pošteno ustrašili za prvi&#269; <img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19106" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/lunatic/9224">Lunatic</a><span class="komDatum">14. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>To soboto je bila psica na ketni, ne vem pa &#269;e slu&#269;ajno...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19107" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/vansims/5756">VanSims</a><span class="komDatum">14. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>O probelmatiki odvezanih psov je bilo tukaj gor natipkanega že mnogo. Vnele so se burne debate med nami, ki trdimo da je treba imeti privezane pse in tistimi, ki trdijo, da lahko ska&#269;ejo okoli in po ljudeh in po drugih psih in delajo kar ho&#269;ejo. Pristaši slednjega so celo užaljeni zapuš&#269;ali ta portal ker to je pa že višek, da njegov pes ne sme delati kar ho&#269;e...<br> <br> <br> Planinska pot = javna pot. Tudi &#269;e gre &#269;ez privatno! Lastnik privatnega zemljiš&#269;a nikakor ne sme ovirati ljudi pri pre&#269;kanju svojega zenljiš&#269;a, seveda &#269;e se ljudje strogo držijo markirane poti in se zavedajo, da so samo 'v tranzitu'. Tudi spuš&#269;anje psov na ljudi je, kar se mene ti&#269;e, oviranje.<br> <br> Sam sem imel dva taka primera, oba sem po emailu prijavil lokalni PU. Ni res, da se policija ne odzove. Pri meni je v obeh primerih prosila za dodatne informacije o lokaciji brezvestnega lastnika, v drugem primeru pa me je komandir postaje celo poklical in mi povedal da so opravili pogovor z lastnikom in ga opozorili naj ima psa privezanega. Najprej opozorijo potem pa ukrepajo. &#268;e bi vsi striktno take primere prijavlali, tega ne bi bilo ve&#269;. Kdor se pa še po opozorilu ne zbrihta naj pa kar pla&#269;a kazen, se mi ne smili.<br> <br> Sicer pa imamo tudi sredstva za obrambo proti psom o katerih smo razpravljali v rubriki 'Kam s psom?' Zgoraj omenjena palica ni ravno primerna, je pa primeren kakeršenkoli predmet za katerega lahko pes zgrabi, saj je ceneje kot da zgrabi nas(pes ne lo&#269;i med objektom napada in njemu pripadajo&#269;im predmetom). Potem imamo tu še poprove spreje in paralizatorje. Slednjega sedaj uporabljam tudi jaz. Približno 70% mrcin se prestraši že samo zvoka elektrike in/ali v temi še iskre in jo pocedi. Druga faza je potem poprov sprej(nekateri paralizatorji so opremljeni z njim), no in tretja je pa pa&#269; elektrošok. Slednjega mi hvala bogu še ni bilo treba uporabiti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19108" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/pemi/13008">pemi</a><span class="komDatum">14. 01. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>VanSims popolnoma se strinjam z vami, pa imam dva kuža. Moja kuža sta vedno na povodcu, pa ne zato ker bi grizla, pa&#269; pa ker je tak zakon, nekaterim je logi&#269;no da je pa&#269; kruh v trgovini treba pla&#269;ati ..psa pa imaš lahko kljub nasprotovanju zakona odvezanega.<br> Veliko hodim po gorah in je to resni&#269;no problematika. <br> Ni nujno da pes grize, so otroci, ki se bodo celo življenje bali psa, ko bo enkrat sko&#269;il nanj ..itd..<br> Preve&#269;krat sem bila že napadena, zaradi neksrbnih lastnikov... pa jaz se že ubranim, imam pa 6 kg psi&#269;ko-samo enkrat na ornk bo dovolj.<br> Problem je, ker v trenutku ko pride do napada, lahko kli&#269;eš policijo, vendar prišla bo prva prosta patrulja, ki pa se lahko primaje &#269;ez?? ;-)<br> Ok, malo smo zašli s to temo, se opravi&#269;ujem vsem :-)<br> in še to.. predno jaz lahko odreagiram v šoku ko pes napade , je bilo na žalost prepozno :-(</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19276" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">7. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ta pot je od v&#269;eraj o&#269;iš&#269;ena in lepo prehodna. Mihel&#269;i&#269;ev dom je odprt.<br> <br> Še vedno pa boste lahko videli kako veliko koli&#269;ino drevja je podrl in polomil žled.<br> <br> Sre&#269;no pot!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19315" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/navrhu/2904">navrhu</a><span class="komDatum">14. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Žena je visoko nose&#269;a, pa me zanima, &#269;e lahko pride z avtom do doma, jaz in h&#269;erka pa peš. Šli bi jutri, sobota, 15.3. Je dom odprt (7.3. je Gora Trma napisal, da je).</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19316" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">14. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Psica od tete Mici ni za ljudi ni&#269; nevarna, res pa vztrajno laja na vsakega mimoido&#269;ega. Kako se do psov obnaša, pa ne vem, ker ga nimam.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19317" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/navrhu/2904">navrhu</a><span class="komDatum">14. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Aha, da dodam, ali je v Mihel&#269;i&#269;evem domu možno tudi pojesti planinsko kosilo? &#268;e ne, kje bi se lahko dalo pojesti kosilo? Mogo&#269;e blizu izhodiš&#269;a?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19321" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">14. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Možno, možno. Njam, njam... Dober tek!<img alt=nasmeh src=/slike/smile.gif><img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19322" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">14. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Aha, moram dopolniti odgovore.<br> <br> Dom je odprt vsak dan od 8h do 20h, zaprt je samo ob ponedeljkih.<br> <br> 2,5 km makadamske ceste od Gostilne Legastja do Mihel&#269;i&#269;evega doma na Govejku je lepo prevozne. 50 m od doma je veliko parkiriš&#269;e.<br> <br> Varen korak in dober tek!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19325" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/navrhu/2904">navrhu</a><span class="komDatum">15. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pred nekaj urami smo se vrnili iz Doma na Govejku. Hrana dobra, porcije velike, ko&#269;a majhna a &#269;ista in lepo ohranjena, oskrbnik prijazen. Žena je šla z avtom do parkiriš&#269;a pri domu, vendar ne priporo&#269;am te poti, saj je ozka in se težko sre&#269;ata dva osebna avtomobila. Ona je imela sre&#269;o tako gor kot tudi dol, da ni bilo nobenega. Odprto od 8:00 do 20:00, zaprto imajo samo v ponedeljek. Telefon za info: 068/132-963. Gora Trma, hvala za hiter odgovor.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19327" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">15. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Z veseljem, @navrhu. Grem zdaj hitro pogledat gor, &#269;e je še kaj štrudla za dobit. Je znano, da je dober.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19367" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">21. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je od srede, ko so bili v akciji baje še &#269;lani PD Medvode, popolnoma o&#269;iš&#269;ena. Pograbili so s poti še vse nalomljene vejice - bi &#269;lovek lahko šel kar bos zdaj gor... vmes pa malo noge ohladiš v potoku<img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19396" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">28. 03. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bomo šli spet malo izkoristiti son&#269;ni vikend in preveriti, &#269;e je kaj novega za pod zob v Mihel&#269;i&#269;evem domu.<br> <br> Smo prejšnji teden preverili in ugotovili, da sta tudi spodnja in srednja povezovalna pot med Osolnikom in Govejkom že solidno prehodni. Ni bilo ve&#269; treba hoditi na dale&#269; okrog podrtih dreves, ampak samo še prestopiti nekatera debla. Tako se da že lepo narediti tudi tisto krožno turico.<br> <br> Sre&#269;no pot!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19555" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_23" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_23" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">1. 05. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tadej oz. upravnik portala,<br> <br> Kako se popravi napake v objavah?<br> <br> &#268;e se gre od tukaj eno temo nazaj, to je na temo Dom na Govejku, lahko beremo napa&#269;no objavo in sicer, da je Dom na Govejku zaprt ob torkih.<br> <br> Dejansko je zaprt ob ponedeljkih, vse ostale dni pa je odprt od 8h do 20h.<br> <br> Hvala za pomo&#269;!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_23" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_23" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom19556" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_24" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_24" class="komL"><a class="ime" href="/gornik/tadej/11">Tadej</a><span class="komDatum">1. 05. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala za obvestilo, sem popravil. Takšne napake je najbolje, da javite na forumu (tako kot tukaj), meni ali Roku na zasebno sporo&#269;ilo ali pa na elektronsko pošto.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_24" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_24" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20017" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_25" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_25" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">24. 06. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><a target=# class=moder href="http://89.212.15.42:65511/images/logo.gif">http://89.212.15.42:65511/images/logo.gif</a><br> <br> Živijo Tadej, Rok, upravnik portala,<br> <br> Na zgornji povezavi je slika s kamere, ki jo imajo po novem na Domu na Govejku. Ali lahko pomagata pri tem, da bi se kamera pojavila na seznamu spletnih kamer na tem portalu?<br> <br> Hvala in sre&#269;no!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_25" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_25" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20037" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_26" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_26" class="komL"><a class="ime" href="/gornik/tadej/11">Tadej</a><span class="komDatum">25. 06. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala za poslano. Sem dodal spletno kamero.<br> <a target=# class=moder href="http://www.hribi.net/spletna_kamera/dom_na_govejku/2072">http://www.hribi.net/spletna_kamera/dom_na_govejku/2072</a><br> Lp, Tadej</div>
+       
+       </div>
+    </td>
+    <td id="komD0_26" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_26" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20179" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_27" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_27" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">6. 07. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Dom na Govejku sporo&#269;a, da bo zaprt od pon. 07.07. do petka 11.07.2014. Spet vabljeni v soboto 12.07.!<br> <br> Tadej, Rok,<br> <br> Mogo&#269;e bi bilo smiselno v zvezi s podobnimi objavami odpreti kakšno rubriko, npr. v zvezi z delovnim &#269;asom, dopusti ipd.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_27" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_27" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20198" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_28" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_28" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">7. 07. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tadej, Rok, upravnik portala,<br> <br> Ali se vam zdi smiselno, da bi objavili v posebni rubriki delovne &#269;ase ter dneve, ko so ko&#269;e in domovi odprti in na primer izjemoma zaprti, kot je te dni primer na Govejku.<br> <br> Na objavah planinskih društev na strani PZS je kar nekaj napak ali bolj zgodovinskih podatkov, ki ne držijo ve&#269;, sploh pa tam ne gre za kakšne "dinami&#269;ne" objave, ampak stojijo tam podatki kot zabetonirani, se pa ve&#269;krat izkažejo za napa&#269;ne.<br> <br> Pozdrav!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_28" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_28" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20210" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_29" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_29" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">9. 07. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tadej, Rok,<br> <br> Kje se potepata? A moramo poslati na ZS, da bo odgovor?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_29" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_29" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20211" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_30" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_30" class="komL"><a class="ime" href="/gornik/gregorc/5757">GregorC</a><span class="komDatum">9. 07. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sicer dobra ideja, ampak vprašanje &#269;e bi bilo tu kaj druga&#269;e z ažurnostjo. &#268;e teh podatkov skrbnik ko&#269;e ne posreduje tistim, ki urejajo te strani, tudi administrator portala ne more posodabljat podatkov. Najboljša možnost je odprtje rubrike, kjer bi uporabniki sami objavljali info, ki je bil pridobljen na terenu.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_30" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_30" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20221" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_31" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_31" class="komL"><a class="ime" href="/gornik/gora_trma/8493">Gora Trma</a><span class="komDatum">10. 07. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ja Grega, to je v bistvu tudi moja ideja, ker se da opaziti, da najemniki, to je oskrbniki mislijo, da je društvo, ki je lastnik ko&#269;e in najemodajalec, poskrbelo za pravilno objavo, kar pa se je vsaj po moji izkušnji, pa niti ne obiskujem velikega števila postojank, izkazalo, da ni res. To se nanaša na splošni delovni &#269;as.<br> <br> Ob&#269;asno so pa izredne razmere in oskrbniki si, kot v tem primeru, želijo, da je informacija o zaprtosti objavljena še kje drugje kot samo na vratih doma, ker vedo, da pohodnik, ki prileze do doma in šele tam ugotovi, da je zaprto, postane nezadovoljen in morda ne pride va&#269;...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_31" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_31" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35932" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_32" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_32" class="komL"><a class="ime" href="/gornik/vlajko/2423">Vlajko</a><span class="komDatum">20. 04. 2023 18:58:46</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>1) Zanima me, kako se imenuje slap na poti, hvala.<br> <br> 2) Hiša, kjer je stanovala zelo prijetna g. Micka, je videti v zelo slabem in zapuščenem stanju. Glede na to, da tam mimo nisem hodil že leta, me zanima, kaj je z g. Micko, če ni skrivnost, hvala, Vlajko.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_32" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_32" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35933" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_33" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_33" class="komL"><a class="ime" href="/gornik/locanka/4176">ločanka</a><span class="komDatum">21. 04. 2023 06:28:45</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pred kakim mesecem sem hodila mimo Doma na Govejku in mimo Lužarja (Micke). Dom je bil zaprt, Micka je pa menda živa še, a v enem domu. Pri hiši so bili takrat ljudje, in so nekaj urejali. Vem pa, da je hiška prepisana menda na njeno nečakinjo. Več ne vem.<br> Slap je pa zelo slikovit, a za ime ne bi vedela. Če kdo ve kaj več, bi mene tudi zanimalo<img alt=nasmeh src=/slike/smile.gif>.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_33" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_33" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(34);
+    });
+    abc(34);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

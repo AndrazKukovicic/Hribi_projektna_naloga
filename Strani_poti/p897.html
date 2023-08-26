@@ -1,0 +1,1300 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Konec ceste na Vogar - Čelo (čez Prode)</title>
+        <meta name="description" content="Natančen opis izleta Konec ceste na Vogar - Čelo (čez Prode). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/konec_ceste_na_vogar_celo_cez_prode/1/70/1086" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/end_of_road_on_vogar_celo_via_prodi/1/70/1086"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=70&potid=1086"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/celo/1/70">Čelo</a> / Konec ceste na Vogar - Čelo (čez Prode)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(1086);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Konec ceste na Vogar - Čelo (čez Prode)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=1086';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Konec ceste na Vogar (1350 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;17,7360'N&nbsp;/&nbsp;13°&nbsp;50,4720'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;17'&nbsp;44,16''N&nbsp;/&nbsp;13°&nbsp;50'&nbsp;28,32''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,2956°N&nbsp;/&nbsp;13,8412°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.2956,&nbsp;13.8412";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,2956°N&nbsp;13,8412°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(1086,46.2956,13.8412);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.2956,13.8412"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/celo/1/70">Čelo (2228 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez Prode</div>
+    <div class="g2"><b>Čas hoje:</b> 7 h 20 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahko brezpotje</div>
+    <div class="g2"><b>Višinska razlika:</b> 878 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1400 m</div>
+    <div class="g2"><b>Zemljevid:</b> Triglav 1:25.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 5.676</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;2&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">115</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">0</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Z avtoceste Ljubljana - Jesenice se usmerimo na izvoz Lesce in cesti sledimo proti Bledu in naprej proti Bohinjski Bistrici. Z vožnjo nadaljujemo proti Bohinjskemu jezeru (Ribčev laz), pri katerem pridemo na križišče, kjer nadaljujemo desno v smeri Stare Fužine. V Stari Fužini pa v križišču pri kapelici zavijemo ostro levo na vzpenjajočo cesto v smeri planine Blato, planine Vogar in doline Voje. Cesta nas naprej pripelje do mesta, kjer pobirajo cestnino in parkirnino, mi pa ji sledimo naprej do naslednjega križišča, kjer nadaljujemo levo (desno Voje). Cesti nato sledimo do naslednjega križišča (peljemo se kar nekaj časa), kjer nadaljujemo naravnost (ostro desno planina Blato). Cesti nato sledimo mimo planine Vogar in se po njej peljemo do parkirišča na koncu ceste.<br>Od mesta, kjer pobirajo cestnino do izhodišča je slabih 11 km vožnje, zadnja polovica oz. nekoliko manj je cesta v celoti makadamska.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Ob parkirišču opazimo oznake za planino Viševnik, ki nas usmerijo desno na široko in sprva tudi precej strmo traktorsko vlako. Po nekaj minutah strmega vzpona se vlaka položi, nato pa se nadaljuje brez večjih sprememb višine še naprej skozi gozd. Ko vlaka zavije v desno, nadaljujemo naravnost po markirani pešpoti, le ta pa se sprva še kratek čas zložno vzpenja. Ko pot postane bolj strma bomo na levi strani opazili možic in ob njem pot, ki vodi na Pršivec (pot se pozneje priključi običajni poti z Vogarja), mi pa nadaljujemo naravnost po strmi planinski poti. Pot naprej se še nekaj časa strmo vzpenja skozi gozd, nato pa se prehodno položi in nas pripelje do Brezna pri Gamsovi glavici (brezno je raziskano do globine 817 m). Nad breznom pot preide v neizrazito in v zgornjem delu tudi bolj strmo dolinico, po kateri se vzpnemo na manjši preval med Pršivecm (1761 m) na levi in Gornjim Viševnikom (17022 m) na desni. Tu se pot povsem položi, nato pa se nekaj časa nadaljuje čez pašnike Gornjega Viševnika. Na drugi strani se pot vrne v gozd in nas v nekaj minutah spusta pripelje do planine Viševnik, sredi katere stoji Bregarjevo zavetišče.<br>S planine Viševnik nadaljujemo rahlo levo (ostro levo Pršivec, levo Črno jezero, rahlo desno planina pri Jezeru mimo Krištofojce, desno planina pri Jezeru) na pot v smeri planine Ovčarije in Triglavskih jezer. Pot naprej se najprej prečno vzpne proti levi čez bolj strmo pobočje, nato pa se postopoma položi in nas pripelje v bolj planotast svet. Pot nadaljujemo jugozahodno od Grive (1758 m) nekaj časa brez večjih sprememb višine. Nekoliko naprej, točneje pri smernih tablah se v smeri naravnost nadaljuje nemarkirana stezica, ki se nadaljuje proti planini Dedno polje, mi pa nadaljujemo ostro levo v smeri planine Ovčarije. Od smernih tabel se pot nekoliko spusti, nato pa zavije desno ter se nekaj časa nadaljuje po nekakšni konti oz. vrtači. Na drugi strani konte se pot ponovno prične zmerno vzpenjati, nato pa se položi in nas pripelje do pastirskih stanov na planini Ovčariji. <br>Nadaljujemo med kočami po markirani planinski poti, ki se prične zmerno spuščati. Nekoliko nižje nas pot vodi še mimo nekaj koč, nato pa nas v nekaj minutah nadaljnje hoje pripelje do mesta, kjer se priključi širši poti s planine Dedno polje. Tu nadaljujemo levo in v nekaj korakih prispemo do naslednjega razpotja.<br>Tu nadaljujemo rahlo levo v smeri Koče pri Triglavskih jezerih (čez Prode) po poti, ki nas po nekaj nadaljnjih minutah pripelje do lepe razgledne točke (pogled na Spodnje Bohinjske gore). Tu se pot obrne ostro desno in v zmernem spusti preči strma travnata pobočja. Naprej gre pot v gozd in se za krajši čas začne strmeje vzpenjati. Strmina nato popusti, pot pa nas iz strnjenega gozda pripelje do razpotja, kjer se nam z leve priključi pot od Črnega jezera. Nadaljujemo naravnost po poti, ki se rahlo vzpenja in nas po nekaj minutah pripelje do mesta, kjer pred seboj zagledamo Dvojno jezero. Pot naprej se rahlo spusti do jezera in se naprej nadaljuje po desni strani. Tu pridemo na razpotje, kjer se desno navzgor odcepi pot na Tičarico. Nadaljujemo po spodnji poti, ki nas po nekaj minutah nadaljnje hoje pripelje do Koče pri Triglavskih jezerih, ki jo vidimo pred seboj. <br>Od koče nadaljujemo ostro levo v smeri Doma na Komni po poti, ki se začne prečno vzpenjati po zahodni strani Dvojnega jezera. Po krajšem vzponu pridemo na neizrazit greben, s katerega pot zavije desno in se začne spuščati. Po polurnem zložnem spustu nas pot pripelje na planino Lopučnica, kjer je razpotje. <br> Nadaljujemo desno v smeri planine Za skalo (rahlo levo dom na Komni) po slabše uhojeni poti, ki preči pobočja planine proti severozahodu. Pot, ki poteka med visokimi travami (v poletnih mesecih) nekoliko višje preči pas redkega gozda in se za tem obrne nekoliko proti levi. Pot naprej se strmo vzpne in nas v nekaj minutah nadaljnje hoje pripelje v kraški svet brezen in škrapelj. Tu se pot položi in se v kamnitem svetu začne izgubljati (pazljivo sledimo markacijam). Na tem delu se nam odpre čudovit razgled na gore, ki obdajajo Dolino triglavskih jezer. Markirani poti nato sledimo le še do prevala Velika vrata, le tega pa dosežemo po nekaj nadaljnjih minutah rahlega vzpona. <br> Na drugi strani Velikih vrat zapustimo že tako malo obiskano pot in nadaljujemo desno po brezpotnem svetu. Sprva so prehodi med rušjem in škrapljastim svetom razmeroma lahki, saj nam "pot" pomagajo najti možici, ki pa so resda redki. Vzpon nadaljujemo nekako v smeri proti severu, a direktnih prehodov zaradi kraškega sveta ni. Zaradi razpok pa moramo občasno narediti kar velik ovinek. Ko nas "pot" le pripelje na greben je orientacijskih zank konec. Vzpon nadaljujemo po vse bolj razglednem grebenu, "pot" pa nas nato hitro pripelje na neizrazit vrh Glave za Bajto. <br> Naprej se rahlo spustimo, nato pa se po travnatem pobočju Čela povzpnemo na malo znan in še manj obiskan vrh.<br> Izhodišče - Koča pri Triglavskih jezerih 3:20, Koča pri Triglavskih jezerih - Velika vrata 2:30, Velika vrata - Čelo 1:30.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/celo/70"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Čelo"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> <a class="moder" href="/gora/planina_visevnik/1/255">Planina Viševnik (1625m)</a>, <a class="moder" href="/gora/planina_ovcarija/1/157">Planina Ovčarija (1660m)</a>, <a class="moder" href="/gora/koca_pri_triglavskih_jezerih/1/133">Koča pri Triglavskih jezerih (1685m)</a>, Planina Lopučnica (1600m), Velika vrata (1924m), Glava za Bajto (2131m)</div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/konec_ceste_na_vogar/46.2956/13.8412">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/konec_ceste_na_vogar_celo_cez_prode/1086">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=70">panorama</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219513" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219513');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 2161388016.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219514" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219514');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 2121510488.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219515" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219515');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 2141510488.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219516" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219516');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 2081510488.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219517" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219517');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 2071510488.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219518" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219518');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 2041510488.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219519" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219519');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 2001510488.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219520" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219520');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1981510488.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219521" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219521');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1931510488.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219522" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219522');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1901796256.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219523" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219523');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1891796256.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219524" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219524');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1851796256.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219525" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219525');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1841796256.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219526" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219526');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1831796256.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219527" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219527');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1821796256.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219528" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219528');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1801796256.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219529" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219529');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1791796256.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219530" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219530');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1741796256.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219531" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219531');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1732000376.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219532" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219532');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1712000376.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219533" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219533');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1702000376.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219534" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219534');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1682000376.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219535" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219535');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 1662000376.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219536" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219536');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0171083456.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219537" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219537');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0191083456.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219538" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219538');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0211083456.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219539" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219539');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0230.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219540" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219540');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0250.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219541" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219541');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0270.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219542" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219542');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0280.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219543" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219543');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0300.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219544" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219544');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0310.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219545" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219545');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 0340.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219546" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219546');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 03621384.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219547" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219547');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 04021384.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219548" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219548');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 043106920.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219549" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219549');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 045106920.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219550" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219550');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 047106920.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219551" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219551');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 049106920.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219552" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219552');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 051106920.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219553" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219553');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 053106920.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219554" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219554');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 054106920.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219555" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219555');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//slike.hribi.net/slike4/2_0819405419761_MalaTicarica_060.JPG" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219556" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219556');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 06885536.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219557" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219557');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 07085536.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219558" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219558');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 07285536.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219559" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219559');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 07385536.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219560" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219560');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 07485536.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219561" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219561');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 07785536.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219562" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219562');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 07885536.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219563" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219563');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/MalaTicarica 080171072.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219564" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219564');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080029319200.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219565" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219565');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080028319200.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219566" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219566');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080025319200.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219567" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219567');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080023319200.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219568" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219568');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080022319200.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219569" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219569');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080018319200.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219570" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219570');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080015319200.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219571" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219571');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080012319200.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219572" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219572');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080011319200.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219573" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219573');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080010319200.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219574" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219574');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080007319200.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219575" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219575');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080005296800.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219576" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219576');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080004296800.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219577" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219577');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P7080003296800.th.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219578" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219578');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/TriglavskaJezera 584158760.th.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219579" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219579');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/TriglavskaJezera 583196560.th.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219580" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219580');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/TriglavskaJezera 582196560.th.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219581" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219581');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/TriglavskaJezera 581196560.th.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219582" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219582');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/TriglavskaJezera 577196560.th.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219583" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219583');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/TriglavskaJezera 573370440.th.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219584" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219584');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/TriglavskaJezera 539370440.th.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219585" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219585');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/TriglavskaJezera 537370440.th.jpg" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219642" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219642');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 0625400.th.jpg" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219643" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219643');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 06317280.th.jpg" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219644" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219644');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 06617280.th.jpg" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219645" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219645');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 06817280.th.jpg" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219646" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219646');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 07417280.th.jpg" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219647" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219647');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 07617280.th.jpg" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219648" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219648');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 07817280.th.jpg" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219649" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219649');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci%200821062432.th.jpg" /></a><span class="s2"><span class="s1">81</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219650" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219650');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 08724840.th.jpg" /></a><span class="s2"><span class="s1">82</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219651" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219651');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 08824840.th.jpg" /></a><span class="s2"><span class="s1">83</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219652" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219652');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 09024840.th.jpg" /></a><span class="s2"><span class="s1">84</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219653" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219653');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 09224840.th.jpg" /></a><span class="s2"><span class="s1">85</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219654" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219654');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 09624840.th.jpg" /></a><span class="s2"><span class="s1">86</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219655" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219655');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 10124840.th.jpg" /></a><span class="s2"><span class="s1">87</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219656" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219656');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 10224840.th.jpg" /></a><span class="s2"><span class="s1">88</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219657" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219657');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 10324840.th.jpg" /></a><span class="s2"><span class="s1">89</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219658" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219658');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 10524840.th.jpg" /></a><span class="s2"><span class="s1">90</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219659" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219659');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 10824840.th.jpg" /></a><span class="s2"><span class="s1">91</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219660" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219660');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 11524840.th.jpg" /></a><span class="s2"><span class="s1">92</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219661" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219661');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 11824840.th.jpg" /></a><span class="s2"><span class="s1">93</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219662" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219662');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//slike.hribi.net/slike4/2_015403605492_Prehodavci_120.JPG" /></a><span class="s2"><span class="s1">94</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219663" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219663');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//slike.hribi.net/slike4/2_1570403605500_Prehodavci_121.JPG" /></a><span class="s2"><span class="s1">95</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219664" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219664');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 12242120.th.jpg" /></a><span class="s2"><span class="s1">96</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219665" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219665');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 12742120.th.jpg" /></a><span class="s2"><span class="s1">97</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219666" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219666');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 13242120.th.jpg" /></a><span class="s2"><span class="s1">98</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219667" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219667');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci%20136303552.th.jpg" /></a><span class="s2"><span class="s1">99</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219668" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219668');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 13942120.th.jpg" /></a><span class="s2"><span class="s1">100</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219669" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219669');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 14742120.th.jpg" /></a><span class="s2"><span class="s1">101</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219670" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219670');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 14842120.th.jpg" /></a><span class="s2"><span class="s1">102</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219671" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219671');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 14942120.th.jpg" /></a><span class="s2"><span class="s1">103</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219672" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219672');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/Prehodavci 15042120.th.jpg" /></a><span class="s2"><span class="s1">104</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219673" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219673');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P6090113356832.th.jpg" /></a><span class="s2"><span class="s1">105</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219674" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219674');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P6090114356832.th.jpg" /></a><span class="s2"><span class="s1">106</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219675" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219675');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P6090116356832.th.jpg" /></a><span class="s2"><span class="s1">107</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219676" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219676');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P6090117356832.th.jpg" /></a><span class="s2"><span class="s1">108</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219677" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219677');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P6090121356832.th.jpg" /></a><span class="s2"><span class="s1">109</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219678" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219678');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P6090127356832.th.jpg" /></a><span class="s2"><span class="s1">110</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219679" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219679');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P6090128356832.th.jpg" /></a><span class="s2"><span class="s1">111</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219680" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219680');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P6090130356832.th.jpg" /></a><span class="s2"><span class="s1">112</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219681" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219681');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P609013132130.th.jpg" /></a><span class="s2"><span class="s1">113</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219682" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219682');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P609013432130.th.jpg" /></a><span class="s2"><span class="s1">114</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219683" onclick="event.preventDefault(); window.open('/slika_pot/konec_ceste_na_vogar_celo_cez_prode/219683');"><img class="slikagm" alt="Konec ceste na Vogar - Čelo" src="//www.hribi.net/slike1/P609013532130.th.jpg" /></a><span class="s2"><span class="s1">115</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Konec ceste na Vogar - Čelo (čez Prode)</b></div>
+
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

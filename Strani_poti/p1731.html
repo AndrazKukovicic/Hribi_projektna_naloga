@@ -1,0 +1,1655 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>D postaja - Rombon</title>
+        <meta name="description" content="Natančen opis izleta D postaja - Rombon. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/d_postaja_rombon/1/414/1183" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/d_station_rombon/1/414/1183"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=414&potid=1183"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/rombon/1/414">Rombon</a> / D postaja - Rombon
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(1183);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>D postaja - Rombon</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=1183';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> D postaja (2202 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;19,9560'N&nbsp;/&nbsp;13°&nbsp;32,3040'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;19'&nbsp;57,36''N&nbsp;/&nbsp;13°&nbsp;32'&nbsp;18,24''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3326°N&nbsp;/&nbsp;13,5384°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3326,&nbsp;13.5384";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3326°N&nbsp;13,5384°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(1183,46.3326,13.5384);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3326,13.5384"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/rombon/1/414">Rombon (2208 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 5 h</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> delno zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 6 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 550 m</div>
+    <div class="g2"><b>Zemljevid:</b> Julijske Alpe - zahodni del 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 39.505</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;3&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">56</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">20</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) Najprej se zapeljemo v Kranjsko Goro, nato pa z vožnjo nadaljujemo preko prelaza Vršič ali pa čez Italijo in nato preko prelaza Predel proti Bovcu. Ko prispemo v Bovec se po obvoznici peljemo mimo centra, nato pa na drugi strani kraja desno proti bližnji črpalki. Pri črpalki zavijemo levo in se vzpnemo do bližnjega parkirišča ob spodnji postaji krožno kabinske žičnice na Kanin. Nato kupimo karto in se z žičnico odpeljemo do D postaje na Kaninu.<br>b) Najprej se zapeljemo v Tolmin, nato pa z vožnjo nadaljujemo proti Bovcu. Na začetku Bovca zapustimo glavno cesto in z vožnjo nadaljujemo naravnost proti središču kraja. Proti centru se peljemo le nekaj 10 metrov, nato pa pri črpalki zavijemo ostro levo na vzpenjajočo cesto, po kateri hitro prispemo do parkirišča ob spodnji postaji krožno kabinske žičnice. Nato kupimo karto in se z žičnico odpeljemo do D postaje na Kaninu.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Od D postaje se najprej v rahlem vzponu sprehodimo do bližnje spodnje postaje štirisedežnice Prevala, od tam pa nadaljujemo desno v smeri Prestreljenika in Rombona. Pot naprej nas vodi ob štirisedežnici in se vzpenja ob robu smučarske proge. Višje prispemo na Sedlo, kjer je vmesna izstopna postaja štirisedežnice Prevala in kjer je v levo odcep poti na Prestreljenik (2499 m).<br> S Sedla še kratek čas nadaljujemo po smučarski progi, katera se spušča proti sedlu Prevala, nato pa nadaljujemo rahlo levo na markirano pešpot, ki se nadaljuje po levi strani smučarske proge (možno je nadaljevanje tudi po smučarski progi). Pot, ki se v nadaljevanju zmerno do občasno strmo spušča, nas vodi mimo nekaj večjih brezen, nato pa se prehodno položi. V nadaljevanju pot zavije nekoliko v levo ter postopoma preide na bolj strma pobočja, ki so na nekaj mestih rahlo izpostavljena. Nižje pot zavije ostro v desno in se ob pomoči jeklenice spusti do razpotja na sedlu Prevala.<br>S Prevale, na kateri je razpotje petih poti nadaljujemo naravnost oz. rahlo desno v smeri Rombona. Nadaljujemo proti vzhodu po poti, ki postopoma preide na pobočja Lope (2406 m), mi pa ji v nekaj vzponih in spustih sledimo do manjšega sedla med Lopo in Kotlom (1881 m). Tu pot zavije rahlo v levo in se nadaljuje ob številnih breznih, ki so značilna za Kaninsko pogorje. Pot naprej nas hitro pripelje do razpotja, kjer se v levo odcepi pot na Črnelsko špico (2332 m), mi pa nadaljujemo desno v smeri proti Rombonu in Speleološkemu bivaku. Sledi krajši vzpon in pot nas pripelje na manjše sedelce med Črnelsko špico in Vrhom Ribežnov.<br>S sedla se rahlo spustimo do razpotja v bližini Speleološkega bivaka. Desna pot vodi čez Rupo v Bovec, mi pa nadaljujemo po levi poti v smeri Rombona. Pot nato preči pobočja pod Prišno glavo in nas pripelje do manjšega izvira s pitno vodo, kateri pa v sušnem obdobju presahne. Pot, ob kateri se v nadaljevanju pojavijo ostaline iz prve svetovne vojne, se sprva še rahlo spušča, nato pa sledi približno eno uro dolg vzpon proti vrhu Rombona. V zadnjem delu postaja pot vse bolj strma in malo pod vrhom tudi nekoliko izpostavljena.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/rombon/414"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Rombon"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Sedlo (2282m), Prevala (2067m)</div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/d_postaja/46.3326/13.5384">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/d_postaja_rombon/1183">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=414">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=414">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221138" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221138');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/Pot/p7280070mediumnm5.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221139" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221139');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/Pot/p7260634mediummd7.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221140" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221140');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110512948480.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221141" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221141');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110511948480.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221142" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221142');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110584869440.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221143" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221143');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110585869440.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221144" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221144');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110587889200.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221145" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221145');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110589889200.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221146" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221146');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110590889200.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221147" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221147');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110592790400.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221148" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221148');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110594790400.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221149" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221149');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110598790400.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221150" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221150');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110599790400.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221151" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221151');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110607790400.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221152" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221152');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110609790400.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221153" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221153');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110612790400.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221154" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221154');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110614790400.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221155" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221155');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8110501842400.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221156" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221156');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/Pot/p7260655mediumxt1.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221157" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221157');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160419537264.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221158" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221158');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P816041851840.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221159" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221159');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P816041651840.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221160" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221160');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160414537264.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221161" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221161');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P816041356160.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221162" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221162');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160411537264.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221163" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221163');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160410537264.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221164" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221164');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160407537264.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221165" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221165');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160406537264.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221166" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221166');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160404537264.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221167" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221167');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160364550368.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221168" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221168');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P816036366960.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221169" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221169');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160362209664.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221170" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221170');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160361209664.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221171" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221171');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160359209664.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221172" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221172');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P816035597200.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221173" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221173');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160353209664.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221174" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221174');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160352101520.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221175" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221175');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160349101520.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221176" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221176');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160348101520.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221177" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221177');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160345209664.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221178" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221178');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160343209664.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221179" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221179');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160341108000.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221180" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221180');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160342105840.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221181" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221181');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160340209664.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221182" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221182');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160339209664.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221183" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221183');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160336114480.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221184" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221184');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160334209664.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221185" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221185');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160330209664.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221186" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221186');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160328118800.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221187" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221187');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160325209664.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221188" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221188');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160324209664.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221189" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221189');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160323209664.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221190" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221190');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160322125280.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221191" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221191');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160320125280.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221192" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221192');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160319209664.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/d_postaja_rombon/221193" onclick="event.preventDefault(); window.open('/slika_pot/d_postaja_rombon/221193');"><img class="slikagm" alt="D postaja - Rombon" src="//www.hribi.net/slike1/P8160318209664.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu D postaja - Rombon</b></div>
+
+
+
+<div id="kom1841" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">22. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zanima me, &#269;e je ocena &#269;asa hoje realna. V literaturi v glavnem najdemo podatek, da za pot od zgornje postaje ži&#269;nice na Kaninu do Rombona potrebujemo 5 do 6 ur. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1842" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/rok/1">Rok</a><span class="komDatum">22. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sem popravil &#269;as hoje. Verjetno je res 5 ur bolj realno.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom11820" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/katty/9222">katty</a><span class="komDatum">2. 10. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hej.<br> V soboto prvi&#269; na Rombonu, iz Kanina<img alt=nasmeh src=/slike/smile.gif>. Za pot sva potrebovala cca. 5,5h, skupaj z postanki. Vmes sva zašla, saj se marsikje markacije kar porazgubijo<img alt=mrk&nbsp;pogled src=/slike/mrk.gif>. Lokalnim markcistom priporo&#269;am, da jih obnovijo. Tu pa pridejo v pomo&#269; možici. Sicer pa na poti vidiva veliko ostankov utrdb iz 1.sv.vojne<img alt=eek src=/slike/eek.gif>. Na poti sre&#269;ava eno skupino planincev, ki so šli preko Gori&#269;ice na Loupo. Do vrha pa ve&#269; ne sre&#269;ava nobenega<img alt=cool src=/slike/cool.gif>. Zadnji del poti je kar strm, tik pod vrhom tudi rahlo izpostavljen. Na desni tik pod vrhom je tudi tunel, a vanj ne stopiva. Rombon ima v &#269;asu najinega prihoda 4 planince. Od navdušenja najprej poslikam in ožigosam prostor&#269;ek v Spp<img alt=nasmeh src=/slike/smile.gif>, se razgledam po okoliških hribih z Jalovcem in Triglavom na &#269;elu in se šele potem malo okrep&#269;am. Pot naju je vodila do &#268;ukle-spet sva zašla<img alt=mrk&nbsp;pogled src=/slike/mrk.gif>. Ob pogledu na Rombon opaziva še nekaj strelnih linij, tunelov in ostankov utrdb. Kreneva v smeri Bova preko planine Gori&#269;ica. Do poti, ki vodi v to smer, sva spet zašla, a po najini iznajdljivosti pot na sre&#269;o kmalu najdeva<img alt=mrk&nbsp;pogled src=/slike/mrk.gif><img alt=nasmeh src=/slike/smile.gif>. Pre&#269;iva nekaj mulatjer, v bližini katerih je nekaj na pol podrtih karavl. Pod &#268;uklo šele tedaj opaziva nekaj tunelov, ki bi lahko bili dolgi tudi cca. 15m, nad njimi pa nekaj strelnih linij. Na planini Gori&#269;ica stoji lovska ko&#269;a, ki jo slikava in se odpraviva naprej. Po kakih 45min-1h prideva v vas Zavrzelno, od tu pa po asfaltirani cesti do centra Bovca in nato do najinega izhodiš&#269;a. Za pot od vasi do gondole potrebujeva 45min. Iz najinega izhodiš&#269;a startava ob 20.10 in se preko Loga pod Mangartom, Predela, Kranjske Gore, Jesenic in Kranja vrneva domov ob 21.45<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif><img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif>. <br> Sre&#269;na, da sva kon&#269;no doma, živa in zdrava ter polna vtisov, o najinih dogodivš&#269;inah podu&#269;iva naše doma&#269;e.<br> Res, lepo je bilo, vreme idili&#269;no, razgledi pre&#269;udoviti, le pot niti ne naporna, samo predolga. Naslednji&#269; na Rombon iz Kluž, povratek pa na planino Karnica<img alt=nasmeh src=/slike/smile.gif>.<br> Lep pozdrav, Katy</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15241" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/poluks/12926">poluks</a><span class="komDatum">31. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hoj<br> V sredo sva z punco obiskala Rombon. Štartala sva iz D postaje in porabila za pot 5 ur in 15 min, s tem da sva neuspešno iskala Veliko &#269;rnelsko brezno. Pot je zelo slikovita in logi&#269;na, vmes dobiš ob&#269;utek, da si sam na tem svetu, slišiš samo kakšnega krokarja in dobiš za&#269;uden pogled od gamsov. Mislm da je dobro ozna&#269;ena, tako da nisva imela težav z orientacijo. Sestopala sva mimo &#268;ukla, na Planino Gori&#269;ica in potem proti Kaninski vasi. Ko prideš na cesto ki pelje do B postaje, je situacija taka, da &#269;e greš po cesti, te pelje &#269;ez center Bovca in potem nazaj proti postaji A. Lahko pa se znajdeš in jo ¨užgeš¨ naravnost skozi gozd posejan z trnjem, kjer te potem prijazen doma&#269;in usmeri proti postaji.<br> Tura D postaja-Rombon-Bovec je kondicisko nezahtevna, vendar je precej dolga, tako da priporo&#269;am dobro uhojene gojzarje<img alt=nasmeh src=/slike/smile.gif><br> lp andraz </div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16811" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/slamca/8191">slamca</a><span class="komDatum">21. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni,<br> kakšna je sedaj situacija z gondolo? Vozi ali ne?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16814" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/igorzlodej/6423">IgorZlodej</a><span class="komDatum">22. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ne vozi in vprašanje kdaj bo, &#269;e sploh še bo <img alt=zavijanje&nbsp;z&nbsp;o&#269;mi src=/slike/rolleyes.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16818" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/slamca/8191">slamca</a><span class="komDatum">22. 05. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Igor najlepša hvala za odgovor. Se mi je zdelo, da je-bo tako. Za vsako "sranje" se najde denar, za nekaj kar bi bilo pa koristno ga pa enostavni ni. Pa ne bom o tem. Še enkrat hvala.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24790" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/marinka67/8194">marinka67</a><span class="komDatum">25. 07. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes berem v SLONovicah, da bo za&#269;ela ži&#269;nica obratovati avgusta, kdaj to&#269;no, &#269;e ne vedo. Držimo pesti!! <br> Enosmerna karta 14 €, povratna 17. Ni malo, a ne? <img alt=mrk&nbsp;pogled src=/slike/mrk.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29887" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">5. 07. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Danes smo prehodili to pot. Pet nas je bilo in  vsi prvi&#269; s Kanina. Kot je opisana, kar kondicijsko zahtevna. Le markacije so ponekod precej zbledele in mi na sre&#269;o smo imeli lepo vreme.  Tura vredna vsega truda. Sestopili smo v Zavrzelno. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29907" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/britof/6049">britof</a><span class="komDatum">8. 07. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>05.07.2019,od D.postaje Prestrelnik do Prevalje desno po slabo markirani poti ponekod zelo slabo vidne markacije potrebne obnove,do Rombona 2208m.<br> Zanimiva pot,dosti ostankov iz 1.sv. vojne. Spust &#269;ez &#268;ukljo 1767m.v<br> Zavrzelno tam okrog 16 km. <br> Dokaj kondicijsko zahtevna. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29910" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/miri/6426">miri</a><span class="komDatum">8. 07. 2019</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Prestreljenik,Prevala,&#268;ukla</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34903" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/andrejf/27036">andrejf</a><span class="komDatum">20. 07. 2022 18:12:01</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pred dnevi sva opravila pot v naspotni smeri, na Rombon sva prišla z Bovca v dobrih 5 urah in se odpravila proti D postaji. Opozarjam na zelo slabe oznake, že na od vrha Rombona (po tabli "D postaja" se je potrebno držati levo), potem pa so na srečo možici pomagali, še dobro uro in pol. Nato so markacije novejše, a pot se nama vleče proti pričakovanjem in gorskim izkušnjam. Zadnja gondola gre z D postaje v dolino ob 16h, dom Petra Skalarja in bivak sta zaprta, zamudniki lahko s Prevale zavijete v pol ure na Sello Neveo do italijanske koče Gilberti, kjer lahko prespite člani za 20eur gotovine, zadnja gondola pa gre v dolino ob 17:30.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35423" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/pclop/16467">pclop</a><span class="komDatum">31. 10. 2022 09:34:31</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Včeraj šel delno po zgoraj omenjeni poti. Res je spust v smeri "D postaje" (prečenje proti Kaninu) kar zanimiv. Markacije zelo zbledele v tem zadnjem vzponu na Rombon oz. spustu z Rombona, vidi se, da tod ne hodi veliko ljudi, kar je po svoje čar te poti, po drugi strani pa težava, saj je pot ponekod kar težko sledljiva. Spust z Rombona v smeri Kanina bi znal biti kar nevaren če je pot mokra, saj bi bila takrat kar velika nevarnost zdrsa. Na srečo so nekateri dobri ljudje naredili kar nekaj "možicev", ki vsaj po moji izkušnji, precej pomagajo in so na pravih mestih. Spodaj, pod Rombonom so markacije obnovljene, a jaz sem tam že zavil nazaj proti Čukli, in proti Bovcu. To "brezpotno" prečenje s poti proti Kaninu pod Rombonom proti Čukli je precej enostavno, saj za orientacijo lahko služi grapa, po kateri se vzpenjaš, če greš na Rombon iz Bovca mimo Čukle.<br> <br> Markacisti pa ... uredite te markacije od vznožja Rombona do njegovega vrha.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom35495" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/borstenar/27357">BorStenar</a><span class="komDatum">19. 11. 2022 17:57:28</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>živio<br> ali je žig na vrhu v dobrem stanju?<br> na Mali Mojstrovki sta namreč dva, noben pa ni prepoznaven<img alt=jezen src=/slike/jezen.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36701" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/locanka/4176">ločanka</a><span class="komDatum">23. 08. 2023 05:38:24</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>No, nama se ni zdelo, da bi se pri orientaciji opirala na možice. Markacije so kar solidno obnovljene, morda le v zadnjem delu ne, so pa vseeno še vidne, čeprav malo obledene. Tako, da jaz bi rekla, da ni panike, da zaideš! Drugače pa bivaka in izvirčka ob poti nisva videla, je pa res, da ga tudi iskala nisva<img alt=nasmeh src=/slike/smile.gif>. Je tudi res, da sva enkrat (malo nad stopničkami) naletela na eno jeklenico, ki pa v tem opisu ni omenjena.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36702" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/simon16/26272">simon16</a><span class="komDatum">23. 08. 2023 16:08:25</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>"Bivak" ki ga omenjaš je v bistvu bolj ostanek vojaške kaverne, tako da ni čisto tak kot bi človek pričakoval in izgleda zapuščen. Delno se ga vidi na sliki 26 v objavi 14. 08. 2023 <a target=# class=moder href=https://www.hribi.net/trenutne_razmere/slo/velika_crnelska_spica/1/6798>https://www.hribi.net/trenutne_razmere/slo/velika_crnelska_spica/1/6798</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36703" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/locanka/4176">ločanka</a><span class="komDatum">23. 08. 2023 16:52:34</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>simon16, tele podrtije se pa spomnim ja, povsem ob poti je. Samo kje bi pa tu človek prenočil? Tako je bilo enkrat rečeno, da se da, ampak bolj slabo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36705" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/b2/8819">B2</a><span class="komDatum">23. 08. 2023 22:58:26</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>In se kako dobro bi bilo v tej kaverni ce je sila precepeti tudi celo noc.<br> Samo pomisliti treba na nenadno nevihto s sikajocimi strelami...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36708" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/lina12/25964">lina12</a><span class="komDatum">25. 08. 2023 08:53:33</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Prehodila pot 16.8., do vrha sva hodila 5 ur in 20 min s postanki. Pot je sprva lepo sledljiva, markacije so obnovljene, pa tudi zahtevna ni. Uro pred vrhom pa je na skali namesto markacij velik rdeč križec, za kar sva sklepala, da pomeni konec markacij. Od tam naprej so le še zbledele, stare markacije in še te bolj poredkoma. Zadnja ura je tudi tehnično bolj zahtevna brez varoval, ter zračna, tako da si verjetno zasluži ime "zahtevna (ne)označena pot". Sestopala sva do Kluž, ki pa je bolj prijetna, lahko sledljiva pot (za dol cca. 3,5 ure). Sicer je to krasna, osamljena tura, srečala nisva niti enega človeka, le množico svizcev in gamsov <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36709" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/lina12/25964">lina12</a><span class="komDatum">25. 08. 2023 09:00:05</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Še to bi dodala: žig Rombona lahko dobite v restavraciji pri Kaninski D postaji, kjer je v veliko boljšem stanju. Na vrhu Rombona je zelo star in posledično ni dobro viden v knjižici.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(20);
+    });
+    abc(20);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1068801/zapisizgora_160_600', [160, 600], 'div-gpt-ad-1684384003587-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /1068801/zapisizgora_160_600 -->
+<div id='div-gpt-ad-1684384003587-0' style='min-width: 160px; min-height: 600px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684384003587-0'); });
+  </script>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

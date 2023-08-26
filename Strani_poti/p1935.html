@@ -1,0 +1,3772 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Zadnjica - Triglav (čez Dolič)</title>
+        <meta name="description" content="Natančen opis izleta Zadnjica - Triglav (čez Dolič). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/zadnjica_triglav_cez_dolic/1/1/163" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/zadnjica_triglav_via_dolic/1/1/163"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=1&potid=163"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/triglav/1/1">Triglav</a> / Zadnjica - Triglav (čez Dolič)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(163);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Zadnjica - Triglav (čez Dolič)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=163';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Zadnjica (650 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;22,9440'N&nbsp;/&nbsp;13°&nbsp;45,6240'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;22'&nbsp;56,64''N&nbsp;/&nbsp;13°&nbsp;45'&nbsp;37,44''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3824°N&nbsp;/&nbsp;13,7604°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3824,&nbsp;13.7604";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3824°N&nbsp;13,7604°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(163,46.3824,13.7604);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3824,13.7604"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/triglav/1/1">Triglav (2864 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez Dolič</div>
+    <div class="g2"><b>Čas hoje:</b> 7 h 15 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> zelo zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 2214 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 2215 m</div>
+    <div class="g2"><b>Zemljevid:</b> Triglav 1:25.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada, komplet za samovarovanje</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, komplet za samovarovanje, cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 129.348</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;7&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">64</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">111</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Iz Kranjske Gore se čez prelaz Vršič peljemo proti Bovcu ali obratno, a le do 50. serpentine vršiške oz. Ruske ceste (v bližini vasi Trenta). Tu zavijemo na stransko cesto, ob kateri nato pa nekaj 100 metrih parkiramo na parkirišču ob cesti.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča nadaljujemo po cesti, le ta pa nas mimo nekaj hiš (predvsem vikendi) v približno 15 minutah pripelje do mesta, kjer se cesta razcepi na dva dela (ob križišču je bilo nekoč parkirišče, danes pa je parkiranje prepovedano).<br>Nadaljujemo po spodnji desni cesti (po zgornji cesti prispemo do tovorne žičnice, ki pelje na Pogačnikov dom) v smeri Doliča, Luknje in Prehodavcev. Sprva zložni cesti, ki nas vodi čez razgledne travnike, višje pa skozi gozd, sledimo skoraj do njenega konca, oz. točneje do označenega razpotja, kjer se v desno odcepi markirana pešpot proti Prehodavcem (do sem potrebujemo približno 1 uro).<br>Z razpotja na predelu imenovanem Utro nadaljujemo naravnost, cesta pa se tu dokončno spremeni v pešpot oz. mulatjero. Vzpon nadaljujemo po stari mulatjeri, katera se v nadaljevanju zmerno vzpenja čez občasno bolj strma pobočja. V nadaljevanju se že kmalu v desno odcepi plezalna pot čez Komar, mi pa nadaljujemo naravnost ter vzpon še naprej nadaljujemo po široki poti. Razgledna pot, ki občasno poteka čez zelo strma pobočja, pa nas višje pripelje na naslednje označeno razpotje.<br>Z razpotja se usmerimo desno (levo Luknja in Triglav čez Plemenice) in pot nadaljujemo v smeri Koče na Doliču. Še naprej široka pot se v nadaljevanju prične vzpenjati proti jugu, pri tem pa preči pobočja Vrha Zelenic (2468 m). Ko se pobočje nekoliko položi se nam z desne priključi pot čez Komar, mi pa mulatjeri sledimo do naslednjega razpotja, kjer se v desno odcepi pot proti Zasavski koči (pot Mire Marko Debelakove čez Kanjavčeve police). <br>Tu nadaljujemo levo, nas pa vse bolj razgledna in občasno prepadna pot pripelje do razpotja v bližini Koče na Doliču. <br>Od razpotja v bližini Koče na Doliču nadaljujemo levo proti zahodu in vzpon nadaljujemo po mulatjeri, ki se kar strmo vzpenja. Po pol ure hoje od koče se svet zravna in pot ne pridobiva več na višini. Sedaj pred seboj lepo vidimo Triglav. Naprej hodimo v smeri Triglava po podih, kjer je potrebna previdnost, da ne stopimo v kakšno luknjo in si pri tem zvijemo noge. Naprej pridemo na razpotje, kjer se nam priključi pot s Plemenic. Nadaljujemo desno po melišču navzgor vse do stene. Pot naprej se s pomočjo številnih varoval prečno vzpne in nas pripelje pod Triglavsko škrbino. Naprej se povzpnemo do škrbine, kjer pridemo na razpotje. Nadaljujemo levo navzgor (naravnost navzdol Planika) po strmi, a dobro zavarovani poti. Po nekaj minutah strmina popusti in do vrha nas čaka samo še nekaj minut vzpona po vršnem pobočju Triglava. <br> Zadnjica - Dolič 4:45, Dolič - Triglav 2:30.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/triglav/1"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Triglav"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> <a class="moder" href="/gora/koca_na_dolicu/1/100">Koča na Doliču (2151m)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/zadnjica/46.3824/13.7604">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/zadnjica_triglav_cez_dolic/163">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=1">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=1">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211375" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211375');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 46055404.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211376" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211376');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 45955404.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211377" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211377');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 45855404.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211378" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211378');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 45755404.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211379" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211379');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 45355404.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211380" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211380');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 45055404.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211381" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211381');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 44755404.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211382" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211382');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 44555404.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211383" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211383');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 44355404.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211384" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211384');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 43969768.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211385" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211385');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 43569768.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211386" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211386');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 43169768.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211387" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211387');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 42969768.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211388" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211388');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 42169768.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211389" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211389');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 41969768.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211390" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211390');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 41367716.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211391" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211391');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/VodnikovVrsac 40967716.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211392" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211392');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P825026475264.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211393" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211393');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250269242352.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211394" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211394');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P825027075264.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211395" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211395');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250271242352.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211396" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211396');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P825027275264.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211397" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211397');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250274253368.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211398" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211398');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P825027575264.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211399" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211399');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250277258876.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211400" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211400');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P825027875264.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211401" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211401');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250280264384.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211402" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211402');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P825028175264.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211403" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211403');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P825028375264.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211404" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211404');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250286175616.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211405" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211405');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250287175616.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211406" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211406');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250289286416.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211407" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211407');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250292175616.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211408" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211408');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250296175616.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211409" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211409');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250297297432.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211410" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211410');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250298175616.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211411" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211411');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250300302940.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211412" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211412');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250301302940.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211413" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211413');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250302175616.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211414" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211414');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250304200704.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211415" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211415');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/P8250305175616.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211416" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211416');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201785117423.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211417" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211417');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201815117423.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211418" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211418');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201785117423.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211419" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211419');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/Triglav 177193185.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211420" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211420');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/Triglav 174193185.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211421" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211421');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/Triglav 173193185.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211422" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211422');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/Triglav 172193185.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211423" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211423');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/Triglav 171193185.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211424" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211424');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/Triglav 167193185.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211425" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211425');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/Triglav 166193185.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211426" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211426');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/Triglav 164193185.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211427" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211427');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201425119377.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211428" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211428');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201435119377.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211429" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211429');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201445119377.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211430" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211430');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201455119377.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211431" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211431');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201465119377.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211432" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211432');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201505119377.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211433" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211433');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201515119377.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211434" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211434');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201535119377.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211435" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211435');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201545119377.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211436" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211436');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201575119377.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211437" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211437');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201585119377.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/zadnjica_triglav_cez_dolic/211438" onclick="event.preventDefault(); window.open('/slika_pot/zadnjica_triglav_cez_dolic/211438');"><img class="slikagm" alt="Zadnjica - Triglav" src="//www.hribi.net/slike1/triglav%201605119378.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Zadnjica - Triglav (čez Dolič)</b></div>
+
+
+    <script>
+    function prikaziStaraSporocila()
+    {
+        document.getElementById('gumbstarasporocila').style.display='none';
+        document.getElementById('komX').style.display='block';
+    }    
+    </script>
+    <div id="gumbstarasporocila" style="margin:7px 0px 0px 0px;" class="gumbsiv2" onclick="prikaziStaraSporocila();">Prikaži starejša sporočila</div>
+    <div id="komX" style="display:none;">
+    
+
+<div id="kom778" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">21. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni! Sem Damijan Sedej ,ki je 09 Septembra 2006 ,v neverjetnem lepem vremenu s harmoniko v spremstvu prijateljev preigral celo pot v 6 urah. z mano so jo prehodili prvi&#269; pol udeležencev je pa to najlažja pot.Na tej pti je nastalo 800 neverjetnih slik</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom779" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">21. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ubogi planinci, ki so morali to poslušati, saj v gore hodimo uživat v miru in tišini, še bolj pa morda uboge vse tamkaj žive&#269;e živali, ki so morale to prenašati. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom780" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">22. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kaj planinci! Ubogi gamsi in kozorogi, pa krokarji! Le kaj so si mislili o ljudeh?! A so sedaj hribi za izživljanje? Se strinjam, da hodimo v gore uživat mir in tišino v zvokih, ki jih poje narava: piš vetra, žvižg gamsa.... Mogo&#269;e se kdo še spomni stare popevke: naj zapoje ptica vrh Triglava, pesem naj zaplava... (ne pa harmonika). Pa sre&#269;no vsem! MiR </div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom782" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">22. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>G.Sedej! Kako lahko tako kalite mir v hribih.Ste nekulturni in se s tem se hvalite.Rekorde na igranje z harmoniko dosegajte na zato pripravljenih mestih.(tam 6 ur ni noben rekord)Slikajte pa le ,a tudi 8 (a res kakovostnih posnetkov)bo v 6 urah dovolj.Postavljajte take rekorde ,da s tem ne motite živali in nas planincev.Škoda ,da je takih Sedejev v naših hribih še veliko.Bolje da doma sedijo.Tam pa po&#269;nite kar vas je volja,&#269;e vas le sosedje prenašajo....</div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom784" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">24. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tisti, ki greste na Triglav zato, da bi uživali v miru in tišini, ste prav smešni. A se vam ne zdi, da bi bila katerakoli gora bolj primerna kot Triglav, kjer je toliko ljudi, da moraš v vrsti &#269;akat, ko hodiš vrhu naproti.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom785" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">24. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>To je že res ampak Sedej je motil živali</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom786" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">24. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Meni je bila pa harmonika vše&#269;! Živali pa tod okrog itak ni ve&#269;. Saj so "planinci" še bolj glasni od njih. Ta pravi planinci gremo drugam pa &#269;eprav sem bil tud jaz že na Triglavu. Res je bla gne&#269;a ampak je bilo vseeno lepo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom788" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">24. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>"Ta pravi" planinci hodimo tam naokrog tudi takrat, ko se ne vzpenjamo na "božjo pot - Triglav". Tam v bližini je mnogo lepih vrhov, na mnoge (na sre&#269;o) niti ne vodijo markacije, tako da se obi&#269;ajno sre&#269;ujemo tam le "&#269;udaki", ki bi radi poleg lepih razgledov imeli tudi mir. In verjeli ali ne, &#269;e nekdo v tem okolju, pa tudi &#269;e ne &#269;isto blizu oz. na isti poti, celih 6 ur zganja vaško veselico, to še kako slišijo vsi tam naokrog. Da pa živali tam ve&#269; ni, pa ne bo držalo. V&#269;asih si privoš&#269;ite pot v tem okolju tudi preko tedna, izven &#269;asa šolskih po&#269;itnic, pa boste videli, da je lahko precej druga&#269;e kot poleti ob vikendih. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom789" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">24. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ko sem bil jaz avgusta na Triglavu sem sre&#269;al na vrhu vsaj pet harmonikašev + dva manjša ansambla na Kredarici. Damijan, &#269;e je res, da si preigral celo pot, ti pa iskreno &#269;estitam. Vsi pravi planinci pa vedo, kje poiskati mir v gorah. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom792" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">25. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>No me veseli vaš odziv! Kako me Sedeja kritizirate, da sem kalil mir z harmoniko. Povem pa vam, da so me tudi gamsi z zanimanjem glegali in poslzšali .Saj je karavana za mano hodila v vtišini. Znanstveno dognano pa je, da živali pomirja glasba mogo&#269;e bolj kakor nas : Živali ljudi!!!! Saj zape&#269;karij, ki sedite za interntom sigurno nimate energije, da bi tem sirotam pozimi nesli malo koruze ali soli,vsaj na 1500 m. Nemorem pa vam oprostit,da samo kritizirate. Pa kaj saj to je že vstaljena praksa ,da je lažje kritizirat in pivo pit.-Za mir je trebapa ve&#269; storit ne pa po avtocesti na Triglav it ??????? &#268;e vas pa zanima kam pa odpišite ,vsaj tisti ,ki nikamor ne grese in kritizirate . Lep pozdrav Sedej </div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom793" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">25. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vhribih nam je dana tišina in mit.Mislim ,da v to okolje ne spadajo tisti ,ki ta mir kalijo.Kaj živalim odgovarja ,pa vi Sedej gotovo ne veste,zato pa delate tak direndaj. Ne vsiljujte nam harmonike,ker ko slišimo dale&#269; naokoli .tidi &#269;e se še tako izogibamo avtocest.Zaradi harmonikašev.Za mir boste storili vi najve&#269;,&#269;e boste harmoniko pustili doma in v okolju ,ki je zato primerno igrali.Koliko pa kdo naredi (krmljenje)za živali pa vsak sam ve.Koliko je zape&#269;kar (tudi vi saj visite na internetu)tudi vsak sam ve, bolje od vas gospod SEDEJ. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom796" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">26. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Veliko sem v hribih in z najve&#269;jim guštom poslušam Parni valjak. Ljubi bog, pa ga zato ne bom vlekla na Triglav ali pa drugam v hribe. In kako bi se ob tej glasbi po&#269;utili ljubitelji harmonike, pa &#269;eprav bi Aki z vsem sentimentom hrobpel Jesen v meni in podobne... Zato: muzika na raznih inštrumetnih naj bo v dolini, po hribih (pa &#269;eprav gre za "božje poti") naj nam poje veter. Pa sre&#269;no in brez zamere.
+</div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom815" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">28. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tudi Sedej je zgrešil forum.Mu svetujem da gre na HARMONIKA .tamje zanj bolj zanimivo.Zaten &#269;e se boji konjurence.Ali pa LOVEC ,tam bo zvedel marsikaj kar ni&#269; ne ve o žinalih (krmljenje vsaj na 1500),kaj jim je zes uše&#269;..Ali pa na FOTO 8oo slik v šestih urah.Preve&#269; ,ker so slabe.No za Sedeja bodo že dobre. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom816" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">28. 02. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdrav od "zape&#269;karja ",ki je  bil v&#269;eraj na Kredarci.Lepo zimsko turo in veliko užitkov sem imel.Hvala  vsem ki jih v&#269;eraj ni bilo ,še posebno harmonikarjem.Sre&#269;a  da so to poletni takosamozvani planinci.Se pozimi k sre&#269;i bojijo za prste.Le nismo vsi kaki zape&#269;karji kakor Damjan misli.Ti želim veliko užitkov za pe&#269;jo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom829" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/matjazg/1406">matjažg</a><span class="komDatum">4. 03. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vse sorte so že razni osli 'planinci' znosili na našega O&#269;aka. Od šporhetov, ki so ga potem podarili na planiki, do gasilskih lojter, da so se fotografirali na višji to&#269;ki od triglava, vseh zvonov in raznih inštrumentov. Saj je res da je v hribih zaželjen mir. Toda kaj ste se sedaj na Damjana spravli, &#269;e si je poželel harmoniko igrat. Kaj ni lepše da je na Triglavu harmoniko igral, so vsaj drugi turisti v dolini in planinci v hribih slišali, da so med prijaznimi veseljaki v Sloveniji. Ne pa kakšen Parni valjak, ki si ga lahko na Triglavu z Akijem vred nekam vtekneš. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom832" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">4. 03. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zmeni se z njum pa naj tebi igra ,&#269;e ti je vše&#269;.Drugim dajte pa MIR.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom833" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">4. 03. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Matjažg,brati se nau&#269;i pa boš videl kaj piše od Parni valjaka.Dam gostu pred mano kar prav.Gliha u kup štriha.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom835" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">4. 03. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Neda mi miru da nebi še jaz dodal svoj komentar o muziki in veselja&#269;enju v hribih.Že dolgo let sem reden gost gora in nikoli ni bilo na poteh in stezeh videti raznih harmonik in trobent.To kar pa se danes togaja je pa že TUU MACH.&#268;lovek pomisli da mogo&#269;e gremo za Evropo. Pa grem na Glosglokner vendar o Sedejih ne duha ne sluha.&#268;e pa pogledam o preživetih ve&#269;erih po pl. ko&#269;ah ugotovim da je pred leti bilo zelo veselo.Skoraj nisi doživel ve&#269;era brez muzike v živo.Narod se je znal sprostit tam kot je treba.Poleti sem prespal pri Krnskih jezerih.Zve&#269;er nisi vedel ali si na pogrebu ali si naredi kaj narobe da noben ne govori z nobednim.Podobno sem doživel še dosti krat.Ne pravim da je tako povsod ,pravim da ne vemo ve&#269; kaj bi radi in se je folku za&#269;elo že trgat.Lep pozdav pravim planincem ki zjutraj vedo zakaj grejo GOR še posebej pozdrav turnim smu&#269;arjem.
+Jožko M.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1530" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">25. 07. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Z razliko od ve&#269;ine ostalih...Sedej, vso spoštovanje. Za 6 ur igranja moreš imet kondicije ko konj, verjetno dosti ve&#269; kot vsi ostali "planinci z dušo". So eni navadni bedaki ki mislijo da so gore ustvarjene samo za njih in njihov mir. V gorah delaš kar ho&#269;eš ker so od vseh in noben planinc nima ni&#269; za o&#269;itat &#269;e nekdo prinese v gore malo veselja da ni potrebno samo vaših navkov poslušat. &#268;e pa maš rad/a mir si raje za&#269;ni zvo&#269;no izolirat stanovanje. <img alt=jezen src=/slike/jezen.gif><img alt=jezen src=/slike/jezen.gif><img alt=jezen src=/slike/jezen.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1536" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">25. 07. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kaj &#269;e se vidva z Sedejem zmenita pa se zapreta  v eno mo&#269;no izolirano stanovanje in igrata kolikor dolgo in kolikor mo&#269;no želita.Bedak je tisti ,ki ne spoštuje narave,kali mir tudi živalim,ljudi pa posiljuje z hrupom.Ni res da v gorah lahko delaš kar ho&#269;eš.Kakšna naduta miselnost.Veselje v gorah se najde na druge na&#269;ine,sploh ne z6 urnim igranjem na harmoniko.Zato so veselice,kdor ima rad  hrup in harmoniko gre tja,ostali ljubitelji narave in lepega pa v gore.Tam je mir im mi smo le obiskovalci,zato moramo to upoštevati.Naukou pa ti ni treba poslušati,&#269;eprav bi ti kakšen kar prav prišel.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1537" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">25. 07. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Res se &#269;lovek &#269;udi,ko vidi kaj vse leze in se vali po naših gorah.<img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1680" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Da imajo ljudje kaj za počet', jim vržeš kost. Kost s harmoniko na Triglavu glodate že celo leto. Sedej ni imel namen kaliti mir, verjetno pa je tudi njegova druščina solidno uživala na Triglavu. Kar se kaljenja miru tiče, lahko rečem, da kot lovec opažam umikanje gamsa in kozoroga, da ne omenim divjega petelina, ki se umika v odročne mirne kraje, pogoji v teh predelih pa mu ne omogočajo razmnoževanja (sedaj boste lahko glodali kost o lovstvu, mimogrede, lovstvo ni nujno povezano samo s puško, temveč tudi s čim drugim...). Vzrok navedenemu ni harmonika, pač pa trume ljudi, gorski kolesarji in na splošno hrup civilizacije (mimogrede, imate kost o civiliziranem svetu in neciviliziranih lovcih). Poleg navedenega vsem priporočam kulturni obisk gora, tak obisk lahko pospremi tudi harmonika, ki pa jo noben strokovnjak celo pot na triglav po klinih ne more igrati. Še nekaj - smeti odnašajte v dolino, saj je to odraz vaše kulture in odraz pozitivne naravnanosti do narave. Da za konec pripomnim, tudi jaz igram harmoniko. Sedaj pa vaši komentarji, ki jih boste razpredali naslednje leto.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1687" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>No, pa za&#269;nimo glodat tole lovsko kost<img alt=nasmeh src=/slike/smile.gif><br> Verjamem, da lovce prizadene, &#269;e se živali umikajo v bolj nedostopne predele in se ne razmnožujejo tam, kjer jih lovci lahko dosežejo - saj je osnovni namen lovstva, torej ubijanje - s tem vsaj nekoliko "prizadet". In to me nadvse veseli, pred menoj (ki ne hodim s puško na ramah ali v rokah po gozdovih in hribih)se ne umikajo kaj dosti. <br> Pridiganje o naravovarstvenikih, ki naravo ob&#269;udujejo in varujejo s puško, pa kar opustite. &#268;e gre za varstvo narave, se vklju&#269;ite v kakšno društvo za zaš&#269;ito živali ali kakšno ekološko združenje.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1688" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_23" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_23" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>bolje na harmoniko,kot pa na violino.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_23" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_23" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1689" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_24" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_24" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>v slovenske gore s slovensko glasbo!!!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_24" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_24" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1690" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_25" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_25" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Avsenike na Goblek.Da bo ja dovolj hrupa.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_25" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_25" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1691" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_26" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_26" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se strinjam s slovensko glasbo, samo zelo verjetno je pisec pred mano prav dosti sploh ne pozna - &#269;e pa misli, da so slovenske narodne pesmi "žingali" na harmoniko, se pa hudo moti. Harmonika in tingl-tangl je mnogo poznejši izum alpskega predela Evrope in niti slu&#269;ajno ne slovenski (je pa res, da je Avsenik ta žanr pripeljal do perfekcije).</div>
+       
+       </div>
+    </td>
+    <td id="komD0_26" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_26" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1692" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_27" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_27" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Me je lovec nahrulil,kaj hodim mimo krmiš&#269;a in plašim divjad.On pa se je na krmiš&#269;e pripeljal z mopedom,ki je ropotal in delal hrup že deset minut preden je prišel tja.Jaz pa peš mirno in tiho,da bi videla kakšno žival.Vse samo na jeziku.In na puški seveda.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_27" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_27" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1696" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_28" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_28" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tudi lovci niso ve&#269; tisto,kar so v&#269;asih bili.Raubši&#269; je toliko ustrelil za v lonec,druga&#269;e je pa spošzoval natavo in žinali.Kaj pa danes?Denar ,denar in trofeje.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_28" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_28" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1699" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_29" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_29" class="komL"><a class="ime" href="/gornik/ranc/1064">ranc</a><span class="komDatum">13. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kako sem vesel da se take stvari dogajajo na poti na Triglav. Imamo vsaj eno goro na kateri se  lahko nekateri sproš&#269;ajo, drugot je bolj mir in bolj lepo,in tam sem jaz!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_29" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_29" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1709" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_30" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_30" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">14. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>He, he, a ti si bil tisti, ki sva si zadnji&#269; pomahala v daljavo, vsak s svojega vrha sosednjih gora, na katere ne vodijo markirane poti!<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif><img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_30" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_30" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1937" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_31" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_31" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">28. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni!<br> A se vam ne zdi, da bi bolj kot zgražanje nad harmonikarjem, sem spadalo kakšno mnenje o izletu?<br> Z družino bi šli radi po tej poti na Triglav, pa me zanima, kako je kaj zahtevna. Pa kakšno slikco s poti bi tudi lahko kdo poslal...<br> Lep planinski pozdrav - pa ne pozabite - razburjanje škodi zdravju!!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_31" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_31" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1938" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_32" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_32" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">28. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ja kaj pa manjka opisu poti in številnim fotografijam, ki so tu objavljene?<img alt=jezen src=/slike/jezen.gif><br> Tema, ki jo omenjaš, pa je bila kot lahko vidiš, že zaklju&#269;ena in res ne vidim razloga, zakaj jo poskušaš "obuditi od mrtvih".</div>
+       
+       </div>
+    </td>
+    <td id="komD0_32" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_32" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom1939" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_33" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_33" class="komL"><a class="ime" href="/gornik/tadej/11">Tadej</a><span class="komDatum">28. 08. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ko je gost vprašal za fotografije, teh še ni bilo. Objavljene so bile med obema komentarjema. Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_33" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_33" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2176" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_34" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_34" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zdaj je že skrajnji &#269;as, da nekdo odgovori na vprašanje glede zahtevnosti poti.. Ali je primerna tudi za otroke (do ko&#269;e na Doli&#269;u)? </div>
+       
+       </div>
+    </td>
+    <td id="komD0_34" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_34" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2177" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_35" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_35" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">13. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Minilo je že leto dni od Sedejevega podviga ( S harmoniko na Triglav).Spomini so lepi ,napor je pozabljen, podvig(rekord)ostaja in žge&#269;ka marsikaterega<br> Lp Tine</div>
+       
+       </div>
+    </td>
+    <td id="komD0_35" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_35" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2189" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_36" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_36" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">14. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Iz Zadnjice na Doli&#269; vodi tako imenovana mulatjera. Vseeno pa je treba biti previden, posebno, &#269;e so otroci preve&#269; "živahni". Kaj hitro zdrsne na šodru. &#268;e so v skupini otroci, kak kos vrvi v nahrbtniku ni nikoli odve&#269;. Je pa ta pot iz Zadnjice na Doli&#269; dolga. Za otroke je lepša in bolj primerna pot s Pokljuke na planino Konjš&#269;ico (v poletni sezoni se tu pase živa) in do tu na Velo polje, potem pa po Velski dolnini na Doli&#269;. Sre&#269;no!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_36" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_36" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2192" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_37" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_37" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">14. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vrv v nahrbtniku zelo malo koristi,samo malo ve&#269; teže nosimo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_37" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_37" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2198" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_38" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_38" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">14. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mogo&#269;e je mislil na "vzgajanje z vrvjo" med potjo.<img alt=zadrega src=/slike/redface.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_38" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_38" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2200" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_39" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_39" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">14. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mogo&#269;e bo pa psa privezal?<img alt=zadrega src=/slike/redface.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_39" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_39" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2201" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_40" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_40" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">14. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>o psih v hribih smo že razpravljali! Ne,prosim,spet!!!!!!!!!!!<img alt=zavijanje&nbsp;z&nbsp;o&#269;mi src=/slike/rolleyes.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_40" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_40" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2282" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_41" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_41" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">23. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ja hudi modeli ste vsi ki pišete te komentarje<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_41" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_41" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom2315" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_42" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_42" class="komL"><a class="ime" href="/gornik/gost/0">Gost</a><span class="komDatum">29. 09. 2007</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>sedmega septembra sem se odpravil iz zadnjice po komarjevi poti na doli&#269; in naprej na Triglav. Konec poti je bil takoj za škrbino proti vrhu. 1m snega. Nikjer nisem zapazil ali je šlo letos na vrh tistih 100 žensk? Razmere so bile slabe.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_42" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_42" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3247" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_43" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_43" class="komL"><a class="ime" href="/gornik/ana/1505">ana</a><span class="komDatum">14. 07. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pohvalila bi osebje v Tržaški ko&#269;i na Doli&#269;u,zelo prijazni so.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_43" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_43" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3282" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_44" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_44" class="komL"><a class="ime" href="/gornik/nickster/3729">Nickster</a><span class="komDatum">21. 07. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>sem nov tuki ampak ne se jezit &#269;e eno re&#269;em &#269;ez sadeja in harmoniko. GORE NISO ZA FINTIRANJE S HARMONIKO! LAHK TI SPODRSNE PAS<br> V RI*. TUDI DRUGE OGROŽAŠ!!!<br> <img alt=jezen src=/slike/jezen.gif><img alt=jezen src=/slike/jezen.gif><img alt=zmeden src=/slike/zmeden.gif><br> <br> Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_44" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_44" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5260" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_45" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_45" class="komL"><a class="ime" href="/gornik/petrusa/5616">petruša</a><span class="komDatum">23. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>10.8.2009 smo šli iz zadnjice &#269;ez Doli&#269; šli na Triglav. poleg mene in moža sta še šla otroka stara 9 in 10 let, pot je zelo lepa in tudi primerna za otroke. iz Zadnjice smo štartali ob 6.00, nazaj pa smo prišli isti dan ob 19.35, malo naporno ampak gre, otroci so bili zelo veseli, da so osvojili Triglav</div>
+       
+       </div>
+    </td>
+    <td id="komD0_45" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_45" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5310" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_46" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_46" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">26. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>petruša, si imela otroke navezane?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_46" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_46" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5327" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_47" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_47" class="komL"><a class="ime" href="/gornik/petrusa/5616">petruša</a><span class="komDatum">27. 08. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>sma imela otroke privezane z vrvjo, ker nikoli ne veš kaj se lahko zgodi</div>
+       
+       </div>
+    </td>
+    <td id="komD0_47" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_47" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6444" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_48" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_48" class="komL"><a class="ime" href="/gornik/maticmrva/6920">MaticMrva</a><span class="komDatum">23. 03. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Prav smešni ste z nekatirimi komentarji. Se pa strinjam z tistimi, ki za tako pravite da bi jo prehodili v miru in tišini - ne se hecat. Še nekaj let pa bo na triglav Trola vozila. Za mir in tišino je veliko lepših, predvsem pa bolj mirnih poti. Glede harmonike, ta inštrument res ni za v hribe, oz katerikoli inštrument. &#268;e pa izuzamemo da je harmonika nacionalni ponos, da je Triglav nacionalni ponos in da smo mi ponosni na bagostvo Slovenije, jo je bilo pa na vrhu verjetno zelo lepo slišat....<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_48" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_48" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6445" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_49" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_49" class="komL"><a class="ime" href="/gornik/igorzlodej/6423">IgorZlodej</a><span class="komDatum">24. 03. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Odvisno kdaj greš gor. Jaz sem bil vsaj 100 krat na poti Zadnjica - Doli&#269; - Triglav oz. Zadnjica - Luknja - Triglav povsem sam in nisem nikogar sre&#269;al, ali pa le enega, dva. Tako, da se tudi tam najde še veliko tišine in pristnega miru.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_49" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_49" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6446" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_50" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_50" class="komL"><a class="ime" href="/gornik/turbo/1959">turbo</a><span class="komDatum">24. 03. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ali pa greš, &#269;e si hitrih nog, iz Zadnjice prvo na sedlo (preval) &#268;ez Dol pod Zadnjiškim Ozebnikom, od tam na Prehodavce in po policah pod Kanjavcem na Doli&#269;. Vse do Doli&#269;a, z izjemo ko&#269;e na Prehodavcih, ne bo nobene gužve. Potem pa iz Doli&#269;a gor in dol, sestop v Zadnjico pa &#269;ez Komar. Pa imaš veleturo brez bojazni pred gne&#269;o !!!<br> In nobene trole in harmonike <img alt=cool src=/slike/cool.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_50" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_50" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6938" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_51" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_51" class="komL"><a class="ime" href="/gornik/trinity/2612">trinity</a><span class="komDatum">9. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo, mogo&#269;e kakšne sveže informacije...koliko je še kaj snega??<br> LP</div>
+       
+       </div>
+    </td>
+    <td id="komD0_51" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_51" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6940" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_52" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_52" class="komL"><a class="ime" href="/gornik/turbo/1959">turbo</a><span class="komDatum">9. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sveža informacija iz druge roke: snega je še . . . . ravno prav !   <img alt=zmeden src=/slike/zmeden.gif><br> <br> PBZ  (pa brez zamere)</div>
+       
+       </div>
+    </td>
+    <td id="komD0_52" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_52" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6952" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_53" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_53" class="komL"><a class="ime" href="/gornik/trinity/2612">trinity</a><span class="komDatum">9. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sej vem, da je to mal butasto vprašanje....in ni mi težko s sabo vzet derez in cepina. Ampak z nama gre najin mali sinko...in so ture prilagojene njemu. &#268;e je še dosti snega se bomo raje odpravili avgusta.... <img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_53" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_53" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6953" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_54" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_54" class="komL"><a class="ime" href="/gornik/trinity/2612">trinity</a><span class="komDatum">10. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sem vdila slike...in kot zgleda je snega res ravno prav.....hehehehe<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_54" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_54" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6958" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_55" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_55" class="komL"><a class="ime" href="/gornik/spotonbody/6970">spotonbody</a><span class="komDatum">10. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>tudi mene zanimajo razmere ravno iz izhodiš&#269;a Zadnjice na okoliške ''hrib&#269;ke''  kriški podi...in naprej, koliko je še kaj snega približno, glede na to, da je v Julijcih snežilo še prejšnji mesec ...<img alt=nasmeh src=/slike/smile.gif><br> @trinity: katere slike? <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_55" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_55" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6959" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_56" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_56" class="komL"><a class="ime" href="/gornik/spotonbody/6970">spotonbody</a><span class="komDatum">10. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>že našla slikce, vse jasno! mal bomo še po&#269;akal z najvišjimi hrib&#269;ki <img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_56" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_56" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6970" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_57" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_57" class="komL"><a class="ime" href="/gornik/dj12/3394">dj12</a><span class="komDatum">10. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kje so slike - kjer je snega še.....ravno prav...<img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_57" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_57" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom6972" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_58" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_58" class="komL"><a class="ime" href="/gornik/spotonbody/6970">spotonbody</a><span class="komDatum">10. 06. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><a target=# class=moder href="http://www.hribi.net/trenutnerazmere.asp?slo=1&gorovjeid=1&id=660">http://www.hribi.net/trenutnerazmere.asp?slo=1&gorovjeid=1&id=660</a><br> <br> pa poscrolej dol do datuma 5.6.2010 <img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_58" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_58" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7225" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_59" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_59" class="komL"><a class="ime" href="/gornik/lencka/7463">lencka</a><span class="komDatum">9. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>jutri se odpravljamo &#269;ez Prehodavce na Kanjavec, potem na Doli&#269;.Koliko je še snega?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_59" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_59" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7226" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_60" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_60" class="komL"><a class="ime" href="/gornik/lencka/7463">lencka</a><span class="komDatum">9. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>šli bi v nedeljo naprej še na Triglav. &#268;e ima kdo bolj svežo info o stanju poti in predvsem snega naj mi prosim sporo&#269;i.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_60" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_60" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+</div>
+
+
+<div id="kom7227" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_61" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_61" class="komL"><a class="ime" href="/gornik/funnyboy/7422">funnyboy</a><span class="komDatum">9. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>s Prehodavcev na Kanjavec so snežiš&#269;a a nenevarna. Z vrha proti Doli&#269;u mi nismo šli ker so nam povedali da so nevarna snežiš&#269;a. Med sestopom z Doli&#269;a proti Zadnjici pa so 3 snežiš&#269;a. Potrebna previdnost! Mi nismo imeli cepinov pa je šlo ok.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_61" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_61" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7228" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_62" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_62" class="komL"><a class="ime" href="/gornik/lencka/7463">lencka</a><span class="komDatum">9. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala,funnyboy!<br> Tudi mi nimamo cepinov, niti derez. V visokogorje se odpravimo le v poletnih mesecih, letos pa je zima bila res dolga. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_62" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_62" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7649" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_63" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_63" class="komL"><a class="ime" href="/gornik/mizuno/7811">mizuno</a><span class="komDatum">13. 08. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>nameravamo prehoditi pot iz doli&#269;a na triglav prosim za natan&#269;en opis poti &#269;e kdo pozna.<br> <br> P.S. ali je pot primerna tudi za otroke.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_63" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_63" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7660" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_64" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_64" class="komL"><a class="ime" href="/gornik/igorzlodej/6423">IgorZlodej</a><span class="komDatum">13. 08. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>101 in enkrat opisano, malo poklikaj. Seveda pa je preko stene oz. &#269;ez Triglavsko škrbino potrebno ob varovalih. Pot s te strani sicer velja za najlažjo na Triglav, kar pa je subjektiven pogled. &#268;e otroci niso vajeni hoje na zavarovanih poteh bodo seveda imeli veliko težav, lahko se zgodi, da bo že na prvih metrih vzpona konec, ker sta dve izpostzavljeni pre&#269;ki. Vsekakor pa se priporo&#269;a ustrezno varovanje otrok na vrvi, zaradi možnega padajo&#269;ega kamenja pa tudi uporaba &#269;elade.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_64" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_64" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12658" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_65" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_65" class="komL"><a class="ime" href="/gornik/jany1980/5910">jany1980</a><span class="komDatum">4. 01. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><img alt=eek src=/slike/eek.gif><br> Berem komentarje....<br> Me zanima kako bi komentirali ,&#269;e bi pokojni .g. Slak 10 ur igral na vrhu Triglava....<br> Naj bo meh simbol slovenske glasbe, ne pa tisti,ki jih moti!<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_65" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_65" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12659" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_66" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_66" class="komL"><a class="ime" href="/gornik/ivona/8544">ivona</a><span class="komDatum">4. 01. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>O &#269;em ti to govoriš Jany...??<img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_66" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_66" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12660" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_67" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_67" class="komL"><a class="ime" href="/gornik/gregorc/5757">GregorC</a><span class="komDatum">4. 01. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>O prvem komentarju v temi...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_67" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_67" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12662" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_68" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_68" class="komL"><a class="ime" href="/gornik/ivona/8544">ivona</a><span class="komDatum">4. 01. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ups ,res nisem bila pozorna na skoraj pet let stare komentarje<img alt=zadrega src=/slike/redface.gif><img alt=zadrega src=/slike/redface.gif><br> Sem pa tudi sama naletela na nekaj takih fešt s harmonikami in podobno v naših ko&#269;ah in si ne želim ve&#269;...<img alt=mrk&nbsp;pogled src=/slike/mrk.gif><img alt=mrk&nbsp;pogled src=/slike/mrk.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_68" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_68" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12666" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_69" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_69" class="komL"><a class="ime" href="/gornik/jany1980/5910">jany1980</a><span class="komDatum">5. 01. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Odvisno od posameznika.<br> Jaz osebno raje slišim v gorah zvok harmonike kot pa moderne ritme....<br> kakor za koga<img alt=cool src=/slike/cool.gif><br> Pa ravno slovenci,ki jim je "baje" harmonika doma&#269; inštrument se tukaj bunijo....</div>
+       
+       </div>
+    </td>
+    <td id="komD0_69" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_69" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12667" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_70" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_70" class="komL"><a class="ime" href="/gornik/turbo/1959">turbo</a><span class="komDatum">5. 01. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vsak hrup v gorah je nadležen. Enako tisti, ki ga povzro&#269;ajo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_70" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_70" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12668" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_71" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_71" class="komL"><a class="ime" href="/gornik/igorzlodej/6423">IgorZlodej</a><span class="komDatum">5. 01. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>@turbo se popolnoma strinjam. Konec koncev v gore hodimo po mir, tišino, pti&#269;je petje, son&#269;ne vzhode in zahode, ki so najlepši ravno ob &#269;asu ko zaigra tišina. Vsega ostalega imamo &#269;ez glavo v dolini. No vedno se žal tudi harmoniki ne moremo izogniti in &#269;e je fletna punca v bližini se bi stari kozli še zavrteli<img alt=nasmeh src=/slike/smile.gif>.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_71" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_71" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom12679" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_72" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_72" class="komL"><a class="ime" href="/gornik/planika50/7446">planika50</a><span class="komDatum">7. 01. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Naši Slovenski harmoniki so resni&#269;no odprta vsa vrata in marsikje je dobrodošel del vzdušja v druženju in kakšno prijetno igranje na planinski ko&#269;i verjetno ne škodi nikomur. Mir,tišina in vse ostalo kar nekako sodi zraven v gorovju in po kar radi zahajamo v ta pre&#269;udoviti svet se je enostavno z leti in na&#269;inom tehnološkega življenja spremenilo. Danes vidimo v gorovju marsikaj, kar tja enostavno ne sodi in vse premalo izobraževanja v smislu gibanja in bontona v gorah. Morda smernica nekaterih komentarjev na tem portalu, ki je enostavno namenjen informacijam in prijetnim doživetjem in izkušnjam gornikov oz. planincev. Nekdo zastavi malce nerodno vprašanje, ekstremno misel v gibanju in potem se za&#269;nejo tipi&#269;no negativni komentarji. <img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif><img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_72" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_72" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom13012" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_73" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_73" class="komL"><a class="ime" href="/gornik/pohodnica56/8538">Pohodnica56</a><span class="komDatum">23. 02. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Saj res, da je že mesec in ve&#269; mimo, pravzaprav že nekaj let o tej "strahoti" harmoniki, pa bom vseeno malce prilila na ogenj. Zakaj pri vragu nikogar ne moti, ko v ko&#269;ah igra "strahota" harmonika in nih&#269;e ne ropota, da je mote&#269;e. In ko vsi povprek glasno zahtevajo svoje zasluženo pivo, a to ni mote&#269;e.... in še kaj bi se našlo. Par akordov je grozodejstvo. Bodimo malo manj egoisti&#269;ni in negativni, vsak lahko najde koti&#269;ek miru in tišine.  </div>
+       
+       </div>
+    </td>
+    <td id="komD0_73" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_73" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14069" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_74" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_74" class="komL"><a class="ime" href="/gornik/lara8/12291">Lara8</a><span class="komDatum">24. 06. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ta petek se odpravljamo na Triglav. Gor bi šli iz Rudnega polja, dol pa &#269;ez Doli&#269;. A morda ve, kakšne so trenutne razmere na Triglavu? Sneg, pa tako? In kakšni sta obe poti? Hvala!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_74" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_74" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14416" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_75" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_75" class="komL"><a class="ime" href="/gornik/joza_x/3493">joža x</a><span class="komDatum">22. 07. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tiste,ki imajo radi harmoniko motijo "planinci"ki lomastijo po brezpotjih,tiste ki imajo radi turno smuko motijo motorne sani,pravoverne planince motijo turisti v hribih,lovce (tudi mene)motijo psi v hribih,tiste ta mirne motijo veseljaki.....Ja vsak vidi drugega,zato kako pa  sam vpliva na naravo in moti druge,ga boli .......   </div>
+       
+       </div>
+    </td>
+    <td id="komD0_75" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_75" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14417" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_76" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_76" class="komL"><a class="ime" href="/gornik/alpski_slovenc/9833">Alpski Slovenc</a><span class="komDatum">22. 07. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni. Od zadnjega pisanja tu gor na hribi.net sva z mojo prehodila in  osvojila kar nekaj vrhov. Dvodnevno turo sva za&#269;ela popoldne po 16 uri iz Zadnjice. Po štirih urah hoje po mulatjeri sva na Doli&#269;u v Tržaški ko&#269;i prespala (osebje zelo prijazno, cene za naše razmere precej navite, mislim, da najbolj tam naokoli) in se naslednje jutro podala na Triglav. Od ko&#269;e na Doli&#269;u sva pot nadaljevala levo in se vzpenjala po mulatjeri. Po 45 minutah hoje se pot zravna in pred seboj lepo vidiva najin cilj Triglav. Naprej hodiva v smeri Triglava po podih, mimo Lojzeta, nadaljujeva do razpotja, kjer se priklju&#269;i pot s Plemenic. Nadaljujeva desno po meliš&#269;u navzgor vse do stene in naprej s pomo&#269;jo varoval se pre&#269;no vzpneva do Triglavske škrbine (tu se priklju&#269;i pot iz Planike). Nadaljujeva levo navzgor po strmi dobro zavarovani poti (takoj na za&#269;etku cca 100 vzpona sta dva majava klina eden je ve&#269;ji, drugi manjši, ki bi jo bilo potrebno pritrditi). Vse do vrha po pobo&#269;ju Triglava piha v posameznih sunkih mo&#269;an veter, ki žene meglice iz doline Trente. Iz smeri Kredarice proti vrhu in obratno je bilo lepo videti precej prometa. Na vrha nas najprej pozdravi megla. Kmalu za nekaj minut izgine in naredim fotke na vse strani. Po enournem po&#269;itku in obveznem krstu moje žene, ki je na ta dan praznovala svoj rojstni dan se po&#269;asi po grebenu Triglava spustiva proti Doli&#269;u in naprej proti Zadnjici v Trento.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_76" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_76" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom14830" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_77" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_77" class="komL"><a class="ime" href="/gornik/tiasha/12002">tiasha</a><span class="komDatum">14. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Veliko lepše bi bilo, &#269;e bi se vsi nehali obremenjevati o takih brezveznih stvareh in rajši zaužili moment, da uživaš v vsakem danem trenutku, ki ti je dan. Ne pa de se vsi po prek ''kregajo'' o harmonki. Ja ne se hecat no!<img alt=zmeden src=/slike/zmeden.gif><br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_77" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_77" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom17547" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_78" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_78" class="komL"><a class="ime" href="/gornik/svoboda/11788">Svoboda</a><span class="komDatum">28. 07. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lep planinski pozdrav. Na za&#269;etku tedna se odpravljamo po tej poti. Ali morda kdo ve, kakšne so trenutne razmere na poti, kakšne posebnosti?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_78" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_78" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom18601" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_79" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_79" class="komL"><a class="ime" href="/gornik/tindi/15315">tindi</a><span class="komDatum">27. 09. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Mene pa zanima, &#269;e kdo ve, kako dolga je pot od Zadnjice &#269;ez Doli&#269; do Triglava? Hvala za odgovor! LP T</div>
+       
+       </div>
+    </td>
+    <td id="komD0_79" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_79" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom18602" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_80" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_80" class="komL"><a class="ime" href="/gornik/igorzlodej/6423">IgorZlodej</a><span class="komDatum">27. 09. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V km ne vem, &#269;eprav sem jo že ve&#269; kot 300 krat prehodil, &#269;asovno mora pa vsak sam ugotoviti, kolikor se spomnim 3 ure in pol nazadnje.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_80" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_80" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom18608" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_81" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_81" class="komL"><a class="ime" href="/gornik/joza_x/3493">joža x</a><span class="komDatum">27. 09. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na vrhu strani vse piše,razen km,za tiste,ki gredo z kolesom.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_81" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_81" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom18609" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_82" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_82" class="komL"><a class="ime" href="/gornik/bruny/6407">bruny</a><span class="komDatum">27. 09. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kilometrov bi naj bilo slabih 10 - <img alt=mežikanje src=/slike/wink.gif>, bolj natan&#269;no 9735 metrov ,  pozitivnih višincev 2372 in negativnih 220.Lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_82" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_82" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom18610" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_83" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_83" class="komL"><a class="ime" href="/gornik/ben/2802">ben</a><span class="komDatum">27. 09. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kje ji pa 220 na dol nadelaš? <img alt=zmeden src=/slike/zmeden.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_83" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_83" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20435" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_84" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_84" class="komL"><a class="ime" href="/gornik/matic25/9045">Matic25</a><span class="komDatum">29. 07. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kako pa je s snežiš&#269;i trenutno po tej smeri?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_84" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_84" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20436" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_85" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_85" class="komL"><a class="ime" href="/gornik/ajax/3168">ajax</a><span class="komDatum">29. 07. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ml&#269;k se potrudi,pa boš vidu.<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_85" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_85" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom22906" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_86" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_86" class="komL"><a class="ime" href="/gornik/lucylucy/18112">lucylucy</a><span class="komDatum">18. 08. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tudi jaz sem obiskala dolino Zadnjico in slap.<br> Še najbolj pa sem bila presene&#269;ena nad radarji,ki so na avtomobile dajali listke vsem tistim,ki niso svojega jeklenega konji&#269;ka pravilno parkirali in spregledali znak.Torej,ko se pripeljete v dolino Zadnjico in ko boste videli parkirni prostor parkirajte,&#269;e no&#269;ete dobiti listka.<img alt=jezen src=/slike/jezen.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_86" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_86" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23099" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_87" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_87" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">1. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tudi jaz sem dobila listek in vsi ,ki smo tisti dan parkirali pri rampi.Potem sem puš&#269;ala avto na spodnjem parkiriš&#269;u.Znak ,da ne smeš parkirat pri rampi ,je potem izginil, Zdaj ga vsaj nisem videla.Se najbolj vle&#269;e prav tisti zadnji del poti, pri sestopu .</div>
+       
+       </div>
+    </td>
+    <td id="komD0_87" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_87" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24134" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_88" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_88" class="komL"><a class="ime" href="/gornik/planika77/8419">planika77</a><span class="komDatum">18. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zanima me, katera je najlažja pot na Triglav oz. najbolj primerna za vrtoglave (ne preve&#269; vrtoglave, pa vendar, malce <img alt=mežikanje src=/slike/wink.gif> ) Ali je najprimernejša ta z Zadnjice &#269;ez Doli&#269;, ali s Krme &#269;ez Planiko oziroma s Pokljuke &#269;ez Planiko? Katero priporo&#269;ate? Hvala vsem že vnaprej! <img alt=nasmeh src=/slike/smile.gif> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_88" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_88" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24135" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_89" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_89" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">18. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Odvisno od kje si?   Zame je najlažja ta s Primorske strani iz Zadnjice do Doli&#269;a. Ni prav ni&#269; prepadna.Le kondicijo je treba imet.<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_89" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_89" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24136" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_90" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_90" class="komL"><a class="ime" href="/gornik/planika77/8419">planika77</a><span class="komDatum">18. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>O, kondicije imam za izvoz <img alt=nasmeh src=/slike/smile.gif> pa tudi zajl se nasplošno ne bojim, dokler imaš kam stopiti <img alt=nasmeh src=/slike/smile.gif> edino ne maram preve&#269; izpostavljenih/zra&#269;nih delov...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_90" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_90" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24137" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_91" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_91" class="komL"><a class="ime" href="/gornik/tropine/11055">tropine</a><span class="komDatum">18. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Obe  iz Pokljuke in krme sta  varni in niso nevarne.<br> Jaz osebno bi izbral iz Pokljuke.Moje priporo&#269;ilo pa je pot iz planine blato nad sedmerimi DOLI&#268;-PLANIKA -TRIGLAV,zelo lepa tura.l.p.in varen korak<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_91" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_91" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24138" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_92" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_92" class="komL"><a class="ime" href="/gornik/jax/10621">jax</a><span class="komDatum">18. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Oh, ne za božjo voljo, nikar s Pokljuke! Tisto je pa najboljši recept, da ne greš ve&#269; nikoli v hribe. Stvar se vle&#269;e kot kurja &#269;reva in sploh sestopa zlepa ne boš pozabila ... Od naštetih bi ti najbolj priporo&#269;al Zadnjico, sicer pa razmisli še o Kotu.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_92" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_92" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24139" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_93" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_93" class="komL"><a class="ime" href="/gornik/zippo/5267">zippo</a><span class="komDatum">19. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Po eni ali drugi, saj bistvene razlike ni. Bolj pomembno da izbereš pravi &#269;as, da nebi šla že zdaj za prvomajske gor rint!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_93" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_93" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24140" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_94" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_94" class="komL"><a class="ime" href="/gornik/redbull/11582">redbull</a><span class="komDatum">19. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za prvomajske raje ne , zna bit guzva<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif>. Verjetno si to mislil zippo</div>
+       
+       </div>
+    </td>
+    <td id="komD0_94" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_94" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24141" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_95" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_95" class="komL"><a class="ime" href="/gornik/zippo/5267">zippo</a><span class="komDatum">19. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>to si ti mislil brihta</div>
+       
+       </div>
+    </td>
+    <td id="komD0_95" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_95" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24142" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_96" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_96" class="komL"><a class="ime" href="/gornik/ajax/3168">ajax</a><span class="komDatum">19. 04. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>iz Zadnjice</div>
+       
+       </div>
+    </td>
+    <td id="komD0_96" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_96" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26554" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_97" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_97" class="komL"><a class="ime" href="/gornik/vanya/16329">vanya</a><span class="komDatum">3. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni!Tudi mene zanima katera je najlažja pot na Triglav oz. najbolj primerna za vrtoglave (ne preve&#269; vrtoglave, pa vendar, malce mežikanje ) Ali je najprimernejša ta z Zadnjice &#269;ez Doli&#269;, ali s Krme &#269;ez Planiko oziroma s Pokljuke &#269;ez Planiko? Katero priporo&#269;ate?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_97" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_97" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26555" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_98" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_98" class="komL"><a class="ime" href="/gornik/locanka/4176">ločanka</a><span class="komDatum">3. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za vrtoglave nobena ni primerna<img alt=nasmeh src=/slike/smile.gif>.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_98" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_98" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26556" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_99" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_99" class="komL"><a class="ime" href="/gornik/smatjaz/14213">smatjaz</a><span class="komDatum">3. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Najbolj "humana" je iz Doline Krme do Planike, potem se pa za vrtoglave pot zaklju&#269;i.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_99" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_99" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26559" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_100" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_100" class="komL"><a class="ime" href="/gornik/korl/10468">korl</a><span class="komDatum">3. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>vanya, ti govoriš o dostopih do Triglava, ne glede ali kreneš s Pokluke, Krme ali Zadnjice, te poti pripeljejo le do podnožja vršnega dela, naprej pa je od vseh strani prepadno in s pomo&#269;jo klinov...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_100" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_100" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom26567" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_101" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_101" class="komL"><a class="ime" href="/gornik/hribuc85/7455">hribuc85</a><span class="komDatum">4. 07. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Za vzpon na Triglav se mi zdi po navedenem sode&#269; najbolj primerna pot z Doli&#269;a, ki gre na za&#269;etku po mulatjeri. To predvsem zato, ker ni potrebno preko Pasjega grebena med Malim in Velikim Triglavom. Pot se mi ne zdi tako izpostavljena. Bi pa priporo&#269;al kakšen manjši "trening" vrh pred vzponom na Triglav, kjer bi omilili ali odpravili vrtoglavico. Poga&#269;nikova na Šmarno Goro ali pa Furlanova na Gradiško Turo,...To so krajše poti, kjer se postavi "diagnoza" za visokogorje<img alt=nasmeh src=/slike/smile.gif>. Ampak to je samo moje lai&#269;no mnenje. <br> <br> Sre&#269;no!<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_101" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_101" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom31994" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_102" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_102" class="komL"><a class="ime" href="/gornik/ejas1234/4772">ejas1234</a><span class="komDatum">1. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni.<br> Kako je kaj s potjo na Triglav z Doli&#269;a.<br> Ali se v zadnjem delu rabi &#269;elado in varovalni pas.<br> hvala za odgovor.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_102" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_102" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32348" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_103" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_103" class="komL"><a class="ime" href="/gornik/sammer_/24854">Sammer </a><span class="komDatum">13. 09. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sem bil v&#269;eraj 12.9.na tej poti in priporo&#269;am samovarovalni komplet ter obvezno &#269;elado. Po tej strani ni gužve. Ni za vrtoglave. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_103" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_103" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32349" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_104" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_104" class="komL"><a class="ime" href="/gornik/trdi/9861">trdi</a><span class="komDatum">13. 09. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Res je, tudi ta pot ni za vrtoglave. &#268;e kdo misli, da se bo s potjo iz Doli&#269;a izognil vrtoglavemu grebenu med Malim in Velikim Triglavom, opozarjam, da je kmalu po vstopu v steno parmetrski zelo izpostavljen del, kjer stopiš na skobo, vklesano v sklalo, pod njo pa prepad. Ta del je glede izpostavljenosti težji kot karkoli na grebenu med Triglavoma. Druga&#269;e pa razen tega in za&#269;etnega vstopa s klini pot ni posebej zahtevna. Je pa kar zahtevna za vra&#269;anje, tako da priporo&#269;am sestop na Planiko in potem vrnitev do Doli&#269;a od Planike. Ta pot je izredno lepa.<br> <br> Bi pa pokomentiral še dostop do Doli&#269;a. Plezalna pot &#269;ez Komar je izredno lepa, dve jeklenici sta potrebni popravila, par klinov je majavih. Ne zastopim pa, zakaj odcep za Komar spodaj v dolini ni ozna&#269;en. Kot da bi to pot skrivali, še možic pri odcepu je bil podrt pa sem ga popravil. Ob vra&#269;anju iz Doli&#269;a v Zadnjico po "lahki" mulatjeri pa bi sam osebno to pot ozna&#269;il kot delno zahtevno, saj je v zgornjem delu malo izpostavljena, potrebna sanacije pa sta dva manjša meliš&#269;nata podora, ki sta kar nevarna za pre&#269;enje.<br> <br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_104" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_104" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33481" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_105" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_105" class="komL"><a class="ime" href="/gornik/matija96/25920">matija96</a><span class="komDatum">11. 07. 2021 22:11:36</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo, ali morda kdo ve, ali je pot Triglav-Dolič že prehodna oz. ali je še potrebna zimska oprema? Hvala in lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_105" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_105" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom33602" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_106" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_106" class="komL"><a class="ime" href="/gornik/nortg/20063">Nortg</a><span class="komDatum">30. 07. 2021 10:46:03</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot je prehodna brez zimske opreme. Pod kočo na doliču je še nekaj snega vendar ne povzroča nobenih težav in zimska oprema ni potrebna, priporočam samo pohodne palice. lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_106" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_106" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34437" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_107" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_107" class="komL"><a class="ime" href="/gornik/jupenima/25426">jupenima</a><span class="komDatum">28. 03. 2022 12:46:42</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pozdravljeni,<br> <br> ali gre pot mimo (ali blizu) ruševin Triglavske gorske vojašnice (kralja) Vittoria Emanuela tretjega (oziroma Morbegne, kot se baje napačno imenuje) ?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_107" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_107" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34439" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_108" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_108" class="komL"><a class="ime" href="/gornik/bongo/6681">bongo</a><span class="komDatum">28. 03. 2022 18:48:16</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo, zgornja gre, drži se leve poti oziroma mulatjere, ki gre proti vrhu Glava v Zaplanji. Razcep je kakšno uro od Doliča, po moje ne moreš zgrešit, če pa že, se lahko vrneš pri razcepu za čez Plemenice in vrh. Boš pa nad videnim najbrž razočaran.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_108" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_108" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom34440" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_109" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_109" class="komL"><a class="ime" href="/gornik/jupenima/25426">jupenima</a><span class="komDatum">29. 03. 2022 09:41:47</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala za odgovor, mogoče skočim pogledati.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_109" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_109" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom36694" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_110" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_110" class="komL"><a class="ime" href="/gornik/darinka4/17259">darinka4</a><span class="komDatum">21. 08. 2023 05:55:50</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Bila sva vceraj z Maksijem. Cudovit nedeljski dan. Vso pot sva hodila v senci. Pohodnikov s te strani niti ni bilo veliko. Tudi na vrhu ni bilo tiste avgustovske gnece. Pa se veter je hladil', kot so napovedali. Sestpila sva po poti vzpona. Se ustavila pri Justi in Vinkotu.Kar nekaj vozil na parkirnem v Zadnjici je imelo nalepljeno sporocilo redarstva na sipi. Kar mi je pravila pohodnica lahko z bancno kartico placas parkirnino. Sicer zelo malo vozil parkiranih za nedeljo.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_110" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_110" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(111);
+    });
+    abc(111);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,1623 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Lengar - Rutarski Vršič</title>
+        <meta name="description" content="Natančen opis izleta Lengar - Rutarski Vršič. Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/lengar_rutarski_vrsic/1/1380/2310" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/lengar_rutarski_vrsic/1/1380/2310"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=1380&potid=2310"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/rutarski_vrsic/1/1380">Rutarski Vršič</a> / Lengar - Rutarski Vršič
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(2310);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Lengar - Rutarski Vršič</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=2310';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Lengar (699 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;28,7700'N&nbsp;/&nbsp;13°&nbsp;52,1760'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;28'&nbsp;46,20''N&nbsp;/&nbsp;13°&nbsp;52'&nbsp;10,56''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,4795°N&nbsp;/&nbsp;13,8696°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.4795,&nbsp;13.8696";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,4795°N&nbsp;13,8696°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(2310,46.4795,13.8696);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.4795,13.8696"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/rutarski_vrsic/1/1380">Rutarski Vršič (1699 m)</a></div>
+    
+    <div class="g2"><b>Čas hoje:</b> 3 h</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> delno zahtevna neoznačena pot, lahko brezpotje</div>
+    <div class="g2"><b>Višinska razlika:</b> 1000 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1000 m</div>
+    <div class="g2"><b>Zemljevid:</b> Kranjska Gora 1:30.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> dereze, cepin</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 11.140</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">43</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">20</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Iz Kranjske Gore se peljemo proti Jesenicam. Že kmalu za vasjo Gozd - Martuljek, pa bomo na desni strani opazili star železniški most (danes kolesarska steza) in ob njem urejeno parkirišče. <br>Če pridemo iz smeri Jesenic, ne moremo priti na omenjeno izhodišče, saj ne smemo zaviti levo. Zato se moramo prav tako zapeljati do Gozd - Martuljka (lahko tudi nekoliko prej) tam obrnemo in se nato peljemo v smeri Jesenic. Naprej sledi zgornjemu opisu.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />S parkirišča stopimo na kolesarsko stezo, prečimo železniški most in nato v križišču nadaljujemo desno. Po nekaj korakih hoje po makadamski cesti, bomo prišli do križišča pri tabli TNP. Tu nadaljujemo desno po slabši gozdni cesti, ki nas po nekaj minutah hoje pripelje do mogočnega hudournika. Prečimo hudournik, nato pa stopimo v kratek pas gozda, kjer spet izsledimo gozdno cesto. Cesti sledimo nekaj 10 korakov, nato pa nas ta pripelje do drugega hudournika. Tu se cesta dokončno konča, mi pa se usmerimo rahlo levo čez obsežna prodišča, tako da hodimo ob desnem robu hudournika (gledano od spodaj navzgor). Po nekaj minutah hoje, bomo na desni strani hudournika opazili gozdno stezico (na začetku poti je običajno možic), ki se sprva vzpne ob hudourniku, nato pa zavije v desno. Naprej se vzpenjamo po široki in lepo sledljivi lovski poti, ki nas po krajšem vzponu pripelje do manjšega razgledišča.<br> Tu pot zavije nekoliko v desno in se naprej v rahlem vzponu prečno vzpenja. Po nekaj minutah prečenja, pridemo na deloma označeno razpotje, kjer nadaljujemo naravnost po spodnji poti (ostro desno planina Zaprete in Ingotova brunarica), ki le nekaj korakov naprej preči strm in za zdrs nevaren hudournik. Ko prekoračimo omenjeni hudournik, se pot vse bolj približuje Belemu potoku. Med nadaljnjim vzponom vse bolj slišimo bučanje slapov Belega potoka (Skočniki), katerim se nekoliko višje povsem približamo (če stopimo nekaj metrov s poti v levo lahko tudi opazimo dva slapova, ki strmo padata v zaporedna tolmuna - nevarnost zdrsa!). Le nekoliko naprej pa nas pot pripelje nad Skočnike, tako da si lahko zgornji slap ogledamo tudi z njegovega ustja.<br>Tu pot zavije ostro desno mimo stare klopi in se naprej prične zmerno vzpenjati skozi gozd. Dobro sledljivi lovski poti sledimo še približno 20 minut, nato pa le to zapustimo in vzpon nadaljujemo levo po lažjem brezpotnem svetu. Med vzponom po brezpotnem svetu, bomo sem ter tja opazili slabše uhojeno stezico in nekaj manjših možicev. Višje nas "pot" pripelje do manjših melišč, kjer le ta postane nekoliko lažje sledljiva. Naprej se strmo vzpnemo čez omenjeno melišče, nato pa preidemo v pas grmičevja, kjer je pot lepo sledljiva, ne pa tudi prehodna. Ko se prebijemo skozi pas grmičevja ponovno stopimo na melišče, mi pa mu sledimo do manjšega sedelca, kjer je neoznačeno razpotje. Nadaljujemo desno (levo razgledna točka na ostenja Martuljških gora - 20 minut, naravnost navzdol krnica Za Akom) in po nezahtevni grebenski poti v nekaj minutah nadaljnje hoje prispemo na vrh Rutarskega Vršiča.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/rutarski_vrsic/1380"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Rutarski Vršič"></a></div>
+
+
+
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/lengar/46.4795/13.8696">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/lengar_rutarski_vrsic/2310">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=1380">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=1380">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57473" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57473');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220303894240.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57474" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57474');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220294894240.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57475" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57475');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220288894240.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57476" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57476');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220285894240.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57477" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57477');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220282894240.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57478" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57478');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220279894240.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57479" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57479');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220278894240.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57480" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57480');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220270894240.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57481" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57481');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220266894240.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57482" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57482');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202631061910.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57483" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57483');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202621061910.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57484" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57484');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202611061910.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57485" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57485');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202601061910.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57486" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57486');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202551061910.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57487" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57487');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202541061910.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57488" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57488');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202521061910.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57489" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57489');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202481061910.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57490" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57490');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202441061910.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57491" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57491');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202411257525.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57492" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57492');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202391257525.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57493" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57493');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202361257525.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57494" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57494');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202351257525.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57495" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57495');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202241257525.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57496" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57496');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202191257525.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57497" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57497');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202081257525.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57498" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57498');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202071257525.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57499" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57499');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202041257525.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57500" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57500');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92202031397250.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57501" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57501');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92201961397250.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57502" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57502');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92201941397250.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57503" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57503');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92201871397250.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57504" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57504');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92201851397250.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57505" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57505');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92201831397250.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57506" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57506');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92201821397250.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57507" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57507');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92201791397250.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57508" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57508');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P92201751397250.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57509" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57509');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220068693036.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57510" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57510');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220071693036.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57511" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57511');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220073693036.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57512" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57512');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220075693036.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57513" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57513');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220077693036.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57514" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57514');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220079693036.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/lengar_rutarski_vrsic/57515" onclick="event.preventDefault(); window.open('/slika_pot/lengar_rutarski_vrsic/57515');"><img class="slikagm" alt="Lengar - Rutarski Vršič" src="//www.hribi.net/slike1/P9220137693036.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Lengar - Rutarski Vršič</b></div>
+
+
+
+<div id="kom7285" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/darh/6963">darh</a><span class="komDatum">14. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Opisani poti smo konec junija sledili do Sko&#269;nikov. Na žalost je del poti zaradi gozdnih del mo&#269;no uni&#269;en - nekje med pogledom na Karavanke in pre&#269;kanjem jase na zgornjih slikah. Poleg tega je za&#269;etek gozdne poti ob strugi precej spremenjen in ga po tu objavljeni sliki ne bi uspeli prepoznati. Podrobnejši opis naše poti najdete <a target=# class=moder href=http://potepanja-v-naravi.blogspot.com/2010/07/skocniki.html>tule</a>.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15406" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/tomaz_branc/12795">tomaž branc</a><span class="komDatum">18. 09. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ko boste naslednji&#269; obiskali Sko&#269;nike, ne spreglejte okoli 35 metrov visokega najvišjega slapa, ki nastane iz tistega "še enega izvira" pred lovsko ko&#269;o. Samo nekaj deset metrov se je potrebno spustiti po gozdu po rahlo vidni stezici in pogledati za rob - previdno! Brez dvoma eden najlepših slovenskih slapov!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16878" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">2. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>To je ta slap:<br> <a target=# class=moder href="http://www.youtube.com/watch?v=aDJBfTfN9eg">http://www.youtube.com/watch?v=aDJBfTfN9eg</a><br> Ve&#269; slik pa tule:<br> <a target=# class=moder href="https://picasaweb.google.com/114400986607884783562/RutarskiVrsic">https://picasaweb.google.com/114400986607884783562/RutarskiVrsic</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom16880" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">2. 06. 2013</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V tem opisu ni opisana pot do lovske ko&#269;e in slapu, le to se nahaja na levi strani sko&#269;nikov, nad njimi sem pre&#269;il in se nato povzpel po neozna&#269;eni stezi do lovske ko&#269;e, še naprej je PP pot, ampak kam pelje ne vem, od lovske ko&#269;e sem se malo vrnil, nato pa ob sko&#269;nikov spustil do mesta, kjer se odpre pogled na en najlepših slapov, v mokrem nevarnost zdrsa pa tud pogled je precej globok. Spustil sem se potem po svoje, da nisem ravno hodil nazaj gor, v bistvo se najdejo na neopisanih poteh razne lovske stezice, možici, poti....Pot višje slika recimo 30 še bolj desno sem šel po eni stezici, bolj trava. Kakorkoli že tole sem napisal, &#269;e sem že tam hodil. Te slike so še pred mo&#269;nimi nalivi, poplavami, Kako sem prišel do avta GM po levi strani Save Dolinke, vmes se skor do kolena udrem v blatu, steza je vidna, gozdna pot, na koncu pa je potrebno pre&#269;it vodo in še kakšno minuto in sem sklenil krog. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom20169" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/edina/5789">Edina</a><span class="komDatum">6. 07. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>V&#269;eraj na RV po omenjeni poti, vendar v zgornjem delu druga&#269;e, &#269;eprav sem ves &#269;as hodila po poti ali sledila možicem. Na novo podrtega drevja tukaj ni. Pri spustu v Za Ak pa se je stari podrtiji pridružilo še nekaj novih podrtih dreves. Na obeh straneh pa prehodnost ni vprašljiva, paziti je le treba, da pri obhodih ne zgrešimo nadaljevanja poti. Nekaj vtisov je tukaj<br> <a target=# class=moder href="http://stezeinsledi.blogspot.com/2014/07/takoj-po-rojstvu-se-prekucnejo-v-brezno.html">http://stezeinsledi.blogspot.com/2014/07/takoj-po-rojstvu-se-prekucnejo-v-brezno.html</a><br> pa sre&#269;no na potkah.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom24601" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">10. 07. 2016</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ker na delu poti kjer naj bi po zgornjem opisu (zadnji odstavek) &#269;lovek zapustil lovsko pot in skrenil levo na brezpotje ni oprijemljive orientacijske to&#269;ke razen omenjenih 20 minut od klopce pri Sko&#269;nikih, sem po poti nadaljeval vse do vrha. Naj povem da je pod vrhom teren precej strm in zato zahteva nekaj poplezavanja po skrotovju in strmih travah. (nevarnost zdrsa) Pot se izgublja, kar naj bi pomenilo zahtevno brezpotje!<br> Vra&#269;al sem se po opisani varianti. To&#269;ka kjer naj bi zapustili pot in skrenili v levo se nahaja nekaj metrov za lesenim koritom za vodo s klopcami. Ta se nahaja kar nekaj ve&#269; kot pa 20 minut od klopce pri Sko&#269;nikih. Na tem predelu gozda vse do meliš&#269; ni skoraj nobenega možica, pa tudi ostankov "poti" ni zaznati zato predlagam, da se od tu dalje usmerjamo rahlo v levo, ter se obenem zmerno vzpenjamo po neizrazitem gozdnem rebru ob dolinici na levi, vse dokler rahlo levo nad horizontom ne opazimo meliš&#269;a. Dalje ni orientacijskih težav.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27126" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/majdag/7140">Majdag</a><span class="komDatum">15. 09. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><br> Po osamljeni dolini Belega potoka. Sestop v krnico Za Akom. Potke v obe smeri so lepo sledljive. Markacij ni.<img alt=nasmeh src=/slike/smile.gif><br> <br> <a target=# class=moder href="http://jelenkamenmajdag.blogspot.si/2017/09/rutarski-vrsic-skrita-gora-nad-dolino.html">http://jelenkamenmajdag.blogspot.si/2017/09/rutarski-vrsic-skrita-gora-nad-dolino.html</a></div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom29112" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/suhy/22608">suhy</a><span class="komDatum">18. 11. 2018</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;udovit jesenski izlet. Od železniškega mosta po dolini Belega potoka gor, Za Akom dol, ogled slapa 2 in ob Savi nazaj do železniškega mostu.<img alt=nasmeh src=/slike/smile.gif> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32146" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/batistuta/18494">Batistuta</a><span class="komDatum">16. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Vsi opisi poti v dolini Belega potoka in dostop na Rutarski Vrši&#269; so naravnost katastrofalni. <br> Danes sem napravil krožno turo, se vmes veliko izgubljal, hodil na pamet itd. Na koncu sem prišel na cilj in tudi varno sestopil.<br> Problem je v tem, da so steze na zemljevidu PZ vrisane napa&#269;no, ter da je ogromno stez in opuš&#269;enih gozdarskih vlak, ki te zavajajo. Na stezah je ogromno podrtih dreves, v&#269;asih tudi podrto celo pobo&#269;je, tako da je nemogo&#269;e slediti poti. Z veliko kondicije, potrpljenja in volje do hoje na pamet, je možno priti do vrha. <br> <br> Za tiste, ki ne ljubite izgubljanja in orientacije, priporo&#269;am pot iz Za Aka, ki je lažje sledljiva, postavljeni so možici, nekaj pa sem jih postavil danes tudi sam. <img alt=nasmeh src=/slike/smile.gif><br> <br> Rutarski Vrši&#269; ima dejansko dva vrhova, ne vem, kateri je višji. Na nobenem danes nisem mogel najti vpisne skrinjice, mogo&#269;e jo je odnesel svizec. <img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32148" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/djimuzl/18603">djimuzl</a><span class="komDatum">17. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Glede na to, da so opisi za poti na teh straneh "fiksni" - tale je nastal najmanj deset let nazaj; prvi podani komentar na to pot je iz julija 2010), je povsem jasno, da je od &#269;asa, ko je komentar nastal, na poti lahko prišlo do veliko sprememb - še posebej, &#269;e gre za pot, ki ni vzdrževana v smislu markiranih planinskih poti.<br> Ravno zato je tu podana možnost komentiranja in "posodabljanja" informacij o trenutnih razmerah na poteh.<br> <br> Bolj "katastrofi&#269;en" je tvoj komentar, saj za težave pri orientaciji najprej krivi slabe opise, to pa utemelji v slabem kartografiranju in gozdnih delih.. Kako torej? <img alt=zavijanje&nbsp;z&nbsp;o&#269;mi src=/slike/rolleyes.gif><br> <br> Vpisne skrinjice ali svizcev pa tam nikoli ni bilo. <img alt=jezik src=/slike/tongue.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32151" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/pastirica/3409">Pastirica</a><span class="komDatum">17. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>5. in 10. julija letos je vpisna skrinjica bila,tam sem tudi zasledila poimenovanje Rutarški Vrši&#269;. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32152" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/jusavgustin/5298">JusAvgustin</a><span class="komDatum">17. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Rutarski Vrši&#269; je samostojen vrh na katerem se nahaja vpisna skrinjica. Pot mimo lovskega štanta je &#269;isto lepo sledljiva in nekomu ki ima vsaj malo &#269;uta za orientacijo ne predstavlja problema. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32162" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">18. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Jaz sem lani šel tako naklju&#269;no po tej poti,sem bral o njej in se odlo&#269;il da grem pogledat.,na za&#269;etku je bila lepo sledljiva pot,višje pa mimo nekaj podrtih dreves,iskanje nadaljevanja..ampak na vrh sem prilezel<img alt=nasmeh src=/slike/smile.gif> nazaj dol pa sem zgrešil in sem šel po brezpotju dol po pobo&#269;ju dokler nisem našel te poti ki me je pripeljala do tiste poti ko sem šel gor..veliko neozna&#269;enih poti tam gor ho&#269;em re&#269;i..<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32164" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/ppegan/24658">ppegan</a><span class="komDatum">19. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Jst sem šla na Rutarski Vrši&#269; mimo Sko&#269;nikov prvi&#269; s poznavalcem, tako da je blo simpl. Drugi&#269; sem peljala kolegico, tretji&#269; pa starša. Ob tretjem obisku je bilo po vetrolomu polno podrtega drevja, dejansko celo pobo&#269;je, kot piše predhodnik, tako da je bil prehod in iskanje poti kar otežen. Ker pa sem približno vedela, kje pot gre in v katero smer je treba, nismo imeli ve&#269;jih težav. Še najbolj smo se namatrali s prehodi &#269;ez, pod in mimo dreves. Sestopili smo nato za Ak, kjer je pot lepo sledljiva in omoži&#269;ena.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32166" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/pastirica/3409">Pastirica</a><span class="komDatum">19. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><br> Sama sem opise dobila<a target=# class=moder href=http://www.zupnija-dovje.si/images/prenosi/stezice/stezice1.htm> tukaj</a> in GPS sled s te strani, potem je pa ratalo <a target=# class=moder href=http://photos.google.com/share/AF1QipMu9Pbr8J6b9V6FXFtj40vcqnIHMKaGJUhbtVhhwaI2GIYLpK3bJ4MZwaJjgasE8Q>to</a>, malo za tem pa še <a target=# class=moder href=http://photos.google.com/share/AF1QipPD0TuzzbTFNJr-TM0A5EP3K2WFAPc4KoMPrzhCfS9R4cNhfoMX0O8fTRo7esD3-w>to</a>. Nekaj iskanja je obakrat bilo ampak je bilo vredno. Samotni in odmaknjeni predeli.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32167" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">19. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ko sem bil jaz lani  tukaj,sploh ne vem po kateri poti sem šel,ni bila ta v opisu,sicer za&#269;etek isti,ampak kasneje pa po neki drugi poti,vem da nisem šel mimo sko&#269;nikov,pa&#269; bila je še ena neozna&#269;ena pot,vmes jo je bilo treba kar malo iskati,tudi podrtega drevja na poti veliko..tik pred vrhom pa naravnost gor po strmih travah..razgled z vrha pa res fajn,meglice so bile po dolini<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32169" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/ppegan/24658">ppegan</a><span class="komDatum">20. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>@Jusk, po opisanem si šel mimo Sko&#269;nikov, samo našel jih nisi <img alt=mežikanje src=/slike/wink.gif> Nekaj &#269;asa si verjetno hodil nad potokom, za najvišji slap Sko&#269;nikov moraš pa itak mal s poti zavit, da ga najdeš <img alt=jezik src=/slike/tongue.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32170" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/jusk/22417">Jusk</a><span class="komDatum">20. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tudi to je možno ja<img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32177" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/jusavgustin/5298">JusAvgustin</a><span class="komDatum">21. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lahko greš po levi strani struge mimo Katarze in Stiriofobije in se prebiješ skozi rušje do V Sko&#269;nikov. Sestopiš po lovski mimo lovskega štanta.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32180" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/majdag/7140">Majdag</a><span class="komDatum">22. 08. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div><br> Ko sva šli midve s sestro ( blog zgoraj), sva hodili po opisu poti. Res bo tri leta od tega, ampak nisva imeli težav. Stezice pa so po lovskih potkah ve&#269;inoma nekaj &#269;asa vidne, pa jih spet ni.  V temu je &#269;ar. Le tisti možic levo, pri sko&#269;nikih je malo begal..<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(20);
+    });
+    abc(20);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

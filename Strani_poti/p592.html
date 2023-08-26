@@ -1,0 +1,1246 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Plave - Sveta Gora (čez Paljevo in Vodice)</title>
+        <meta name="description" content="Natančen opis izleta Plave - Sveta Gora (čez Paljevo in Vodice). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/plave_sveta_gora_cez_paljevo_in_vodice/26/450/5258" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/plave_sveta_gora_via_paljevo_and_vodice/26/450/5258"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=26&id=450&potid=5258"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/gorisko_notranjsko_in_sneznisko_hribovje/26">Goriško, Notranjsko in Snežniško hribovje</a> / <a class="moder" href="/gora/sveta_gora/26/450">Sveta Gora</a> / Plave - Sveta Gora (čez Paljevo in Vodice)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(5258);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Plave - Sveta Gora (čez Paljevo in Vodice)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=5258';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Plave (85 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;2,4060'N&nbsp;/&nbsp;13°&nbsp;35,4420'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;2'&nbsp;24,36''N&nbsp;/&nbsp;13°&nbsp;35'&nbsp;26,52''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,0401°N&nbsp;/&nbsp;13,5907°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.0401,&nbsp;13.5907";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,0401°N&nbsp;13,5907°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(5258,46.0401,13.5907);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.0401,13.5907"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/sveta_gora/26/450">Sveta Gora (681 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez Paljevo in Vodice</div>
+    <div class="g2"><b>Čas hoje:</b> 2 h 55 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> lahka neoznačena steza</div>
+    <div class="g2"><b>Višinska razlika:</b> 596 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 755 m</div>
+    <div class="g2"><b>Zemljevid:</b> Goriška  - izletniška karta 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> </div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> </div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 1.554</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;1&nbsp;osebi&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">85</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">0</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) Najprej se zapeljemo v Novo Gorico, nato pa z vožnjo nadaljujemo v smeri Bovca in Tolmina. V nadaljevanju se peljemo po dolini Soče, mi pa se po glavni cesti peljemo do naselja Plave, kjer se v križišču, kjer se v desno odcepi cesta v Paljevo začne opisana pot. Ker ob izhodišču ni urejenih parkirnih mest, moramo parkirati nekje drugje, najbolje na kakšnem primernem mestu ob cesti pred ali za naseljem, ali pa na drugi strani reke Soče v bližini cerkvice ali pa kje na obrobju vasi.<br>b) Zapeljemo do do naselja Most na Soči, od tam pa se peljemo proti Novi Gorici. Ko prispemo v naselje Plave, oz. do križišča, kjer se v levo odcepi cesta proti naselju Paljevo smo na začetku opisane poti. Ker ob izhodišču ni urejenih parkirnih mest, moramo parkirati nekje drugje, najbolje na kakšnem primernem mestu ob cesti pred ali za naseljem, ali pa na drugi strani reke Soče v bližini cerkvice ali pa kje na obrobju vasi.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Iz naselja Plave nadaljujemo po asfaltni cesti v smeri Paljevega. Pot nas sprva vodi mimo nekaj hiš, nato pa nas hitro pripelje do leve serpentine, kjer se na manjšem objektu nahaja obeležje NOB. Nadaljujemo po dokaj razgledni cesti, le ta pa nas mimo klopce pripelje do desne serpentine, kjer se v smeri naravnost nadaljuje pešpot na Prižnico (kota 383), mi pa nadaljujemo desno, še naprej po cesti. V nadaljevanju nekaj časa prečimo pobočja proti desni, nato pa, malo za prečenjem hudourniškega potoka v serpentini cesta zavije ostro levo. S ceste, po kateri še naprej hodimo se nam odpre lep pogled proti Koradi in Prižnici. Ko pa cesta s pobočja skoraj že preide v bolj raven svet, pa na desni strani opazimo kolovoz in ob njem neuradne oznake za Kuk.<br>Tu se v desno odcepi prva pot na Kuk, mi pa nadaljujemo po cesti, po kateri kmalu prispemo do nekaj hiš v naselju Paljevo. Nadaljujemo po asfaltni cesti, ki preči pas gozda, nato pa, ko se gozd konča, pa pred traso daljnovoda nadaljujemo desno na sprva travnat kolovoz, ki pa po nekaj metrih postane slabša gozdna cesta, le ta pa preide v gozd. V nadaljevanju se nekaj časa vzpenjamo po omenjeni cesti, ki ves čas poteka v bližini daljnovoda, višje pa se priključimo širši cesti, ki pripelje od zgornjega dela naselja Paljevo.<br>Takoj za tem, ko se cesti združita, pa se pri informativni tabli ponovno razcepita. Nadaljujemo po desni cesti, ki se v nadaljevanju večinoma zložno do zmerno vzpenja po severozahodnih pobočjih Kuka. Nekoliko višje, na manjšem križišču nadaljujemo naravnost, nato pa po rahlo bolj strmi cesti nadaljujemo vse do označenega križišča, ki se nahaja južno od Kuka.<br>Z razpotja se ostro v desno odcepi cesta, po kateri lahko prispemo do naselja Zagora in Zagomila, ostro v desno se odcepi pot na Kuk, mi pa nadaljujemo naravnost mimo spomenika, ki je bil postavljen junija 1916 komandantu 1. Gorske brigade FML Guidu Novaku von Arientiju. Za spomenikom cesta zavije nekoliko levo, nato pa nas po nekaj minutah pripelje do zaselka Vodice. Za Vodicami zapustimo cesto in pot nadaljujemo desno v smeri spomenika (napis na tabli). Pot naprej zavije še nekoliko bolj v desno in nas iz gozda pripelje na travnato senožet, kjer se nadaljuje ob zunanjem robu pašne ograje. Ob lepih pogledih na okoliško hribovje in Julijske Alpe, pa se v nekaj minutah vrnemo v gozd. Pot se nadaljuje skozi gozd in se večinoma le zložno vzpenja, nato pa se še dodatno položi in nas pripelje do gozdne ceste, katero pa dosežemo v bližini informativnih tabel. <br>Pri informativnih tablah se v levo nadaljuje gozdna cesta, ki vod proti prevalu Preški vrh, nekoliko naprej in nato desno vodi pot k bližnjemu spomeniku pri orlih, po slabši cesti naprej pa se nadaljuje pot proti vrhu Vodic in mavzoleju na vrhu. Od informativnih tabel pa do vrha Vodic sta le kaki 2 minuti hoje.<br>Z Vodic nadaljujemo po markirani poti, ki se prične spuščati proti jugovzhodu. Pot, ki se zmerno, le občasno strmeje spušča, nas po približno 15 minutah spusta pripelje do slabše gozdne ceste, kateri sledimo v desno, po njej pa v nekaj korakih prispemo do označenega razpotja na prevalu Preški vrh.<br>Na prevalu je označeno razpotje večih cest, mi pa nadaljujemo naravnost v smeri Svete Gore (levo Grgar, desno Zagora). Sledi še približno 20 minut vzpona ob občasnih lepih razgledih in pot nas pripelje do velikega parkirišča pod Sveto Goro. S parkirišča nadaljujemo po kamnitih stopnicah in se po njih vzpnemo na vrh Svete Gore.<br>Plave - Vodice 2:10, Vodice - Sveta Gora 45 minut.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/sveta_gora/450"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Sveta Gora"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Paljevo (270m), Vodice (555m), <a class="moder" href="/gora/vodice/26/864">Vodice (651m)</a>, Preški vrh (504m)</div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/plave/46.0401/13.5907">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/plave_sveta_gora_cez_paljevo_in_vodice/5258">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=450">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=450">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290115" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290115');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2138164025.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290116" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290116');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2140164025.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290117" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290117');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2147196830.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290118" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290118');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_0689484554206_DSCN2149.JPG" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290119" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290119');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2150426465.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290120" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290120');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2151426465.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290121" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290121');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_0214484642049_DSCN2157.JPG" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290122" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290122');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_0714484642101_DSCN2159.JPG" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290123" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290123');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_1409484642104_DSCN2162.JPG" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290124" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290124');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_0604484642146_DSCN2164.JPG" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290125" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290125');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2167470205.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290126" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290126');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_1525484642148_DSCN2171.JPG" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290127" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290127');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_0595484642196_DSCN2175.JPG" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290128" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290128');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_1854484642198_DSCN2187.JPG" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290129" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290129');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_0349484642251_DSCN2191.JPG" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290130" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290130');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2198503010.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290131" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290131');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2200503010.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290132" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290132');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2201503010.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290133" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290133');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2202503010.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290134" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290134');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_0736484642324_DSCN2218.JPG" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290135" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290135');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_1876484642327_DSCN2220.JPG" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290136" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290136');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN2223568620.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290137" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290137');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN241871760.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290138" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290138');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN241771760.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290139" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290139');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN241671760.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290140" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290140');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN24120.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290141" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290141');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN24100.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290142" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290142');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN24090.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290143" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290143');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN24030.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290144" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290144');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN24020.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290145" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290145');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN23970.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290146" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290146');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_1501484642621_DSCN2395.JPG" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290147" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290147');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN23910.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290148" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290148');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_0719484642619_DSCN2388.JPG" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290149" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290149');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_171484642533_DSCN2385.JPG" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290150" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290150');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN23840.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290151" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290151');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN23830.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290152" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290152');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN23810.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290153" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290153');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN23780.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290154" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290154');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN23770.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290155" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290155');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN23760.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290156" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290156');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/DSCN23740.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290157" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290157');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/PlaveVodice 27660984.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290158" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290158');"><img class="slikagm" alt="Plave - Sveta Gora" src="//slike.hribi.net/slike4/2_0772451471563_PlaveVodice_279.JPG" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290159" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290159');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/PlaveVodice 282235872.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290160" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290160');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 226272160.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290161" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290161');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 224272160.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290162" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290162');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 222272160.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290163" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290163');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 221272160.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290164" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290164');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 220266112.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290165" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290165');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 219266112.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290166" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290166');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 218266112.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290167" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290167');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 216266112.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290168" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290168');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 215266112.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290169" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290169');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 210296352.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290170" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290170');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 209296352.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290171" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290171');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 205296352.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290172" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290172');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 198532532.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290173" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290173');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 239576004.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290174" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290174');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 241576004.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290175" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290175');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 253576004.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290176" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290176');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 256576004.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290177" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290177');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 258576004.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290178" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290178');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20259487968.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290261" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290261');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20262487968.th.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290262" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290262');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20263487968.th.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290263" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290263');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20265487968.th.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290264" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290264');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20267487968.th.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290265" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290265');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20269487968.th.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290266" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290266');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20271487968.th.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290267" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290267');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20275487968.th.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290268" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290268');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20278487968.th.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290269" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290269');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20279243984.th.jpg" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290270" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290270');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%20281243984.th.jpg" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290271" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290271');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 284243984.th.jpg" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290272" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290272');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 287265200.th.jpg" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290273" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290273');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 289275808.th.jpg" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290274" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290274');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 291275808.th.jpg" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290275" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290275');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 295275808.th.jpg" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290276" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290276');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 298275808.th.jpg" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290277" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290277');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 300275808.th.jpg" /></a><span class="s2"><span class="s1">81</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290278" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290278');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 001297024.th.jpg" /></a><span class="s2"><span class="s1">82</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290279" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290279');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar 006297024.th.jpg" /></a><span class="s2"><span class="s1">83</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290280" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290280');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%2001170720.th.jpg" /></a><span class="s2"><span class="s1">84</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290281" onclick="event.preventDefault(); window.open('/slika_pot/plave_sveta_gora_cez_paljevo_in_vodice/290281');"><img class="slikagm" alt="Plave - Sveta Gora" src="//www.hribi.net/slike1/SvetaGoraGrgar%2000970720.th.jpg" /></a><span class="s2"><span class="s1">85</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Plave - Sveta Gora (čez Paljevo in Vodice)</b></div>
+
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1068801/zapisizgora_160_600', [160, 600], 'div-gpt-ad-1684384003587-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /1068801/zapisizgora_160_600 -->
+<div id='div-gpt-ad-1684384003587-0' style='min-width: 160px; min-height: 600px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684384003587-0'); });
+  </script>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

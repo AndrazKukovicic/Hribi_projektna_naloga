@@ -1,0 +1,1822 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Uskovnica (Razpotje) - Triglav (čez Planiko in Mali Triglav)</title>
+        <meta name="description" content="Natančen opis izleta Uskovnica (Razpotje) - Triglav (čez Planiko in Mali Triglav). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/1/1/160" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/uskovnica_razpotje_triglav_via_planika_and_mali_triglav/1/1/160"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=1&id=1&potid=160"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/julijske_alpe/1">Julijske Alpe</a> / <a class="moder" href="/gora/triglav/1/1">Triglav</a> / Uskovnica (Razpotje) - Triglav (čez Planiko in Mali Triglav)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(160);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Uskovnica (Razpotje) - Triglav (čez Planiko in Mali Triglav)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=160';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Uskovnica (Razpotje) (1215 m)</div>
+    
+            <script>
+                var kfi = 1;
+                function koordinateFormat() {
+                    if (kfi == 1) {
+                        document.getElementById("kf0").innerHTML = "46°&nbsp;19,6020'N&nbsp;/&nbsp;13°&nbsp;54,6420'E";
+                    kfi = 2;
+                }
+                else if (kfi == 2) {
+                    document.getElementById("kf0").innerHTML = "46°&nbsp;19'&nbsp;36,12''N&nbsp;/&nbsp;13°&nbsp;54'&nbsp;38,52''E";
+            kfi = 3;
+        }
+                else if (kfi == 3) {
+                    document.getElementById("kf0").innerHTML = "46,3267°N&nbsp;/&nbsp;13,9107°E";
+                    kfi = 4;
+            }
+                else if (kfi == 4) {
+                    document.getElementById("kf0").innerHTML = "46.3267,&nbsp;13.9107";
+                    kfi = 1;
+                }
+                }
+
+                function gm1(potid, sirina, dolzina) {
+                    var xmlHttpG;
+                    try {
+                        xmlHttpG = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        try {
+                            xmlHttpG = new ActiveXObject("Msxml2.XMLHTTP");
+                        }
+                        catch (e) {
+                            try {
+                                xmlHttpG = new ActiveXObject("Microsoft.XMLHTTP");
+                            }
+                            catch (e) {
+                                return false;
+                            }
+                        }
+                    }
+                    xmlHttpG.onreadystatechange = function () {
+                        if (xmlHttpG.readyState == 4) {
+                        }
+                    }
+                    xmlHttpG.open("GET", "/ajaxgooglemaps.asp?p=" + potid + "&ek='" + screen.width + "'&sirina='"+sirina+"'&dolzina='"+dolzina+"'", true);
+                    xmlHttpG.setRequestHeader("Cache-Control", "no-cache");
+                    xmlHttpG.setRequestHeader("Pragma", "no-cache");
+                    xmlHttpG.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                    xmlHttpG.send(null);
+    }
+</script>
+    <div class="g2"><table><tr><td><b>Širina/Dolžina:</b>&nbsp;</td><td><span id="kf0">46,3267°N&nbsp;13,9107°E</span></td></tr><tr><td></td><td><div style="padding-top:2px;"><table><tr><td style="padding-right:7px;"><span title="Spremeni format koordinat" style="cursor:pointer;" onclick="koordinateFormat();"><img class="potpng" src="/slike/refresh.png" /></span></td><td style="padding-right:7px;"><span title="Kopiraj v odložišče" style="cursor:pointer;" onclick="kopiraj();"><img class="potpng" src="/slike/kopiraj.png" /></span></td><td><span><a onclick="gm1(160,46.3267,13.9107);" target="_blank" href="https://www.google.com/maps/dir/My+Location/46.3267,13.9107"><img title="Navodila za pot (google)" class="potpng" src="/slike/navodila_zemljevid.png" /></a></span></td></tr></table></div></td></tr></table></div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/triglav/1/1">Triglav (2864 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez Planiko in Mali Triglav</div>
+    <div class="g2"><b>Čas hoje:</b> 6 h 15 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> zelo zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1649 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1900 m</div>
+    <div class="g2"><b>Zemljevid:</b> Triglav 1:25.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada, komplet za samovarovanje</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, komplet za samovarovanje, cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 32.198</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;3&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">108</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">23</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />a) Gorenjsko avtocesto zapustimo na izvozu za Lesce, nato pa sledimo oznakam za Bled in Pokljuko. Naprej se peljemo skozi Gorje in mimo smučišča Zatrnik do Rudnega polja na Pokljuki, kjer je veliko plačljivo parkirišče, v bližini pa tudi vojašnica in strelišče. Od tu nadaljujemo naravnost po makadamski cesti, ki nas nekoliko naprej pripelje do križišča, kjer nadaljujemo levo v smeri Uskovnice (desno planina Konjščica). Od tu se peljemo še dobrih 500 m do nekdanjega parkirišča nad Uskovnico. Ta predel se imenuje Razpotje.<br> Po novem je na omenjenem parkirišču prepovedano parkiranje, zato moramo parkirati že na Rudnem polju, kar nam pot podaljša za približno 35 minut, ali pa izberemo izhodišče Uskovnica (Lom).<br> b) Iz Železnikov ali Podbrda se zapeljemo v Bohinjsko Bistrico, nato pa z vožnjo nadaljujemo v smeri Bleda. Kmalu za Petrolovo bencinsko črpalko, ki se nahaja le malo za Bohinjsko Bistrico, pa z vožnjo nadaljujemo levo v smeri Pokljuke in Jereke. V nadaljevanju se cesta najprej strmo vzpne, nato pa se za Koriti postopoma položi in nas pripelje do križišča ob avtobusni postaji, kjer nadaljujemo desno v smeri Pokljuke, Koprivnika in Jereke (naravnost Srednja vas). Takoj za križiščem prispemo v Jereko, mi pa iz križišča pred cerkvijo nadaljujemo naravnost proti Pokljuki (levo Podjelje). Za Jereko se cesta ponovno prične strmeje vzpenjati, višje pa se položi in se nadaljuje ob Mrzlem potoku. Ko se priključimo cesti z Bleda gremo levo ter se zapeljemo do Rudnega polja, kjer je veliko plačljivo parkirišče, v bližini pa tudi vojašnica in strelišče. Od tu nadaljujemo naravnost po makadamski cesti, ki nas nekoliko naprej pripelje do križišča, kjer nadaljujemo levo v smeri Uskovnice (desno planina Konjščica). Od tu se peljemo še dobrih 500 m do nekdanjega parkirišča nad Uskovnico. Ta predel se imenuje Razpotje.<br> Po novem je na omenjenem parkirišču prepovedano parkiranje, zato moramo parkirati že na Rudnem polju, kar nam pot podaljša za približno 35 minut, ali pa izberemo izhodišče Uskovnica (Lom).</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Od zapore ceste se spustimo kakih 15 minut do planine Uskovnica. Tu stoji kapelica in zraven nje pitna voda na Uskovnici. Poiščemo pot, ki gre na Vodnikov dom (prva, ki gre desno od kapelice širok kolovoz). Pot je sicer označena pa kljub vsemu je zaradi velikega števila poti na Uskovnici težko najti začetek prave poti. Če nismo prepričani je bolje vprašati koga, če le imamo možnost. Pot počasi zapusti planino in se skrije v gozd, kjer naletimo na studenček. Nato hodimo po zahodnih pobočjih Ablance, ki so mestoma precej strma. Kmalu pridemo iz gozda, kjer prečimo precejšnje število grap. Ena je zelo nerodno prehodna. Previdno! Takoj za to grapo prečimo hudournik po katerem teče voda, ki pa v sušnih obdobjih usahne. Pot za tem postane lažja. Sedaj že hodimo pod pobočji Tosca. Pot postane nekoliko bolj strma in se razcepi na dva dela. Usmerimo se na desno pot (leva je opuščena). Obe poti se združita po enournem vzponu na poti Pokljuka - Triglav, kjer zavijemo levo. Pot naprej preči južna pobočja Tosca. Pot nato v rahlem spustu preči krajši pas redkega gozda nato pa nas pripelje na strma pobočja. Še nekoliko naprej pa pot po umetno narejeni široki polici v rahlem spustu preči prepadna pobočja Tosca. Ker je pot precej široka ne povzroča težav (previdno zaradi padajočega kamenja, skalni podor v letu 2008). Pot se nato ponovno rahlo vzpne in nas pripelje na razpotje, kjer nadaljujemo desno v smeri Vodnikovega doma. Sledi še približno deset minut hoje brez večjih vzponov ali spustov do Vodnikovega doma. <br> Od doma nadaljujemo naravnost v smeri Triglava (desno navzgor Bohinjska vratca). Pot naprej se zmerno vzpenja in preči pobočja pod Vernarjem. Že kmalu pa naletimo na prvo jeklenico, ki nam pomaga premagati kratko polico. Pot naprej se vzpenja po melišču in nas nato pripelje do strmega skalnega skoka. Dobro zavarovana pot nas po strmih stopnicah pripelje na vrh tega skoka. Sledi nekaj metrov prečenja po strmem pobočju, nato pa nas pot pripelje na prostrana območja v bližini Konjskega prevala. Le tega dosežemo po krajšem spustu. <br> Naprej nadaljujemo levo v smeri doma Planika (naravnost Kredarica, desno Krma). Pot naprej se vzpenja po meliščih v cik cak ovinkih (v ključih) do neizrazitega stranskega grebena. Tu se pot obrne desno in po desni strani obide večjo kraško vrtačo v kateri se večji del leta zadrži sneg. Sledi še nekaj minut vzpona in pot nas pripelje do doma na Planiki. <br> Pri domu se usmerimo na pot v smeri Triglava čez Mali Triglav. Sprva zložna pot najprej preči ravnico pod Triglavom, nato pa se začne vse strmeje vzpenjati. Naprej se vzpenjamo po poti, ki je mestoma posuta z drobirjem (drseč pesek na poti) do grape pod malim Triglavom. Prehod po grapi ni težaven in je zavarovan. Na vrhu grape pa se nam odpre pogled na drugo stran v prepad. Naprej nas bolj razgledna pot s pomočjo varoval pripelje na neizrazit vrh Malega Triglava s katerega se rahlo spustimo (tu se nam z desne priključi pot s Kredarice). Sledi izpostavljena a odlično zavarovana pot po grebenu. V zadnjem delu se pot strmeje vzpne in nas pripelje do Staničevega zavetišča, ki je s poti oddaljeno 30m. Do vrha pa strmina popusti in razgledna pot nas pripelje na vrh Triglava, kjer stoji Aljažev stolp. <br> Izhodišče - Uskovnica 15 minut, Uskovnica - Vodnikov dom 3:00, Vodnikov dom - Planika 1:30, Planika - Triglav 1:30.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/triglav/1"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Triglav"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> Kapelica na Uskovnici (1180m), Vodnikov dom (1817m), Konjski preval (2020m), Dom Planika (2401m), <a class="moder" href="/gora/mali_triglav/1/3">Mali Triglav (2725m)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/izhodisce/uskovnica_razpotje/46.3267/13.9107">izleti z istega izhodišča</a>, 
+
+<a class="moder" href="/podobni_izleti/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/160">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=1">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=1">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75742" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75742');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300300156060.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75743" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75743');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300298156060.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75744" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75744');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300295156060.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75745" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75745');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300291156060.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75746" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75746');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300288156060.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75747" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75747');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300281156060.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75748" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75748');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300278156060.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75749" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75749');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300276156060.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75750" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75750');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300271156060.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75751" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75751');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300270177480.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75752" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75752');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300269177480.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75753" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75753');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300264177480.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75754" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75754');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300261177480.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75755" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75755');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300256177480.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75756" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75756');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300253177480.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75757" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75757');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300249177480.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75758" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75758');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300247177480.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75759" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75759');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300237177480.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75760" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75760');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300231177480.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75761" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75761');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300230177480.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75762" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75762');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300226177480.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75763" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75763');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300219177480.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75764" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75764');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9300216177480.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75765" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75765');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930021219440.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75766" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75766');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930020819440.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75767" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75767');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930020719440.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75768" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75768');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930020319440.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75769" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75769');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930019419440.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75770" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75770');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930019319440.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75771" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75771');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930018619440.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75772" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75772');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930018319440.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75773" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75773');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930018119440.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75774" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75774');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930017719440.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75775" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75775');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930017219440.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75776" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75776');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P930016519440.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75838" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75838');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 18445900.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75839" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75839');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 18845900.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75840" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75840');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 19245900.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75841" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75841');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 19545900.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75842" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75842');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 20645900.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75843" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75843');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 20745900.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75844" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75844');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 21145900.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75845" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75845');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 21645900.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75846" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75846');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 22245900.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75847" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75847');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 22345900.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75848" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75848');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 22445900.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75849" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75849');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 22647250.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75850" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75850');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 23047250.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75851" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75851');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 23547250.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75852" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75852');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 23747250.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75853" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75853');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 23847250.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75854" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75854');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 23947250.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75855" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75855');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 24547250.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75856" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75856');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Vernar 24945900.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75857" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75857');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/Pot/p9200062mediumjb3.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75858" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75858');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/Pot/p9200064mediumts6.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75859" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75859');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/Pot/p9200067mediumxr2.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75860" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75860');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/Pot/p9200072mediumzo3.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75861" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75861');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/Pot/p9200074mediumzb7.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75862" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75862');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0351204875.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75863" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75863');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0431514700.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75864" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75864');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0441514700.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75865" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75865');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0501514700.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75866" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75866');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0511514700.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75867" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75867');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0541514700.th.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75868" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75868');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0571514700.th.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75869" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75869');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0611514700.th.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75870" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75870');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0621514700.th.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75871" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75871');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0631549125.th.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75872" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75872');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0661549125.th.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75873" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75873');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0681549125.th.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75874" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75874');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0721514700.th.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75875" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75875');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/Triglav6 0701549125.th.jpg" /></a><span class="s2"><span class="s1">73</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75876" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75876');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240001842400.th.jpg" /></a><span class="s2"><span class="s1">74</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75877" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75877');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240004859248.th.jpg" /></a><span class="s2"><span class="s1">75</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75878" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75878');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240007859248.th.jpg" /></a><span class="s2"><span class="s1">76</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75879" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75879');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240010859248.th.jpg" /></a><span class="s2"><span class="s1">77</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75880" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75880');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240011859248.th.jpg" /></a><span class="s2"><span class="s1">78</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75881" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75881');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240012859248.th.jpg" /></a><span class="s2"><span class="s1">79</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75882" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75882');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240016859248.th.jpg" /></a><span class="s2"><span class="s1">80</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75883" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75883');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240020859248.th.jpg" /></a><span class="s2"><span class="s1">81</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75884" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75884');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240023859248.th.jpg" /></a><span class="s2"><span class="s1">82</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75885" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75885');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240024859248.th.jpg" /></a><span class="s2"><span class="s1">83</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75886" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75886');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240026859248.th.jpg" /></a><span class="s2"><span class="s1">84</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75887" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75887');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240028859248.th.jpg" /></a><span class="s2"><span class="s1">85</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75888" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75888');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240030859248.th.jpg" /></a><span class="s2"><span class="s1">86</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75889" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75889');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240034859248.th.jpg" /></a><span class="s2"><span class="s1">87</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75890" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75890');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240036859248.th.jpg" /></a><span class="s2"><span class="s1">88</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75891" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75891');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240037859248.th.jpg" /></a><span class="s2"><span class="s1">89</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75892" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75892');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240039859248.th.jpg" /></a><span class="s2"><span class="s1">90</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75893" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75893');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P9240045842400.th.jpg" /></a><span class="s2"><span class="s1">91</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75894" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75894');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924005064800.th.jpg" /></a><span class="s2"><span class="s1">92</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75895" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75895');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924005164800.th.jpg" /></a><span class="s2"><span class="s1">93</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75896" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75896');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924005664800.th.jpg" /></a><span class="s2"><span class="s1">94</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75897" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75897');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924006364800.th.jpg" /></a><span class="s2"><span class="s1">95</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75898" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75898');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924006464800.th.jpg" /></a><span class="s2"><span class="s1">96</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75899" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75899');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924006864800.th.jpg" /></a><span class="s2"><span class="s1">97</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75900" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75900');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924006964800.th.jpg" /></a><span class="s2"><span class="s1">98</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75901" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75901');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924007064800.th.jpg" /></a><span class="s2"><span class="s1">99</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75902" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75902');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924007664800.th.jpg" /></a><span class="s2"><span class="s1">100</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75903" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75903');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924008064800.th.jpg" /></a><span class="s2"><span class="s1">101</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75904" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75904');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924008364800.th.jpg" /></a><span class="s2"><span class="s1">102</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75905" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75905');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924008764800.th.jpg" /></a><span class="s2"><span class="s1">103</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75906" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75906');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924009297200.th.jpg" /></a><span class="s2"><span class="s1">104</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75907" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75907');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924009497200.th.jpg" /></a><span class="s2"><span class="s1">105</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75908" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75908');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924009697200.th.jpg" /></a><span class="s2"><span class="s1">106</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75909" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75909');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924010864800.th.jpg" /></a><span class="s2"><span class="s1">107</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75910" onclick="event.preventDefault(); window.open('/slika_pot/uskovnica_razpotje_triglav_cez_planiko_in_mali_triglav/75910');"><img class="slikagm" alt="Uskovnica (Razpotje) - Triglav" src="//www.hribi.net/slike1/P924010797200.th.jpg" /></a><span class="s2"><span class="s1">108</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Uskovnica (Razpotje) - Triglav (čez Planiko in Mali Triglav)</b></div>
+
+
+
+<div id="kom508" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/mprimo4/951">mprimo4</a><span class="komDatum">4. 12. 2006</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>nekje blizu sem že hodila, a to bo moja prva pot v ta del, ko bo to mogo&#269;e (najbrž junija 2007</div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5807" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/triglavcek1990/4426">Triglavček1990</a><span class="komDatum">21. 10. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živijo!<br> Zanima me ali ima morda kdo kakšne podatke o razmerah za tole pot?<br> Morda &#269;e,kdo ve koliko je snega proti vrhu in ali je pot mo&#269;no poledenela?<br> Hvala vam za odgovor in varen korak vsem skupaj!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom5808" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/triglavcek1990/4426">Triglavček1990</a><span class="komDatum">21. 10. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo!<br> Zanima me ali ima morda kdo kakšne podatke o razmerah za tole pot?<br> Morda &#269;e,kdo ve koliko je snega proti vrhu in ali je pot mo&#269;no poledenela?<br> Hvala vam za odgovor in varen korak vsem skupaj!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7382" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/nala/7548">nala</a><span class="komDatum">23. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo!                                             V drugi polovici avgusta nameravamo na Triglav.Zanima me,&#269;e smo se prav odlo&#269;ili,da gremo po tej poti,glede na to,da nismo ne vem kakšni gorniki,kondicije imamo dovolj.Za sestop,da bi bil &#269;im lažji in da se ne bi vra&#269;ali po isti poti,ampak bi naredili krožno,pa ne vemo.Zato prosimo,da nam posredujete vaše izkušnje in za odgovor hvala ter varen korak vsem!           </div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7384" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/klin/3220">Klin</a><span class="komDatum">23. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pot z Uskovnice je na za&#269;etku kar malce dolgo&#269;asna. Raje pojdite s Pokljuke ali Krme.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7388" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/katjusa2/3475">katjuša2</a><span class="komDatum">23. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tole pot sem prehodila pred leti.Se mi ni zdela ravno dolgo&#269;asna,ampak mogo&#269;e manj oblegana kot pa tista iz Pokljuke.<br> Za nazaj smo takrat šli do Sedmerih jezer in &#269;ez Komar&#269;o,...<br> Verjetno je pot tule na portalu opisana.<br> Sicer mi malo spomin nagaja,da bi dajala to&#269;ne informacije.Smo pa hodili bolj z užitkom in mislim,da takrat kar 4 dni,saj smo vzeli pot na Triglav bolj za pohajanje po hribih kot pa za tekmovanje.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom7430" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/nala/7548">nala</a><span class="komDatum">26. 07. 2010</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Živjo! najprej hvala za koristne informacije,se bomo lažje odlo&#269;ili. Sicer, pa tudi naš vspon na Triglav bo verjetno trajal 2 do 3 dni.Naš namen pa je,da &#269;im bolj izkoristimo to prelepo planinsko življenje naših planin. lp</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10777" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/ppetrov5/10253">ppetrov5</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Spoštovani planinci in ljubitelji planin,turisti,pomorš&#269;aki.....<br> <br> Vse je ok do vznožja malega triglava! KATASTROFA In osebno me triglav ne bo videl ve&#269;! neupoštevanje prednosti, trume množice, ki se vali iz vseh smeri,valjenje kamnov ( skal ) pri izstopu samo zaradi tega da bo nekdo hiterje dol.Neu&#269;akanost...Da ne govorim o nepravilnhi opremi...Brez &#269;elad,brez samovarovalne opreme, v supergah trenirki in maj&#269;ki...Komentarji &#269;eš ali z svojo opremo naskakujemo Mont Everest itd....Na vrhu prodaja piva,maj&#269;k,&#269;okolad itd..Sej slednje bi še šlo vendar alkohol?? Triglav je postal le trofeja, ki jo ve&#269;ina želi osvojiti za VSAKO ceno!!Žalostno!Resni&#269;no upam da se bo planinska zveza slovenije premaknila v smeri varnosti in ne samo pasivno ukrepala temve&#269; aktivno organizirala vodene dostope iz vseh smeri z planinskim vodnikom! Neopremljeni skupijni ali individualnim pa NUJNO prepovedala dostope do te lepe gore! Saj bo v nasprotnem primeru triglav izgubil svoj pomen...&#268;e ga že ni! Lep pozdrav!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10781" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/igorzlodej/6423">IgorZlodej</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>To mnenje je pa &#269;isto mimo. Individualnim PREPOVEDATI dostop, lepo te prosim, preberi še nekrat kar si napisal. Pa pojdi gor januarja, &#269;e i sposebone, &#269;e ne si najemi vodnika in ne stitnari v najve&#269;ji gne&#269;i stredi avgusta.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10782" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/jusavgustin/5298">JusAvgustin</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se strinjam z Igorjem, to sploh ni mnenje to je primitivno razmišljanje. Kdo pa še hodi na Triglav na vrhuncu sezone?!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10783" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/ppetrov5/10253">ppetrov5</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Igor Zlodej, Jus Avgustin,<br> <br> potemtakem je isto kot da bi napisal primitivno je hoditi na morje v vrhuncu sezone in skoraj doživeti prometno nesre&#269;o! Pojdi raje pozimi, ker je manj gne&#269;e na cesti..?<br> Primitivno? Se vama zdi pohod na triglav BREZ &#269;elade in samovarovalne opreme Primitivno? No meni se na žalost ne! Pa ni triglav moja najlubša gora..temve&#269; prej Mangart,škrlatica,dolomiti itd...Kjer vidiš planince,ki upoštevajo neka osnovna pravila gorništva...In ravno na vrhuncu sezone bi morali obiskovalci bolje paziti na varnost samih sebe in drugih kot pa prej.In mislim da nima nobene veze kdaj greš gor.&#268;e so neka  osnovna napisana pravila ki bi se jih morali vsi držati zgolj zaradi varnosti potem datum ne igra nobene vloge! Ker pa predvidevam da se bosta spet napihovala, si oba preberita info.o ribi napihovalki! V osnovi je zelo majhna <img alt=mežikanje src=/slike/wink.gif> <br> <br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10785" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/jusavgustin/5298">JusAvgustin</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>in zelo strupena... še vedno mislim, da je tvoje raszmišljanje popolnoma zgrešeno: "individualnim pa NUJNO prepovedala dostope do te lepe gore! Saj bo v nasprotnem primeru triglav izgubil svoj pomen...&#268;e ga že ni! Lep pozdrav!" <br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10786" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/ppetrov5/10253">ppetrov5</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>JusAvgustin,<br> <br> Na tvojo žalost je pred besedami  "individualnim pa NUJNO prepovedala dostope do te lepe gore! Beseda NEOPREMLJENIM! Se opravi&#269;ujem! Drugi&#269; bom napisal z veliko! <img alt=mežikanje src=/slike/wink.gif><br> Pa sre&#269;no v gorah!<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10787" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/jusavgustin/5298">JusAvgustin</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>sicer pa oba veva, da je triglav sredi sezone romarska pot, da ni nikakršne strpnosti, kulture, prave opreme, da o obutvi nekaterih ne govorimo. In zaradi tega "zasovražiti" triglav se meni zdi je nekoliko bedno se ti ne zdi? Pa kaj se toliko ukvarjaš z drugimi, saj je mnogo lepših, težjih in predvsem samotnih gor v neposredni bližini... Vem ja zguncan verz, pa kaj, &#269;e je res je res... <br> <br> Lp, napihovalka 2</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10788" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/ppetrov5/10253">ppetrov5</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>KAr ej res je res <img alt=nasmeh src=/slike/smile.gif><br> Ja na žalost me triglav ni videl že 10 let.In velikmo se je spremenilo.Sicer pa me bodo prihodnosti videli prej drugi vrhovi kot pa ta <img alt=nasmeh src=/slike/smile.gif><br> <br> Napihovalec 1 <img alt=nasmeh src=/slike/smile.gif><br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10789" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_15" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_15" class="komL"><a class="ime" href="/gornik/gregorc/5757">GregorC</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>ppetrov pejd gor &#269;ez kakšen teden pa boš videl &#269;ist drugo sliko. Ne vem kaj si pri&#269;akoval na Triglavu sredi glavne sezone. Neopremljenim pa prepovedat dostope? Se ti mal hecaš, a ?<img alt=zmeden src=/slike/zmeden.gif>ne A boš spodaj postavil stražo in kontroliral opremo? Kaj pa tisti šminkerji, ki si omislijo top opremo in jo imajo s seboj, da se vidi da jo majo, &#269;eprav sploh ne vedo kaj bi s tem po&#269;eli? Ali bi potem še uvedel obvezen preizkus o pravilni uporabi? </div>
+       
+       </div>
+    </td>
+    <td id="komD0_15" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_15" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10790" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_16" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_16" class="komL"><a class="ime" href="/gornik/heinz/3508">heinz</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zanimivo, sam pa sem bil v &#269;etrtek podobno kot predlani (lani je bilo malce druga&#269;e) kar prijetno presene&#269;en vsled primerne strpnosti (kulture) pri sre&#269;evanju na grebenu. Kljub gne&#269;i ljudje tudi znajo ostati ljudje. Sicer paje tako, da &#269;e si živ&#269;en sam, ti gredo vsi na živce, oz so ti v napoto.<br> V&#269;asih je hoditi sam morda celo varneje, kot v dvoje ali v skupini. Nau&#269;iš se zagotovo mnogo ve&#269;. Kogar je strah, pa naj se vrne v dolino po vodnika (edino logi&#269;no seveda).</div>
+       
+       </div>
+    </td>
+    <td id="komD0_16" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_16" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10791" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_17" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_17" class="komL"><a class="ime" href="/gornik/ppetrov5/10253">ppetrov5</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>GregorC,<br> <br> Na&#269;eloma je delo gorske policije "svetujejo obiskovalcem gora in jih opozarjajo na ustrezno opremljenost".<br> Prav imaš! Kar naj bo tako kot je <img alt=mežikanje src=/slike/wink.gif><br> Sicer pa sem imel v mislih samo alkotesterje!<br> Sej sam s tem bi veliko naredili...Ker po vsej verjetnosti se mi zdi da tudi jaz nisem bil &#269;isto trezen ko sem rinil gor..Pa vse to kar sem napisal je bilo v hecu!? <img alt=mežikanje src=/slike/wink.gif><br> Pa&#269; sem tipi&#269;en slovenec k se pizdim..Ostali so pa vsi modri..Tako pa&#269; je v tej hlap&#269;evi deželi <img alt=mežikanje src=/slike/wink.gif><br> <br> <br> Pa sre&#269;no v gorah <img alt=nasmeh src=/slike/smile.gif><br> <br> <br> <br> <br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_17" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_17" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom10792" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_18" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_18" class="komL"><a class="ime" href="/gornik/nivesb/10254">nivesb</a><span class="komDatum">14. 08. 2011</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na žalost je res kar je napisal ppetrov5!<br> Triglav je cilj za romarje.Na vrhu se ljudje zabavajo, kot bi bili v kakem trgovskem središ&#269;u. <br> Cit &#269;lanek..Od Maje Ikanovi&#269;,Tomaža Marolta..<br> Žalostna podoba Triglavskega narodnega parka<br> <br> Triglav smo osvojili, a žal smo potrdili naše domneve o tem, da to ni ve&#269; visokogorje, ampak le trofeja, ki jo ve&#269;ina želi osvojiti za vsako ceno. Ljudje se vzpenjajo na vrh brez opreme in brez znanja, vodniki pa si tiho manejo roke. &#268;udim se, da se na tem vrhu zgodi tako malo nesre&#269;.<br> Triglav je s svojimi jezeri žal postal turisti&#269;na atrakcija in trofeja množic, ki ne sodijo v visokogorja. Tistim, ki si ga lastijo, je pomemben samo dobi&#269;ek, zato ne dvomim v to, da bo &#269;ez kakšno desetletje na vrh vozila sedežnica, za ogled jezer pa bodo ra&#269;unali vstopnino. Gamse in preostale divje živali pa bodo zaprli v kakšen rezervat, da jih bodo turisti lahko fotografirali. Cesta do Triglavskih jezer je že tako ali tako narejena, samo še asfaltirati jo je potrebno in stvar bo kompletna.<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_18" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_18" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15028" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_19" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_19" class="komL"><a class="ime" href="/gornik/jujujuhuhu/12825">jujujuhuhu</a><span class="komDatum">21. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Znano je, da je denar sveta vladar in da imamo ljudje &#269;redni nagon. Tisti, ki govorite o trofejah, mi delujete kot nevoš&#269;ljivi oz. zavistni, ker se odlo&#269;i iti v gore še kdo drug kot pa vi, izkušeni alpinisti. In za vas se ne bojim - boste že našli bolj neobljudene kraje. Pa ne me razumet napa&#269;no - sem strogo proti izkoriš&#269;anju narave v kakršnikoli smeri, prav tako menim, da alkohol nikakor ne sodi v gore (še drugam ne!). Vendar mnenje, da pa širše množice ne spadajo gor, pa da je prevelika gužva in da imajo ljudje Triglav le za trofejo - to je pa mimo! Trofeja ali kakšen drug izraz - to pa vendar nikakor ni v vaših mislih, kaj ne?! Ljudje gredo v naravo, v gore, ja, in &#269;e dosežeš vrh - dobro pripravljen!- je to nek dosežek, ergo trofeja.<br> Je pa res, da je premalo ozaveš&#269;anja javnosti o sami naravi poti, o potrebni pripravljenosti, varnosti ipd..</div>
+       
+       </div>
+    </td>
+    <td id="komD0_19" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_19" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15031" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_20" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_20" class="komL"><a class="ime" href="/gornik/alesko1971/10477">Alesko1971</a><span class="komDatum">21. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Kakršen je &#269;lovek v dolini, tak bo tudi v gorah. Olika ter previdnost se ne za&#269;neta ali kon&#269;ata na 2000m. &#268;reda pa vedno najbolj zazna udarec po žepih. Ko bo GRS za&#269;ela zara&#269;unavati kot zara&#269;unajo sosedje, bo traparij po hribih bistveno manj. Zavarovalnice naj narede svoje,vsak razumen se bo zavaroval -  prav tako naj država uredi koncesije, GRS pa bo hkrati nudila pla&#269;ana delovna mesta ljudem, ki to radi po&#269;no. Pa dale&#269; od tega, da bi bil proti obstoje&#269;emu sistemu. Entuziastom v GRS vsa &#269;ast.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_20" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_20" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15032" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_21" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_21" class="komL"><a class="ime" href="/gornik/jax/10621">jax</a><span class="komDatum">21. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Se moram zelo strinjat z juhuhuhu - trofeja morda res ni najlepši izraz - ampak a ni bistveni element vsakega hribolazenja dosežek? Tisto, o &#269;emer bomo ob pivu radi govorili? Da smo prišli na tisto visoko goro? Da je bilo težko, ampak smo zmogli? Gre za premagovanje samega sebe in to je eden od bistvenih elementov. Zdaj jasno je da je pri Triglavu v igri še nekaj ve&#269; in to je povezano z nekaterimi slovenskimi svetinjami - Triglav je le gora, pa naj nekateri še tako skušajo pokazati, da je kaj ve&#269;. Saj to ni edini primer takšnega prenapetega odnosa do dolo&#269;enih simbolov in dejavnosti (spomnite se na debato o statusu kulture).<br> Pa še na debato o pomanjkanju kulture in gorskih vodnikih: GVji se sicer res vsaj na&#269;elno sklicujejo na gorniško etiko in naj bi skrbeli za nivo kulture v gorah, ampak izkušnje številnih (ne sicer iz prve roke) pravijo, da so zlasti v centralnih Alpah GV-ji eni od najarogantnejših udeležencev v gorah. Tako da - ne vem &#269;e to ravno pripomore k splošnemu višanju nivoja kulture.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_21" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_21" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom15043" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_22" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_22" class="komL"><a class="ime" href="/gornik/wanyola/12833">wanyola</a><span class="komDatum">22. 08. 2012</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Sem bila v&#269;eraj gor, je bila gne&#269;a, pa vendar nisem opazila nobene nestrpnosti ali neu&#269;akanosti pri ljudeh, vsi so bili prijazni in vljudni. Seveda si vsak planinec želi vsaj enkrat osvojiti Triglav in s tem ni prav ni&#269; narobe. Sre&#269;ala sem neverjetno veliko tujcev, dobro opremljenih. Ko enkrat osvojiš vrh, je to eno samo zadovoljstvo. Ob&#269;utek je enkraten in govoriti o nekakšni trofeji je popolnoma napa&#269;no. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_22" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_22" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(23);
+    });
+    abc(23);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

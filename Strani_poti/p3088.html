@@ -1,0 +1,1519 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>V Koncu - Skuta (čez Gamsov skret)</title>
+        <meta name="description" content="Natančen opis izleta V Koncu - Skuta (čez Gamsov skret). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/v_koncu_skuta_cez_gamsov_skret/3/28/755" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/v__koncu_skuta_via_gamsov_skret/3/28/755"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=3&id=28&potid=755"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/kamnisko_savinjske_alpe/3">Kamniško Savinjske Alpe</a> / <a class="moder" href="/gora/skuta/3/28">Skuta</a> / V Koncu - Skuta (čez Gamsov skret)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(755);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>V Koncu - Skuta (čez Gamsov skret)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=755';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> V Koncu (900 m)</div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/skuta/3/28">Skuta (2532 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> čez Gamsov skret</div>
+    <div class="g2"><b>Čas hoje:</b> 5 h 15 min</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> zelo zahtevna neoznačena steza, zahtevna označena pot</div>
+    <div class="g2"><b>Višinska razlika:</b> 1632 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1750 m</div>
+    <div class="g2"><b>Zemljevid:</b> Kamniške in Savinjske Alpe 1:50.000</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> čelada, cepin, dereze</div>
+
+
+</div>
+<div class="fl">
+    
+    <div class="g2"><b>Ogledov:</b> 35.319</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;4&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">72</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">15</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Zapeljemo se v Kamnik in cesti naprej sledimo proti dolini Kamniške Bistrice. Od doma v Kamniški Bistrici z vožnjo nadaljujemo po gozdni cesti, ki nas višje pripelje do križišča, kjer nadaljujemo naravnost (desno Jermanca, izhodišče za Kamniško sedlo). Cesta nas nato mimo Žagane peči pripelje do parkirišča pri spodnji postaji tovorne žičnice na Kokrsko sedlo.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Od parkirišča pri spodnji postaji žičnice nadaljujemo po cesti do »zgornjega parkirišča«. Tu bomo ob parkirišču na levi strani ceste opazili dva kolovoza. Levi kolovoz, ki je označen s smerokazi na drevesu vodi proti Kokrskem sedlu. Mi pa se usmerimo na desni kolovoz (tudi ta kolovoz je na levi strani ceste).
+<br>Sprva še nekaj časa hodimo po omenjenem kolovozu s katerega se odcepi tudi nekaj stranskih kolovozov, nato pa kolovoz preide v stezo. V nadaljevanju se kar nekaj časa vzpenjamo po ozki stezi skozi gozd. Pot tukaj vseskozi poteka po levi strani doline in se tako izogne strmemu skalnemu skoku v spodnjem delu doline.<br>Ko pridemo iz gozda, pot preči nekoliko strmejša pobočja v desno in nas pripelje na travnata pobočja. Sledi vzpon po travnatem terenu, ki nas pripelje pod ostenja Kogla.<br>Tu bolje uhojena steza zavije levo proti steni, mi pa nadaljujemo rahlo desno po ozki stezici. Pot je na tem delu dokaj slabo vidna in poteka po levi strani hudournika po dolini navzgor. Za orientacijo nam lahko služi lepo viden slap omenjenega hudournika (običajno brez vode). Steza že nekoliko pred slapom zavije v levo in vstopi v steno.<br>Tu postane pot zelo zahtevna in najprej moramo nekaj metrov splezati po skoraj navpičnem pobočju navzgor. Sledi vzpon po ozki zavarovani polici, ki preči pobočje v desno in nas pripelje na strma travnata pobočja. Kljub temu, da je polica zavarovana, pa je vzpon dokaj zahteven. Upoštevati je potrebno tudi, da so varovala običajno v nekoliko slabšem stanju, kot smo vajeni na označenih poteh. V nadaljevanju se še nekaj časa vzpenjamo po dokaj strmih travnatih pobočjih, nato pa postane pobočje postopno manj strmo in pot nas pripelje do nepričakovane klopce od katere je tudi zelo lep razgled na vse strani.<br>V nadaljevanju se vzpenjamo po travnatem pobočju navzgor vse do markirane poti Kokrsko sedlo - Kamniško sedlo.<br>Tu se usmerimo levo in sledimo označeni poti, ki nas v rahlih spustih in vzponih kmalu pripelje na razpotje, kjer nadaljujemo desno v smeri Grintovca in Skute (levo bivak 1 minuta) po razmeroma zložni poti, ki nas kmalu pripelje na naslednje razpotje. Nadaljujemo desno v smeri Skute (naravnost Mlinarsko sedlo) po poti, ki nas čez kraški svet Velikih podov pripelje do vznožja zmerno strme stene. Tu se pot postavi pokonci in s pomočjo naravnih oprimkov premagamo krajšo steno med Dolgim hrbtom in Štruco (v mokrem velika nevarnost zdrsa). Na vrhu vzpona se nam z leve priključi pot z Dolgega hrbta. Nadaljujemo desno, kjer nato v rahlem spustu s pomočjo nekaj klinov po levi strani obidemo vrh Štruce. Pot nas naprej pripelje na neizrazito sedelce med Štruco in Skuto, s katerega se v 15 minutah po nezahtevnem vršnem pobočju Skute povzpnemo na vrh. <br> V Koncu - Bivak 3:15, Bivak - Skuta 2:00.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/skuta/28"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Skuta"></a></div>
+
+
+<div style="padding-top:10px;"><b>Ob poti:</b> <a class="moder" href="/gora/bivak_pod_grintovcem/3/390">Bivak pod Grintovcem (2100m)</a></div>
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/podobni_izleti/v_koncu_skuta_cez_gamsov_skret/755">podobni izleti</a>, <a class="moder" href="/panorama.asp?goraid=28">panorama</a>, <a class="moder" href="/vpisna_knjiga_vrhov/?id=28">vpisna knjiga</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108915" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108915');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 5865576073.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108916" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108916');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 5885576074.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108917" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108917');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 5895576074.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108918" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108918');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 1925576093.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108919" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108919');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 1935576107.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108920" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108920');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 1985576107.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108921" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108921');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2015576107.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108922" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108922');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2125576107.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108923" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108923');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2165576107.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108924" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108924');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2175576107.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108925" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108925');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2235576107.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108926" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108926');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2255576107.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108927" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108927');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2285576107.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108928" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108928');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2305576107.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108929" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108929');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2365576107.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108930" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108930');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2375576107.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108931" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108931');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2435576107.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108932" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108932');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2445576107.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108933" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108933');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2535576107.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108934" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108934');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2565576107.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108935" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108935');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2685576107.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108936" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108936');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2705576107.th.jpg" /></a><span class="s2"><span class="s1">22</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108937" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108937');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2735576108.th.jpg" /></a><span class="s2"><span class="s1">23</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108938" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108938');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2745576108.th.jpg" /></a><span class="s2"><span class="s1">24</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108939" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108939');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2785576108.th.jpg" /></a><span class="s2"><span class="s1">25</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108940" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108940');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2855576108.th.jpg" /></a><span class="s2"><span class="s1">26</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108941" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108941');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2875576108.th.jpg" /></a><span class="s2"><span class="s1">27</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108942" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108942');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2905576108.th.jpg" /></a><span class="s2"><span class="s1">28</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108943" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108943');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2915576108.th.jpg" /></a><span class="s2"><span class="s1">29</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108944" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108944');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2925576108.th.jpg" /></a><span class="s2"><span class="s1">30</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108945" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108945');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2935576108.th.jpg" /></a><span class="s2"><span class="s1">31</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108946" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108946');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2945576108.th.jpg" /></a><span class="s2"><span class="s1">32</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108947" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108947');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2955576108.th.jpg" /></a><span class="s2"><span class="s1">33</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108948" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108948');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 2975576108.th.jpg" /></a><span class="s2"><span class="s1">34</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108949" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108949');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3015576108.th.jpg" /></a><span class="s2"><span class="s1">35</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108950" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108950');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3085576108.th.jpg" /></a><span class="s2"><span class="s1">36</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108951" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108951');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3105576108.th.jpg" /></a><span class="s2"><span class="s1">37</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108952" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108952');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3195576108.th.jpg" /></a><span class="s2"><span class="s1">38</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108953" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108953');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3215576108.th.jpg" /></a><span class="s2"><span class="s1">39</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108954" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108954');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3225576108.th.jpg" /></a><span class="s2"><span class="s1">40</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108955" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108955');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3235576108.th.jpg" /></a><span class="s2"><span class="s1">41</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108956" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108956');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3285576108.th.jpg" /></a><span class="s2"><span class="s1">42</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108957" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108957');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3305576109.th.jpg" /></a><span class="s2"><span class="s1">43</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108958" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108958');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3325576109.th.jpg" /></a><span class="s2"><span class="s1">44</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108959" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108959');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3395576109.th.jpg" /></a><span class="s2"><span class="s1">45</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108960" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108960');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3405576109.th.jpg" /></a><span class="s2"><span class="s1">46</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108961" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108961');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3425576109.th.jpg" /></a><span class="s2"><span class="s1">47</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108962" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108962');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3465576109.th.jpg" /></a><span class="s2"><span class="s1">48</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108963" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108963');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3485576109.th.jpg" /></a><span class="s2"><span class="s1">49</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108964" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108964');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3545576109.th.jpg" /></a><span class="s2"><span class="s1">50</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108965" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108965');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3555576109.th.jpg" /></a><span class="s2"><span class="s1">51</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108966" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108966');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/kogel 3605576109.th.jpg" /></a><span class="s2"><span class="s1">52</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108967" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108967');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/Kogel 431544320.th.jpg" /></a><span class="s2"><span class="s1">53</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108968" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108968');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/Kogel 432544320.th.jpg" /></a><span class="s2"><span class="s1">54</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108969" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108969');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/Kogel 435544320.th.jpg" /></a><span class="s2"><span class="s1">55</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108970" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108970');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/Kogel 437544320.th.jpg" /></a><span class="s2"><span class="s1">56</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108971" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108971');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/Kogel 438544320.th.jpg" /></a><span class="s2"><span class="s1">57</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108972" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108972');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/Kogel 440544320.th.jpg" /></a><span class="s2"><span class="s1">58</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108973" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108973');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/Kogel 442544320.th.jpg" /></a><span class="s2"><span class="s1">59</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108974" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108974');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/Kogel 445544320.th.jpg" /></a><span class="s2"><span class="s1">60</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108975" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108975');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/Kogel 446544320.th.jpg" /></a><span class="s2"><span class="s1">61</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108976" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108976');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/P6250163283200.th.jpg" /></a><span class="s2"><span class="s1">62</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108977" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108977');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/P6250138283200.th.jpg" /></a><span class="s2"><span class="s1">63</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108978" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108978');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/p8180044mediumzv6748800.th.jpg" /></a><span class="s2"><span class="s1">64</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108979" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108979');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/P6250135283200.th.jpg" /></a><span class="s2"><span class="s1">65</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108980" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108980');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/P6250134283200.th.jpg" /></a><span class="s2"><span class="s1">66</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108981" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108981');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/p8180023mediumda0748800.th.jpg" /></a><span class="s2"><span class="s1">67</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108982" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108982');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/Pot/p8180042mediumck9.th.jpg" /></a><span class="s2"><span class="s1">68</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108983" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108983');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/slike1/p8180041mediumbn6748800.th.jpg" /></a><span class="s2"><span class="s1">69</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108984" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108984');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/Pot/p8180024mediumcj6.th.jpg" /></a><span class="s2"><span class="s1">70</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108985" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108985');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/Pot/p8180039mediumhy1.th.jpg" /></a><span class="s2"><span class="s1">71</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/v_koncu_skuta_cez_gamsov_skret/108986" onclick="event.preventDefault(); window.open('/slika_pot/v_koncu_skuta_cez_gamsov_skret/108986');"><img class="slikagm" alt="V Koncu - Skuta" src="//www.hribi.net/Pot/p8180038mediumvn0.th.jpg" /></a><span class="s2"><span class="s1">72</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu V Koncu - Skuta (čez Gamsov skret)</b></div>
+
+
+
+<div id="kom3376" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/enjanez/3792">enjanez</a><span class="komDatum">31. 07. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Pred dnevi sva s kolegom zgrešila vstop na stezo. Pod meliš&#269;em (slika 3) sva se pri lovski preži po sledeh usmerila navzgor. Sledi, ki bi vodile proti levemu delu doline ni bilo, zaradi bujnega rastja in podrtih dreves,  nikjer videti. Spominjam se, da je steza dobro shojena, zato mora biti za&#269;etek steze drugje, kot je v tem opisu. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3377" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/kopron/1356">kopron</a><span class="komDatum">31. 07. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Slika 1 to je za&#269;etek poti proti žmav&#269;arjem .&#268;e gledaš  Sliko 1 ja takoj levo še en kolovoz to je za&#269;etek poti proti gamsovem skretu po nekaj sto metrih se zoža in naprej je steza ki se nadaljuje v klju&#269;ih. Tudi &#269;e gledaš sliko 3 se pride precej višje na stezo ko ta pre&#269;ka ta graben vendar je treba že mal plezati. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3379" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/kopron/1356">kopron</a><span class="komDatum">31. 07. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Morda nisem bil preje dovolj precizen, sl.1 levo od modrega avtomobila je ta preje opisani kolovoz ki se potem nadaljuje kot steza v gamsov skret.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3380" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/enjanez/3792">enjanez</a><span class="komDatum">31. 07. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Hvala lepa. Zmedlo naju je od lanskega snega podrto drevje. Sva si pa zato ogledale kraje, kamor razen lovcev pridejo le redki. Vseeno je bilo lepo. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3381" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/janez3/3667">janez3</a><span class="komDatum">31. 07. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zmede najbolj opis izleta ( in GPS track na teh straneh ), ki najprej povede v Žmav&#269;arje in takoj nato prisili v iskanje veznih pre&#269;nih stezic v Koncu. Prav ima kopron. Z zadnjega parkiriš&#269;a po levem kolovozu proti severu. Ko se ta cepi, po desnem kraku in ta se nadaljuje v stezo &#269;ez Gamsov skret.<br> <br> Zgoraj na Podih, &#269;e je želja obiskati le Skuto, tudi ni nobene potrebe iti do bivaka. Markacijam sledimo še kratek &#269;as mimo mesta, ki ga prikazuje sl.16, nato jih zapustimo in zavijemo desno v brezpotje.Da smo na pravi poti, nam ponavadi potrdijo možici. Štruco imamo na svoji desni, pred sabo pa Dolgi hrbet. Hodimo naravnost navzgor, v zadnjem delu nad kotanjo zavijemo levo in kmalu stopimo na markirano pot pod D.hrbtom. <br> <br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3391" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/pastirica/3409">Pastirica</a><span class="komDatum">1. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>kopron, &#269;e ni skrivnost, zanima me &#269;isto zgornji del tistega "...vendar je treba že mal plezati." Predvsem prestop v Trato. Je kaj težjega kot v spodnji polovici?</div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3392" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/kopron/1356">kopron</a><span class="komDatum">1. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Prestop v zgornji del je treba malo preplezati pa tudi zajla je v pomo&#269;. Pa tudi da prideš do zajl moraš iti do konca spodnjega dela trate desno od kogla(do skalne bariere).Levo zgoraj zagledaš zajlo(glej sliko 8) Potem pa po polici,kjer je tudi zajla.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3393" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/pastirica/3409">Pastirica</a><span class="komDatum">1. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zdaj pa ne govoriva o isti stvari. V mislih imam sliko 3 in prestop v Trato POD Koglom.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3399" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/kopron/1356">kopron</a><span class="komDatum">1. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Da po tej grapi prideš na trato moraš v vsakem primeru priti na stezo ki pre&#269;ka to grapo, in vodi naprej proti koglu in gamnsovem skretu. Tam je tudi odcep za mali hudi graben. Je že mnogo let ko sem šel po grabnu gor. Tudi &#269;ez gamsov skret sem šel nazadnje pred petimi leti. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3401" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_9" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_9" class="komL"><a class="ime" href="/gornik/pastirica/3409">Pastirica</a><span class="komDatum">1. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Zdaj razumem. Se pravi, da do mesta na sl.8 ni plezanja, le spodaj je treba prav za&#269;eti. HVALA!</div>
+       
+       </div>
+    </td>
+    <td id="komD0_9" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_9" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom3402" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_10" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_10" class="komL"><a class="ime" href="/gornik/kopron/1356">kopron</a><span class="komDatum">2. 08. 2008</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Nobenega plezanja ni razen tam na sliki 8 in 9 saj se to drži skupaj. Tudi ko greš gori jo skoraj ne rabiš. Rabi se &#269;e sestopaš dol, pa tudi orientacijsko je dosti zahtevno pri sestopanju &#269;ez gamsov skret. Veliko lažje je sestop &#269;ez Žmav&#269;arje.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_10" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_10" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom4851" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_11" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_11" class="komL"><a class="ime" href="/gornik/neic008/2609">NEIC008</a><span class="komDatum">26. 07. 2009</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>''Pred dnevi sva s kolegom zgrešila vstop na stezo. Pod meliš&#269;em (slika 3) sva se pri lovski preži po sledeh usmerila navzgor. Sledi, ki bi vodile proti levemu delu doline ni bilo, zaradi bujnega rastja in podrtih dreves, nikjer videti. Spominjam se, da je steza dobro shojena, zato mora biti za&#269;etek steze drugje, kot je v tem opisu.''<br> <br> ENAKO SE ZGODILO MENI DANES... ZARADI TEGA DVOJNO PLEZANJE, PRVO, KI SPLOH NI OMENJENO (VSTOP V STENO OB KONCU MELIŠ&#268;A) IN POTEM TISTO OPISANO ZGORAJ. POT VSEKAKOR NI PRIMERNA ZA NAZAJ, PA TUDI ORIENTACIJSKO ZAHTEVNA.. MOJ  NASVET: &#268;E NE POZNAŠ POTI IZBIRAJ LE TISTE OZNA&#268;ENE.. <img alt=velik&nbsp;nasmeh src=/slike/biggrin.gif> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_11" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_11" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom21145" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_12" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_12" class="komL"><a class="ime" href="/gornik/techouse/17164">techouse</a><span class="komDatum">6. 10. 2014</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Lepa turca. Pot je bla ta vikend TOP. <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_12" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_12" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23586" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_13" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_13" class="komL"><a class="ime" href="/gornik/grega_z_brega/17904">grega_z_brega</a><span class="komDatum">15. 11. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Na poti v gozdu so na enem delu podrta drevesa, ki pa jih je bolje preplezati kot pa izbrati zoprn obvoz v desno, ki nas nato po grapi pripelje nazaj na pot.<br> Vse ostalo b.p.<br> Jeklenice so nove.</div>
+       
+       </div>
+    </td>
+    <td id="komD0_13" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_13" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom27054" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_14" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_14" class="komL"><a class="ime" href="/gornik/trdi/9861">trdi</a><span class="komDatum">29. 08. 2017</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ja opis tu ni najboljši, oziroma bi bilo treba posodobiti slike. Zdaj sem prebral zapis NEIC008. To s tem meliš&#269;em se je meni letos zgodilo, pot po tem meliš&#269;u je sicer kar uhojena, tako da se verjetno veliko pohodnikov zmoti, &#269;ez tisto steno pa potem nisem upal, ker nisem vedel, kam vodi, sem pa na geopediji videl, da je za steno spet travnik in da verjetno ni panike...</div>
+       
+       </div>
+    </td>
+    <td id="komD0_14" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_14" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(15);
+    });
+    abc(15);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1068801/zapisizgora_160_600', [160, 600], 'div-gpt-ad-1684384003587-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /1068801/zapisizgora_160_600 -->
+<div id='div-gpt-ad-1684384003587-0' style='min-width: 160px; min-height: 600px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1684384003587-0'); });
+  </script>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>

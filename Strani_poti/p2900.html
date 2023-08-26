@@ -1,0 +1,1272 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="/StyleSheet.css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/slike/logo.ico" /><link rel="alternate" type="application/rss+xml" title="Trenutne razmere - Forum" href="/rss1.xml" /><link rel="alternate" type="application/rss+xml" title="Novi opisi gora, izletov" href="/rss4.xml" /><link rel="alternate" type="application/rss+xml" title="Novice" href="/rss2.xml" /><link rel="alternate" type="application/rss+xml" title="Video posnetki" href="/rss9.xml" /><link rel="alternate" type="application/rss+xml" title="Komentirani izleti" href="/rss3.xml" /><link rel="alternate" type="application/rss+xml" title="Prireditve" href="/rss5.xml" /><link rel="alternate" type="application/rss+xml" title="Panorame" href="/rss6.xml" /><link rel="alternate" type="application/rss+xml" title="GPS sledi" href="/rss7.xml" /><link rel="alternate" type="application/rss+xml" title="Spletne kamere" href="/rss8.xml" /><link rel="alternate" type="application/rss+xml" title="Mali oglasi" href="/rss10.xml" /><link rel="alternate" type="application/rss+xml" title="Alpinistični vzponi" href="/rss20.xml" />
+
+        <title>Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna) (po SZ grebenu na Kočno oz. vrh Na Križu)</title>
+        <meta name="description" content="Natančen opis izleta Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna) (po SZ grebenu na Kočno oz. vrh Na Križu). Podroben opis poti s slikami." />
+
+<meta name="author" content="Rok Lukan" /><meta name="verify-v1" content="sXljD5GV20+EU7Ux2CdmrEDx3B65WlsKqpNRdgePdFs=" />
+
+<script>_iprom_consent=true;</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1YG74W2KBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1YG74W2KBV');
+</script>
+
+
+<title>
+
+</title></head>
+<body onload="menuZ();">
+
+    <form method="post" action="/izlet/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/3/2559/5610" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA0NzMxMzAzMWRkFVm/iEJqnb4zukD9a4gr81tAka2STGx6p70kne6txXg=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67A3F013" />
+<script>
+
+
+    function tooltip(tekst)
+    {
+
+        var tempDiv = document.createElement("div");
+        document.body.appendChild(tempDiv);
+        tempDiv.innerHTML = tekst;
+        tempDiv.className='tooltiptext';
+        setTimeout(function () { document.body.removeChild(tempDiv); }, 2000);
+    }
+</script>
+        
+
+    <script>
+        
+
+
+        function prijava() {
+            if (document.getElementById('DivPrijava').style.display == 'block')
+            {
+                document.getElementById('DivPrijava').style.display = 'none';
+            }
+            else
+            {
+                document.getElementById('DivPrijava').style.display = 'block';
+                document.getElementById("prijava1").focus();
+            }
+        }
+        
+        
+
+        function prijava1(u, g, a, v) {
+
+            var xmlHttp;
+            try {
+                xmlHttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.responseText.length<10)
+                    {
+                        document.getElementById('DivPrijava').style.display = 'none';
+                        window.location.reload();
+                        for (i = 0; i < document.forms.length; i++) {
+                            document.forms[i].reset();
+                        }
+                    }
+                    else
+                    {
+                        tooltip(xmlHttp.responseText);
+                    }
+                }
+            }
+            
+
+            if ((u.length > 0 && g.length>0)) {
+                xmlHttp.open("POST", "/ajaxprijava.aspx", false);
+                xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xmlHttp.setRequestHeader("Cache-Control", "no-cache");
+                xmlHttp.setRequestHeader("Pragma", "no-cache");
+                xmlHttp.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+                xmlHttp.send("u=" + encodeURIComponent(u) + "&g=" + encodeURIComponent(g) + "&a=" + encodeURIComponent(a));
+            }
+            else
+            {
+                tooltip("Vpišite uporabniško ime in geslo!");
+            }
+        }
+
+        function prijavaE(evt) { 
+            if (evt.keyCode === 13) {
+                evt.preventDefault();
+                prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+            }
+
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+                return false; 
+            return true; 
+        } 
+
+    </script>
+<script>
+function prijavaG() { 
+    prijava1(document.getElementById('prijava1').value, document.getElementById('prijava2').value, document.getElementById('avtoprijava').checked,1);
+} 
+</script>
+        
+
+<script>
+    var menuU1 = 0;
+    var menuUS = 0;
+    var vednoOdprt=0
+
+    function menuUser(tt) {
+        if (tt == 1) {
+            if (menuU1 == 1) {
+
+                if (window.innerWidth + 30 < menuUS || window.innerWidth - 30 > menuUS) {
+                    if(vednoOdprt == 1)
+                    {
+                        if(window.innerWidth>800){
+                            document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                            menuU1 = 0;
+                        }
+                    }
+                    else
+                    {
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+                    }
+                }
+            }
+        }
+        else if(tt == 2)
+        {
+            if(vednoOdprt == 1)
+            {
+                if(window.innerWidth<=800){
+                    document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                    document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                    menuU1 = 1;
+                    menuUS = window.innerWidth;
+                }
+            }
+        }
+        else {
+            if (menuU1 == 1) {
+                if(vednoOdprt == 1)
+                {
+                    if(window.innerWidth>800){
+                        document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                        menuU1 = 0;
+
+                    }
+                }
+                else
+                {
+                    document.getElementById("MeniZgorajZgorajM").style.display = "none";
+                    menuU1 = 0;
+
+                }
+            }
+            else {
+                document.getElementById('MeniZgorajZgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajZgoraj').innerHTML + "</div>";
+                document.getElementById("MeniZgorajZgorajM").style.display = "block";
+                menuU1 = 1;
+                menuUS = window.innerWidth;
+
+            }
+        }
+    }
+
+    function menuZ() {
+        if(window.innerWidth<=800)
+        {
+            document.getElementById('menizgorajM').innerHTML = "<div class='menizgorajM2'>" + document.getElementById('MeniZgorajSredina').innerHTML+"</div>";
+        }
+    }
+
+    var menu1 = 0;
+    var menuS = 0;
+    function menu(tt) {
+        if (tt == 1) {
+            if (menu1 == 1) {
+                
+                if (window.innerWidth + 30 < menuS || window.innerWidth - 30 > menuS) {
+                    document.getElementById("meniOzadje").style.display = "none";
+                    document.getElementById("leftM").style.display = "none";
+                    //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                    //document.getElementById("MeniZgorajLevo").style.display = "none";
+                    menu1 = 0;
+                }
+            }
+        }
+        else {
+            if (menu1 == 1) {
+                document.getElementById("meniOzadje").style.display = "none";
+                document.getElementById("leftM").style.display = "none";
+                //document.getElementsByTagName("BODY")[0].classList.remove("fixedPosition");
+                
+
+                menu1 = 0;
+            }
+            else {
+                document.getElementById('leftM').innerHTML = "<div class='MeniZgorajLevo2'>" + document.getElementById('MeniZgorajLevo').innerHTML + "</div><div>" + document.getElementById('left').innerHTML + "</div>";
+                document.getElementById("meniOzadje").style.display = "block";
+                document.getElementById("leftM").style.display = "block";
+                //document.getElementsByTagName("BODY")[0].classList.add("fixedPosition");
+
+
+                menu1 = 1;
+                menuS = window.innerWidth;
+            }
+        }
+    }
+
+
+
+    var isk22=true;
+    function iskanje22()
+    {
+
+        if(isk22)
+        {
+            document.getElementById("iskalnik3").style.display="block";
+            isk22=false;
+            document.getElementById("iskalnikX").focus();
+
+
+        }
+        else
+        {
+            document.getElementById("iskalnik3").style.display="none";
+            isk22=true;
+        }
+    }
+
+    function iskanje11()
+    {
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+    }
+
+    function iskanje111(eventx)
+    {
+        if (eventx.keyCode === 13) {
+            eventx.preventDefault();
+            if(document.getElementById("iskalnikX").value!="")
+            {
+                window.location.replace("/iskalnik.asp?q="+encodeURIComponent(document.getElementById("iskalnikX").value));
+            }
+            else
+            {
+                tooltip("Vpišite iskan niz besed!");
+            }
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    function ajaxc() {
+        var xmlHttpcl;
+        try {
+            xmlHttpcl = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpcl = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpcl = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpcl.onreadystatechange = function () {
+        }
+        xmlHttpcl.open("GET", "/ajaxc.asp", false);
+        xmlHttpcl.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpcl.setRequestHeader("Pragma", "no-cache");
+        xmlHttpcl.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpcl.send(null);
+    }
+    ajaxc();
+</script>
+
+<script type="text/javascript">
+    function locljivost(l) {
+
+        var xmlHttploc;
+        try {
+            xmlHttploc = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttploc = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttploc = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttploc.onreadystatechange = function () {
+        }
+        xmlHttploc.open("GET", "/ajaxlocljivost.asp?l="+l, false);
+        xmlHttploc.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttploc.setRequestHeader("Pragma", "no-cache");
+        xmlHttploc.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttploc.send(null);
+    }
+    
+    locljivost(window.innerWidth);
+    
+
+</script>
+   <div id="glava">
+
+       <div id="glava1_desktop"><a href="/" title="hribi"><span><img src="/slike/logo.png" alt="Hribi.net" /></span></a></div>
+       <div id="glava1_mobile"><a href="/" title="hribi"><img src="/slike/logo_mobile.png" alt="Hribi.net" /></a></div>
+       
+       <div id="iskalnik3"><table><tr><td class="td1"><input onkeypress="iskanje111(event);" class="iskalnik1" type="text" id="iskalnikX" /></td><td class="td1"><div onclick="iskanje11();" class="gumbiskanje"></div></td></tr></table></div>       
+
+
+       <div id="glava5"><div title="Menu" onclick="menu();" id="gM"></div></div>
+       <div id="glava3">
+           <div title="Prijava" onclick="prijava();" id="gA"><span class="h800">Prijava</span></div>
+
+       </div>
+       
+       <div id="glava2">
+           
+       </div>
+       
+       <div id="glava22">
+            <div title="Iskanje" onclick="iskanje22();" id="gMi"></div>
+       </div>
+
+
+       <div id="glava4">
+           
+           <div id="MeniZgorajZgoraj">
+               
+
+           </div>
+
+       </div>
+       
+   </div>
+<div id="MeniZgorajZgorajM"></div>
+
+
+
+<div id="DivPrijava">
+    <div id="DivPrijava2">
+        <div><b>Prijava</b></div>
+        <div class="rdec" id="prijavaNapaka"></div>
+        <div style="margin-top:5px;">Uporabniško ime:</div>
+        <div><input onkeypress="prijavaE(event);" class="tbox1" type="text" id="prijava1" /></div>
+        <div style="margin-top:5px;">Geslo:</div>
+        <div><input onkeypress="prijavaE(event);" class='tbox1' type='password' id='prijava2' /></div>
+        <div style="margin-top:5px;"><label for="avtoprijava">Zapomni si me:</label> <input type="checkbox" id="avtoprijava" /></div>
+        <div style="margin-top:5px;"><div class="gumb1" onclick="prijavaG();">Prijava</div></div>
+        <div style="padding-top:15px; clear:both;">Še niste registrirani? <a href="/registracija.asp">Registracija</a>.</div>
+        <div style="margin-top:15px;"><a href="/geslo.asp">Ste pozabili geslo?</a></div>
+    </div>
+</div>
+
+
+<div id="meniOzadje" onclick="menu();"></div>
+
+<div id="menizgorajM"></div>
+<div class="menizgorajA">
+<div class="menizgoraj">
+
+    
+        <div id="MeniZgorajLevo"><a href="https://www.hike.uno/hiking_tour/murijeva_planina_below_mlinarjevo_sedlo_na_krizu_kokrska_kocna_on_nw_ridge_on_kocna_or_peak_na_krizu/3/2559/5610"><img src="/slike/eng.gif" /></a>&nbsp;&nbsp;<a href="http://hr.hribi.net/pot.asp?gorovjeid=3&id=2559&potid=5610"><img src="/slike/hrv.gif" /></a></div>
+<div id="MeniZgorajSredina">
+    <div class="zavihek1"><a class="pov2" href="/gorovja">Seznam gora</a></div>
+    <div class="zavihek0"><a class="pov2" href="/iskalnik_izletov">Iskanje izletov</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+
+<div id="okvir">
+<div class="left" id="left">
+
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/"><h2>Novice</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/trenutnerazmere.asp?slo=1"><h2>Trenutne razmere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorovja"><h2>Seznam gora</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/iskalnik_izletov"><h2>Iskanje izletov</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gorske_panorame"><h2>Panorama</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/video/"><h2>Video</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/mali_oglasi"><h2>Mali oglasi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vpisna_knjiga_vrhov"><h2>Vpisna knjiga</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/prireditve.asp"><h2>Prireditve</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/alpske_zivali"><h2>Živali</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/rastline"><h2>Cvetje</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/kviz.asp"><h2>Kviz</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/zemljevid.asp"><h2>Zemljevid</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/vreme.asp"><h2>Vreme</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/gps.asp"><h2>GPS sledi</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/spletne_kamere_v_gorah"><h2>Spletne kamere</h2></a></div>
+<div class="hr"></div>
+<div class="meni1"><a class="meni" href="/najslike.asp"><h2>Slike</h2></a></div>
+<div class="hr"></div>
+
+
+<div style="margin:5px -2px 0px -3px;">
+<table style="width:100%;">
+<tr style="background-color:#4EC29E;"><td colspan="3"><div class="anketanaslov">Anketa</div></td></tr>
+
+
+<tr><td colspan="3"><div class="anketabesedilo2">Ali veste kolikokrat ste bili na Triglavu?</div></td></tr>
+    
+<script type="text/javascript">
+    function anketaGlasuj() {
+        var av=0;
+        var stOdg=2;
+        for(i=1; i<=stOdg; i++)
+        {
+            if(document.getElementById('anketa'+i).checked)
+            {
+                av=i;
+            }
+        }
+        
+
+        
+
+        var xmlHttpAnketa;
+        try {
+            xmlHttpAnketa = new XMLHttpRequest();
+        }
+        catch (e) {
+            try {
+                xmlHttpAnketa = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e) {
+                try {
+                    xmlHttpAnketa = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e) {
+                    return false;
+                }
+            }
+        }
+        xmlHttpAnketa.onreadystatechange=function()
+        {
+            if(xmlHttpAnketa.readyState==4)
+            {
+
+                location.reload();
+                //document.getElementById("cookie_1").innerHTML=xmlHttpAnketa.responseText;
+                
+            }
+        }
+        xmlHttpAnketa.open("GET", "/anketa.asp?id=899&av="+av, false);
+        xmlHttpAnketa.setRequestHeader("Cache-Control", "no-cache");
+        xmlHttpAnketa.setRequestHeader("Pragma", "no-cache");
+        xmlHttpAnketa.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlHttpAnketa.send(null);
+    }
+</script> 
+
+<tr><td><input value="odgovor1" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa1" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa1">Da</label></td></tr>
+
+<tr><td><input value="odgovor2" type="radio" style="height:15px; margin:0px 0px 0px 2px; padding:0px;" id="anketa2" name="anketa" /></td><td style="width:100%; font-size:10px; color:#f5f5f5;"><label for="anketa2">Ne</label></td></tr>
+
+<tr><td colspan="2"><div class="gumb3" onclick="anketaGlasuj();">Glasuj</div></td></tr>
+
+
+</table>
+</div>
+
+
+
+</div>
+
+
+<div class="leftM" id="leftM"></div>
+
+<script>
+    
+    window.addEventListener('scroll', function (event) {
+        if(document.documentElement.scrollTop>=110)
+        {
+            document.getElementById("oglasD").style.position = "fixed";
+            document.getElementById("oglasD").style.top = "0px";
+        }
+        else
+        {
+            document.getElementById("oglasD").style.position = "static";
+            document.getElementById("oglasD").style.top = "";
+
+        }
+    });
+    
+</script>
+            
+<div class="main">
+    <div id="drobtinice">
+        
+        <a class="moder" href="/gorovja">Gorovja</a> /  <a class="moder" href="/gorovje/kamnisko_savinjske_alpe/3">Kamniško Savinjske Alpe</a> / <a class="moder" href="/gora/na_krizu_kokrska_kocna/3/2559">Na Križu (Kokrska Kočna)</a> / Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna) (po SZ grebenu na Kočno oz. vrh Na Križu)
+    </div>
+
+    <div id="oglas1">
+        <div id="oglas1a">
+
+<style type="text/css">
+.adslot_2 { display:inline-block; width: 320px; height: 100px; }
+@media (max-width: 467px) { .adslot_2 { width: 320px; height: 100px; } }
+@media (min-width:468px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:1048px) { .adslot_2 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_2"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="4291449630"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+           
+
+
+        </div><div id="oglas1b">
+        
+<style type="text/css">
+.adslot_3 { display:inline-block; width: 728px; height: 90px; }
+@media (max-width: 1792px) { .adslot_3 { display: none; } }
+@media (min-width:1793px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="5558932295"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        
+        </div>
+
+    </div>
+
+    <div class="main2">
+            
+
+    <script type="text/javascript">
+        function potst(id) {
+            var xmlHttpgst;
+            try {
+                xmlHttpgst = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlHttpgst = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    try {
+                        xmlHttpgst = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                        return false;
+                    }
+                }
+            }
+            xmlHttpgst.onreadystatechange = function () {
+                if (xmlHttpgst.readyState == 4) {
+                }
+            }
+            xmlHttpgst.open("GET", "/ajaxgo" + "rastetje" + ".asp?pot=1&id=" + id, true);
+            xmlHttpgst.setRequestHeader("Cache-Control", "no-cache");
+            xmlHttpgst.setRequestHeader("Pragma", "no-cache");
+            xmlHttpgst.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+            xmlHttpgst.send(null);
+        }
+        potst(5610);
+
+        function kopiraj()
+        {
+            var tempInput = document.createElement("textarea");
+            tempInput.value = document.getElementById("kf0").innerHTML.replace(/&nbsp;/g, " ");
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            tooltip("Kopirano v odložišče...");
+
+        }
+        
+</script>
+
+    <div class="naslov1"><div style="float:left;"><h1>Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna) (po SZ grebenu na Kočno oz. vrh Na Križu)</h1></div><div style="float:right; padding-left:50px; padding-right:50px;"><table><tr><td class="dp3"><div onclick="window.location.href='/pot.asp?natisni=1&potid=5610';" class="gumb2">Natisni</div></td></tr></table></div></div>
+<div class="gorasiv" style="clear:both;">
+<div class="fl">
+
+    <div class="g2"><b>Izhodišče:</b> Murijeva planina pod Mlinarjevim sedlom (1200 m)</div>
+    
+    <div class="g2"><b>Cilj:</b> <a class="moder" href="/gora/na_krizu_kokrska_kocna/3/2559">Na Križu (Kokrska Kočna) (2484 m)</a></div>
+    <div class="g2"><b>Ime poti:</b> po SZ grebenu na Kočno oz. vrh Na Križu</div>
+    <div class="g2"><b>Čas hoje:</b> 8 h</div>
+    
+    <div class="g2"><b>Zahtevnost:</b> alpinistični vzpon</div>
+    <div class="g2"><b>Višinska razlika:</b> 1284 m</div>
+    <div class="g2"><b>Višinska razlika po poti:</b> 1500 m</div>
+    <div class="g2"><b>Zemljevid:</b> Kamniške in Savinjske alpe, Grintovci</div>
+    
+    <div class="g2"><b>Priporočena oprema (poletje):</b> čelada</div>
+    <div class="g2"><b>Priporočena oprema (zima):</b> </div>
+
+
+</div>
+<div class="fl">
+    <div class="g2"><b>Avtor:</b> <a class="moder" href="/gornik/janezs73/14972">janezs73</a></div>
+    <div class="g2"><b>Ogledov:</b> 6.610</div>
+
+
+    <script>
+        function oceniPot(ocena, zbrisi)
+        {
+            tooltip('Potrebna je prijava!');
+        }
+    </script>
+
+
+
+    <div class="g2">
+<div>
+<div onclick="oceniPot(10,0);" class="oc1P" onmouseover="oceniMOn();" onmouseout="oceniMOut();" title="všeč" id="ocenjevanje">
+<table><tr><td class="td1"><img class="potpng" src="/slike/vsec3.png" /></td><td class="td1" id="octP">&nbsp;4&nbsp;osebam&nbsp;je&nbsp;objava&nbsp;všeč</td></tr></table>
+</div>
+<div id="ocenjevanje2"></div>
+    </div>
+    </div>
+
+    <div class="g2"><b>Število slik:</b> <a class="moder" href="#slike">21</a></div>
+    <div class="g2"><b>Število komentarjev:</b> <a class="moder" href="#diskusije">9</a></div>
+
+</div>
+
+</div>
+
+<div style="padding-top:10px;"><b>Dostop do izhodišča:</b><br />Na Zgornjem Jezerskem zavijemo z glavne ceste na desno v dolino Makekova Kočna. Sledimo makadamski cesti in pri parkirišču ob starem smučišču nadaljujemo naravnost proti gozdu. Sledimo cesti do višine 1200 m, torej tik preden se cesta zravna in obvozi Mali vrh. Parkiramo v gozdu, kjer se levo v smeri nazaj odcepi kolovoz (pod Murijevo planino).<br>Opozorilo: ker je zaradi težavnosti najbolje sestopiti mimo Češke koče ali Suhadolnika, je potrebno razmisliti, kako bomo prišli nazaj do avta; najbolj pripravno je, če si pomagamo z drugim avtomobilom, ki ga prej pustimo na enem od omenjenih krajev.</div>
+<div style="padding-top:10px;"><b>Opis poti:</b><br />Po kolovozu se vzpnemo mimo Murijeve planine pod Mlinarjevim sedlom do lovske koče in od tam po markirani poti na Veliki vrh (1700 m), ki ga dosežemo v 1h in kjer se začne naš greben.<br> <br>Od Velikega vrha se takoj držimo grebena, na katerem prvo uro sledimo nakazani in mestoma požagani grebenski trasi skozi precej veliko ruševje do sedla z macesnovim gajem. Od tod naprej najprej po levi strani grebena, potem pa večinoma po desni ali direktno po grebenu, kjer je prebijanje skozi ruševje najlažje. Po prvih strmih odsekih se greben prvič postavi pokonci, nad nami so precej lepe plošče, ki jih lahko preplezamo direktno ali pa se grebenu umaknemo levo v precej razbito grapo, ki zaradi izjemnega grušča in razmajanih skal spominja na stari kamnolom. Iz grape je najlažje levo po rdečem grušču in nad njim nazaj desno po sredini grape direktno nazaj na greben. Po njem gremo prek številnih ram - dokler nas obdaja ruševje, je večino prehodov po južni lažji strani, tudi ko prečimo precej zračne grebenski stolpe, enkrat samkrat je najlažje po severni strani po polički približno 5 m pod grebenom. Do sem lahko po ruševju samo za greben od Velikega vrha potrebujemo tudi 3h.<br>Ko pridemo do prvega izstopajočega grebenskega stolpa, opazimo na levi pod njim star klin, prečimo mimo njega do naslednjega grebenskega stolpa (III), ki pa ni tako izrazit, se je pa z njega precej sitno spuščati, spust po vrvi je najprimernejši (klin ni potreben, saj se vrv lahko napne okoli zoba malo pod vrhom stolpa). Iz škrbine začnemo s prvo večjo glavo v grebenu. Preplezamo jo cik-cak, najprej desno (na začetku sledimo nakazanim prehodom v strmih travah, nato kratki polički v desno in spet zajedi v levo, ki pa ji nikar ne sledimo do roba, saj je za njim precej grda plošča s svežim odlomom. 10 m pred vrhom spet prečimo v desno (zagruščena polička) in dosežemo vrh te glave (I). Z njega se spustimo nekaj metrov na JZ stran po jasnem žlebu kakih 5 m, da lahko pod ploščo prečimo po lepi polički in se nazaj vzpnemo do grebena, ki pa se mu nekaj metrov kasneje takoj umaknemo desno po travah navzdol. <br> Sledijo strme trave pri vzponu na naslednjo glavo, najprej pa v zajedi 2 m velika plošča, ki pa ima zelo lepe stope. Najlažje se ta travnat del prepleza kar z bajlo oz. cepinom, ki v strmih travah ponuja odlično oporo (sploh če je trava oz. zemlja mokra). Kot pri prejšnji glavi, tudi tukaj nekje na 2/3 prečimo desno do roba in po robu na vrh glave, kjer stojimo pred najtežjim delom (Oltarji). <br> Kljub temu, da večino opisov predlaga prečenje teh izpostavljenih stolpov direktno, je najlepši prehod nižje. Z glave se vrnemo nekaj metrov nižje in po travnati polički prečimo do travnate rame, na kateri se nam odpre prehod pod ploščami Oltarskih stolpov. Travnata greda ni pretirano strma, po njej pa se spustimo toliko, da opazimo pred nami lepo gredo, ki preide v polico (nad nami so ves čas izjemno lepe a gladke in navpične plošče stolpov). Tik preden se polica v steni konča, nas v kratki steni nad travnato polico pozdravi še klin. Desno od njega se čez ploščo pne izrazita poč - predvsem na njeni levi strani so zelo lepi oprimki, skala je kompaktna za razliko od večine preostalega dela grebena. Ob poči preplezamo teh nekaj metrov (III) do travnatega dna, v katerem se srečata grapa (levo) iz škrbine med zadnjim Oltarskim stolpom in naslednjo ramo ter greda z lahkim pečevjem (desno). Ob izhodu iz poči gremo najprej nekaj metrov levo (še en klin) nato prečimo po travah desno mimo manjšega spodmola v pečevje desno od nas (II). Na vrhu tega pečevja se levo navzgor odpre lahek prehod nazaj na greben (s čimer se izognemo vsem težavam na krušljivi žagi Oltarjev). <br> Nadaljujemo nekaj metrov pod grebenom, na katerega se vrnemo šele po zajedi levo od lepe poševne plošče. Ko greben spet postane preveč narezan, ga obidemo po levi strani, nad ali skozi kratko grapo, na katero kmalu spet pridemo do grebena, ki nam postreže še z zadnjo težavo: z navpično 8 m ploščo. Dva metra nad škrbino gre preko plošče v desno ostra polička, po robu katere lahko najdemo odlične oprimke za prečenje v desno do strme zajede (III, morda IV). Tik nad koncem prečke je na levem robu zajede še en star klin, nad njim pa nas čaka le še lažje pečevje. Sledimo grebenu do vrhnjih glav, čez katere pridemo do vrha Na križu (2484 m), ki je po starih navedbah prej Kokrska Kočna.<br> <br> Z vrha sledimo grebenu do prve škrbine, od nje pa rahlo desno dol pod reber, okoli nje, potem pa po lahkem pečevju nekaj metrov višje prečimo po južnih pobočjih do izrazitega sedla z rdečkastim peskom in gruščem, preko katerega gremo na V stran (obrnjeno proti Grintovcu) in iz katerega se spustimo poševno levo dol proti grapi, kjer najdemo markirano pot na Kokrsko Kočno (v resnici Na križu).<br> <br> Tu se za nadaljevanje odločimo glede na načrtovan spust, ki je odvisen od načina prevoza do avta na izhodišču. Če je to prek Suhadolnika, se spustimo mimo bivaka na Dolce in prek Taške. Če pa je to na Jezersko, je potrebno po zavarovani poti še do vrha Jezerske Kočne in po eni od zavarovanih poti mimo Češke koče.<br> <br> Tura postreže z izjemnimi razgledi, na najtežjih mestih dovolj kompaktno in izjemno razčlenjeno skalo. Orientacijsko ni vedno trivialna, še posebej, če plezamo v megli, tako da ni nič čudnega, če je potreba kdaj nekaj metrov nazaj in po drugi strani. Zato je tudi možen velik razpon v času (ki je odvisen tudi od tega, na koliko mestih varujemo), vzpon lahko traja od 7 pa do 12 h. Pri varovanju prav pridejo zatiči in metulji, saj z njimi veliko hitreje napredujemo.</div>
+<div style="padding-top:5px;"><a href="/pot_zemljevid/na_krizu_kokrska_kocna/2559"><img src="/slike/Zemljevid.gif" style="border:0px; width:80px; height:40px;" alt="zemljevid poti - Na Križu (Kokrska Kočna)"></a></div>
+
+
+
+<div style="padding-top:10px;"><b>Priporočamo: </b>
+
+<a class="moder" href="/podobni_izleti/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/5610">podobni izleti</a>
+
+</div>
+
+
+    
+<div id="slike" style="padding-top:8px;"><b>Slike:</b></div>
+
+<div>
+
+
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321185" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321185');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/18327316.th.jpg" /></a><span class="s2"><span class="s1">1</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321186" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321186');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/28327317.th.jpg" /></a><span class="s2"><span class="s1">2</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321187" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321187');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/38327318.th.jpg" /></a><span class="s2"><span class="s1">3</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321188" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321188');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/48327318.th.jpg" /></a><span class="s2"><span class="s1">4</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321189" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321189');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/58327319.th.jpg" /></a><span class="s2"><span class="s1">5</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321190" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321190');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/68327319.th.jpg" /></a><span class="s2"><span class="s1">6</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321191" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321191');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/78327320.th.jpg" /></a><span class="s2"><span class="s1">7</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321192" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321192');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/88327321.th.jpg" /></a><span class="s2"><span class="s1">8</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321193" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321193');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/98327321.th.jpg" /></a><span class="s2"><span class="s1">9</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321194" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321194');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/108327322.th.jpg" /></a><span class="s2"><span class="s1">10</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321195" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321195');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/118327323.th.jpg" /></a><span class="s2"><span class="s1">11</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321196" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321196');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/128327323.th.jpg" /></a><span class="s2"><span class="s1">12</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321197" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321197');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/138327324.th.jpg" /></a><span class="s2"><span class="s1">13</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321198" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321198');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/148327325.th.jpg" /></a><span class="s2"><span class="s1">14</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321199" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321199');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/158327325.th.jpg" /></a><span class="s2"><span class="s1">15</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321200" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321200');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/168327326.th.jpg" /></a><span class="s2"><span class="s1">16</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321201" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321201');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/178327327.th.jpg" /></a><span class="s2"><span class="s1">17</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321202" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321202');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/188327328.th.jpg" /></a><span class="s2"><span class="s1">18</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321203" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321203');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/198327328.th.jpg" /></a><span class="s2"><span class="s1">19</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321204" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321204');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/208327330.th.jpg" /></a><span class="s2"><span class="s1">20</span></span></div>
+    
+        <div style="float:left; padding:0px 3px 3px 0px;"><a target="_blank" href="/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321205" onclick="event.preventDefault(); window.open('/slika_pot/murijeva_planina_pod_mlinarjevim_sedlom_na_krizu_kokrska_kocna_po_sz_grebenu_na_kocno_oz_vrh_na_krizu/321205');"><img class="slikagm" alt="Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna)" src="//www.hribi.net/slike5/218327331.th.jpg" /></a><span class="s2"><span class="s1">21</span></span></div>
+    
+</div>
+<div style="clear:both;"></div>
+
+
+
+<script>
+
+    function abc(k) {
+
+        if (window.innerWidth < 1000) {
+            if (document.getElementById('komL0_0').innerHTML.length > 0)
+            {
+
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komLMob0_' + k1).innerHTML = document.getElementById('komL0_' + k1).innerHTML;
+                    document.getElementById('komL0_' + k1).innerHTML = "";
+
+                    document.getElementById('komDMob0_' + k1).innerHTML = document.getElementById('komD0_' + k1).innerHTML;
+                    document.getElementById('komD0_' + k1).innerHTML = "";
+
+                }
+            }
+        }
+        else
+        {
+            if (document.getElementById('komLMob0_0').innerHTML.length > 0)
+            {
+                for (k1 = 0; k1 < k; k1++)
+                {
+                    document.getElementById('komL0_' + k1).innerHTML = document.getElementById('komLMob0_' + k1).innerHTML;
+                    document.getElementById('komLMob0_' + k1).innerHTML = "";
+
+                    document.getElementById('komD0_' + k1).innerHTML = document.getElementById('komDMob0_' + k1).innerHTML;
+                    document.getElementById('komDMob0_' + k1).innerHTML = "";
+                }
+            }
+        }
+    }
+</script>
+
+<div style="padding-top:5px; border-bottom:solid 1px #47CB89;" id="diskusije"><b>Diskusija o izletu Murijeva planina pod Mlinarjevim sedlom - Na Križu (Kokrska Kočna) (po SZ grebenu na Kočno oz. vrh Na Križu)</b></div>
+
+
+
+<div id="kom23201" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_0" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_0" class="komL"><a class="ime" href="/gornik/dprapr/9869">dprapr</a><span class="komDatum">16. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>&#268;e se prav spomnim, se da tam, kjer je ozna&#269;en spust po vrvi,tudi desno naokoli, brez spusta. Spust ni potreben nikjer.<br> Ker je to izrazito grebenska smer, se mi zdi škoda zapuš&#269;ati greben tam, kjer je najbolj "zanimiv". Najbolj delikaten detajl v tem delu (troglavi stolp) ima dobro skalo in se ga da lepo splezati po levi strani navzdol!<br> Zgoraj, kjer omenjaš morebitno IV, so dobri oprimki, kljub navpi&#269;ni, kratki  steni. Moje mnenje je, da je tam še III vprašljiva.<br> <br> Je pa ta SZ greben po dolžini "plavanja" po borovcih in poplezavanja po skalah  res prava zadeva za "grebenarje". <br> <br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_0" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_0" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23202" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_1" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_1" class="komL"><a class="ime" href="/gornik/janezs73/14972">janezs73</a><span class="komDatum">16. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>glede spusta se strinjam. tudi sam se med spuscanjem kolega opazil prehod na desni <img alt=nasmeh src=/slike/smile.gif><br> <br> Oltarskim stolpom sva se izognila, ker sva ocenila, da so obhodi prevec krusljivi... pa se megla je bila tocno takrat tako gosta, da bi jo rezal, tako, da nisem bil povsem preprican, kje je kaj<br> <br> na zadnji steni sem dal oceno na podlagi izkusenj iz plezalnih vrtcov, ker je teza telesa povsem na rokah.. se pa strinjam, da so ravno tam oprimiki fantasticni <img alt=nasmeh src=/slike/smile.gif> je pa tudi izpostavljenost ravno pravsnja... kakorkoli, cisti uzitek<br>  </div>
+       
+       </div>
+    </td>
+    <td id="komD0_1" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_1" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23203" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_2" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_2" class="komL"><a class="ime" href="/gornik/jusavgustin/5298">JusAvgustin</a><span class="komDatum">16. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>moram pogledat to &#269;udo... <img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_2" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_2" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23204" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_3" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_3" class="komL"><a class="ime" href="/gornik/dprapr/9869">dprapr</a><span class="komDatum">16. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Juš, ni nobeno &#269;udo, &#269;uda so v Martuljku!<img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_3" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_3" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23205" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_4" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_4" class="komL"><a class="ime" href="/gornik/janezs73/14972">janezs73</a><span class="komDatum">16. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>lahko bi ta greben poimenovali kot "sprejemni izpit" za grebenarje.. do pravih Financarjev je pa še kar dale&#269;... <img alt=nasmeh src=/slike/smile.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_4" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_4" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23206" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_5" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_5" class="komL"><a class="ime" href="/gornik/jusavgustin/5298">JusAvgustin</a><span class="komDatum">16. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>aja, ja no ne vem omenjate III. mogo&#269;e celo IV... Bom šel pogledat, potem pa podam mnenje. Prej ga ne morem, kajne?<img alt=mežikanje src=/slike/wink.gif></div>
+       
+       </div>
+    </td>
+    <td id="komD0_5" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_5" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23207" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_6" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_6" class="komL"><a class="ime" href="/gornik/jovan_cukut/8935">Jovan Cukut</a><span class="komDatum">16. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Ampak po grebenu, Juš, tako kot jaz in ekipa. In le glej, z varovanjem, &#269;eprav bo to zate, kot alpinista z izkušnjami, sprehod.<br> <br> Sre&#269;no. Jovan </div>
+       
+       </div>
+    </td>
+    <td id="komD0_6" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_6" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom23208" class="vrk1">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_7" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_7" class="komL"><a class="ime" href="/gornik/ljubitelj_gora/7527">ljubitelj gora</a><span class="komDatum">16. 09. 2015</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>Tisti, ki ho&#269;ejo lažji greben je JZ, plezanje I stopnje, mogo&#269;e kak krajši odsek II. stopnje. </div>
+       
+       </div>
+    </td>
+    <td id="komD0_7" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_7" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+
+<div id="kom32266" class="vrk0">
+<div><table style="width:100%;">
+<tr><td colspan="3" id="komLMob0_8" class="komZ"></td></tr>
+<tr>
+    <td id="komL0_8" class="komL"><a class="ime" href="/gornik/di/11979">di</a><span class="komDatum">1. 09. 2020</span></td>
+    <td class="komS">
+       <div style="padding-bottom:7px;">
+       <div>"Normalni pristop. Suhadolnikova pot na Kokrsko Ko&#269;no pripelje tik pod greben, ki povezuje Kokrsko Ko&#269;no in vrh Na Križu (prehod v Povnovo dolino, 2441 m). Na desno markacije vodijo v zavarovan vršni del Kokrske Ko&#269;ne, mi pa se obrnemo v levo (JZ), preplezamo nekaj neizrazitih vrhov in se vzpnemo na najvišji vrh: Na Križu. Težave so I. stopnje." (Marijana & Marko); (podobno verjetno tudi LG)<br> <br> Vprašanje pa je:<br> Da prideš (v obratni smeri, kot je opisano - torej gledano iz smeri, ko greš &#269;ez Grdi graben gor) do meliš&#269;a na sliki 21, ali torej pre&#269;iš nižje in "mimo" Bivaka v Ko&#269;ni (tako je razumeti  podpis pod to sliko)?<br> <br> (Je pa splošna težava, ker se velikokrat na teh predelih pojavi in zadržuje megla.)<br> </div>
+       
+       </div>
+    </td>
+    <td id="komD0_8" class="komD">
+            
+        </td>
+</tr>
+<tr><td colspan="3" id="komDMob0_8" class="komZ"></td></tr>
+
+
+</table></div>
+</div>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        abc(9);
+    });
+    abc(9);
+</script>
+
+
+<div>
+
+<div style="padding-top:10px;"><b>Za objavo komentarja se morate prijaviti:</b></div>
+
+<div id="prijavaNapaka2" class="rdec"></div>
+<div>
+<table>
+<tr><td class="td1">Uporabniško ime: </td><td class="td1"><input type="text" id="imePR" /></td></tr>
+<tr><td class="td1">Geslo: </td><td class="td1"><input type="password" id="gesloPR" /></td></tr>
+<tr><td class="td1" colspan="2"><label for="avtoprijavaPR">Zapomni si me:</label> <input type="checkbox" id="avtoprijavaPR" /></td></tr>
+<tr><td class="td1"></td><td class="td1"><div class="gumb1" onclick="prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);">Prijava</div></td></tr>
+</table>
+<script>
+    var input1PR = document.getElementById("imePR");
+    var input2PR = document.getElementById("gesloPR");
+    input1PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+    input2PR.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            prijava1(document.getElementById('imePR').value, document.getElementById('gesloPR').value, document.getElementById('avtoprijavaPR').checked,2);
+        }
+    });
+</script>
+</div>
+<div style="padding-top:10px;">V kolikor še nimate uporabniškega imena se morate najprej <a href="/registracija.asp" class="moder">registrirati</a>.</div>
+
+
+</div>
+
+
+    </div>
+    <div id="noga">
+                <div style="float:right; position:relative;"><a href="http://hr.hribi.net" title="Hrvatski"><img src="/slike/hrv2.gif" /></a>&nbsp;&nbsp;<a href="https://www.hike.uno" title="English"><img src="/slike/eng2.gif" /></a>&nbsp;&nbsp;<a href="http://www.hiking-trail.net/" title="English - old website"><img src="/slike/eng3.png" /></a>&nbsp;</div>
+
+        <div>Copyright © 2006-2023 Hribi.net, <a class="noga" href="/pogoji.asp">Pogoji uporabe</a>, <a class="noga" href="/piskotki.asp">Piškotki</a></div>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
+
+
+<div class="right">
+<div id="oglasD">
+
+<style type="text/css">
+.adslot_1 { display:inline-block; width: 160px; height: 320px; }
+@media (max-width: 800px) { .adslot_1 { display: none; } }
+@media (min-width:1024px) { .adslot_1 { width: 160px; height: 600px; } }
+@media (min-width:1793px) { .adslot_1 { width: 160px; height: 160px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+   data-ad-client="ca-pub-0186014428427864"
+   data-ad-slot="9540509523"></ins>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</div>
+</div>
+</div>
+
+
+<script>
+    function piskotki_vec()
+    {
+        document.getElementById('cookie_3').innerHTML='<div class="fc3"><'+'ifr'+'ame name="framed" width="500" height="300" border="0" frameborder="0"  overflow-y="scroll" overflow-x="hidden" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="/piskotki_podrobnosti.asp" ><'+'/ifr'+'ame></div>';
+    }
+    function piskotki_obvestilo()
+    {
+        var xmlpiskot;
+        try
+        {
+            xmlpiskot=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot.onreadystatechange=function()
+        {
+            if(xmlpiskot.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML=xmlpiskot.responseText;
+                /*
+                var $cookie_1 = $('#cookie_1');
+                var iFixedDivHeight = $cookie_1.outerHeight({ 'margin': true });
+                $(window).bind('scroll', function(e) {
+                    var iWindowHeight = $(window).height();
+                    var iScrollPosition = $(window).scrollTop(); // or document.body.scrollTop
+                    $cookie_1.css({ 'top': iWindowHeight + iScrollPosition - iFixedDivHeight });
+                });*/
+            }
+        }
+        xmlpiskot.open("GET", "/ajax_piskot_obvestilo.asp", false);
+        xmlpiskot.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot.send(null);}
+
+       
+    function piskotki_strinjanje(id)
+    {
+        var xmlpiskot1;
+        try
+        {
+            xmlpiskot1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlpiskot1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlpiskot1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlpiskot1.onreadystatechange=function()
+        {
+            if(xmlpiskot1.readyState==4)
+            {
+                document.getElementById("cookie_1").innerHTML="";
+            }
+        }
+        xmlpiskot1.open("GET", "/ajax_piskot_strinjanje.asp?id="+id, false);
+        xmlpiskot1.setRequestHeader("Cache-Control", "no-cache");
+        xmlpiskot1.setRequestHeader("Pragma", "no-cache");
+        xmlpiskot1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlpiskot1.send(null);}
+
+
+    function zasebnost_strinjanje(id)
+    {
+        var xmlzasebnost1;
+        try
+        {
+            xmlzasebnost1=new XMLHttpRequest();
+        }
+        catch (e)
+        {
+            try
+            {
+                xmlzasebnost1=new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (e)
+            {
+                try
+                {
+                    xmlzasebnost1=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (e)
+                {
+                    return false;
+                }
+            }
+        }
+        xmlzasebnost1.onreadystatechange=function()
+        {
+            if(xmlzasebnost1.readyState==4)
+            {
+            }
+        }
+        xmlzasebnost1.open("GET", "/ajax_zasebnost_strinjanje.asp?id="+id, false);
+        xmlzasebnost1.setRequestHeader("Cache-Control", "no-cache");
+        xmlzasebnost1.setRequestHeader("Pragma", "no-cache");
+        xmlzasebnost1.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
+        xmlzasebnost1.send(null);}
+</script>
+
+<div id="cookie_1"></div>
+<script>
+    piskotki_obvestilo();
+</script>
+
+
+<script>
+    window.addEventListener('resize', function (event) {
+        menu(1); menuUser(1); menuZ();
+    });
+    
+</script>
+
+
+<div id="oglasA">
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+ 	(function(img) {
+ 		window.ipromNS = window.ipromNS || {adTags: []};
+ 		var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+ 		var adHolder = document.createElement('div'); adHolder.id = adTagId;
+ 		img.parentNode.insertBefore(adHolder, img);
+ 		ipromNS.adTags.push({
+ 			 sitePath: ['programmatic','obds453j'], 
+ 			 dimension: '468x60',
+ 			 containerId : adTagId,
+ 			 callback : function(err, ad){} 
+ 		});
+ 	})(this);
+ "/>
+</div>
+
+<div>
+<script src="//cdn.ipromcloud.com/ipromNS.js" async defer></script><img src="data:image/png,iprom" style="display: none" onerror="
+(function(img) {
+window.ipromNS = window.ipromNS || {adTags: []};
+var adTagId = 'iprom_adtag_' + Math.round(Math.random() * (new Date()).getTime());
+var adHolder = document.createElement('div'); adHolder.id = adTagId;
+img.parentNode.insertBefore(adHolder, img);
+ipromNS.adTags.push({
+sitePath: ['programmatic','obds453j'],
+dimension: 'floating',
+containerId : adTagId,
+callback : function(err, ad){}
+});
+})(this);
+"/>
+</div>
+
+
+
+</form>
+</body>
+</html>
