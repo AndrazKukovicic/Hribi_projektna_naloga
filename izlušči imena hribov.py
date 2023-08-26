@@ -99,40 +99,40 @@ def izlusci_bloke_poti():
     return bloki
 
 
-# def izlusci_podatke(blok):
-#     hrib = {}
-#     vzorec1 = re.compile(
-#             r'left;"><h1>(?P<ime>\w+)',
-#             flags=(re.DOTALL|re.IGNORECASE)
-#     )
-#     vzorec2 = re.compile(
-#         r'<b>Gorovje:</b> <a class="moder" href=".*?">(?P<gorovje>.*?)</a>',
-#         flags=(re.DOTALL|re.IGNORECASE)
-#     )
-#     vzorec3 = re.compile(
-#         r'<b>Višina:</b>(?P<visina>.*?)&nbsp',
-#         flags=(re.DOTALL|re.IGNORECASE)
-#     )
-#     vzorec4 = re.compile(
-#         r'href="#poti">(?P<steviloP>\d+)'
-#     )
-#     vzorec5 = re.compile(
-#         r'><b>Vrsta:</b>(?P<vrsta>.*?)</div>'
-#     )
-#     najdba1 = re.search(vzorec1, blok)
-#     najdba2 = re.search(vzorec2, blok)
-#     najdba3 = re.search(vzorec3, blok)
-#     najdba4 = re.search(vzorec4, blok)
-#     najdba5 = re.search(vzorec5, blok)
-#     hrib["Ime"] = najdba1["ime"]
-#     hrib["Gorovje"] = najdba2["gorovje"]
-#     hrib["Višina"] = int(najdba3["visina"].strip())
-#     hrib["Število poti"] = int(najdba4["steviloP"])
-#     hrib["Vrsta cilja"] = najdba5["vrsta"].strip().split(', ')
+def izlusci_podatke(blok):
+    hrib = {}
+    vzorec1 = re.compile(
+            r'left;"><h1>(?P<ime>.*?)</h1',
+            flags=(re.DOTALL|re.IGNORECASE)
+    )
+    vzorec2 = re.compile(
+        r'<b>Gorovje:</b> <a class="moder" href=".*?">(?P<gorovje>.*?)</a>',
+        flags=(re.DOTALL|re.IGNORECASE)
+    )
+    vzorec3 = re.compile(
+        r'<b>Višina:</b>(?P<visina>.*?)&nbsp',
+        flags=(re.DOTALL|re.IGNORECASE)
+    )
+    vzorec4 = re.compile(
+        r'href="#poti">(?P<steviloP>\d+)'
+    )
+    vzorec5 = re.compile(
+        r'><b>Vrsta:</b>(?P<vrsta>.*?)</div>'
+    )
+    najdba1 = re.search(vzorec1, blok)
+    najdba2 = re.search(vzorec2, blok)
+    najdba3 = re.search(vzorec3, blok)
+    najdba4 = re.search(vzorec4, blok)
+    najdba5 = re.search(vzorec5, blok)
+    hrib["Ime"] = najdba1["ime"]
+    hrib["Gorovje"] = najdba2["gorovje"]
+    hrib["Višina"] = int(najdba3["visina"].strip())
+    hrib["Število poti"] = int(najdba4["steviloP"])
+    hrib["Vrsta cilja"] = najdba5["vrsta"].strip().split(', ')
 
 
     
-#     return hrib
+    return hrib
 
 
 # poišči imena za linke do poti, naredi seznam poti
@@ -154,27 +154,27 @@ def poisci_poti():
 
 # Shrani spletne strani vseh poti v mapo Strani_poti.
 
-ImenaPotiURL = poisci_poti()
+# ImenaPotiURL = poisci_poti()
 
-os.chdir("Strani_poti")
-print(os.getcwd())
-for stran in ImenaPotiURL:
-    url = f"https://www.hribi.net{stran.strip()}"
-    odziv = requests.get(url)
+# os.chdir("Strani_poti")
+# print(os.getcwd())
+# for stran in ImenaPotiURL:
+#     url = f"https://www.hribi.net{stran.strip()}"
+#     odziv = requests.get(url)
     
-    if odziv.status_code == 200:
-        print(url)
-        with open(f"p{ImenaPotiURL.index(stran)}.html", "w", encoding='utf-8') as s:
-            s.write(odziv.text)
-    else:
-        print("Prišlo je do napake")
-os.chdir("..")
+#     if odziv.status_code == 200:
+#         print(url)
+#         with open(f"p{ImenaPotiURL.index(stran)}.html", "w", encoding='utf-8') as s:
+#             s.write(odziv.text)
+#     else:
+#         print("Prišlo je do napake")
+# os.chdir("..")
 
 # Izlušči blok s podatki o poti in vrne seznam blokov.
 def bloki_podatki_pot():
     bloki = []
     os.chdir("Strani_poti")
-    for i in range(2):
+    for i in range(6906):
          with open(f"p{i}.html", encoding='utf-8') as dat:
             celo_besedilo = dat.read()
             vzorec_bloka1 = re.compile(
@@ -192,19 +192,19 @@ def bloki_podatki_pot():
 def izlusci_podatke_pot(blok):
     pot = {}
     vzorec1 = re.compile(
-        r'<a class="moder" href="(.+?)">(?P<ime>.*?) \(\d',
+        r'<b>Cilj:</b> <a class="moder" href="(.+?)">(?P<ime>.*?) \(\d',
         flags=(re.DOTALL|re.IGNORECASE)
     )
     vzorec2 = re.compile(
-        r'razlika:</b> (?P<visinska>\d+)',
+        r'po poti:</b> (?P<visinska>.*?) m<',
         flags=(re.DOTALL|re.IGNORECASE)
     )
     vzorec3 = re.compile(
-        r'Zahtevnost:</b> (?P<zahtevnost>.*?)<',
+        r'<b>Zahtevnost:</b> (?P<zahtevnost>.*?)<',
         flags=(re.DOTALL|re.IGNORECASE)
     )
     vzorec4 = re.compile(
-        r'Čas hoje:</b>(?P<cas>.*?)<'
+        r'<b>Čas hoje:</b>(?P<cas>.*?)<'
     )
     najdba1 = re.search(vzorec1, blok)
     najdba2 = re.search(vzorec2, blok)
@@ -215,3 +215,24 @@ def izlusci_podatke_pot(blok):
     pot["Zahtevnost"] = najdba3["zahtevnost"]
     pot["Čas"] = najdba4["cas"].strip()
     return pot
+# Izlušči podatke o vseh hribih in vrne seznam slovarjev.
+def izluscii_vse_hribi():
+    podatki_hribi = []
+    bloki = izlusci_bloke_hribi()
+    for blok in bloki:
+        hrib = izlusci_podatke(blok)
+        podatki_hribi.append(hrib)
+    return podatki_hribi
+
+podatki = izluscii_vse_hribi()
+print(len(podatki))
+
+def izlusci_vse_poti():
+    podatki_poti = []
+    bloki = bloki_podatki_pot()
+    for blok in bloki:
+        pot = izlusci_podatke_pot(blok)
+        podatki_poti.append(pot)
+    return podatki_poti
+podatki1 = izlusci_vse_poti()
+print(len(podatki1))
