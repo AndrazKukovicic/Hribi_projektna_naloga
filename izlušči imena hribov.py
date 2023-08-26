@@ -1,6 +1,7 @@
 import re
 import requests
 import os
+import csv
 
 #Iz shranjene spletne strani z vsemi hribi izlušči bloke z imeni hribov in jih shrani v seznam.
 def poisci_bloke():
@@ -55,7 +56,7 @@ def imena_hribov():
 def izlusci_bloke_hribi():
     bloki = []
     os.chdir("Strani_hribov")
-    for i in range(2106):
+    for i in range(2107):
         
         with open(f"{i}.html", encoding='utf-8') as dat:
             celo_besedilo = dat.read()
@@ -174,7 +175,7 @@ def poisci_poti():
 def bloki_podatki_pot():
     bloki = []
     os.chdir("Strani_poti")
-    for i in range(6906):
+    for i in range(6907):
          with open(f"p{i}.html", encoding='utf-8') as dat:
             celo_besedilo = dat.read()
             vzorec_bloka1 = re.compile(
@@ -225,7 +226,7 @@ def izluscii_vse_hribi():
     return podatki_hribi
 
 podatki = izluscii_vse_hribi()
-print(len(podatki))
+print(podatki)
 
 def izlusci_vse_poti():
     podatki_poti = []
@@ -236,3 +237,17 @@ def izlusci_vse_poti():
     return podatki_poti
 podatki1 = izlusci_vse_poti()
 print(len(podatki1))
+
+
+with open("hribi.csv", "w", encoding='utf-8') as f:
+    writer = csv.writer(f)
+    writer.writerow(["Ime", "Gorovje", "Višina", "Število poti", "Vrsta cilja"])
+    for hrib in podatki:
+        writer.writerow([hrib["Ime"], hrib["Gorovje"], hrib["Višina"], hrib["Število poti"], hrib["Vrsta cilja"]])
+
+
+with open("poti.csv", "w", encoding='utf-8') as f:
+    writer = csv.writer(f)
+    writer.writerow(["Ime", "Višinska razlika", "Zahtevnost", "Čas"])
+    for hrib in podatki1:
+        writer.writerow([hrib["Ime"], hrib["Visinska_razlika"], hrib["Zahtevnost"], hrib["Čas"]])
