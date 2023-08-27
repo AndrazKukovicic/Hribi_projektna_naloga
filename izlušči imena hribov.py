@@ -35,24 +35,24 @@ hribčki = imena_hribov()
 print(hribčki)
 
 # Shrani spletne strani vseh hribov v mapo Strani_hribov.
-ImenaHribovURL = imena_hribov()
-ImenaHribovURL.remove('/gora/orleska_draga/26/3642')
-ImenaHribovURL.remove('/gora/plesivec/11/300') #ročno zbrisal
-ImenaHribovURL.remove('/gora/plesivec/11/2377')
-ImenaHribovURL.remove('/gora/plesivec/11/2377')
-os.chdir("Strani_hribov")
-print(os.getcwd())
-for stran in ImenaHribovURL:
-    url = f"https://www.hribi.net{stran.strip()}"
-    odziv = requests.get(url)
+# ImenaHribovURL = imena_hribov()
+# ImenaHribovURL.remove('/gora/orleska_draga/26/3642')
+# ImenaHribovURL.remove('/gora/plesivec/11/300') #ročno zbrisal
+# ImenaHribovURL.remove('/gora/plesivec/11/2377')
+# ImenaHribovURL.remove('/gora/plesivec/11/2377')
+# os.chdir("Strani_hribov")
+# print(os.getcwd())
+# for stran in ImenaHribovURL:
+#     url = f"https://www.hribi.net{stran.strip()}"
+#     odziv = requests.get(url)
     
-    if odziv.status_code == 200:
-        print(url)
-        with open(f"{ImenaHribovURL.index(stran)}.html", "w", encoding='utf-8') as s:
-            s.write(odziv.text)
-    else:
-        print("Prišlo je do napake")
-os.chdir("..")
+#     if odziv.status_code == 200:
+#         print(url)
+#         with open(f"{ImenaHribovURL.index(stran)}.html", "w", encoding='utf-8') as s:
+#             s.write(odziv.text)
+#     else:
+#         print("Prišlo je do napake")
+# os.chdir("..")
 
 # isto kot poišči bloke: izlušči bloke iz katerih nato izluščimo podatke o hribu
 def izlusci_bloke_hribi():
@@ -133,39 +133,39 @@ def izlusci_podatke(blok):
 
 
  # Poišči imena za linke do poti, naredi seznam poti
-def poisci_poti():
-    bloki = izlusci_bloke_poti()
-    poti =  []
-    vzorec_pot = re.compile(
-        r'class="tdG"><a href="/izlet(?P<pot>.*?)">', 
-        flags=re.DOTALL
-        )
-    for blok in bloki:
-        najdba = vzorec_pot.finditer(blok)
-        for izlet in najdba:
-            if '/izlet' + izlet['pot'] in poti:
-                 continue
-            else:
-                poti.append('/izlet' + izlet['pot'])
-    return poti
+# def poisci_poti():
+#     bloki = izlusci_bloke_poti()
+#     poti =  []
+#     vzorec_pot = re.compile(
+#         r'class="tdG"><a href="/izlet(?P<pot>.*?)">', 
+#         flags=re.DOTALL
+#         )
+#     for blok in bloki:
+#         najdba = vzorec_pot.finditer(blok)
+#         for izlet in najdba:
+#             if '/izlet' + izlet['pot'] in poti:
+#                  continue
+#             else:
+#                 poti.append('/izlet' + izlet['pot'])
+#     return poti
 
  # Shrani spletne strani vseh poti v mapo Strani_poti.
 
-ImenaPotiURL = poisci_poti()
+# ImenaPotiURL = poisci_poti()
 
-os.chdir("Strani_poti")
-print(os.getcwd())
-for stran in ImenaPotiURL:
-    url = f"https://www.hribi.net{stran.strip()}"
-    odziv = requests.get(url)
+# os.chdir("Strani_poti")
+# print(os.getcwd())
+# for stran in ImenaPotiURL:
+#     url = f"https://www.hribi.net{stran.strip()}"
+#     odziv = requests.get(url)
     
-    if odziv.status_code == 200:
-        print(url)
-        with open(f"p{ImenaPotiURL.index(stran)}.html", "w", encoding='utf-8') as s:
-            s.write(odziv.text)
-    else:
-        print("Prišlo je do napake")
-os.chdir("..")
+#     if odziv.status_code == 200:
+#         print(url)
+#         with open(f"p{ImenaPotiURL.index(stran)}.html", "w", encoding='utf-8') as s:
+#             s.write(odziv.text)
+#     else:
+#         print("Prišlo je do napake")
+# os.chdir("..")
 
 #  Izlušči blok s podatki o poti in vrne seznam blokov.
 def bloki_podatki_pot():
@@ -237,14 +237,14 @@ podatki1 = izlusci_vse_poti()
 
 with open("hribi.csv", "w", encoding='utf-8') as f:
     writer = csv.writer(f, delimiter=';')
-    writer.writerow(["Ime", "Gorovje", "Višina", "Število poti", "Vrsta cilja"])
+    writer.writerow(["Ime", "Gorovje", "Višina", "Število_poti", "Vrsta_cilja"])
     for hrib in podatki:
         writer.writerow([hrib["Ime"], hrib["Gorovje"], hrib["Višina"], hrib["Število poti"], hrib["Vrsta cilja"]])
 
 
 with open("poti.csv", "w", encoding='utf-8') as f:
     writer = csv.writer(f, delimiter=';')
-    writer.writerow(["Ime", "Višinska razlika", "Zahtevnost", "Čas"])
+    writer.writerow(["Ime", "Višinska_razlika", "Zahtevnost", "Čas"])
     for hrib in podatki1:
         writer.writerow([hrib["Ime"], hrib["Visinska_razlika"], hrib["Zahtevnost"], hrib["Čas"]])
 
@@ -290,7 +290,7 @@ def popravi_cas(vhodna, izhodna):
                         skupaj = minute
                         izh.write(f"{ime};{razlika};{zahtevnost};{skupaj}\n")
 
-#popravi_cas('poti.csv', 'potiMin.csv')
+popravi_cas('poti.csv', 'potiMin.csv')
 
 def popraviVrstocilja(vhodna, izhodna):
     with open(vhodna, encoding='utf-8') as vh:
