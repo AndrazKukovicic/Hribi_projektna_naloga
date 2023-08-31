@@ -186,7 +186,7 @@ def bloki_podatki_pot():
     return bloki
 
 #  Izlušči podatke o poti in vrne slovar.
-def izlusci_podatke_pot(blok):
+  izlusci_podatke_pot(blok):
     pot = {}
     vzorec1 = re.compile(
         r'<b>Cilj:</b> <a class="moder" href="(.+?)">(?P<ime>.*?) \(\d',
