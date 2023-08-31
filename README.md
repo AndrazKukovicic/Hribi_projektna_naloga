@@ -1,5 +1,5 @@
-# Projektna naloga: *Analiza hribov in poti v Sloveniji*
-
+# Analiza hribov in poti v Sloveniji
+### Projektna naloga pri predmetu Uvod v programiranje
 #### Shranil sem naslednje podatke:
 - ime hriba,
 - gorovje v katerem leži hrib,
