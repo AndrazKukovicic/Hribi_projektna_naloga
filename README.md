@@ -15,7 +15,7 @@ V projektni nalogi sem obdelal in predstavil podatke o hribih in poteh nanje, ki
 #### Hipoteze in vprašanja, ki sem si jih postavil:
 1. V katerem gorovju imajo hribi v povprečju največ poti?
 2. Višji hribi imajo zahtevnejše poti.
-3. Če je na cilju koča, do cilja vodi več poti, kot do cilja brez koč.
+3. Če je na cilju koča, do cilja vodi več poti, kot do cilja brez koče.
 4. V Julijskih alpah je največ zahtevnejših poti.
 5. Na hribe s povprečno manjšo zahtevnostjo poti vodi več poti.
 6. Koliko višinskih metrov se v povprečju naredi v eni minuti?
