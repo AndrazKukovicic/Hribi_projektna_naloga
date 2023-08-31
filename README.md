@@ -27,4 +27,4 @@ V projektni nalogi sem obdelal in predstavil podatke o hribih in poteh nanje, ki
 * V mapi __[Strani_poti](..Hribi_projektna_naloga/Strani_poti)__ so, prav tako v formatu `.html`, shranjene spletne strani z opisi vseh poti, ki vodijo na hribe iz prejšnje mape.
 * S skripto __[izlušči_hribe.py](..Hribi_projektna_naloga/izlušči_hribe.py)__ sem opravil vso predpripravo podatkov, ki sem jih uporabil v analizi.
 * Ko skripto poženemo dobimo poleg prej opisanih datotek še `.csv` datoteki s podatki o hribih - __[hribiAnaliza.csv](..Hribi_projektna_naloga/hribiAnaliza.csv)__ in poteh - __[potiAnaliza.csv](..Hribi_projektna_naloga/potiAnaliza.csv)__.
-* Ti dve datoteki sem nato uporabil pri analizi podatko, ki je narejena v datoteki __[Analiza_podatkov.ipynb](..Hribi_projektna_naloga/Analiza_podatkov.ipynb)__.
+* Ti dve datoteki sem nato uporabil pri analizi podatkov, ki je narejena v datoteki __[Analiza_podatkov.ipynb](..Hribi_projektna_naloga/Analiza_podatkov.ipynb)__.
