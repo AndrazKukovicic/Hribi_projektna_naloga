@@ -3,6 +3,16 @@ import requests
 import os
 import csv
 
+#--------------------------------------poženi--------------------------------------
+
+# izpisi_podatke_hribi()
+# izpisi_podatke_poti()
+# popravi_cas('poti.csv', 'potiAnaliza.csv')
+# popraviVrstocilja('hribi.csv', 'hribiAnaliza.csv')
+
+#----------------------------------------------------------------------------------
+
+
 # Iz shranjene spletne strani z vsemi hribi izlušči bloke z imeni hribov in jih shrani v seznam.
 def poisci_bloke():
     bloki = []
@@ -314,11 +324,3 @@ def popraviVrstocilja(vhodna, izhodna):
                     ime, gorovje, visina, stPoti, vrstaCilja = re.split(';',  vrsta)
                     vCiljaPop = vrstaCilja[1:-1]
                     izh.write(f"{ime};{gorovje};{visina};{stPoti};{vCiljaPop}\n")
-
-#_________________________________poženi_________________________________
-'''
-izpisi_podatke_hribi()
-izpisi_podatke_poti()
-popravi_cas('poti.csv', 'potiAnaliza.csv')
-popraviVrstocilja('hribi.csv', 'hribiAnaliza.csv')
-'''
